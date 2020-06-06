@@ -1,0 +1,12 @@
+Shadow's entire stack space: (0x10000)
+805FB568 - 8060B568 [DOL 0x581658]
+
+Shadow ViTraceHook @ 0x00377B78
+
+Optimal way to write to mainPlayerID:
+	stw [register with value], 0x3148 (r13)
+
+Status byte check in the wild typical convention:
+	addi r3, r4, 168
+	li r4, 53
+	bl ->0x80076CC8
