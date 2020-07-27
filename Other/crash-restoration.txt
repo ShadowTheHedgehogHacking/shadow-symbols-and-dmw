@@ -1,0 +1,34 @@
+803a4050
+803a404c
+--------
+
+812fd4c0 @ 803a3ee0 -> into r0 from 0x8 (r31) (allocate_from_var_pools next link/pool)
+
+r31 is then moved to r3
+r30 is moved to r4 (r30 contains current obj size left?)
+
+Rest Heap -> (has everything before the three are allocated)
+Global ->   250000
+Event ->    B80000
+ETC ->      580000
+          28000000
+           1000000
+
+Failed r3 block @ 8154992C original size: 010003
+
+nop loop memory link new block blocker
+@
+803a3f14 (no exceptions, alloc 10000 fresh mem)
+
+---
+New exceptions @ 803a3f08, 803a3ee0
+
+----------------------------------------------
+
+
+Shadow lethal highway crash
+0x80005510
+
+803a3790
+803a379C
+803a37A4

@@ -415,6 +415,13 @@
                     "label": "EV_CutsceneItemsWarp",
                     "typeIndex": 2,
                     "unsigned": false
+                },
+                {
+                    "address": "805EF2A0",
+                    "baseIndex": 0,
+                    "label": "CurrentEventPlaying",
+                    "typeIndex": 2,
+                    "unsigned": false
                 }
             ],
             "groupName": "EventCutsceneState"
@@ -734,83 +741,6 @@
                     "label": "P2 Selected Character",
                     "typeIndex": 2,
                     "unsigned": true
-                },
-                {
-                    "groupEntries": [
-                        {
-                            "address": "805212E4",
-                            "baseIndex": 0,
-                            "label": "TouchHangCommand",
-                            "length": 155,
-                            "pointerOffsets": [
-                                "0",
-                                "0"
-                            ],
-                            "typeIndex": 5,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805214F4",
-                            "baseIndex": 0,
-                            "label": "StartJumpCommand",
-                            "length": 122,
-                            "pointerOffsets": [
-                                "0",
-                                "0"
-                            ],
-                            "typeIndex": 5,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "8051FD28",
-                            "baseIndex": 0,
-                            "label": "EndJumpCommand",
-                            "length": 55,
-                            "pointerOffsets": [
-                                "0",
-                                "0"
-                            ],
-                            "typeIndex": 5,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "8052154C",
-                            "baseIndex": 0,
-                            "label": "StartAttackCommand",
-                            "length": 55,
-                            "pointerOffsets": [
-                                "0",
-                                "0"
-                            ],
-                            "typeIndex": 5,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "8053D524",
-                            "baseIndex": 0,
-                            "label": "AccelerateInputCommand",
-                            "length": 155,
-                            "pointerOffsets": [
-                                "0",
-                                "0"
-                            ],
-                            "typeIndex": 5,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80520F48",
-                            "baseIndex": 0,
-                            "label": "SetGravityCommand",
-                            "length": 25,
-                            "pointerOffsets": [
-                                "0",
-                                "0"
-                            ],
-                            "typeIndex": 5,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "PlayerCommand Refs"
                 }
             ],
             "groupName": "PlayerStruct"
@@ -1907,9 +1837,293 @@
                         }
                     ],
                     "groupName": "Secret Key Door"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8099F014",
+                            "baseIndex": 0,
+                            "label": "Lava Shelter EggDealer Struct",
+                            "length": 11,
+                            "pointerOffsets": [
+                                "0",
+                                "0"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8099F014",
+                            "baseIndex": 0,
+                            "label": "0x38 vTable",
+                            "length": 55,
+                            "pointerOffsets": [
+                                "28",
+                                "38",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "8099F014",
+                                    "baseIndex": 0,
+                                    "label": "0x0 Position X",
+                                    "pointerOffsets": [
+                                        "28",
+                                        "0"
+                                    ],
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8099F014",
+                                    "baseIndex": 0,
+                                    "label": "0x4 Position Y",
+                                    "pointerOffsets": [
+                                        "28",
+                                        "4"
+                                    ],
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8099F014",
+                                    "baseIndex": 0,
+                                    "label": "0x8 Position Z",
+                                    "pointerOffsets": [
+                                        "28",
+                                        "8"
+                                    ],
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8099F014",
+                                    "baseIndex": 0,
+                                    "label": "0xC Rotation X",
+                                    "pointerOffsets": [
+                                        "28",
+                                        "C"
+                                    ],
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8099F014",
+                                    "baseIndex": 0,
+                                    "label": "0x10 Rotation Y",
+                                    "pointerOffsets": [
+                                        "28",
+                                        "10"
+                                    ],
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8099F014",
+                                    "baseIndex": 0,
+                                    "label": "0x14 Rotation Z",
+                                    "pointerOffsets": [
+                                        "28",
+                                        "14"
+                                    ],
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8099F014",
+                                    "baseIndex": 0,
+                                    "label": "0x18 Velocity X",
+                                    "pointerOffsets": [
+                                        "28",
+                                        "18"
+                                    ],
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8099F014",
+                                    "baseIndex": 0,
+                                    "label": "0x1C Velocity Y",
+                                    "pointerOffsets": [
+                                        "28",
+                                        "1C"
+                                    ],
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8099F014",
+                                    "baseIndex": 0,
+                                    "label": "0x20 Velocity Z",
+                                    "pointerOffsets": [
+                                        "28",
+                                        "20"
+                                    ],
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8099F014",
+                                    "baseIndex": 0,
+                                    "label": "0x6C RO Position X",
+                                    "pointerOffsets": [
+                                        "28",
+                                        "6C"
+                                    ],
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8099F014",
+                                    "baseIndex": 0,
+                                    "label": "0x70 RO Position Y",
+                                    "pointerOffsets": [
+                                        "28",
+                                        "70"
+                                    ],
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8099F014",
+                                    "baseIndex": 0,
+                                    "label": "0x74 RO Position Z",
+                                    "pointerOffsets": [
+                                        "28",
+                                        "74"
+                                    ],
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Object Values"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "8099F014",
+                                    "baseIndex": 0,
+                                    "label": "0x1A1C Reel 1 Result || written to @ 8031409c, use this to find pointer",
+                                    "pointerOffsets": [
+                                        "28",
+                                        "1A1C"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8099F014",
+                                    "baseIndex": 0,
+                                    "label": "0x1A20 Reel 2 Result",
+                                    "pointerOffsets": [
+                                        "28",
+                                        "1A20"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8099F014",
+                                    "baseIndex": 0,
+                                    "label": "0x1A24 Reel 3 Result",
+                                    "pointerOffsets": [
+                                        "28",
+                                        "1A24"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8099F014",
+                                    "baseIndex": 0,
+                                    "label": "0x1A30 Evaluation State",
+                                    "pointerOffsets": [
+                                        "28",
+                                        "1A30"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8099F014",
+                                    "baseIndex": 0,
+                                    "label": "0x1A67 Reels State",
+                                    "pointerOffsets": [
+                                        "28",
+                                        "1A67"
+                                    ],
+                                    "typeIndex": 0,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Reel Values (Invalid pointer, need to find static pointer)"
+                        },
+                        {
+                            "address": "8099F014",
+                            "baseIndex": 0,
+                            "label": "0x108 Health",
+                            "pointerOffsets": [
+                                "28",
+                                "108"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8099F014",
+                            "baseIndex": 0,
+                            "label": "0x118 Self Timer Save State",
+                            "pointerOffsets": [
+                                "28",
+                                "118"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8099F014",
+                            "baseIndex": 0,
+                            "label": "0x11C Start Timer / State Manager?",
+                            "pointerOffsets": [
+                                "28",
+                                "11C"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8099F014",
+                            "baseIndex": 0,
+                            "label": "0x1A74 Shadow's Attack (Invalid pointer)",
+                            "pointerOffsets": [
+                                "28",
+                                "1A74"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8099F014",
+                            "baseIndex": 0,
+                            "label": "0x1A78 Eggman's Attack (Invalid pointer)",
+                            "pointerOffsets": [
+                                "28",
+                                "1A78"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Lava Shelter Egg Dealer (Static / Pointer)"
                 }
             ],
-            "groupName": "SETObjs_Specifics_Static"
+            "groupName": "SETObjs_Specifics"
         },
         {
             "groupEntries": [

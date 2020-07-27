@@ -88,7 +88,7 @@
 123: <?> Jump Holding Box
 124: <?>
 125: <?> Holding Box No Breathing
-126: <?>
+126: <?> Dab/Sonic Heroes Trick Ring
 127: Trick
 128: Trick
 129: <?> Unused Trick
