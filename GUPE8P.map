@@ -6008,7 +6008,7 @@
 800bf194 0000004c 800bf194 0 zz_800bf194_
 800bf1e0 00000024 800bf1e0 0 cFielder::EndAction(void)
 800bf204 00000048 800bf204 0 zz_800bf204_
-800bf24c 0000015c 800bf24c 0 Unknown4NONSetObj::Render()
+800bf24c 0000015c 800bf24c 0 EnemyHealthBar::Render()
 800bf3a8 00000248 800bf3a8 0 zz_800bf3a8_
 800bf5f0 000002ac 800bf5f0 0 HAS_RenderUnit
 800bf89c 00000074 800bf89c 0 zz_800bf89c_
@@ -28132,7 +28132,7 @@
 80362e7c 00000004 80362e7c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
 80362e80 000000f0 80362e80 0 zz_80362e80_
 80362f70 00000158 80362f70 0 zz_80362f70_
-803630c8 000000d0 803630c8 0 UI_Pause_Transparent_Overlay
+803630c8 000000d0 803630c8 0 UI_Pause_Transparent_Overlay || Aspect Controller for Part 5 16by9 Code
 80363198 00000044 80363198 0 zz_80363198_
 803631dc 000000c4 803631dc 0 CallToUI_Draw?
 803632a0 00000044 803632a0 0 zz_803632a0_
@@ -28289,7 +28289,7 @@
 80366740 0000000c 80366740 0 WriteTwoFloatsAnims?
 8036674c 00000050 8036674c 0 zz_8036674c_
 8036679c 00000008 8036679c 0 CBGetBytesAvailableForRead 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle
-803667a4 00000208 803667a4 0 2P_Ring_UI_DrawIcon ONLY
+803667a4 00000208 803667a4 0 2P_Ring_UI_DrawIcon || Generic Draw?
 803669ac 0000000c 803669ac 0 GXInitLightColor
 803669b8 000005c0 803669b8 0 Cooldown_Timer? r29=Enemy r30=UIElement?
 80366f78 00000024 80366f78 0 CommonDesireData::CalcBoolChance(float)
