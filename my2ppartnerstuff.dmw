@@ -2160,10 +2160,10 @@
             "unsigned": false
         },
         {
-            "address": "8057D6F3",
+            "address": "8057D6F0",
             "baseIndex": 0,
             "label": "targetFPS",
-            "typeIndex": 0,
+            "typeIndex": 2,
             "unsigned": false
         },
         {

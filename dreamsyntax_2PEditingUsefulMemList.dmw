@@ -1178,6 +1178,20 @@
                     "unsigned": false
                 },
                 {
+                    "address": "8056ED5C",
+                    "baseIndex": 0,
+                    "label": "P1 ControlStick Accel X-Axis",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8056ED60",
+                    "baseIndex": 0,
+                    "label": "P1 ControlStick Accel Y-Axis",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
                     "address": "8056ED78",
                     "baseIndex": 0,
                     "label": "P2 ButtonInputs",
@@ -7608,6 +7622,13 @@
                             "unsigned": false
                         },
                         {
+                            "address": "805E3D18",
+                            "baseIndex": 0,
+                            "label": "Lock-on Gun Shot Interval",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
                             "address": "805F40A0",
                             "baseIndex": 0,
                             "label": "Pulley Value?",
@@ -7655,13 +7676,6 @@
                             "unsigned": false
                         },
                         {
-                            "address": "805E3D18",
-                            "baseIndex": 0,
-                            "label": "Lock-on Gun Shot Interval",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
                             "address": "805E4580",
                             "baseIndex": 0,
                             "label": "Air friction",
@@ -7697,6 +7711,13 @@
                             "unsigned": false
                         },
                         {
+                            "address": "805EE38C",
+                            "baseIndex": 0,
+                            "label": "Chaos Blast Range",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
                             "address": "805EE390",
                             "baseIndex": 0,
                             "label": "Chaos Blast Range",
@@ -7707,6 +7728,13 @@
                             "address": "805EE3A4",
                             "baseIndex": 0,
                             "label": "Chaos Control Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805EE358",
+                            "baseIndex": 0,
+                            "label": "Circuit Spline Travel Speed",
                             "typeIndex": 3,
                             "unsigned": false
                         },
@@ -8119,6 +8147,140 @@
                 }
             ],
             "groupName": "LimblessVector list"
+        },
+        {
+            "address": "80520200",
+            "baseIndex": 1,
+            "label": "Chaos Blast Damage",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "805F24FC",
+            "baseIndex": 0,
+            "label": "Unknown ChaosBlast Value",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "8051A624",
+                    "baseIndex": 0,
+                    "label": "explosionsphere?",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8051AB3C",
+                    "baseIndex": 0,
+                    "label": "chaosblast-effect-reltaed",
+                    "typeIndex": 3,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "ChaosBlast Effect"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "805F2004",
+                    "baseIndex": 0,
+                    "label": "rtoc_shared-projectile",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F2000",
+                    "baseIndex": 0,
+                    "label": "E0",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F2268",
+                    "baseIndex": 0,
+                    "label": "all bullets vertical arc",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F226C",
+                    "baseIndex": 0,
+                    "label": "all bullets horizontal arc",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805E07A0",
+                    "baseIndex": 0,
+                    "label": "r4",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805E07A4",
+                    "baseIndex": 0,
+                    "label": "r4",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805E07A8",
+                    "baseIndex": 0,
+                    "label": "r4",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057D6C0",
+                    "baseIndex": 0,
+                    "label": "bullet timescale?",
+                    "typeIndex": 3,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "BulletResearch"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "805F5DB0",
+                    "baseIndex": 0,
+                    "label": "cutscene-double",
+                    "typeIndex": 4,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057D6F0",
+                    "baseIndex": 0,
+                    "label": "global targetFPS",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F5DA8",
+                    "baseIndex": 0,
+                    "label": "float in 801d1fcc event related",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F4C6C",
+                    "baseIndex": 0,
+                    "label": "ev camera float fps?",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F4C70",
+                    "baseIndex": 0,
+                    "label": "cutscene-double-2nd instance",
+                    "typeIndex": 4,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "60FPS Cutscenes Research"
         }
     ]
 }
