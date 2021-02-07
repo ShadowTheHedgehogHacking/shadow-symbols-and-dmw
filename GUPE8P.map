@@ -3249,7 +3249,7 @@
 8006cb7c 000000fc 8006cb7c 0 zz_8006cb7c_
 8006cc78 0000007c 8006cc78 0 zz_8006cc78_
 8006ccf4 00000084 8006ccf4 0 zz_8006ccf4_
-8006cd78 00000024 8006cd78 0 rlwinm_forShadowExecuter
+8006cd78 00000024 8006cd78 0 CheckPlayer_BehaviorState
 8006cd9c 00000238 8006cd9c 0 zz_8006cd9c_
 8006cfd4 00000034 8006cfd4 0 std::__uninitialized_copy_helper<Pv,1,0>::uninitialized_copy(void **, void **, void **) 	JGadget.a std-vector.o
 8006d008 00000008 8006d008 0 CBGetBytesAvailableForRead 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle
@@ -4608,17 +4608,17 @@
 80093204 0000002c 80093204 0 LexicalCast<46BasicString<Us,Q26Detail19TempStringAllocator>,46BasicString<Us,Q26Detail19TempStringAllocator>>(BasicString<Us,Q
 80093230 0000002c 80093230 0 LexicalCast<46BasicString<Us,Q26Detail19TempStringAllocator>,46BasicString<Us,Q26Detail19TempStringAllocator>>(BasicString<Us,Q
 8009325c 00000058 8009325c 0 zz_8009325c_
-800932b4 00000058 800932b4 0 zz_800932b4_
+800932b4 00000058 800932b4 0 WriteTo0xF4_PlayerStruct
 8009330c 00000090 8009330c 0 zz_8009330c_
 8009339c 00000160 8009339c 0 zz_8009339c_
 800934fc 000000b8 800934fc 0 zz_800934fc_
 800935b4 000000d8 800935b4 0 zz_800935b4_
 8009368c 00000068 8009368c 0 zz_8009368c_
-800936f4 00000034 800936f4 0 SomethingPhysics(r6=805e484c)_800936f4_
-80093728 00000164 80093728 0 ??PhysicsController_Player
+800936f4 00000034 800936f4 0 SomethingPhysics(r3=Stack(PlayerPointer_0x0, r4=(PlayerVelocity))r6=805e484c)
+80093728 00000164 80093728 0 PhysicsController_Player
 8009388c 0000003c 8009388c 0 AIPlay::__dt(void)
 800938c8 00000004 800938c8 0 DBClose 	NdevExi2A.a DebuggerDriver.o
-800938cc 0000022c 800938cc 0 ??Calculate_Velocity_Changes_on_Player
+800938cc 0000022c 800938cc 0 Calculate_Velocity_Changes_on_Player
 80093af8 000000a8 80093af8 0 CalculateRotation_Changes_On_Player
 80093ba0 000000c0 80093ba0 0 zz_80093ba0_
 80093c60 000000d4 80093c60 0 StrafeJump_AnimationTransition2?
@@ -5241,7 +5241,7 @@
 800a7488 00000044 800a7488 0 zz_800a7488_
 800a74cc 00000040 800a74cc 0 zz_800a74cc_
 800a750c 000001f4 800a750c 0 zz_800a750c_
-800a7700 000001fc 800a7700 0 zz_800a7700_
+800a7700 000001fc 800a7700 0 WriteTo0x24PlayerStruct
 800a78fc 000003fc 800a78fc 0 updatePlayerActionsandPosition
 800a7cf8 00000040 800a7cf8 0 zz_800a7cf8_
 800a7d38 00000040 800a7d38 0 zz_800a7d38_
@@ -16936,7 +16936,7 @@
 801f266c 000000b0 801f266c 0 zz_801f266c_
 801f271c 00000054 801f271c 0 zz_801f271c_
 801f2770 00000264 801f2770 0 zz_801f2770_
-801f29d4 000000c4 801f29d4 0 zz_801f29d4_
+801f29d4 000000c4 801f29d4 0 r3=AudioGCN r4=mlt string ref
 801f2a98 000000b0 801f2a98 0 zz_801f2a98_
 801f2b48 00000124 801f2b48 0 zz_801f2b48_
 801f2c6c 00000004 801f2c6c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
