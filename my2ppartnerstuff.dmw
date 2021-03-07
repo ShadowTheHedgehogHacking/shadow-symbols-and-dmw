@@ -559,6 +559,42 @@
                 {
                     "address": "80575FA8",
                     "baseIndex": 0,
+                    "label": "0xF4",
+                    "pointerOffsets": [
+                        "0",
+                        "0",
+                        "F4"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80575FA8",
+                    "baseIndex": 0,
+                    "label": "0xF8",
+                    "pointerOffsets": [
+                        "0",
+                        "0",
+                        "F8"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80575FA8",
+                    "baseIndex": 0,
+                    "label": "0xFC",
+                    "pointerOffsets": [
+                        "0",
+                        "0",
+                        "FC"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80575FA8",
+                    "baseIndex": 0,
                     "label": "0x214 Prevent Ring Loss when -1",
                     "pointerOffsets": [
                         "0",

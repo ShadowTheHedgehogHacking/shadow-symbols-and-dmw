@@ -8281,6 +8281,16 @@
                 }
             ],
             "groupName": "60FPS Cutscenes Research"
+        },
+        {
+            "address": "807D24D8",
+            "baseIndex": 0,
+            "label": "5F68 r13 (Motion Related)",
+            "pointerOffsets": [
+                "0"
+            ],
+            "typeIndex": 3,
+            "unsigned": false
         }
     ]
 }
