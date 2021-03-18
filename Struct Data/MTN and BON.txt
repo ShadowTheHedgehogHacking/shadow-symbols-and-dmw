@@ -1,0 +1,57 @@
+MTN
+
+0x12
+Known values: (super shadow MTN):
+0010
+0050
+005A
+001E
+
+Known values: (regular shadow MTN):
+```
+0000 sh.MTN
+0001
+0006 gun related, sh_fire_s etc, gun idle, sh_jump_gun
+000A break a
+000D sh_jump_a, sh_jump_fa
+000F
+0014 weapon related? sh_fire_m
+0019
+001C
+001E
+0023
+0028 break b
+002D
+0032
+003C
+0041
+0044 sh_jump_d
+0046
+0050
+0054
+0055
+005A
+0064
+0066
+006A
+0068 jump_throw_c
+006E
+0078 sh_miss
+00A0 sh_idle_f
+00F0
+```
+
+0x10 | Rare short (loop or chain related? a,b,c etc)
+```
+0001 sh_edge_otto, sh_walk_sc
+000E sh_jump_fb
+0014 sh_dam_m_b, sh_dam_m_f_b
+0015 sh_jump_b
+0023 sh_dam_m_c, sh_jump_02_d
+0028 sh_break_c
+0029 sh_break_turn_l / r
+0032 lte_CC_b, rte_CC_B, sh_CC_b, sh_dam_m_f_c, sh_jump_02_e
+0035 sh_jump_d
+0037 sh_jump_throw_b
+0046 sh_jump_throw_c
+```
