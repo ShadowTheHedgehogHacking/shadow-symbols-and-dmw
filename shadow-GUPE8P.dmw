@@ -131,6 +131,25 @@
                         {
                             "groupEntries": [
                                 {
+                                    "address": "807D6760",
+                                    "baseIndex": 0,
+                                    "label": "D",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "807D66E8",
+                                    "baseIndex": 0,
+                                    "label": "H",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Digital Circuit"
+                        },
+                        {
+                            "groupEntries": [
+                                {
                                     "address": "807D6788",
                                     "baseIndex": 0,
                                     "label": "D",
@@ -236,6 +255,25 @@
                                 }
                             ],
                             "groupName": "Cosmic Fall"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "807D6B98",
+                                    "baseIndex": 0,
+                                    "label": "D",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "807D66E8",
+                                    "baseIndex": 0,
+                                    "label": "H",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "GUN Fortress"
                         }
                     ],
                     "groupName": "Stage Mission Types"
@@ -612,6 +650,16 @@
                 },
                 {
                     "groupEntries": [
+                        {
+                            "address": "81312C28",
+                            "baseIndex": 0,
+                            "label": "Dynamic: ExecutorExtractedPlayerStruct",
+                            "pointerOffsets": [
+                                "0"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
                         {
                             "address": "80575FA8",
                             "baseIndex": 0,
@@ -1234,7 +1282,7 @@
                                 },
                                 {
                                     "address": "80575FA8",
-                                    "baseIndex": 0,
+                                    "baseIndex": 1,
                                     "label": "0x420 motionID",
                                     "pointerOffsets": [
                                         "0",
@@ -1247,7 +1295,7 @@
                                 },
                                 {
                                     "address": "80575FA8",
-                                    "baseIndex": 0,
+                                    "baseIndex": 1,
                                     "label": "0x424",
                                     "pointerOffsets": [
                                         "0",
@@ -1990,6 +2038,18 @@
                                 "8",
                                 "0",
                                 "54"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0x64 characterID",
+                            "pointerOffsets": [
+                                "8",
+                                "0",
+                                "64"
                             ],
                             "typeIndex": 2,
                             "unsigned": false
@@ -11319,6 +11379,20 @@
             ],
             "typeIndex": 3,
             "unsigned": false
+        },
+        {
+            "address": "805E12B0",
+            "baseIndex": 0,
+            "label": "Reading SHAnim a1",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "804CC374",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": true
         }
     ]
 }

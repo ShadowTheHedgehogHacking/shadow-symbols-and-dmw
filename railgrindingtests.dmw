@@ -1,0 +1,109 @@
+{
+    "watchList": [
+        {
+            "address": "805F2620",
+            "baseIndex": 0,
+            "label": "Grind Prop?",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805F2624",
+            "baseIndex": 0,
+            "label": "Grind Prop?",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805F2628",
+            "baseIndex": 0,
+            "label": "Grind Prop?",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805F262C",
+            "baseIndex": 0,
+            "label": "Grind Prop?",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805F2630",
+            "baseIndex": 0,
+            "label": "Grind Prop?",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805F2634",
+            "baseIndex": 0,
+            "label": "Grind Prop?",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805F2638",
+            "baseIndex": 0,
+            "label": "Grind Left Right Jump Something",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805F263C",
+            "baseIndex": 0,
+            "label": "Grind Rail Switch Jump Height",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805F2640",
+            "baseIndex": 0,
+            "label": "Grind Prop?",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805F2644",
+            "baseIndex": 0,
+            "label": "Grind Prop?",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805F2648",
+            "baseIndex": 0,
+            "label": "Grind Prop?",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805F264C",
+            "baseIndex": 0,
+            "label": "Grind Prop?",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805F2650",
+            "baseIndex": 0,
+            "label": "Grind Prop? Spline Threshold slope",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805F2654",
+            "baseIndex": 0,
+            "label": "Grind Prop?",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805F2658",
+            "baseIndex": 0,
+            "label": "Grind Prop?",
+            "typeIndex": 3,
+            "unsigned": false
+        }
+    ]
+}
