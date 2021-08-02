@@ -1,0 +1,343 @@
+{
+    "watchList": [
+        {
+            "groupEntries": [
+                {
+                    "address": "805F5924",
+                    "baseIndex": 0,
+                    "label": "Air Saucer Global Tilt",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F5928",
+                    "baseIndex": 0,
+                    "label": "AirSaucer Prop?",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F592C",
+                    "baseIndex": 0,
+                    "label": "Saucer Timescale? Normalizer?",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F5930",
+                    "baseIndex": 0,
+                    "label": "AirSaucer Prop?",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F5934",
+                    "baseIndex": 0,
+                    "label": "Saucer Rotation Tilt Damp",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F5938",
+                    "baseIndex": 0,
+                    "label": "AirSaucer Prop?",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F593C",
+                    "baseIndex": 0,
+                    "label": "AirSaucer Prop?",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F5940",
+                    "baseIndex": 0,
+                    "label": "AirSaucer Prop?",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F5944",
+                    "baseIndex": 0,
+                    "label": "Saucer Jump Strength",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F5948",
+                    "baseIndex": 0,
+                    "label": "AirSaucer Prop?",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F594C",
+                    "baseIndex": 0,
+                    "label": "AirSaucer Prop?",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F5950",
+                    "baseIndex": 0,
+                    "label": "AirSaucer Prop?",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F5954",
+                    "baseIndex": 0,
+                    "label": "AirSaucer Prop?",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F5958",
+                    "baseIndex": 0,
+                    "label": "AirSaucer Prop?",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F595C",
+                    "baseIndex": 0,
+                    "label": "Saucer Tilt Tolerance ",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F5960",
+                    "baseIndex": 0,
+                    "label": "AirSaucer Prop?",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F5964",
+                    "baseIndex": 0,
+                    "label": "AirSaucer Prop?",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F5968",
+                    "baseIndex": 0,
+                    "label": "AirSaucer Prop?",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F596C",
+                    "baseIndex": 0,
+                    "label": "AirSaucer Prop?",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F5970",
+                    "baseIndex": 0,
+                    "label": "AirSaucer Prop?",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F5974",
+                    "baseIndex": 0,
+                    "label": "Shadow Rotation Controller",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F5978",
+                    "baseIndex": 0,
+                    "label": "Tilt Related",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F597C",
+                    "baseIndex": 0,
+                    "label": "AirSaucer Prop?",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F5980",
+                    "baseIndex": 0,
+                    "label": "AirSaucer Prop?",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F5984",
+                    "baseIndex": 0,
+                    "label": "Turn Speed",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F5988",
+                    "baseIndex": 0,
+                    "label": "AirSaucer Prop?",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F598C",
+                    "baseIndex": 0,
+                    "label": "AirSaucer Prop?",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F5990",
+                            "baseIndex": 0,
+                            "label": "Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5994",
+                            "baseIndex": 0,
+                            "label": "Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5998",
+                            "baseIndex": 0,
+                            "label": "Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F599C",
+                            "baseIndex": 0,
+                            "label": "Tilt Rotation Damp",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F59A0",
+                            "baseIndex": 0,
+                            "label": "Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F59A4",
+                            "baseIndex": 0,
+                            "label": "Saucer Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F59A8",
+                            "baseIndex": 0,
+                            "label": "Saucer Weight",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F59AC",
+                            "baseIndex": 0,
+                            "label": "Speed Damp Force",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F59B0",
+                            "baseIndex": 0,
+                            "label": "Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F59B4",
+                            "baseIndex": 0,
+                            "label": "Saucer AirSpeed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F59B8",
+                            "baseIndex": 0,
+                            "label": "Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F59BC",
+                            "baseIndex": 0,
+                            "label": "Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F59C0",
+                            "baseIndex": 0,
+                            "label": "Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F59C4",
+                            "baseIndex": 0,
+                            "label": "Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F59C8",
+                            "baseIndex": 0,
+                            "label": "Tilt Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F59CC",
+                            "baseIndex": 0,
+                            "label": "Saucer Shadow Size",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F59D0",
+                            "baseIndex": 0,
+                            "label": "Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F59D4",
+                            "baseIndex": 0,
+                            "label": "Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F59D8",
+                            "baseIndex": 0,
+                            "label": "Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F59DC",
+                            "baseIndex": 0,
+                            "label": "Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Props 2"
+                }
+            ],
+            "groupName": "Air Saucer"
+        }
+    ]
+}

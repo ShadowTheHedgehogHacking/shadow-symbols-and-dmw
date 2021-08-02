@@ -1,0 +1,172 @@
+{
+    "watchList": [
+        {
+            "address": "80582148",
+            "baseIndex": 0,
+            "label": "StageID Geo to load",
+            "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "address": "805F43E0",
+            "baseIndex": 0,
+            "label": "StageID SET to load",
+            "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "address": "807DA3E0",
+            "baseIndex": 0,
+            "label": "StageID MissionData to load?",
+            "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "address": "807DA3E4",
+            "baseIndex": 0,
+            "label": "StageID AudioData to load?",
+            "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "address": "807DBE04",
+            "baseIndex": 0,
+            "label": "Story Route next level to load",
+            "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "address": "807D6648",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 55,
+            "pointerOffsets": [
+                "0",
+                "0",
+                "0"
+            ],
+            "typeIndex": 5,
+            "unsigned": false
+        },
+        {
+            "address": "8055C83C",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 55,
+            "pointerOffsets": [
+                "0",
+                "0"
+            ],
+            "typeIndex": 5,
+            "unsigned": false
+        },
+        {
+            "address": "807D6648",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 55,
+            "pointerOffsets": [
+                "0",
+                "0",
+                "0"
+            ],
+            "typeIndex": 5,
+            "unsigned": false
+        },
+        {
+            "address": "807D70F8",
+            "baseIndex": 0,
+            "label": "Advertise Pointer",
+            "length": 55,
+            "pointerOffsets": [
+                "0",
+                "0",
+                "0"
+            ],
+            "typeIndex": 5,
+            "unsigned": false
+        },
+        {
+            "address": "805F4430",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "807D7088",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 55,
+            "pointerOffsets": [
+                "0",
+                "0",
+                "0"
+            ],
+            "typeIndex": 5,
+            "unsigned": false
+        },
+        {
+            "address": "805755AC",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 55,
+            "pointerOffsets": [
+                "0",
+                "0"
+            ],
+            "typeIndex": 5,
+            "unsigned": false
+        },
+        {
+            "address": "805820A0",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 55,
+            "typeIndex": 5,
+            "unsigned": false
+        },
+        {
+            "address": "805F0B00",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "8057B114",
+            "baseIndex": 0,
+            "label": "Hero Points",
+            "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "address": "8057B0C8",
+            "baseIndex": 0,
+            "label": "CC Points",
+            "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "address": "807D70BC",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "address": "807DC0FC",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "address": "807DE1E4",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 2,
+            "unsigned": true
+        }
+    ]
+}

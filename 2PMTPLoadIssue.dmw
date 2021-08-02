@@ -1,0 +1,92 @@
+{
+    "watchList": [
+        {
+            "address": "80575FA8",
+            "baseIndex": 0,
+            "label": "0x64 characterID",
+            "pointerOffsets": [
+                "8",
+                "0",
+                "64"
+            ],
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "817F1F30",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 10,
+            "typeIndex": 5,
+            "unsigned": true
+        },
+        {
+            "address": "812EB16C",
+            "baseIndex": 0,
+            "label": "new P2 address",
+            "length": 55,
+            "typeIndex": 5,
+            "unsigned": false
+        },
+        {
+            "address": "812ED934",
+            "baseIndex": 0,
+            "label": "new P2 address after Glyphic",
+            "length": 155,
+            "typeIndex": 5,
+            "unsigned": false
+        },
+        {
+            "address": "80575F54",
+            "baseIndex": 0,
+            "label": "p3 id",
+            "pointerOffsets": [
+                "0",
+                "0",
+                "64"
+            ],
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "812C4760",
+            "baseIndex": 0,
+            "label": "Westopolis Position",
+            "length": 10,
+            "typeIndex": 5,
+            "unsigned": true
+        },
+        {
+            "address": "812EB748",
+            "baseIndex": 0,
+            "label": "After Westopolis and Events NAME_SHIFT",
+            "length": 55,
+            "typeIndex": 5,
+            "unsigned": false
+        },
+        {
+            "address": "812EDF10",
+            "baseIndex": 0,
+            "label": "After Glyphic and prior",
+            "length": 55,
+            "typeIndex": 5,
+            "unsigned": false
+        },
+        {
+            "address": "811ACBC4",
+            "baseIndex": 0,
+            "label": "Break | EggBreaker Event Intro",
+            "length": 10,
+            "typeIndex": 5,
+            "unsigned": true
+        },
+        {
+            "address": "81276330",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 55,
+            "typeIndex": 5,
+            "unsigned": false
+        }
+    ]
+}

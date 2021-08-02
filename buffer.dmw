@@ -1,0 +1,58 @@
+{
+    "watchList": [
+        {
+            "address": "80A19A03",
+            "baseIndex": 1,
+            "label": "No label",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "80A19904",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 55,
+            "pointerOffsets": [
+                "FFFFFFF0",
+                "0"
+            ],
+            "typeIndex": 5,
+            "unsigned": false
+        },
+        {
+            "address": "805EDB30",
+            "baseIndex": 0,
+            "label": "wat how is this 0",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "805F0EB8",
+            "baseIndex": 1,
+            "label": "base_buffer?",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "805F0EC4",
+            "baseIndex": 1,
+            "label": "base_buffer + 12 + 0",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "81100424",
+            "baseIndex": 1,
+            "label": "No label",
+            "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "address": "81100420",
+            "baseIndex": 1,
+            "label": "No label",
+            "typeIndex": 2,
+            "unsigned": true
+        }
+    ]
+}
