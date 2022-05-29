@@ -12057,6 +12057,420 @@
                         }
                     ],
                     "groupName": "Air Saucer"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F8E10",
+                            "baseIndex": 0,
+                            "label": "AirBolt Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8E14",
+                            "baseIndex": 0,
+                            "label": "Rider Origin Rotation on Hawk",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8E18",
+                            "baseIndex": 0,
+                            "label": "Rider Rotation -1 = forward",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8E1C",
+                            "baseIndex": 0,
+                            "label": "AirBolt Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8E20",
+                            "baseIndex": 0,
+                            "label": "AirBolt Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8E24",
+                            "baseIndex": 0,
+                            "label": "AirBolt Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8E28",
+                            "baseIndex": 0,
+                            "label": "Volt WeaponSystem Fire Delay",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8E2C",
+                            "baseIndex": 0,
+                            "label": "Volt WeaponSystem LockOn Effect Position",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8E30",
+                            "baseIndex": 0,
+                            "label": "AirBolt Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8E34",
+                            "baseIndex": 0,
+                            "label": "Global Enemy Flyables (Beetles, Hawk) Animation Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8E38",
+                            "baseIndex": 0,
+                            "label": "AirBolt Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8E3C",
+                            "baseIndex": 0,
+                            "label": "AirBolt Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8E40",
+                            "baseIndex": 0,
+                            "label": "AirBolt Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8E44",
+                            "baseIndex": 0,
+                            "label": "AirBolt Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Black Volt (AirBolt)"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F59F0",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F59F4",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F59F8",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F59FC",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A00",
+                            "baseIndex": 0,
+                            "label": "AirWing Camera Left/Right Shift",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A04",
+                            "baseIndex": 0,
+                            "label": "AirWing Camera Distance",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A08",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A0C",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A10",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A14",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A18",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A1C",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A20",
+                            "baseIndex": 0,
+                            "label": "AirWing Relative Rotation To Spline?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A24",
+                            "baseIndex": 0,
+                            "label": "AirWing Camera UpDown Track Snap",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A28",
+                            "baseIndex": 0,
+                            "label": "AirWing Point & Camera Direction",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A2C",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A30",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A34",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A38",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A3C",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Black Hawk (AirWing)"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80557F58",
+                            "baseIndex": 0,
+                            "label": "BirdBase - Spline Hook Related?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F5C",
+                            "baseIndex": 0,
+                            "label": "BirdBase Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F60",
+                            "baseIndex": 0,
+                            "label": "BirdBase - Friction",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F64",
+                            "baseIndex": 0,
+                            "label": "BirdBase - Normal Speed (Cannot be greater than Max Speed)",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F68",
+                            "baseIndex": 0,
+                            "label": "BirdBase - Max Speed / Holding A Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F6C",
+                            "baseIndex": 0,
+                            "label": "BirdBase - Holding A Speed Damp",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F70",
+                            "baseIndex": 0,
+                            "label": "BirdBase - Time to Normal Speed On Release A",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F74",
+                            "baseIndex": 0,
+                            "label": "BirdBase - Drag To Spline Strength",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F78",
+                            "baseIndex": 0,
+                            "label": "BirdBase - Y Axis Turn Rate",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F7C",
+                            "baseIndex": 0,
+                            "label": "BirdBase - X Axis Turn Rate",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F80",
+                            "baseIndex": 0,
+                            "label": "BirdBase Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F84",
+                            "baseIndex": 0,
+                            "label": "BirdBase Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F88",
+                            "baseIndex": 0,
+                            "label": "BirdBase Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F8C",
+                            "baseIndex": 0,
+                            "label": "BirdBase Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F90",
+                            "baseIndex": 0,
+                            "label": "BirdBase - Fly Range Limit",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F94",
+                            "baseIndex": 0,
+                            "label": "BirdBase Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F98",
+                            "baseIndex": 0,
+                            "label": "BirdBase Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F9C",
+                            "baseIndex": 0,
+                            "label": "BirdBase Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557FA0",
+                            "baseIndex": 0,
+                            "label": "BirdBase Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557FA4",
+                            "baseIndex": 0,
+                            "label": "BirdBase Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557FA8",
+                            "baseIndex": 0,
+                            "label": "BirdBase Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557FAC",
+                            "baseIndex": 0,
+                            "label": "BirdBase Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557FB0",
+                            "baseIndex": 0,
+                            "label": "BirdBase Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Core Flyable Props (BirdBase)"
                 }
             ],
             "groupName": "Vehicle"
