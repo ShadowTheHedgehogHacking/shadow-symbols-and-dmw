@@ -4885,46 +4885,6 @@
         {
             "groupEntries": [
                 {
-                    "address": "805766EC",
-                    "baseIndex": 0,
-                    "label": "P1 UI State (Rings, Weapon etc)",
-                    "typeIndex": 2,
-                    "unsigned": true
-                },
-                {
-                    "address": "8057673B",
-                    "baseIndex": 0,
-                    "label": "UI X button State - 0 none, 1 ringdash, 2 pickupbox, 9 android",
-                    "typeIndex": 0,
-                    "unsigned": false
-                },
-                {
-                    "address": "8057D7D4",
-                    "baseIndex": 0,
-                    "label": "P1 Win Count/Graphic",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "8057D7D8",
-                    "baseIndex": 0,
-                    "label": "P2 Win Count/Graphic",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "8057D7E8",
-                    "baseIndex": 0,
-                    "label": "Hide HUD (not subtitles)",
-                    "typeIndex": 0,
-                    "unsigned": false
-                }
-            ],
-            "groupName": "UI"
-        },
-        {
-            "groupEntries": [
-                {
                     "groupEntries": [
                         {
                             "address": "805E4960",
@@ -5226,6 +5186,25 @@
                         }
                     ],
                     "groupName": "Lava Shelter Egg Dealer (Static / Pointer)"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F54F8",
+                            "baseIndex": 0,
+                            "label": "GUN ROBOT AppearType WARP Target Count Down (NOTE: Idle Arm Rot Also Uses This Variable)",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5510",
+                            "baseIndex": 0,
+                            "label": "GUN ROBOT AppearType WARP Wait Time",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "GUN Robot"
                 }
             ],
             "groupName": "SETObjs_Specifics"
@@ -5725,6 +5704,46 @@
         },
         {
             "groupEntries": [
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805766EC",
+                            "baseIndex": 0,
+                            "label": "P1 UI State (Rings, Weapon etc)",
+                            "typeIndex": 2,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8057673B",
+                            "baseIndex": 0,
+                            "label": "UI X button State - 0 none, 1 ringdash, 2 pickupbox, 9 android",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8057D7D4",
+                            "baseIndex": 0,
+                            "label": "P1 Win Count/Graphic",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8057D7D8",
+                            "baseIndex": 0,
+                            "label": "P2 Win Count/Graphic",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8057D7E8",
+                            "baseIndex": 0,
+                            "label": "Hide HUD (not subtitles)",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "UI"
+                },
                 {
                     "address": "80576710",
                     "baseIndex": 0,
