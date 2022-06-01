@@ -11012,6 +11012,13 @@
                             "unsigned": false
                         },
                         {
+                            "address": "805F2954",
+                            "baseIndex": 0,
+                            "label": "UNKNOWN",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
                             "address": "805F2958",
                             "baseIndex": 0,
                             "label": "WallRun Speed",
@@ -11029,6 +11036,41 @@
                             "address": "805F2960",
                             "baseIndex": 0,
                             "label": "WallCling Max Time",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F2964",
+                            "baseIndex": 0,
+                            "label": "UNKNOWN",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F2968",
+                            "baseIndex": 0,
+                            "label": "Exit Tri-Jump Friction?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F296C",
+                            "baseIndex": 0,
+                            "label": "Exit Tri-Jump Distance (Tiny Hop)",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F2970",
+                            "baseIndex": 0,
+                            "label": "Exit Tri-Jump Flag?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F2974",
+                            "baseIndex": 0,
+                            "label": "Exit Tri-Jump Force",
                             "typeIndex": 3,
                             "unsigned": false
                         },
@@ -12679,11 +12721,30 @@
         {
             "groupEntries": [
                 {
-                    "address": "805F7568",
-                    "baseIndex": 0,
-                    "label": "HeavyDog Initial Health",
-                    "typeIndex": 3,
-                    "unsigned": true
+                    "groupEntries": [
+                        {
+                            "address": "805F7568",
+                            "baseIndex": 0,
+                            "label": "HeavyDog Initial Health",
+                            "typeIndex": 3,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "805F756C",
+                            "baseIndex": 0,
+                            "label": "HeavyDog Panel X (Model Only)",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F7570",
+                            "baseIndex": 0,
+                            "label": "HeavyDog Panel Y (Model Only)",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Heavy Dog"
                 },
                 {
                     "address": "805F7668",
@@ -24858,6 +24919,20 @@
             "address": "8060B314",
             "baseIndex": 0,
             "label": "RawForce?",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805F766C",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805F7670",
+            "baseIndex": 0,
+            "label": "No label",
             "typeIndex": 3,
             "unsigned": false
         }
