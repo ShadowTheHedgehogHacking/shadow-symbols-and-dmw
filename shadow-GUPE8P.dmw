@@ -189,6 +189,13 @@
             "groupName": "Expert progress tracking"
         },
         {
+            "address": "805EE1D0",
+            "baseIndex": 0,
+            "label": "MainLoop Core Control",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
             "address": "805EE1D8",
             "baseIndex": 0,
             "label": "objectCount?",
@@ -394,32 +401,458 @@
                     "unsigned": false
                 },
                 {
-                    "address": "805F2BF4",
-                    "baseIndex": 0,
-                    "label": "related to time for ai",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
                     "address": "805F2378",
                     "baseIndex": 0,
                     "label": "compare with ai timer before 2p move",
                     "typeIndex": 3,
                     "unsigned": false
+                }
+            ],
+            "groupName": "Partner Control AI / SLOT2"
+        },
+        {
+            "address": "805EC170",
+            "baseIndex": 0,
+            "label": "GameMode Byte",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "8058454F",
+                    "baseIndex": 0,
+                    "label": "Menu Cursor (0= 1P ...)",
+                    "typeIndex": 0,
+                    "unsigned": true
                 },
                 {
-                    "address": "8051F78A",
+                    "address": "8058453F",
+                    "baseIndex": 0,
+                    "label": "Menu Cursor (0= 1P, 1= 2P, 2 = OPTION)",
+                    "typeIndex": 0,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "Main Menu"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "805EF2A8",
+                    "baseIndex": 0,
+                    "label": "EV_CurrentFrame",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F4C48",
+                    "baseIndex": 0,
+                    "label": "EV_FramesPerSecond",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F4C4C",
+                    "baseIndex": 0,
+                    "label": "EV_Unknown_60",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805EF2B5",
                     "baseIndex": 1,
-                    "label": "No label",
+                    "label": "EV_CutsceneItemsWarp",
                     "typeIndex": 2,
                     "unsigned": false
                 },
                 {
-                    "address": "805F2C0C",
+                    "address": "805EF2A0",
                     "baseIndex": 0,
-                    "label": "animation related",
-                    "typeIndex": 3,
+                    "label": "CurrentEventPlaying",
+                    "typeIndex": 2,
                     "unsigned": false
+                }
+            ],
+            "groupName": "EventCutsceneState"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "805B02E8",
+                    "baseIndex": 0,
+                    "label": "SoundListener AFS Parsing",
+                    "length": 555,
+                    "typeIndex": 5,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "SoundListener / AFS Parsing"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "807D86C8",
+                    "baseIndex": 0,
+                    "label": "StageManager FirstStage Pick Only (Dynamic; Not Static)",
+                    "length": 55,
+                    "pointerOffsets": [
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "typeIndex": 5,
+                    "unsigned": false
+                },
+                {
+                    "address": "80575F78",
+                    "baseIndex": 0,
+                    "label": "Current StageAction",
+                    "length": 35,
+                    "pointerOffsets": [
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "typeIndex": 5,
+                    "unsigned": false
+                },
+                {
+                    "address": "80575F87",
+                    "baseIndex": 0,
+                    "label": "Execute/Change StageAction (0-16)",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "80584720",
+                    "baseIndex": 0,
+                    "label": "StageID SelectMode Picked ToLoad",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "8057D748",
+                    "baseIndex": 0,
+                    "label": "StageID CurrentLoaded",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057D752",
+                    "baseIndex": 0,
+                    "label": "Game Mode (0 = story, 1= 2P battle)",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "807D24E8",
+                            "baseIndex": 0,
+                            "label": "NumberOfShotsOnScreen(IncludesEnemyShooting)",
+                            "typeIndex": 2,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8057D768",
+                            "baseIndex": 0,
+                            "label": "FreezeControlOnSeeingPartner/ChaosControl/PauseGame | Pause Timer when Paused",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Misc Game State / Properties"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8057D6A0",
+                            "baseIndex": 0,
+                            "label": "StageSequence Related?",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80558160",
+                            "baseIndex": 0,
+                            "label": "StageSequence Related?",
+                            "length": 36,
+                            "pointerOffsets": [
+                                "0",
+                                "0"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8055837C",
+                            "baseIndex": 0,
+                            "label": "StageSequence Related?",
+                            "length": 555,
+                            "pointerOffsets": [
+                                "0",
+                                "0"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "StageSequence"
+                },
+                {
+                    "address": "805EF9A8",
+                    "baseIndex": 0,
+                    "label": "StageSequenceManager",
+                    "length": 155,
+                    "pointerOffsets": [
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "typeIndex": 5,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "StageManager"
+        },
+        {
+            "groupEntries": [
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "P1 Writeable X",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "P1 Writeable Y",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "4"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "P1 Writeable Z",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "8"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "P1 X-Axis Velocity",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "18"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "P1 Y-Axis Velocity",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "1C"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "P1 Z-Axis Velocity",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "20"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "P1 Z-Axis Velocity",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "20"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "P1 ForceToAdd X",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "24"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "P1 ForceToAdd Y",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "28"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "P1 ForceToAdd Z",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "2C"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "P1 0x64 CharacterID (PlayerStruct layer)",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "64"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "807D783A",
+                            "baseIndex": 0,
+                            "label": "P1 Status Byte 0 = normal, 2 = spindash, 8 = zipline, 64 = wallcling, 128 = in air",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "P1"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "P2 Writeable X",
+                            "pointerOffsets": [
+                                "8",
+                                "0",
+                                "0"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "P2 Writeable Y",
+                            "pointerOffsets": [
+                                "8",
+                                "0",
+                                "4"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "P2 Writeable Z",
+                            "pointerOffsets": [
+                                "8",
+                                "0",
+                                "8"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "807D79EA",
+                            "baseIndex": 0,
+                            "label": "P2 Status Byte",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "P2"
+                },
+                {
+                    "address": "8057670C",
+                    "baseIndex": 0,
+                    "label": "P1 Ring Count",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80576758",
+                    "baseIndex": 0,
+                    "label": "P2 Ring Count",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80576700",
+                    "baseIndex": 0,
+                    "label": "P1 Ammo",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057674C",
+                    "baseIndex": 0,
+                    "label": "P2 Ammo",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057D7DC",
+                    "baseIndex": 0,
+                    "label": "P1 Selected Character",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "8057D7E0",
+                    "baseIndex": 0,
+                    "label": "P2 Selected Character",
+                    "typeIndex": 2,
+                    "unsigned": true
                 },
                 {
                     "groupEntries": [
@@ -441,7 +874,7 @@
                             "unsigned": false
                         }
                     ],
-                    "groupName": "p1 controls"
+                    "groupName": "p1 controls [Donut]"
                 },
                 {
                     "groupEntries": [
@@ -463,7 +896,7 @@
                             "unsigned": false
                         }
                     ],
-                    "groupName": "p2 controls"
+                    "groupName": "p2 controls [Donut]"
                 },
                 {
                     "groupEntries": [
@@ -492,7 +925,7 @@
                             "unsigned": false
                         }
                     ],
-                    "groupName": "p3 controls"
+                    "groupName": "p3 controls [Donut]"
                 },
                 {
                     "groupEntries": [
@@ -1812,7 +2245,7 @@
                             "unsigned": false
                         }
                     ],
-                    "groupName": "P1 Struct"
+                    "groupName": "P1 Struct [Donut]"
                 },
                 {
                     "groupEntries": [
@@ -2208,7 +2641,7 @@
                             "unsigned": false
                         }
                     ],
-                    "groupName": "P2 Struct"
+                    "groupName": "P2 Struct [Donut]"
                 },
                 {
                     "groupEntries": [
@@ -2324,7 +2757,7 @@
                             "unsigned": false
                         }
                     ],
-                    "groupName": "P3 Partner Struct"
+                    "groupName": "P3 Partner Struct [Donut]"
                 },
                 {
                     "groupEntries": [
@@ -2428,623 +2861,7 @@
                             "unsigned": false
                         }
                     ],
-                    "groupName": "P4 Partner Struct"
-                },
-                {
-                    "groupEntries": [
-                        {
-                            "address": "805F7318",
-                            "baseIndex": 0,
-                            "label": "weaponDropSidewaysSpeed",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F731C",
-                            "baseIndex": 0,
-                            "label": "weaponDropRelated",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F7320",
-                            "baseIndex": 0,
-                            "label": "weaponDropVSpeed",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F7324",
-                            "baseIndex": 0,
-                            "label": "weaponDropRelated",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F7328",
-                            "baseIndex": 0,
-                            "label": "weaponDropThrowDistance",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F732C",
-                            "baseIndex": 0,
-                            "label": "weaponDropRelated",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F7330",
-                            "baseIndex": 0,
-                            "label": "droppedWeaponNeededStepAwayDistance",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "WeaponDrop Attributes"
-                },
-                {
-                    "address": "805EE1D0",
-                    "baseIndex": 0,
-                    "label": "??",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "805EF9A8",
-                    "baseIndex": 0,
-                    "label": "StageSequenceManager",
-                    "length": 155,
-                    "pointerOffsets": [
-                        "0",
-                        "0",
-                        "0",
-                        "0"
-                    ],
-                    "typeIndex": 5,
-                    "unsigned": false
-                },
-                {
-                    "address": "805F1FEC",
-                    "baseIndex": 0,
-                    "label": "No label",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "805F2BC4",
-                    "baseIndex": 0,
-                    "label": "relatedtocollisiondistancespacegadget",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "805F28C4",
-                    "baseIndex": 0,
-                    "label": "relatedtocollisiondistancespacegadget",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "805F0340",
-                    "baseIndex": 0,
-                    "label": "gravitySignBoardDirection",
-                    "pointerOffsets": [
-                        "0"
-                    ],
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "8058436C",
-                    "baseIndex": 0,
-                    "label": "gravityXYZAngles[numOfIDs]",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "805F2D3C",
-                    "baseIndex": 0,
-                    "label": "lighting related",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "805F5CC8",
-                    "baseIndex": 0,
-                    "label": "camDistanceRelated?",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "805F803C",
-                    "baseIndex": 0,
-                    "label": "maybe sonic range?",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "804B38A4",
-                    "baseIndex": 0,
-                    "label": "No label",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "805E0720",
-                    "baseIndex": 0,
-                    "label": "globalXScale?",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "805F30A8",
-                    "baseIndex": 0,
-                    "label": "No label",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "805F30A0",
-                    "baseIndex": 0,
-                    "label": "No label",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "805F96E0",
-                    "baseIndex": 0,
-                    "label": "No label",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "805F2700",
-                    "baseIndex": 0,
-                    "label": "Melee Travel While Swinging Speed",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "805F2704",
-                    "baseIndex": 0,
-                    "label": "Melee Rotation Speed",
-                    "typeIndex": 3,
-                    "unsigned": false
-                }
-            ],
-            "groupName": "2puseful etc and Donuts findings || MERGE WITH MAIN"
-        },
-        {
-            "address": "805EC170",
-            "baseIndex": 0,
-            "label": "GameMode Byte",
-            "typeIndex": 2,
-            "unsigned": false
-        },
-        {
-            "groupEntries": [
-                {
-                    "address": "8058454F",
-                    "baseIndex": 0,
-                    "label": "Menu Cursor (0= 1P ...)",
-                    "typeIndex": 0,
-                    "unsigned": true
-                },
-                {
-                    "address": "8058453F",
-                    "baseIndex": 0,
-                    "label": "Menu Cursor (0= 1P, 1= 2P, 2 = OPTION)",
-                    "typeIndex": 0,
-                    "unsigned": true
-                }
-            ],
-            "groupName": "Main Menu"
-        },
-        {
-            "groupEntries": [
-                {
-                    "address": "805EF2A8",
-                    "baseIndex": 0,
-                    "label": "EV_CurrentFrame",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "805F4C48",
-                    "baseIndex": 0,
-                    "label": "EV_FramesPerSecond",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "805F4C4C",
-                    "baseIndex": 0,
-                    "label": "EV_Unknown_60",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "805EF2B5",
-                    "baseIndex": 1,
-                    "label": "EV_CutsceneItemsWarp",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "805EF2A0",
-                    "baseIndex": 0,
-                    "label": "CurrentEventPlaying",
-                    "typeIndex": 2,
-                    "unsigned": false
-                }
-            ],
-            "groupName": "EventCutsceneState"
-        },
-        {
-            "groupEntries": [
-                {
-                    "address": "805B02E8",
-                    "baseIndex": 0,
-                    "label": "SoundListener AFS Parsing",
-                    "length": 555,
-                    "typeIndex": 5,
-                    "unsigned": false
-                }
-            ],
-            "groupName": "SoundListener / AFS Parsing"
-        },
-        {
-            "groupEntries": [
-                {
-                    "address": "807D86C8",
-                    "baseIndex": 0,
-                    "label": "StageManager",
-                    "length": 55,
-                    "pointerOffsets": [
-                        "0",
-                        "0",
-                        "0"
-                    ],
-                    "typeIndex": 5,
-                    "unsigned": false
-                },
-                {
-                    "address": "80575F78",
-                    "baseIndex": 0,
-                    "label": "Current StageAction",
-                    "length": 35,
-                    "pointerOffsets": [
-                        "0",
-                        "0",
-                        "0",
-                        "0"
-                    ],
-                    "typeIndex": 5,
-                    "unsigned": false
-                },
-                {
-                    "address": "80575F87",
-                    "baseIndex": 0,
-                    "label": "Execute/Change StageAction (0-16)",
-                    "typeIndex": 0,
-                    "unsigned": false
-                },
-                {
-                    "address": "80584720",
-                    "baseIndex": 0,
-                    "label": "StageID SelectMode Picked ToLoad",
-                    "typeIndex": 2,
-                    "unsigned": true
-                },
-                {
-                    "address": "8057D748",
-                    "baseIndex": 0,
-                    "label": "StageID CurrentLoaded",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "8057D752",
-                    "baseIndex": 0,
-                    "label": "Game Mode (0 = story, 1= 2P battle)",
-                    "typeIndex": 0,
-                    "unsigned": true
-                },
-                {
-                    "groupEntries": [
-                        {
-                            "address": "807D24E8",
-                            "baseIndex": 0,
-                            "label": "NumberOfShotsOnScreen(IncludesEnemyShooting)",
-                            "typeIndex": 2,
-                            "unsigned": true
-                        },
-                        {
-                            "address": "8057D768",
-                            "baseIndex": 0,
-                            "label": "FreezeControlOnSeeingPartner/ChaosControl/PauseGame | Pause Timer when Paused",
-                            "typeIndex": 0,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "Misc Game State / Properties"
-                },
-                {
-                    "groupEntries": [
-                        {
-                            "address": "8057D6A0",
-                            "baseIndex": 0,
-                            "label": "StageSequence Related?",
-                            "typeIndex": 0,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80558160",
-                            "baseIndex": 0,
-                            "label": "StageSequence Related?",
-                            "length": 36,
-                            "pointerOffsets": [
-                                "0",
-                                "0"
-                            ],
-                            "typeIndex": 5,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "8055837C",
-                            "baseIndex": 0,
-                            "label": "StageSequence Related?",
-                            "length": 555,
-                            "pointerOffsets": [
-                                "0",
-                                "0"
-                            ],
-                            "typeIndex": 5,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "StageSequence"
-                }
-            ],
-            "groupName": "StageManager"
-        },
-        {
-            "groupEntries": [
-                {
-                    "groupEntries": [
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P1 Writeable X",
-                            "pointerOffsets": [
-                                "0",
-                                "0",
-                                "0"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P1 Writeable Y",
-                            "pointerOffsets": [
-                                "0",
-                                "0",
-                                "4"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P1 Writeable Z",
-                            "pointerOffsets": [
-                                "0",
-                                "0",
-                                "8"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P1 X-Axis Velocity",
-                            "pointerOffsets": [
-                                "0",
-                                "0",
-                                "18"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P1 Y-Axis Velocity",
-                            "pointerOffsets": [
-                                "0",
-                                "0",
-                                "1C"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P1 Z-Axis Velocity",
-                            "pointerOffsets": [
-                                "0",
-                                "0",
-                                "20"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P1 Z-Axis Velocity",
-                            "pointerOffsets": [
-                                "0",
-                                "0",
-                                "20"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P1 ForceToAdd X",
-                            "pointerOffsets": [
-                                "0",
-                                "0",
-                                "24"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P1 ForceToAdd Y",
-                            "pointerOffsets": [
-                                "0",
-                                "0",
-                                "28"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P1 ForceToAdd Z",
-                            "pointerOffsets": [
-                                "0",
-                                "0",
-                                "2C"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P1 0x64 CharacterID (PlayerStruct layer)",
-                            "pointerOffsets": [
-                                "0",
-                                "0",
-                                "64"
-                            ],
-                            "typeIndex": 2,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "807D783A",
-                            "baseIndex": 0,
-                            "label": "P1 Status Byte 0 = normal, 2 = spindash, 8 = zipline, 64 = wallcling, 128 = in air",
-                            "typeIndex": 0,
-                            "unsigned": true
-                        }
-                    ],
-                    "groupName": "P1"
-                },
-                {
-                    "groupEntries": [
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P2 Writeable X",
-                            "pointerOffsets": [
-                                "8",
-                                "0",
-                                "0"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P2 Writeable Y",
-                            "pointerOffsets": [
-                                "8",
-                                "0",
-                                "4"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P2 Writeable Z",
-                            "pointerOffsets": [
-                                "8",
-                                "0",
-                                "8"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "807D79EA",
-                            "baseIndex": 0,
-                            "label": "P2 Status Byte",
-                            "typeIndex": 0,
-                            "unsigned": true
-                        }
-                    ],
-                    "groupName": "P2"
-                },
-                {
-                    "address": "8057670C",
-                    "baseIndex": 0,
-                    "label": "P1 Ring Count",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "80576758",
-                    "baseIndex": 0,
-                    "label": "P2 Ring Count",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "80576700",
-                    "baseIndex": 0,
-                    "label": "P1 Ammo",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "8057674C",
-                    "baseIndex": 0,
-                    "label": "P2 Ammo",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "8057D7DC",
-                    "baseIndex": 0,
-                    "label": "P1 Selected Character",
-                    "typeIndex": 2,
-                    "unsigned": true
-                },
-                {
-                    "address": "8057D7E0",
-                    "baseIndex": 0,
-                    "label": "P2 Selected Character",
-                    "typeIndex": 2,
-                    "unsigned": true
+                    "groupName": "P4 Partner Struct [Donut]"
                 }
             ],
             "groupName": "PlayerStruct"
@@ -3172,55 +2989,27 @@
                     "unsigned": false
                 },
                 {
-                    "address": "807D7990",
-                    "baseIndex": 0,
-                    "label": "RO | Cam1X | One with offset",
-                    "typeIndex": 3,
-                    "unsigned": true
-                },
-                {
-                    "address": "807D79A8",
-                    "baseIndex": 0,
-                    "label": "RO | Cam1 X  | Set obj controller",
-                    "typeIndex": 3,
-                    "unsigned": true
-                },
-                {
-                    "address": "807D7994",
-                    "baseIndex": 0,
-                    "label": "RO | P2 Y ?",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D7998",
-                    "baseIndex": 0,
-                    "label": "RO | P2 Z ?",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
                     "groupEntries": [
                         {
                             "groupEntries": [
                                 {
                                     "address": "807D76B0",
                                     "baseIndex": 0,
-                                    "label": "Cam0 Render/Chunk Position With Rotate X",
+                                    "label": "Camera0 Render/Chunk Position With Rotate X",
                                     "typeIndex": 3,
                                     "unsigned": false
                                 },
                                 {
                                     "address": "807D76B4",
                                     "baseIndex": 0,
-                                    "label": "Cam0 Render/Chunk Position With Rotate Y",
+                                    "label": "Camera0 Render/Chunk Position With Rotate Y",
                                     "typeIndex": 3,
                                     "unsigned": false
                                 },
                                 {
                                     "address": "807D76B8",
                                     "baseIndex": 0,
-                                    "label": "Cam0 Render/Chunk Position With Rotate Z",
+                                    "label": "Camera0 Render/Chunk Position With Rotate Z",
                                     "typeIndex": 3,
                                     "unsigned": false
                                 },
@@ -3229,66 +3018,125 @@
                                         {
                                             "address": "807D77D4",
                                             "baseIndex": 0,
-                                            "label": "Velocity",
+                                            "label": "Camera0 Velocity X",
                                             "typeIndex": 3,
                                             "unsigned": true
                                         },
                                         {
                                             "address": "807D77D8",
                                             "baseIndex": 0,
-                                            "label": "VelocityAccelRate",
+                                            "label": "Camera0 Velocity Y",
                                             "typeIndex": 3,
                                             "unsigned": true
                                         },
                                         {
+                                            "address": "807D77DC",
+                                            "baseIndex": 0,
+                                            "label": "Camera0 Velocity Z",
+                                            "typeIndex": 3,
+                                            "unsigned": false
+                                        }
+                                    ],
+                                    "groupName": "Camera0 Velocity"
+                                },
+                                {
+                                    "groupEntries": [
+                                        {
                                             "groupEntries": [
-                                                {
-                                                    "address": "807D76B4",
-                                                    "baseIndex": 0,
-                                                    "label": "MemCopy of Cam0 Position With Rotate Y",
-                                                    "typeIndex": 3,
-                                                    "unsigned": true
-                                                },
                                                 {
                                                     "address": "807D7730",
                                                     "baseIndex": 0,
-                                                    "label": "MemCopy of Cam0 Position With Rotate Y",
+                                                    "label": "Memcopy of Cam0 Position With Rotate Y",
                                                     "typeIndex": 3,
                                                     "unsigned": true
                                                 },
                                                 {
                                                     "address": "807D7748",
                                                     "baseIndex": 0,
-                                                    "label": "MemCopy of Cam0 Position With Rotate Y",
+                                                    "label": "Memcopy of Cam0 Position With Rotate Y",
                                                     "typeIndex": 3,
                                                     "unsigned": true
                                                 },
                                                 {
                                                     "address": "807D77A4",
                                                     "baseIndex": 0,
-                                                    "label": "MemCopy of Cam0 Position With Rotate Y",
+                                                    "label": "Memcopy of Cam0 Position With Rotate Y",
                                                     "typeIndex": 3,
                                                     "unsigned": true
                                                 },
                                                 {
                                                     "address": "8056EEB0",
                                                     "baseIndex": 0,
-                                                    "label": "MemCopy of Cam0 Position With Rotate Y",
+                                                    "label": "Memcopy of Cam0 Position With Rotate Y",
                                                     "typeIndex": 3,
                                                     "unsigned": true
                                                 }
                                             ],
-                                            "groupName": "memcopies (used for different things)"
+                                            "groupName": "Memcopies of Cam0 Position With RotateY"
                                         },
                                         {
-                                            "address": "807D76BC",
-                                            "baseIndex": 0,
-                                            "label": "Camera0 Related, UNKNOWN",
-                                            "typeIndex": 3,
-                                            "unsigned": false
+                                            "groupEntries": [
+                                                {
+                                                    "address": "8056EEC0",
+                                                    "baseIndex": 0,
+                                                    "label": "Small Reads, Partner does not use",
+                                                    "typeIndex": 3,
+                                                    "unsigned": false
+                                                },
+                                                {
+                                                    "address": "807D7740",
+                                                    "baseIndex": 0,
+                                                    "label": "attachScreenToCamUses",
+                                                    "typeIndex": 3,
+                                                    "unsigned": true
+                                                },
+                                                {
+                                                    "address": "807D774C",
+                                                    "baseIndex": 0,
+                                                    "label": "Memcopy of Cam0 Position With RotateZ",
+                                                    "typeIndex": 3,
+                                                    "unsigned": true
+                                                },
+                                                {
+                                                    "address": "807D77A8",
+                                                    "baseIndex": 0,
+                                                    "label": "Memcopy of Cam0 Position With RotateZ",
+                                                    "typeIndex": 3,
+                                                    "unsigned": true
+                                                }
+                                            ],
+                                            "groupName": "Memcopies of Cam0 Position With RotateZ"
                                         }
                                     ],
-                                    "groupName": "Cam0 Velocity and memCopies"
+                                    "groupName": "Camera0 memcopies (used for different things)"
+                                },
+                                {
+                                    "address": "807D76BC",
+                                    "baseIndex": 0,
+                                    "label": "Camera0 Related, UNKNOWN",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "807D77E0",
+                                    "baseIndex": 0,
+                                    "label": "RO | Camera0 Position X",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "807D77E4",
+                                    "baseIndex": 0,
+                                    "label": "RO | Camera0 Position Y",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "807D77E8",
+                                    "baseIndex": 0,
+                                    "label": "RO | Camera0 Position Z",
+                                    "typeIndex": 3,
+                                    "unsigned": false
                                 }
                             ],
                             "groupName": "Camera0"
@@ -3296,75 +3144,42 @@
                         {
                             "groupEntries": [
                                 {
-                                    "address": "8056EEC0",
+                                    "address": "807D7860",
                                     "baseIndex": 0,
-                                    "label": "Small Reads, Partner does not use",
+                                    "label": "Cam1 Position X",
                                     "typeIndex": 3,
                                     "unsigned": false
                                 },
                                 {
-                                    "address": "807D7740",
+                                    "address": "807D79A8",
                                     "baseIndex": 0,
-                                    "label": "attachScreenToCamUses",
+                                    "label": "RO | Cam1 X  | Set obj controller",
                                     "typeIndex": 3,
                                     "unsigned": true
                                 },
                                 {
-                                    "address": "807D774C",
+                                    "address": "807D7990",
                                     "baseIndex": 0,
-                                    "label": "No label",
+                                    "label": "RO | Cam1 X | One with offset",
                                     "typeIndex": 3,
                                     "unsigned": true
                                 },
                                 {
-                                    "address": "807D77A8",
+                                    "address": "807D7994",
                                     "baseIndex": 0,
-                                    "label": "No label",
+                                    "label": "RO | P2 Y ?",
                                     "typeIndex": 3,
-                                    "unsigned": true
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "807D7998",
+                                    "baseIndex": 0,
+                                    "label": "RO | P2 Z ?",
+                                    "typeIndex": 3,
+                                    "unsigned": false
                                 }
                             ],
-                            "groupName": "All Cam0 PosWRotate Z Copies"
-                        },
-                        {
-                            "groupEntries": [
-                            ],
                             "groupName": "Camera1"
-                        },
-                        {
-                            "address": "807D7990",
-                            "baseIndex": 0,
-                            "label": "RO | P2 X ?",
-                            "typeIndex": 3,
-                            "unsigned": true
-                        },
-                        {
-                            "address": "807D79A8",
-                            "baseIndex": 0,
-                            "label": "RO | P2 X ?",
-                            "typeIndex": 3,
-                            "unsigned": true
-                        },
-                        {
-                            "address": "807D77E0",
-                            "baseIndex": 0,
-                            "label": "RO | Camera0 Position X",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "807D77E4",
-                            "baseIndex": 0,
-                            "label": "RO | Camera0 Position Y",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "807D77E8",
-                            "baseIndex": 0,
-                            "label": "RO | Camera0 Position Z",
-                            "typeIndex": 3,
-                            "unsigned": false
                         },
                         {
                             "address": "807D77FC",
@@ -3375,13 +3190,6 @@
                         }
                     ],
                     "groupName": "Cameras"
-                },
-                {
-                    "address": "807D7860",
-                    "baseIndex": 0,
-                    "label": "Cam1 Position X",
-                    "typeIndex": 3,
-                    "unsigned": false
                 },
                 {
                     "groupEntries": [
@@ -3422,27 +3230,6 @@
                     "groupName": "Split 2"
                 },
                 {
-                    "address": "807D76B0",
-                    "baseIndex": 0,
-                    "label": "Cam0 X",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D76B4",
-                    "baseIndex": 0,
-                    "label": "Cam0 Y",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D76B8",
-                    "baseIndex": 0,
-                    "label": "Cam0 Z",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
                     "groupEntries": [
                         {
                             "address": "804CECD0",
@@ -3468,6 +3255,27 @@
                         }
                     ],
                     "groupName": "CameraSetEditor"
+                },
+                {
+                    "address": "805F5CC8",
+                    "baseIndex": 0,
+                    "label": "camDistanceRelated?",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805EF88C",
+                    "baseIndex": 0,
+                    "label": "Camera reset distance",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "805EF890",
+                    "baseIndex": 0,
+                    "label": "Camera reset height",
+                    "typeIndex": 3,
+                    "unsigned": true
                 }
             ],
             "groupName": "Camera and Split Properties"
@@ -5322,6 +5130,110 @@
                         }
                     ],
                     "groupName": "SuperShadow Static Properties"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F7318",
+                            "baseIndex": 0,
+                            "label": "weaponDropSidewaysSpeed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F731C",
+                            "baseIndex": 0,
+                            "label": "weaponDropRelated",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F7320",
+                            "baseIndex": 0,
+                            "label": "weaponDropVSpeed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F7324",
+                            "baseIndex": 0,
+                            "label": "weaponDropRelated",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F7328",
+                            "baseIndex": 0,
+                            "label": "weaponDropThrowDistance",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F732C",
+                            "baseIndex": 0,
+                            "label": "weaponDropRelated",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F7330",
+                            "baseIndex": 0,
+                            "label": "droppedWeaponNeededStepAwayDistance",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "WeaponDrop Attributes"
+                },
+                {
+                    "address": "805F2700",
+                    "baseIndex": 0,
+                    "label": "Melee Travel While Swinging Speed",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F2704",
+                    "baseIndex": 0,
+                    "label": "Melee Rotation Speed",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F1FEC",
+                            "baseIndex": 0,
+                            "label": "Shadow Angle Based on Gravity?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F2BC4",
+                            "baseIndex": 0,
+                            "label": "relatedtocollisiondistancespacegadget",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F0340",
+                            "baseIndex": 0,
+                            "label": "gravitySignBoardDirection",
+                            "pointerOffsets": [
+                                "0"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8058436C",
+                            "baseIndex": 0,
+                            "label": "gravityXYZAngles[numOfIDs]",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "SpaceGadget GravityBoard Signs & Gravity Phys"
                 }
             ],
             "groupName": "Properties Affecting All Players"
@@ -10659,20 +10571,6 @@
                             "unsigned": false
                         },
                         {
-                            "address": "805EF88C",
-                            "baseIndex": 0,
-                            "label": "Camera reset distance",
-                            "typeIndex": 3,
-                            "unsigned": true
-                        },
-                        {
-                            "address": "805EF890",
-                            "baseIndex": 0,
-                            "label": "Camera reset height",
-                            "typeIndex": 3,
-                            "unsigned": true
-                        },
-                        {
                             "address": "805F268C",
                             "baseIndex": 0,
                             "label": "Walk turn speed",
@@ -12650,32 +12548,6 @@
                         }
                     ],
                     "groupName": "Stats"
-                },
-                {
-                    "groupEntries": [
-                        {
-                            "address": "807D77E0",
-                            "baseIndex": 0,
-                            "label": "X Pos Master",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "807D77E4",
-                            "baseIndex": 0,
-                            "label": "Y Pos Master",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "807D77E8",
-                            "baseIndex": 0,
-                            "label": "Z Pos Master",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "Position"
                 },
                 {
                     "groupEntries": [
