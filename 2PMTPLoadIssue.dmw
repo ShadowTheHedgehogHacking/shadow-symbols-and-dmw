@@ -1,18 +1,6 @@
 {
     "watchList": [
         {
-            "address": "80575FA8",
-            "baseIndex": 0,
-            "label": "0x64 characterID",
-            "pointerOffsets": [
-                "8",
-                "0",
-                "64"
-            ],
-            "typeIndex": 2,
-            "unsigned": false
-        },
-        {
             "address": "817F1F30",
             "baseIndex": 0,
             "label": "No label",
@@ -34,18 +22,6 @@
             "label": "new P2 address after Glyphic",
             "length": 155,
             "typeIndex": 5,
-            "unsigned": false
-        },
-        {
-            "address": "80575F54",
-            "baseIndex": 0,
-            "label": "p3 id",
-            "pointerOffsets": [
-                "0",
-                "0",
-                "64"
-            ],
-            "typeIndex": 2,
             "unsigned": false
         },
         {

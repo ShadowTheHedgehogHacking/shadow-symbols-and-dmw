@@ -1,20 +1,27 @@
 {
     "watchList": [
         {
+            "address": "805EE1D8",
+            "baseIndex": 0,
+            "label": "objectCount?",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
             "groupEntries": [
                 {
                     "groupEntries": [
                         {
                             "address": "805F29A8",
                             "baseIndex": 0,
-                            "label": "anglecollisionrelated",
+                            "label": "(Phys) Angle Collision Related",
                             "typeIndex": 3,
                             "unsigned": false
                         },
                         {
                             "address": "805F29A4",
                             "baseIndex": 0,
-                            "label": "minfriction",
+                            "label": "Min Friction",
                             "typeIndex": 3,
                             "unsigned": false
                         },
@@ -194,7 +201,7 @@
                 {
                     "address": "805F2BF8",
                     "baseIndex": 0,
-                    "label": " value to set ai timer to on 2p input",
+                    "label": "value to set ai timer to on 2p input",
                     "typeIndex": 3,
                     "unsigned": false
                 },
@@ -217,13 +224,6 @@
                     "baseIndex": 1,
                     "label": "No label",
                     "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "805F2C08",
-                    "baseIndex": 0,
-                    "label": "related to gun in hand rotation",
-                    "typeIndex": 3,
                     "unsigned": false
                 },
                 {
@@ -2062,6 +2062,18 @@
                         },
                         {
                             "address": "80575F54",
+                            "baseIndex": 0,
+                            "label": "0x64 CharacterID",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "64"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575F54",
                             "baseIndex": 1,
                             "label": "0x230 pMotion",
                             "pointerOffsets": [
@@ -2233,88 +2245,6 @@
                 {
                     "groupEntries": [
                         {
-                            "address": "805F936C",
-                            "baseIndex": 0,
-                            "label": "Super Shadow Float Speed",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F077C",
-                            "baseIndex": 0,
-                            "label": "Super Shadow Float VSpeed Friction?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F9350",
-                            "baseIndex": 0,
-                            "label": "Super Shadow HSpeed (Multiplier?)",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F9360",
-                            "baseIndex": 0,
-                            "label": "Super Shadow Turn Around Speed",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F9354",
-                            "baseIndex": 0,
-                            "label": "Super Shadow HSpeed?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F9364",
-                            "baseIndex": 0,
-                            "label": "Super Shadow Air Friction",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F9374",
-                            "baseIndex": 0,
-                            "label": "SuperShadow Unknown",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F9378",
-                            "baseIndex": 0,
-                            "label": "Super Shadow Turn Around Speed",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F2C80",
-                            "baseIndex": 0,
-                            "label": "Super Shadow Ring Loss Rate",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "SuperShadow Static Properties"
-                },
-                {
-                    "address": "805F2BE4",
-                    "baseIndex": 0,
-                    "label": "Idle Talk Time",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "805EE1D8",
-                    "baseIndex": 0,
-                    "label": "objectCount?",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "groupEntries": [
-                        {
                             "address": "805F7318",
                             "baseIndex": 0,
                             "label": "weaponDropSidewaysSpeed",
@@ -2388,13 +2318,6 @@
                     "unsigned": false
                 },
                 {
-                    "address": "805F6040",
-                    "baseIndex": 0,
-                    "label": "Animations Target FPS",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
                     "address": "805F1FEC",
                     "baseIndex": 0,
                     "label": "No label",
@@ -2406,13 +2329,6 @@
                     "baseIndex": 0,
                     "label": "secretDoorKeyUnlockSpeed",
                     "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "8057D6F0",
-                    "baseIndex": 0,
-                    "label": "targetFPS",
-                    "typeIndex": 2,
                     "unsigned": false
                 },
                 {
@@ -2468,72 +2384,9 @@
                     "unsigned": false
                 },
                 {
-                    "address": "805F28C0",
-                    "baseIndex": 0,
-                    "label": "coasterZOffset",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "805F28CC",
-                    "baseIndex": 0,
-                    "label": "coasterAttachDelay",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "805F4254",
-                    "baseIndex": 0,
-                    "label": "coasterXTiltAmount",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "805F4258",
-                    "baseIndex": 0,
-                    "label": "coasterTiltSpeed",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "805E458C",
-                    "baseIndex": 0,
-                    "label": "friction",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "805E4588",
-                    "baseIndex": 0,
-                    "label": "airKickGravity",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "805E4580",
-                    "baseIndex": 0,
-                    "label": "airDecel",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "805E4584",
-                    "baseIndex": 0,
-                    "label": "jumpHeightRelated",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
                     "address": "805F803C",
                     "baseIndex": 0,
                     "label": "maybe sonic range?",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "805F28C0",
-                    "baseIndex": 0,
-                    "label": "coasterStaticFloat",
                     "typeIndex": 3,
                     "unsigned": false
                 },
@@ -2552,16 +2405,44 @@
                     "unsigned": false
                 },
                 {
-                    "address": "805FAD38",
-                    "baseIndex": 0,
-                    "label": "globalRot?",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
                     "groupEntries": [
                         {
                             "groupEntries": [
+                                {
+                                    "address": "805F28C0",
+                                    "baseIndex": 0,
+                                    "label": "coasterZOffset",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F28CC",
+                                    "baseIndex": 0,
+                                    "label": "coasterAttachDelay",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F4254",
+                                    "baseIndex": 0,
+                                    "label": "coasterXTiltAmount",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F4258",
+                                    "baseIndex": 0,
+                                    "label": "coasterTiltSpeed",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F28C0",
+                                    "baseIndex": 0,
+                                    "label": "coasterStaticFloat",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
                                 {
                                     "address": "805F18E4",
                                     "baseIndex": 0,
@@ -3419,7 +3300,7 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 0,
-                            "label": "P1 CharacterID (PlayerStruct layer)",
+                            "label": "P1 0x64 CharacterID (PlayerStruct layer)",
                             "pointerOffsets": [
                                 "0",
                                 "0",
@@ -5212,6 +5093,13 @@
         {
             "groupEntries": [
                 {
+                    "address": "805F2C08",
+                    "baseIndex": 0,
+                    "label": "related to gun in hand rotation",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
                     "address": "805E498C",
                     "baseIndex": 0,
                     "label": "0=CannotShoot; 1= CanShoot",
@@ -5605,6 +5493,74 @@
                     "label": "Chaos Blast Damage",
                     "typeIndex": 3,
                     "unsigned": true
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F936C",
+                            "baseIndex": 0,
+                            "label": "Super Shadow Float Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F077C",
+                            "baseIndex": 0,
+                            "label": "Super Shadow Float VSpeed Friction?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9350",
+                            "baseIndex": 0,
+                            "label": "Super Shadow HSpeed (Multiplier?)",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9360",
+                            "baseIndex": 0,
+                            "label": "Super Shadow Turn Around Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9354",
+                            "baseIndex": 0,
+                            "label": "Super Shadow HSpeed?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9364",
+                            "baseIndex": 0,
+                            "label": "Super Shadow Air Friction",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9374",
+                            "baseIndex": 0,
+                            "label": "Super Shadow Unknown",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9378",
+                            "baseIndex": 0,
+                            "label": "Super Shadow Turn Around Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F2C80",
+                            "baseIndex": 0,
+                            "label": "Super Shadow Ring Loss Rate",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "SuperShadow Static Properties"
                 }
             ],
             "groupName": "Properties Affecting All Players"
@@ -5899,13 +5855,6 @@
                             "unsigned": false
                         },
                         {
-                            "address": "805EE38C",
-                            "baseIndex": 0,
-                            "label": "No label",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
                             "address": "805EE3B8",
                             "baseIndex": 0,
                             "label": "No label",
@@ -6130,23 +6079,9 @@
                             "unsigned": false
                         },
                         {
-                            "address": "805F29A8",
-                            "baseIndex": 0,
-                            "label": "uh?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
                             "address": "805F29AC",
                             "baseIndex": 0,
                             "label": "No label",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F29B0",
-                            "baseIndex": 0,
-                            "label": "uh?",
                             "typeIndex": 3,
                             "unsigned": false
                         },
@@ -9651,7 +9586,7 @@
                         {
                             "address": "805F293C",
                             "baseIndex": 0,
-                            "label": "Trinagle Jump Angled Value?",
+                            "label": "Triangle Jump Angled Value?",
                             "typeIndex": 3,
                             "unsigned": false
                         },
@@ -9770,7 +9705,7 @@
                         {
                             "address": "805F2A20",
                             "baseIndex": 0,
-                            "label": "Ground Coll. Value?",
+                            "label": "Ground Col. Value?",
                             "typeIndex": 3,
                             "unsigned": false
                         },
@@ -9861,16 +9796,9 @@
                         {
                             "address": "805F2BE4",
                             "baseIndex": 0,
-                            "label": "Idle1 wait",
+                            "label": "Idle Talk Time",
                             "typeIndex": 3,
                             "unsigned": true
-                        },
-                        {
-                            "address": "805F2BE4",
-                            "baseIndex": 0,
-                            "label": "Idle Voice Timer?",
-                            "typeIndex": 3,
-                            "unsigned": false
                         },
                         {
                             "address": "805F2BF4",
@@ -10867,35 +10795,35 @@
                         {
                             "address": "805E4580",
                             "baseIndex": 0,
-                            "label": "Air friction",
+                            "label": "Air Friction [-0x6EC0 (r13)]",
                             "typeIndex": 3,
                             "unsigned": false
                         },
                         {
                             "address": "805E4584",
                             "baseIndex": 0,
-                            "label": "Gravity/Jump modifier",
+                            "label": "Gravity/Jump modifier [-0x6EBC (r13)]",
                             "typeIndex": 3,
                             "unsigned": false
                         },
                         {
                             "address": "805E4588",
                             "baseIndex": 0,
-                            "label": "Jump Attack Friction",
+                            "label": "Jump Attack Friction [-0x6EB8 (r13)]",
                             "typeIndex": 3,
                             "unsigned": false
                         },
                         {
                             "address": "805E458C",
                             "baseIndex": 0,
-                            "label": "Run friction",
+                            "label": "Ground | Run Friction [-0x6EB4 (r13)]",
                             "typeIndex": 3,
                             "unsigned": true
                         },
                         {
                             "address": "805E4590",
                             "baseIndex": 0,
-                            "label": "Slide/Spindash friction",
+                            "label": "Slide/Spindash friction [-0x6EB0 (r13)]",
                             "typeIndex": 3,
                             "unsigned": false
                         },
@@ -11469,42 +11397,54 @@
         {
             "groupEntries": [
                 {
-                    "address": "805F5DB0",
+                    "groupEntries": [
+                        {
+                            "address": "805F5DB0",
+                            "baseIndex": 0,
+                            "label": "cutscene-double",
+                            "typeIndex": 4,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5DA8",
+                            "baseIndex": 0,
+                            "label": "float in 801d1fcc event related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F4C6C",
+                            "baseIndex": 0,
+                            "label": "ev camera float fps?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F4C70",
+                            "baseIndex": 0,
+                            "label": "cutscene-double-2nd instance",
+                            "typeIndex": 4,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "60FPS Cutscenes Research"
+                },
+                {
+                    "address": "805F6040",
                     "baseIndex": 0,
-                    "label": "cutscene-double",
-                    "typeIndex": 4,
+                    "label": "Animations Target FPS",
+                    "typeIndex": 3,
                     "unsigned": false
                 },
                 {
                     "address": "8057D6F0",
                     "baseIndex": 0,
-                    "label": "global targetFPS",
+                    "label": "Global Target FPS",
                     "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "805F5DA8",
-                    "baseIndex": 0,
-                    "label": "float in 801d1fcc event related",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "805F4C6C",
-                    "baseIndex": 0,
-                    "label": "ev camera float fps?",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "805F4C70",
-                    "baseIndex": 0,
-                    "label": "cutscene-double-2nd instance",
-                    "typeIndex": 4,
                     "unsigned": false
                 }
             ],
-            "groupName": "60FPS Cutscenes Research"
+            "groupName": "Core Globals"
         },
         {
             "address": "807D24D8",
@@ -24839,41 +24779,6 @@
             "groupName": "Zetti"
         },
         {
-            "address": "805E4590",
-            "baseIndex": 0,
-            "label": "PhysCalc -0x6EB0 (r13)",
-            "typeIndex": 3,
-            "unsigned": false
-        },
-        {
-            "address": "805E458C",
-            "baseIndex": 0,
-            "label": "PhysCalc -0x6EB4 (r13)",
-            "typeIndex": 3,
-            "unsigned": false
-        },
-        {
-            "address": "805E4588",
-            "baseIndex": 0,
-            "label": "PhysCalc -0x6EB8 (r13)",
-            "typeIndex": 3,
-            "unsigned": false
-        },
-        {
-            "address": "805E4580",
-            "baseIndex": 0,
-            "label": "PhysCalc -0x6EC0 (r13)",
-            "typeIndex": 3,
-            "unsigned": false
-        },
-        {
-            "address": "805E4584",
-            "baseIndex": 0,
-            "label": "PhysCalc -0x6EBC (r13)",
-            "typeIndex": 3,
-            "unsigned": false
-        },
-        {
             "address": "8131E368",
             "baseIndex": 0,
             "label": "No label",
@@ -24935,6 +24840,100 @@
             "label": "No label",
             "typeIndex": 3,
             "unsigned": false
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "80580174",
+                    "baseIndex": 0,
+                    "label": "Static Fog File Pointer",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80580174",
+                    "baseIndex": 0,
+                    "label": "Fog Wall Distance",
+                    "pointerOffsets": [
+                        "14"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80580174",
+                    "baseIndex": 0,
+                    "label": "Fog Flag",
+                    "pointerOffsets": [
+                        "18"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80580174",
+                    "baseIndex": 0,
+                    "label": "Fog Fade Distance",
+                    "pointerOffsets": [
+                        "1C"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80580174",
+                    "baseIndex": 1,
+                    "label": "BG Blue",
+                    "pointerOffsets": [
+                        "24"
+                    ],
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "80580174",
+                    "baseIndex": 1,
+                    "label": "BG Green / Fog Red",
+                    "pointerOffsets": [
+                        "25"
+                    ],
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "80580174",
+                    "baseIndex": 1,
+                    "label": "BG Red / Fog Green",
+                    "pointerOffsets": [
+                        "26"
+                    ],
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "804ABF00",
+                    "baseIndex": 1,
+                    "label": "Editable as Word (Gecko Code Required)",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805E3210",
+                    "baseIndex": 0,
+                    "label": "BG Base Pointer",
+                    "length": 55,
+                    "typeIndex": 5,
+                    "unsigned": false
+                },
+                {
+                    "address": "805E3228",
+                    "baseIndex": 1,
+                    "label": "BG Base Pointer",
+                    "typeIndex": 2,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Fog"
         }
     ]
 }
