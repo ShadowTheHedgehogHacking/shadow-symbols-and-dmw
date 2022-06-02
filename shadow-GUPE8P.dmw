@@ -1,6 +1,194 @@
 {
     "watchList": [
         {
+            "groupEntries": [
+                {
+                    "address": "804C4A18",
+                    "baseIndex": 0,
+                    "label": "Stage table: stg0000 slot data",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804C4B58",
+                    "baseIndex": 0,
+                    "label": "Stage table: stg0005 slot data",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804C4BA8",
+                    "baseIndex": 0,
+                    "label": "Stage table: stg0100 slot data",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804C4BF8",
+                    "baseIndex": 0,
+                    "label": "Stage table: stg0200 slot data",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804C4C48",
+                    "baseIndex": 0,
+                    "label": "Stage table: stg0201 slot data",
+                    "typeIndex": 2,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Stage table"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "8055F600",
+                    "baseIndex": 0,
+                    "label": "Expert stage association 0",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8055F604",
+                    "baseIndex": 0,
+                    "label": "Expert stage association 1",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8055F608",
+                    "baseIndex": 0,
+                    "label": "Expert stage association 2",
+                    "typeIndex": 2,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Expert stage association IDs"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "80576988",
+                    "baseIndex": 0,
+                    "label": "Story Continue progress",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "8057698C",
+                    "baseIndex": 1,
+                    "label": "Story progress slot 0",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80576990",
+                    "baseIndex": 1,
+                    "label": "Story progress slot 1",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80576994",
+                    "baseIndex": 1,
+                    "label": "Story progress slot 2",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80576998",
+                    "baseIndex": 1,
+                    "label": "Story progress slot 3",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057699C",
+                    "baseIndex": 1,
+                    "label": "Story progress slot 4",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805769A0",
+                    "baseIndex": 1,
+                    "label": "Story progress slot 5",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805769A4",
+                    "baseIndex": 1,
+                    "label": "Story progress slot 6",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "805769A8",
+                    "baseIndex": 1,
+                    "label": "Story progress slot 7",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805769AC",
+                    "baseIndex": 1,
+                    "label": "Story progress slot 8",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805769B0",
+                    "baseIndex": 1,
+                    "label": "Story progress slot 9",
+                    "typeIndex": 2,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Story progress tracking"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "805769F7",
+                    "baseIndex": 0,
+                    "label": "Expert progress",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804C4BA8",
+                    "baseIndex": 0,
+                    "label": "Expert stage 0",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804C4BF8",
+                    "baseIndex": 0,
+                    "label": "Expert stage 1",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804C4C48",
+                    "baseIndex": 0,
+                    "label": "Expert stage 2",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804C4C98",
+                    "baseIndex": 0,
+                    "label": "Expert stage 3",
+                    "typeIndex": 2,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Expert progress tracking"
+        },
+        {
             "address": "805EE1D8",
             "baseIndex": 0,
             "label": "objectCount?",
