@@ -2626,344 +2626,6 @@
         {
             "groupEntries": [
                 {
-                    "address": "805766F0",
-                    "baseIndex": 0,
-                    "label": "No label",
-                    "typeIndex": 2,
-                    "unsigned": true
-                },
-                {
-                    "address": "805766F4",
-                    "baseIndex": 0,
-                    "label": "No label",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "805766F8",
-                    "baseIndex": 0,
-                    "label": "No label",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "805EE2E8",
-                    "baseIndex": 0,
-                    "label": "DeathCamStuff?",
-                    "pointerOffsets": [
-                        "0"
-                    ],
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D7990",
-                    "baseIndex": 0,
-                    "label": "RO | P2 X ?",
-                    "typeIndex": 3,
-                    "unsigned": true
-                },
-                {
-                    "address": "807D79A8",
-                    "baseIndex": 0,
-                    "label": "RO | P2 X ?",
-                    "typeIndex": 3,
-                    "unsigned": true
-                },
-                {
-                    "address": "807D77E0",
-                    "baseIndex": 0,
-                    "label": "RO | P1 X position",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D77E4",
-                    "baseIndex": 0,
-                    "label": "RO | P1 Y position",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D77E8",
-                    "baseIndex": 0,
-                    "label": "RO | P1 Z position",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D76B0",
-                    "baseIndex": 0,
-                    "label": "Cam0 Position With Rotate X",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D76B4",
-                    "baseIndex": 0,
-                    "label": "Cam0 Position With Rotate Y",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D76B8",
-                    "baseIndex": 0,
-                    "label": "Cam0 Position With Rotate Z",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D77E0",
-                    "baseIndex": 0,
-                    "label": "RO | P1 Position X",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D77E4",
-                    "baseIndex": 0,
-                    "label": "RO | P1 Position Y",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D77E8",
-                    "baseIndex": 0,
-                    "label": "RO | P1 Position Z",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D77FC",
-                    "baseIndex": 0,
-                    "label": "ReadFrom Cam0 Y (Glyphic Canyon)",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D7990",
-                    "baseIndex": 0,
-                    "label": "RO | Cam1X | One with offset",
-                    "typeIndex": 3,
-                    "unsigned": true
-                },
-                {
-                    "address": "807D79A8",
-                    "baseIndex": 0,
-                    "label": "RO | Cam1 X  | Set obj controller",
-                    "typeIndex": 3,
-                    "unsigned": true
-                },
-                {
-                    "address": "807D7994",
-                    "baseIndex": 0,
-                    "label": "RO | P2 Y ?",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D7998",
-                    "baseIndex": 0,
-                    "label": "RO | P2 Z ?",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D77E4",
-                    "baseIndex": 0,
-                    "label": "RO | Cam0 Y position",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D77E0",
-                    "baseIndex": 0,
-                    "label": "RO | Cam0 X position",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D77E8",
-                    "baseIndex": 0,
-                    "label": "RO | Cam0 Z position",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D7860",
-                    "baseIndex": 0,
-                    "label": "P2 PositionMaybe",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "groupEntries": [
-                        {
-                            "address": "8057D83F",
-                            "baseIndex": 0,
-                            "label": "??Lock Controls?",
-                            "typeIndex": 0,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "8057D7EA",
-                            "baseIndex": 0,
-                            "label": "??maybe related 3",
-                            "typeIndex": 0,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "8057D76F",
-                            "baseIndex": 0,
-                            "label": "??maybe related to 2P?",
-                            "typeIndex": 0,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "8057D771",
-                            "baseIndex": 0,
-                            "label": "??somehow related 2P",
-                            "typeIndex": 0,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "8057D752",
-                            "baseIndex": 0,
-                            "label": "Game Mode (0 = story, 1= 2P battle)",
-                            "typeIndex": 0,
-                            "unsigned": true
-                        },
-                        {
-                            "address": "8057D7E8",
-                            "baseIndex": 0,
-                            "label": "Hide HUD (not subtitles)",
-                            "typeIndex": 0,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "8057D768",
-                            "baseIndex": 0,
-                            "label": "Pause timer when paused",
-                            "typeIndex": 0,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "dreamsyntaxwatches"
-                },
-                {
-                    "address": "807D783A",
-                    "baseIndex": 0,
-                    "label": "0 = normal, 2 = spindash, 8 = zipline, 64 = wallcling, 128 = in air",
-                    "typeIndex": 0,
-                    "unsigned": true
-                },
-                {
-                    "groupEntries": [
-                        {
-                            "address": "805EF2A8",
-                            "baseIndex": 0,
-                            "label": "EV_CurrentFrame",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F4C48",
-                            "baseIndex": 0,
-                            "label": "EV_FramesPerSecond",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F4C4C",
-                            "baseIndex": 0,
-                            "label": "EV_Unknown_60",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805EF2B5",
-                            "baseIndex": 1,
-                            "label": "EV_CutsceneItemsWarp",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "EventCutsceneState"
-                },
-                {
-                    "address": "8057D748",
-                    "baseIndex": 0,
-                    "label": "Current Stage ID",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D24E8",
-                    "baseIndex": 0,
-                    "label": "NumberOfShotsOnScreen(IncludesEnemyShooting)",
-                    "typeIndex": 2,
-                    "unsigned": true
-                },
-                {
-                    "groupEntries": [
-                        {
-                            "address": "805766EC",
-                            "baseIndex": 0,
-                            "label": "UI State (Rings, Weapon etc)",
-                            "typeIndex": 2,
-                            "unsigned": true
-                        },
-                        {
-                            "address": "8057673B",
-                            "baseIndex": 0,
-                            "label": "UI X button State - 0 none, 1 ringdash, 2 pickupbox",
-                            "typeIndex": 0,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "8057D7D4",
-                            "baseIndex": 0,
-                            "label": "P1 Win Count/Graphic",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "8057673B",
-                            "baseIndex": 0,
-                            "label": "UI X button State - 0 none, 1 ringdash, 2 pickupbox",
-                            "typeIndex": 0,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "8057D7D4",
-                            "baseIndex": 0,
-                            "label": "P1 Win Count/Graphic",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "UI"
-                },
-                {
-                    "address": "805E4968",
-                    "baseIndex": 0,
-                    "label": "No label",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "805E4994",
-                    "baseIndex": 0,
-                    "label": "No label",
-                    "typeIndex": 3,
-                    "unsigned": false
-                }
-            ],
-            "groupName": "GroupOther SORT ME DONT DELETE"
-        },
-        {
-            "groupEntries": [
-                {
                     "address": "8058454F",
                     "baseIndex": 0,
                     "label": "Menu Cursor (0= 1P ...)",
@@ -3019,13 +2681,6 @@
                 }
             ],
             "groupName": "EventCutsceneState"
-        },
-        {
-            "address": "8057D768",
-            "baseIndex": 0,
-            "label": "FreezeControlOnSeeingPartner/ChaosControl/PauseGame",
-            "typeIndex": 0,
-            "unsigned": false
         },
         {
             "groupEntries": [
@@ -3109,14 +2764,7 @@
                         {
                             "address": "8057D768",
                             "baseIndex": 0,
-                            "label": "FreezeControlOnSeeingPartner/ChaosControl/PauseGame",
-                            "typeIndex": 0,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "8057D768",
-                            "baseIndex": 0,
-                            "label": "Pause timer when paused",
+                            "label": "FreezeControlOnSeeingPartner/ChaosControl/PauseGame | Pause Timer when Paused",
                             "typeIndex": 0,
                             "unsigned": false
                         }
@@ -3700,21 +3348,21 @@
                         {
                             "address": "807D77E0",
                             "baseIndex": 0,
-                            "label": "RO | P1 Position X",
+                            "label": "RO | Camera0 Position X",
                             "typeIndex": 3,
                             "unsigned": false
                         },
                         {
                             "address": "807D77E4",
                             "baseIndex": 0,
-                            "label": "RO | P1 Position Y",
+                            "label": "RO | Camera0 Position Y",
                             "typeIndex": 3,
                             "unsigned": false
                         },
                         {
                             "address": "807D77E8",
                             "baseIndex": 0,
-                            "label": "RO | P1 Position Z",
+                            "label": "RO | Camera0 Position Z",
                             "typeIndex": 3,
                             "unsigned": false
                         },
@@ -5774,45 +5422,45 @@
         {
             "groupEntries": [
                 {
-                    "groupEntries": [
-                        {
-                            "address": "805766EC",
-                            "baseIndex": 0,
-                            "label": "P1 UI State (Rings, Weapon etc)",
-                            "typeIndex": 2,
-                            "unsigned": true
-                        },
-                        {
-                            "address": "8057673B",
-                            "baseIndex": 0,
-                            "label": "UI X button State - 0 none, 1 ringdash, 2 pickupbox, 9 android",
-                            "typeIndex": 0,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "8057D7D4",
-                            "baseIndex": 0,
-                            "label": "P1 Win Count/Graphic",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "8057D7D8",
-                            "baseIndex": 0,
-                            "label": "P2 Win Count/Graphic",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "8057D7E8",
-                            "baseIndex": 0,
-                            "label": "Hide HUD (not subtitles)",
-                            "typeIndex": 0,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "UI"
+                    "address": "8057D7E8",
+                    "baseIndex": 0,
+                    "label": "HUD Visible (does not include subtitles)",
+                    "typeIndex": 0,
+                    "unsigned": false
                 },
+                {
+                    "address": "805766EC",
+                    "baseIndex": 0,
+                    "label": "P1 UI State (Rings, Weapon etc)",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "8057673B",
+                    "baseIndex": 0,
+                    "label": "UI X button State - 0 none, 1 ringdash, 2 pickupbox, 9 android",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057D7D4",
+                    "baseIndex": 0,
+                    "label": "P1 Win Count/Graphic",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057D7D8",
+                    "baseIndex": 0,
+                    "label": "P2 Win Count/Graphic",
+                    "typeIndex": 2,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "UI"
+        },
+        {
+            "groupEntries": [
                 {
                     "address": "80576710",
                     "baseIndex": 0,
@@ -9260,13 +8908,6 @@
                             "baseIndex": 0,
                             "label": "Splitscreen split 2",
                             "typeIndex": 0,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "8057D748",
-                            "baseIndex": 0,
-                            "label": "Current Stage ID",
-                            "typeIndex": 2,
                             "unsigned": false
                         },
                         {
@@ -13038,13 +12679,6 @@
                 },
                 {
                     "groupEntries": [
-                        {
-                            "address": "8057D748",
-                            "baseIndex": 0,
-                            "label": "Stage ID",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        },
                         {
                             "address": "8057D7C4",
                             "baseIndex": 1,
@@ -24179,13 +23813,6 @@
                     "unsigned": false
                 },
                 {
-                    "address": "8057D768",
-                    "baseIndex": 0,
-                    "label": "Stop Time and Shadow",
-                    "typeIndex": 0,
-                    "unsigned": false
-                },
-                {
                     "address": "80578020",
                     "baseIndex": 0,
                     "label": "Last Story Unlocked",
@@ -24240,34 +23867,6 @@
                     "label": "Weapons In Save",
                     "typeIndex": 1,
                     "unsigned": true
-                },
-                {
-                    "address": "812ABEA8",
-                    "baseIndex": 1,
-                    "label": "????????",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "812ABE98",
-                    "baseIndex": 0,
-                    "label": "True Pos X",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "812ABE9C",
-                    "baseIndex": 0,
-                    "label": "True Pos Y",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "812ABEA0",
-                    "baseIndex": 0,
-                    "label": "True Pos Z",
-                    "typeIndex": 3,
-                    "unsigned": false
                 },
                 {
                     "groupEntries": [
@@ -24416,130 +24015,6 @@
                         }
                     ],
                     "groupName": "Egg Dealer Values"
-                },
-                {
-                    "address": "8057D7E8",
-                    "baseIndex": 0,
-                    "label": "HUD Visible",
-                    "typeIndex": 0,
-                    "unsigned": false
-                },
-                {
-                    "address": "80B49248",
-                    "baseIndex": 3,
-                    "label": "DiablonSheildPureHero",
-                    "pointerOffsets": [
-                        "5CE"
-                    ],
-                    "typeIndex": 0,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D442C",
-                    "baseIndex": 0,
-                    "label": "EggDealerNeutralHealth1",
-                    "pointerOffsets": [
-                        "108"
-                    ],
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D449C",
-                    "baseIndex": 0,
-                    "label": "EggDealerNeutralHealth2",
-                    "pointerOffsets": [
-                        "108"
-                    ],
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D56E0",
-                    "baseIndex": 0,
-                    "label": "EggDealerNeutralHealth3",
-                    "pointerOffsets": [
-                        "108"
-                    ],
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D5E00",
-                    "baseIndex": 0,
-                    "label": "EggDealerNeutralHealth4",
-                    "pointerOffsets": [
-                        "108"
-                    ],
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D6260",
-                    "baseIndex": 0,
-                    "label": "EggDealerNeutralHealth5",
-                    "pointerOffsets": [
-                        "108"
-                    ],
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D64A0",
-                    "baseIndex": 0,
-                    "label": "EggDealerNeutralHealth6",
-                    "pointerOffsets": [
-                        "108"
-                    ],
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D6650",
-                    "baseIndex": 0,
-                    "label": "EggDealerNeutralHealth7",
-                    "pointerOffsets": [
-                        "108"
-                    ],
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "8099EFB4",
-                    "baseIndex": 0,
-                    "label": "EggDealerNeutralHealth8",
-                    "pointerOffsets": [
-                        "108"
-                    ],
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "8099EFF4",
-                    "baseIndex": 0,
-                    "label": "EggDealerNeutralHealth9",
-                    "pointerOffsets": [
-                        "108"
-                    ],
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "8099F014",
-                    "baseIndex": 0,
-                    "label": "EggDealerNeutralHealth10",
-                    "pointerOffsets": [
-                        "108"
-                    ],
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "8057D771",
-                    "baseIndex": 0,
-                    "label": "Test1",
-                    "typeIndex": 0,
-                    "unsigned": false
                 }
             ],
             "groupName": "Zetti"
