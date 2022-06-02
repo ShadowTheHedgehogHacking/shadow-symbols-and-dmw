@@ -2513,13 +2513,6 @@
                     "unsigned": false
                 },
                 {
-                    "address": "805F3D1C",
-                    "baseIndex": 0,
-                    "label": "secretDoorKeyUnlockSpeed",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
                     "address": "805F2BC4",
                     "baseIndex": 0,
                     "label": "relatedtocollisiondistancespacegadget",
@@ -2540,13 +2533,6 @@
                     "pointerOffsets": [
                         "0"
                     ],
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "805EE588",
-                    "baseIndex": 0,
-                    "label": "mainPlayerID",
                     "typeIndex": 2,
                     "unsigned": false
                 },
@@ -2593,138 +2579,6 @@
                     "unsigned": false
                 },
                 {
-                    "groupEntries": [
-                        {
-                            "groupEntries": [
-                                {
-                                    "address": "805F28C0",
-                                    "baseIndex": 0,
-                                    "label": "coasterZOffset",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F28CC",
-                                    "baseIndex": 0,
-                                    "label": "coasterAttachDelay",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F4254",
-                                    "baseIndex": 0,
-                                    "label": "coasterXTiltAmount",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F4258",
-                                    "baseIndex": 0,
-                                    "label": "coasterTiltSpeed",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F28C0",
-                                    "baseIndex": 0,
-                                    "label": "coasterStaticFloat",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F18E4",
-                                    "baseIndex": 0,
-                                    "label": "No label",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F18E8",
-                                    "baseIndex": 0,
-                                    "label": "No label",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F18EC",
-                                    "baseIndex": 0,
-                                    "label": "No label",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F18F0",
-                                    "baseIndex": 0,
-                                    "label": "No label",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F18F4",
-                                    "baseIndex": 0,
-                                    "label": "No label",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F4268",
-                                    "baseIndex": 0,
-                                    "label": "unknownCoasterRelated",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F4264",
-                                    "baseIndex": 0,
-                                    "label": "coasterScale",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F4260",
-                                    "baseIndex": 0,
-                                    "label": "coasterTiltMaxRadiusDivisorMaybe",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F425C",
-                                    "baseIndex": 0,
-                                    "label": "somethingCoasterRelated",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805EEEC0",
-                                    "baseIndex": 0,
-                                    "label": "No label",
-                                    "pointerOffsets": [
-                                        "0"
-                                    ],
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F4258",
-                                    "baseIndex": 0,
-                                    "label": "coasterRotRelated",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F4254",
-                                    "baseIndex": 0,
-                                    "label": "coasterScale",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                }
-                            ],
-                            "groupName": "Static"
-                        }
-                    ],
-                    "groupName": "Coaster"
-                },
-                {
                     "address": "805F30A8",
                     "baseIndex": 0,
                     "label": "No label",
@@ -2756,59 +2610,6 @@
                     "address": "805F2704",
                     "baseIndex": 0,
                     "label": "Melee Rotation Speed",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "807D866C",
-                    "baseIndex": 1,
-                    "label": "Master Shadow.one Handler",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "805F13B0",
-                    "baseIndex": 1,
-                    "label": "Master MTP/BON Load Address for Shadow",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "805F12E8",
-                    "baseIndex": 0,
-                    "label": "Important Free/Malloc Control Byte",
-                    "typeIndex": 0,
-                    "unsigned": false
-                },
-                {
-                    "address": "805A5240",
-                    "baseIndex": 1,
-                    "label": "Heap Linked List?",
-                    "pointerOffsets": [
-                        "0",
-                        "0",
-                        "0",
-                        "0",
-                        "0",
-                        "0",
-                        "0",
-                        "0",
-                        "0"
-                    ],
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "8058585C",
-                    "baseIndex": 0,
-                    "label": "Pad2Mouse Flag",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "805FAD38",
-                    "baseIndex": 0,
-                    "label": "Global.PI",
                     "typeIndex": 3,
                     "unsigned": false
                 }
@@ -4968,6 +4769,13 @@
                             "label": "Another KeyDoor Open Distance",
                             "typeIndex": 3,
                             "unsigned": false
+                        },
+                        {
+                            "address": "805F3D1C",
+                            "baseIndex": 0,
+                            "label": "Key Unlock Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
                         }
                     ],
                     "groupName": "Secret Key Door"
@@ -5274,6 +5082,123 @@
                         }
                     ],
                     "groupName": "GUN Robot"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F28C0",
+                            "baseIndex": 0,
+                            "label": "coasterZOffset",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F28CC",
+                            "baseIndex": 0,
+                            "label": "coasterAttachDelay",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F4254",
+                            "baseIndex": 0,
+                            "label": "coasterXTiltAmount",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F4258",
+                            "baseIndex": 0,
+                            "label": "coasterTiltSpeed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F28C0",
+                            "baseIndex": 0,
+                            "label": "coasterStaticFloat",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F18E4",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F18E8",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F18EC",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F18F0",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F18F4",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F4268",
+                            "baseIndex": 0,
+                            "label": "unknownCoasterRelated",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F4264",
+                            "baseIndex": 0,
+                            "label": "coasterScale",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F4260",
+                            "baseIndex": 0,
+                            "label": "coasterTiltMaxRadiusDivisorMaybe",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F425C",
+                            "baseIndex": 0,
+                            "label": "somethingCoasterRelated",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F4258",
+                            "baseIndex": 0,
+                            "label": "coasterRotRelated",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F4254",
+                            "baseIndex": 0,
+                            "label": "coasterScale",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Coaster"
                 }
             ],
             "groupName": "SETObjs_Specifics"
@@ -11628,6 +11553,66 @@
                     "address": "8057D6F0",
                     "baseIndex": 0,
                     "label": "Global Target FPS",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8058585C",
+                    "baseIndex": 0,
+                    "label": "Pad2Mouse Flag",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805FAD38",
+                    "baseIndex": 0,
+                    "label": "Global.PI",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "807D866C",
+                    "baseIndex": 1,
+                    "label": "Master Shadow.one Handler",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F13B0",
+                    "baseIndex": 1,
+                    "label": "Master MTP/BON Load Address for Shadow",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F12E8",
+                    "baseIndex": 0,
+                    "label": "Important Free/Malloc Control Byte",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "805A5240",
+                    "baseIndex": 1,
+                    "label": "Heap Linked List?",
+                    "pointerOffsets": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805EE588",
+                    "baseIndex": 0,
+                    "label": "mainPlayerID",
                     "typeIndex": 2,
                     "unsigned": false
                 }

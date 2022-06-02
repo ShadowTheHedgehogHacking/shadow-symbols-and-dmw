@@ -1,6 +1,413 @@
 {
     "watchList": [
         {
+            "groupEntries": [
+                {
+                    "address": "8099EFA8",
+                    "baseIndex": 0,
+                    "label": "Obj1nes2",
+                    "pointerOffsets": [
+                        "24"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8099EFA8",
+                    "baseIndex": 0,
+                    "label": "obj1Nex",
+                    "pointerOffsets": [
+                        "20"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8099EFA8",
+                    "baseIndex": 0,
+                    "label": "ObjectState Context",
+                    "pointerOffsets": [
+                        "44"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8099EFA8",
+                    "baseIndex": 0,
+                    "label": "r3 SetObjData",
+                    "pointerOffsets": [
+                        "0"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8099EFA8",
+                    "baseIndex": 0,
+                    "label": "r3 SetObjData +2C (object #2) X",
+                    "pointerOffsets": [
+                        "2C"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8099EFA8",
+                    "baseIndex": 0,
+                    "label": "RotX 809AF014",
+                    "pointerOffsets": [
+                        "C"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8099EFA8",
+                    "baseIndex": 0,
+                    "label": "RotY",
+                    "pointerOffsets": [
+                        "10"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8099EFA8",
+                    "baseIndex": 0,
+                    "label": "RotZ",
+                    "pointerOffsets": [
+                        "14"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8099EFA8",
+                    "baseIndex": 0,
+                    "label": "Unknown",
+                    "length": 55,
+                    "pointerOffsets": [
+                        "18"
+                    ],
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "8099EFA8",
+                    "baseIndex": 0,
+                    "label": "X",
+                    "pointerOffsets": [
+                        "0"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8099EFA8",
+                    "baseIndex": 0,
+                    "label": "Y",
+                    "pointerOffsets": [
+                        "4"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8099EFA8",
+                    "baseIndex": 0,
+                    "label": "Z",
+                    "pointerOffsets": [
+                        "8"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "SETObjManagerTemplateGen"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "80573B7C",
+                    "baseIndex": 0,
+                    "label": "THE BUFFER? CurrentMemory In Use?",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "80573B78",
+                    "baseIndex": 0,
+                    "label": "BufferReferenceOffset",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "807D4AE0",
+                    "baseIndex": 0,
+                    "label": "TheBufferBctrlParent",
+                    "length": 55,
+                    "pointerOffsets": [
+                        "0"
+                    ],
+                    "typeIndex": 5,
+                    "unsigned": false
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8053DC20",
+                            "baseIndex": 1,
+                            "label": "DebugPointer1",
+                            "typeIndex": 2,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "807D4220",
+                            "baseIndex": 1,
+                            "label": "DebugPointer2",
+                            "typeIndex": 2,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80557C54",
+                            "baseIndex": 1,
+                            "label": "DebugMissionClearCollisionPointer",
+                            "typeIndex": 2,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8052B140",
+                            "baseIndex": 1,
+                            "label": "Pointer to DebugMissionClearPointer",
+                            "typeIndex": 2,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80570BB8",
+                            "baseIndex": 1,
+                            "label": "PointerToDebugPointer2_1",
+                            "typeIndex": 2,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "807D41F4",
+                            "baseIndex": 1,
+                            "label": "PointerToDebugPointer2_2",
+                            "typeIndex": 2,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "807D4260",
+                            "baseIndex": 1,
+                            "label": "PointerToDebugPointer2_3",
+                            "typeIndex": 2,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "807D4178",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "length": 55,
+                            "pointerOffsets": [
+                                "0"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "807D41B0",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "length": 55,
+                            "pointerOffsets": [
+                                "0"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Debugger / Buffer"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80573B78",
+                            "baseIndex": 0,
+                            "label": "R6",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80573B84",
+                            "baseIndex": 1,
+                            "label": "r6+ 0x4",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80573B80",
+                            "baseIndex": 0,
+                            "label": "r6 + 0x8",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Buffer Growth?"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80513024",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "length": 55,
+                            "typeIndex": 5,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80585988",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "length": 55,
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80042164",
+                            "baseIndex": 1,
+                            "label": "No label",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "807D24C8",
+                            "baseIndex": 1,
+                            "label": "No label",
+                            "pointerOffsets": [
+                                "0"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805EE104",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "length": 55,
+                            "pointerOffsets": [
+                                "0",
+                                "20",
+                                "0"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "807D56F8",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "length": 55,
+                            "pointerOffsets": [
+                                "0",
+                                "18"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "TXD System"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8081C4EC",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 2,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8081C4F0",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 2,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8081C528",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 2,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "805F0BDC",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 2,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "805EF9D4",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 2,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80585AC8",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 2,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80B85D48",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 2,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Growth and Shrink Buffer?"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "807C72C8",
+                            "baseIndex": 1,
+                            "label": "No label",
+                            "typeIndex": 2,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80994114",
+                            "baseIndex": 1,
+                            "label": "No label",
+                            "typeIndex": 2,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8099411C",
+                            "baseIndex": 1,
+                            "label": "No label",
+                            "typeIndex": 2,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Potential Global BufferConstant"
+                }
+            ],
+            "groupName": "RESEARCH / UNDEFINED"
+        },
+        {
             "address": "80A19A03",
             "baseIndex": 1,
             "label": "No label",
@@ -13,7 +420,7 @@
             "label": "No label",
             "length": 55,
             "pointerOffsets": [
-                "FFFFFFF0",
+                "7FFFFFFF",
                 "0"
             ],
             "typeIndex": 5,
