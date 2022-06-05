@@ -4655,6 +4655,37 @@
                         }
                     ],
                     "groupName": "Coaster"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F76C8",
+                            "baseIndex": 0,
+                            "label": "Health",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F76B0",
+                            "baseIndex": 0,
+                            "label": "Invuln Time Comparison (0.5 added added to plane; compared to this value to allow hit)",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "EscapePlane (Air Fleet)"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F3568",
+                            "baseIndex": 0,
+                            "label": "BombBlast Hurt Area TimeActive [-0x6178 (rtoc)]",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Throwable Bomb Obj"
                 }
             ],
             "groupName": "SETObjs_Specifics"
