@@ -24203,6 +24203,20 @@
                 }
             ],
             "groupName": "Select Mode Stage Data & Table"
+        },
+        {
+            "address": "804FF750",
+            "baseIndex": 1,
+            "label": "SubBoss Table Ref",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "804C5558",
+            "baseIndex": 0,
+            "label": "SubBoss Table Ref 2",
+            "typeIndex": 2,
+            "unsigned": false
         }
     ]
 }
