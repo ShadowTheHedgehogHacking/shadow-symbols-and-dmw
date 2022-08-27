@@ -11924,6 +11924,27 @@
                             "label": "AirBolt Related",
                             "typeIndex": 3,
                             "unsigned": false
+                        },
+                        {
+                            "address": "8051DD9C",
+                            "baseIndex": 0,
+                            "label": "BlackVolt Rocket Max Range",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F1FFC",
+                            "baseIndex": 0,
+                            "label": "All LockOn Detection Range Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F1FF8",
+                            "baseIndex": 0,
+                            "label": "All LockOn Related?Maybe",
+                            "typeIndex": 3,
+                            "unsigned": false
                         }
                     ],
                     "groupName": "Black Volt (AirBolt)"
@@ -24340,19 +24361,6 @@
             "baseIndex": 0,
             "label": "Shadow Dies if Set > 2",
             "typeIndex": 2,
-            "unsigned": false
-        },
-        {
-            "address": "81510C00",
-            "baseIndex": 0,
-            "label": "No label",
-            "length": 55,
-            "pointerOffsets": [
-                "0",
-                "0",
-                "0"
-            ],
-            "typeIndex": 5,
             "unsigned": false
         }
     ]
