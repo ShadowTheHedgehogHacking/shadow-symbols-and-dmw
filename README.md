@@ -1,4 +1,4 @@
-# shadow-disasm-and-dmw
+# shadow-symbols-and-dmw
 Contains latest version of our symbol map(s) and dmw files
 
 * Use Dolphin Memory Engine to view .dmw files.
