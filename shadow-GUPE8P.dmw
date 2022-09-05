@@ -24289,13 +24289,6 @@
             "unsigned": false
         },
         {
-            "address": "805F7F70",
-            "baseIndex": 0,
-            "label": "Samurai Blade Damage (Pickup load only)",
-            "typeIndex": 3,
-            "unsigned": false
-        },
-        {
             "address": "805F7F74",
             "baseIndex": 0,
             "label": "Samurai Blade Related",
@@ -24362,6 +24355,121 @@
             "label": "Shadow Dies if Set > 2",
             "typeIndex": 2,
             "unsigned": false
+        },
+        {
+            "groupEntries": [
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8051EBA4",
+                            "baseIndex": 0,
+                            "label": "Ammo",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Pistol"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F7F70",
+                            "baseIndex": 0,
+                            "label": "Swing Damage",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8054D308",
+                            "baseIndex": 0,
+                            "label": "Ammo",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Katana / Samurai Blade"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8051E8AC",
+                            "baseIndex": 0,
+                            "label": "Ammo",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Black Sword"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8051F738",
+                            "baseIndex": 0,
+                            "label": "\"Stick\" Ammo",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "\"Stick\" / Env for Last Way Only"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80547D54",
+                            "baseIndex": 0,
+                            "label": "Ammo",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Torch (Cryptic Castle)"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8051F054",
+                            "baseIndex": 0,
+                            "label": "Ammo",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Egg Lance / EggSpear"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8051F000",
+                            "baseIndex": 0,
+                            "label": "Ammo",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "GUN Survival Knife"
+                },
+                {
+                    "address": "8051F0A8",
+                    "baseIndex": 0,
+                    "label": "Unknown ENV Melee Pickup Ammo",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80559DEC",
+                            "baseIndex": 0,
+                            "label": "Ammo",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Dark Hammer"
+                }
+            ],
+            "groupName": "Weapon Attributes"
         }
     ]
 }
