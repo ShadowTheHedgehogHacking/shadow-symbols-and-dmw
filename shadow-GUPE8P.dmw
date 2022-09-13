@@ -3,6 +3,32 @@
         {
             "groupEntries": [
                 {
+                    "address": "805F15E0",
+                    "baseIndex": 0,
+                    "label": "RenderWare FILTER GX Library Related",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805EE1D8",
+                    "baseIndex": 0,
+                    "label": "objectCount?",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805EE1D0",
+                    "baseIndex": 0,
+                    "label": "MainLoop Core Control",
+                    "typeIndex": 2,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Core System"
+        },
+        {
+            "groupEntries": [
+                {
                     "address": "804C4A18",
                     "baseIndex": 0,
                     "label": "Stage table: stg0000 slot data",
@@ -38,7 +64,7 @@
                     "unsigned": false
                 }
             ],
-            "groupName": "Stage table"
+            "groupName": "Stage Table"
         },
         {
             "groupEntries": [
@@ -65,6 +91,145 @@
                 }
             ],
             "groupName": "Expert stage association IDs"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "80584560",
+                    "baseIndex": 0,
+                    "label": "X Position",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80584564",
+                    "baseIndex": 0,
+                    "label": "Y Position",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80584568",
+                    "baseIndex": 0,
+                    "label": "Is Sub-Boss Flag",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "8058456C",
+                    "baseIndex": 0,
+                    "label": "Ending Boss Y Position",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80584570",
+                    "baseIndex": 0,
+                    "label": "Is Ending Boss Flag",
+                    "typeIndex": 0,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Select Mode Menu"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "804C4A18",
+                    "baseIndex": 0,
+                    "label": "Select Mode Data Table Start",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804C4C48",
+                    "baseIndex": 0,
+                    "label": "Select Mode Data Table -> Glyphic Canyon",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804C4D38",
+                    "baseIndex": 0,
+                    "label": "Select Mode Data Table -> Prison Island",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804C4D3C",
+                    "baseIndex": 0,
+                    "label": "Select Mode Data Table -> Prison Island",
+                    "length": 155,
+                    "pointerOffsets": [
+                        "0"
+                    ],
+                    "typeIndex": 5,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F4DD0",
+                    "baseIndex": 0,
+                    "label": "in-game EVENT data table on real stages?",
+                    "length": 55,
+                    "typeIndex": 5,
+                    "unsigned": false
+                },
+                {
+                    "address": "804C528C",
+                    "baseIndex": 0,
+                    "label": "Select Mode Data Table -> Last Way 0x1B",
+                    "length": 45,
+                    "pointerOffsets": [
+                        "0"
+                    ],
+                    "typeIndex": 5,
+                    "unsigned": false
+                },
+                {
+                    "address": "804C5288",
+                    "baseIndex": 0,
+                    "label": "Select Mode Data Table -> Last Way",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804C4964",
+                    "baseIndex": 0,
+                    "label": "BossLast Slot",
+                    "length": 155,
+                    "typeIndex": 5,
+                    "unsigned": false
+                },
+                {
+                    "address": "804C57D8",
+                    "baseIndex": 0,
+                    "label": "Select Mode Data Table -> Devil Doom 0x2C",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804FF700",
+                    "baseIndex": 0,
+                    "label": "Sel 6, 0 (stg0700) table ref",
+                    "typeIndex": 2,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Select Mode Stage Data & Table"
+        },
+        {
+            "address": "804FF750",
+            "baseIndex": 1,
+            "label": "SubBoss Table Ref",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "804C5558",
+            "baseIndex": 0,
+            "label": "SubBoss Table Ref 2",
+            "typeIndex": 2,
+            "unsigned": false
         },
         {
             "groupEntries": [
@@ -187,20 +352,6 @@
                 }
             ],
             "groupName": "Expert progress tracking"
-        },
-        {
-            "address": "805EE1D0",
-            "baseIndex": 0,
-            "label": "MainLoop Core Control",
-            "typeIndex": 2,
-            "unsigned": false
-        },
-        {
-            "address": "805EE1D8",
-            "baseIndex": 0,
-            "label": "objectCount?",
-            "typeIndex": 2,
-            "unsigned": false
         },
         {
             "groupEntries": [
@@ -1677,6 +1828,27 @@
                                         "450"
                                     ],
                                     "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "807D24D8",
+                                    "baseIndex": 0,
+                                    "label": "5F68 r13 (Motion Related)",
+                                    "pointerOffsets": [
+                                        "0"
+                                    ],
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8140FC98",
+                                    "baseIndex": 0,
+                                    "label": "Motion + 38 = Name of Target?",
+                                    "length": 55,
+                                    "pointerOffsets": [
+                                        "38"
+                                    ],
+                                    "typeIndex": 5,
                                     "unsigned": false
                                 }
                             ],
@@ -4584,6 +4756,13 @@
                 {
                     "groupEntries": [
                         {
+                            "address": "805EEEBC",
+                            "baseIndex": 0,
+                            "label": "Coaster Coli Range",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
                             "address": "805F28C0",
                             "baseIndex": 0,
                             "label": "coasterZOffset",
@@ -4713,6 +4892,13 @@
                             "label": "Invuln Time Comparison (0.5 added added to plane; compared to this value to allow hit)",
                             "typeIndex": 3,
                             "unsigned": false
+                        },
+                        {
+                            "address": "805F76B4",
+                            "baseIndex": 0,
+                            "label": "Invuln Time Wait",
+                            "typeIndex": 3,
+                            "unsigned": false
                         }
                     ],
                     "groupName": "EscapePlane (Air Fleet)"
@@ -4728,6 +4914,46 @@
                         }
                     ],
                     "groupName": "Throwable Bomb Obj"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F45E8",
+                            "baseIndex": 0,
+                            "label": "Phase 4 Health",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F45EC",
+                            "baseIndex": 0,
+                            "label": "Phase 3 Health",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F45F0",
+                            "baseIndex": 0,
+                            "label": "Phase 2 Health",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F45F4",
+                            "baseIndex": 0,
+                            "label": "EggBalloon Unknown Float",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F45F8",
+                            "baseIndex": 0,
+                            "label": "Starting Health",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "EggBalloon (Iron Jungle)"
                 }
             ],
             "groupName": "SETObjs_Specifics"
@@ -5137,6 +5363,13 @@
                     "unsigned": true
                 },
                 {
+                    "address": "805F24FC",
+                    "baseIndex": 0,
+                    "label": "Unknown ChaosBlast Value",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
                     "groupEntries": [
                         {
                             "address": "805F936C",
@@ -5438,6 +5671,20 @@
                     "address": "8057D7D8",
                     "baseIndex": 0,
                     "label": "P2 Win Count/Graphic",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F2FF8",
+                    "baseIndex": 0,
+                    "label": "Shared Mission and Score Data X Pos",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805E4BEC",
+                    "baseIndex": 0,
+                    "label": "Dark Mission UI - Mission ID to Display",
                     "typeIndex": 2,
                     "unsigned": false
                 }
@@ -11033,13 +11280,6 @@
             "groupName": "LimblessVector list"
         },
         {
-            "address": "805F24FC",
-            "baseIndex": 0,
-            "label": "Unknown ChaosBlast Value",
-            "typeIndex": 3,
-            "unsigned": false
-        },
-        {
             "groupEntries": [
                 {
                     "address": "8051A624",
@@ -11230,51 +11470,6 @@
                 }
             ],
             "groupName": "Core Globals"
-        },
-        {
-            "address": "807D24D8",
-            "baseIndex": 0,
-            "label": "5F68 r13 (Motion Related)",
-            "pointerOffsets": [
-                "0"
-            ],
-            "typeIndex": 3,
-            "unsigned": false
-        },
-        {
-            "address": "805E12B0",
-            "baseIndex": 0,
-            "label": "Reading SHAnim a1",
-            "typeIndex": 3,
-            "unsigned": false
-        },
-        {
-            "address": "804CC374",
-            "baseIndex": 0,
-            "label": "No label",
-            "typeIndex": 3,
-            "unsigned": true
-        },
-        {
-            "address": "804A9C04",
-            "baseIndex": 1,
-            "label": "wat",
-            "pointerOffsets": [
-                "0"
-            ],
-            "typeIndex": 2,
-            "unsigned": false
-        },
-        {
-            "address": "8140FC98",
-            "baseIndex": 0,
-            "label": "Motion + 38 = Name of Target?",
-            "length": 55,
-            "pointerOffsets": [
-                "38"
-            ],
-            "typeIndex": 5,
-            "unsigned": false
         },
         {
             "groupEntries": [
@@ -12259,12 +12454,323 @@
                         }
                     ],
                     "groupName": "Core Flyable Props (BirdBase)"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F9A10",
+                            "baseIndex": 0,
+                            "label": "GUN Lift Accelerate Rate",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9A14",
+                            "baseIndex": 0,
+                            "label": "GUN Lift Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9A18",
+                            "baseIndex": 0,
+                            "label": "GUN Lift A-Press Accelerate Rate",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9A1C",
+                            "baseIndex": 0,
+                            "label": "GUN Lift A-Press Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "GunLiftLocal (Normal)"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F9A20",
+                            "baseIndex": 0,
+                            "label": "GUN Lift Accelerate Rate",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9A24",
+                            "baseIndex": 0,
+                            "label": "GUN Lift Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9A28",
+                            "baseIndex": 0,
+                            "label": "GUN Lift A-Press Accelerate Rate",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9A2C",
+                            "baseIndex": 0,
+                            "label": "GUN Lift A-Press Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "GunLiftExpress (Expert)"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F9A3C",
+                            "baseIndex": 0,
+                            "label": "GUN Lift Camera Angle",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9A40",
+                            "baseIndex": 0,
+                            "label": "GUN Lift Rotation Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9A44",
+                            "baseIndex": 0,
+                            "label": "GUN Lift Rotation Range",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9A48",
+                            "baseIndex": 0,
+                            "label": "GUN Lift Up/Down Range",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9A4C",
+                            "baseIndex": 0,
+                            "label": "GUN Lift Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9A50",
+                            "baseIndex": 0,
+                            "label": "GUN Lift Bullet Direction?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9A54",
+                            "baseIndex": 0,
+                            "label": "GUN Lift Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "GunLift Common Vars"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "P1 Writeable X812E8EC0",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "A8F0"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED258",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3)",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED264",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3)  + 0xC",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED268",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3)  + 0x10",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED26C",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3)  + 0x14",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED270",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3) + 0x18 Velocity?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED2BC",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3) + 0x64",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED2CC",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3) + 0x74",
+                            "pointerOffsets": [
+                                "0",
+                                "0"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED2D8",
+                            "baseIndex": 1,
+                            "label": "Vehicle Instance (r3) + 0x80 (Rider instance?)",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED2F4",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3) + 0x9C",
+                            "pointerOffsets": [
+                                "0"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED2F8",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3) + 0xA0",
+                            "pointerOffsets": [
+                                "0"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED324",
+                            "baseIndex": 1,
+                            "label": "Vehicle Instance (r3) + 0xCC",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED334",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3) + 0xDC",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED340",
+                            "baseIndex": 1,
+                            "label": "Vehicle Instance (r3) + 0xE8",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED364",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3) + 0x10C",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED37C",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3) + 0x124",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED38C",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3) + 0x134",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED39C",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3) + 0x144",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED3B4",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3) + 0x15C",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED3D4",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3) + 0x17C (State)",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F15E0",
+                            "baseIndex": 0,
+                            "label": "RenderWare FILTER GX Library Related",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Dynamic - Vehicle Instance Struct"
                 }
             ],
             "groupName": "Vehicle"
         },
         {
             "groupEntries": [
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F51B4",
+                            "baseIndex": 0,
+                            "label": "EggPawn WARP Spawn Rate",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "EggPawn"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F52E0",
+                            "baseIndex": 0,
+                            "label": "BkSoldier WARP Spawn Rate",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "BkSoldier"
+                },
                 {
                     "groupEntries": [
                         {
@@ -12460,9 +12966,370 @@
                         }
                     ],
                     "groupName": "GUNSoldier"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F8844",
+                            "baseIndex": 0,
+                            "label": "BkNinja Squish/Stretch Scale on Teleport and GUN Alpha",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8848",
+                            "baseIndex": 0,
+                            "label": "BkNinja Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F884C",
+                            "baseIndex": 0,
+                            "label": "BkNinja Arm Rotate Tolerance",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8850",
+                            "baseIndex": 0,
+                            "label": "BkNinja Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8854",
+                            "baseIndex": 0,
+                            "label": "BkNinja Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8858",
+                            "baseIndex": 0,
+                            "label": "BkNinja Aim Rotate Tolerance?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F885C",
+                            "baseIndex": 0,
+                            "label": "BkNinja Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8860",
+                            "baseIndex": 0,
+                            "label": "BkNinja Squish/Stretch Duration",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8864",
+                            "baseIndex": 0,
+                            "label": "BkNinja Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8868",
+                            "baseIndex": 0,
+                            "label": "BkNinja Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F886C",
+                            "baseIndex": 0,
+                            "label": "BkNinja Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8870",
+                            "baseIndex": 0,
+                            "label": "BkNinja Squish/Stretch Related?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8874",
+                            "baseIndex": 0,
+                            "label": "BkNinja Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8878",
+                            "baseIndex": 0,
+                            "label": "BkNinja Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F887C",
+                            "baseIndex": 0,
+                            "label": "BkNinja Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F887C",
+                            "baseIndex": 0,
+                            "label": "BkNinja Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8880",
+                            "baseIndex": 0,
+                            "label": "BkNinja Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8884",
+                            "baseIndex": 0,
+                            "label": "BkNinja Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8888",
+                            "baseIndex": 0,
+                            "label": "BkNinja Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F888C",
+                            "baseIndex": 0,
+                            "label": "BkNinja Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8890",
+                            "baseIndex": 0,
+                            "label": "BkNinja Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8894",
+                            "baseIndex": 0,
+                            "label": "BkNinja Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8898",
+                            "baseIndex": 0,
+                            "label": "BkNinja Prop Aim Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F889C",
+                            "baseIndex": 0,
+                            "label": "BkNinja Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "BkNinja"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F0478",
+                            "baseIndex": 0,
+                            "label": "GunAttack",
+                            "length": 55,
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804FD298",
+                            "baseIndex": 0,
+                            "label": "GunAttack",
+                            "length": 55,
+                            "typeIndex": 5,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "AI State"
+                },
+                {
+                    "address": "805F88B4",
+                    "baseIndex": 0,
+                    "label": "BkNinja AI Teleport Offset Related",
+                    "typeIndex": 3,
+                    "unsigned": false
                 }
             ],
             "groupName": "Enemy"
+        },
+        {
+            "groupEntries": [
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8051EBA4",
+                            "baseIndex": 0,
+                            "label": "Ammo",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Pistol"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F7F70",
+                            "baseIndex": 0,
+                            "label": "Swing Damage",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8054D308",
+                            "baseIndex": 0,
+                            "label": "Ammo",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80520188",
+                            "baseIndex": 0,
+                            "label": "Samurai Blade Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F7F74",
+                            "baseIndex": 0,
+                            "label": "Samurai Blade Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F7F78",
+                            "baseIndex": 0,
+                            "label": "Samurai Blade Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8051E058",
+                            "baseIndex": 0,
+                            "label": "Samurai Blade Related SatelliteLaser01",
+                            "length": 55,
+                            "pointerOffsets": [
+                                "0",
+                                "0"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F7F7C",
+                            "baseIndex": 0,
+                            "label": "Samurai Blade Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Katana / Samurai Blade"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8051E8AC",
+                            "baseIndex": 0,
+                            "label": "Ammo",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Black Sword"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8051F738",
+                            "baseIndex": 0,
+                            "label": "\"Stick\" Ammo",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "\"Stick\" / Env for Last Way Only"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80547D54",
+                            "baseIndex": 0,
+                            "label": "Ammo",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Torch (Cryptic Castle)"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8051F054",
+                            "baseIndex": 0,
+                            "label": "Ammo",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Egg Lance / EggSpear"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8051F000",
+                            "baseIndex": 0,
+                            "label": "Ammo",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "GUN Survival Knife"
+                },
+                {
+                    "address": "8051F0A8",
+                    "baseIndex": 0,
+                    "label": "Unknown ENV Melee Pickup Ammo",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80559DEC",
+                            "baseIndex": 0,
+                            "label": "Ammo",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Dark Hammer"
+                }
+            ],
+            "groupName": "Weapon Attributes"
         },
         {
             "groupEntries": [
@@ -23983,70 +24850,7 @@
                     "groupName": "Egg Dealer Values"
                 }
             ],
-            "groupName": "Zetti"
-        },
-        {
-            "address": "8131E368",
-            "baseIndex": 0,
-            "label": "No label",
-            "typeIndex": 3,
-            "unsigned": false
-        },
-        {
-            "address": "8060B208",
-            "baseIndex": 0,
-            "label": "No label",
-            "typeIndex": 3,
-            "unsigned": false
-        },
-        {
-            "address": "8131E374",
-            "baseIndex": 0,
-            "label": "No label",
-            "typeIndex": 3,
-            "unsigned": false
-        },
-        {
-            "address": "8131E450",
-            "baseIndex": 0,
-            "label": "No label",
-            "typeIndex": 3,
-            "unsigned": false
-        },
-        {
-            "address": "8060B3CC",
-            "baseIndex": 0,
-            "label": "No label",
-            "typeIndex": 3,
-            "unsigned": false
-        },
-        {
-            "address": "8060B23C",
-            "baseIndex": 0,
-            "label": "No label",
-            "typeIndex": 3,
-            "unsigned": false
-        },
-        {
-            "address": "8060B314",
-            "baseIndex": 0,
-            "label": "RawForce?",
-            "typeIndex": 3,
-            "unsigned": false
-        },
-        {
-            "address": "805F766C",
-            "baseIndex": 0,
-            "label": "No label",
-            "typeIndex": 3,
-            "unsigned": false
-        },
-        {
-            "address": "805F7670",
-            "baseIndex": 0,
-            "label": "No label",
-            "typeIndex": 3,
-            "unsigned": false
+            "groupName": "Zetti's List"
         },
         {
             "groupEntries": [
@@ -24141,335 +24945,6 @@
                 }
             ],
             "groupName": "Fog"
-        },
-        {
-            "groupEntries": [
-                {
-                    "address": "80584560",
-                    "baseIndex": 0,
-                    "label": "X Position",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "80584564",
-                    "baseIndex": 0,
-                    "label": "Y Position",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "80584568",
-                    "baseIndex": 0,
-                    "label": "Is Sub-Boss Flag",
-                    "typeIndex": 0,
-                    "unsigned": false
-                },
-                {
-                    "address": "8058456C",
-                    "baseIndex": 0,
-                    "label": "Ending Boss Y Position",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "80584570",
-                    "baseIndex": 0,
-                    "label": "Is Ending Boss Flag",
-                    "typeIndex": 0,
-                    "unsigned": false
-                }
-            ],
-            "groupName": "Select Mode Menu"
-        },
-        {
-            "groupEntries": [
-                {
-                    "address": "804C4A18",
-                    "baseIndex": 0,
-                    "label": "Select Mode Data Table Start",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "804C4C48",
-                    "baseIndex": 0,
-                    "label": "Select Mode Data Table -> Glyphic Canyon",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "804C4D38",
-                    "baseIndex": 0,
-                    "label": "Select Mode Data Table -> Prison Island",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "804C4D3C",
-                    "baseIndex": 0,
-                    "label": "Select Mode Data Table -> Prison Island",
-                    "length": 155,
-                    "pointerOffsets": [
-                        "0"
-                    ],
-                    "typeIndex": 5,
-                    "unsigned": false
-                },
-                {
-                    "address": "805F4DD0",
-                    "baseIndex": 0,
-                    "label": "in-game EVENT data table on real stages?",
-                    "length": 55,
-                    "typeIndex": 5,
-                    "unsigned": false
-                },
-                {
-                    "address": "804C528C",
-                    "baseIndex": 0,
-                    "label": "Select Mode Data Table -> Last Way 0x1B",
-                    "length": 45,
-                    "pointerOffsets": [
-                        "0"
-                    ],
-                    "typeIndex": 5,
-                    "unsigned": false
-                },
-                {
-                    "address": "804C5288",
-                    "baseIndex": 0,
-                    "label": "Select Mode Data Table -> Last Way",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "804C4964",
-                    "baseIndex": 0,
-                    "label": "BossLast Slot",
-                    "length": 155,
-                    "typeIndex": 5,
-                    "unsigned": false
-                },
-                {
-                    "address": "804C57D8",
-                    "baseIndex": 0,
-                    "label": "Select Mode Data Table -> Devil Doom 0x2C",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "804FF700",
-                    "baseIndex": 0,
-                    "label": "Sel 6, 0 (stg0700) table ref",
-                    "typeIndex": 2,
-                    "unsigned": false
-                }
-            ],
-            "groupName": "Select Mode Stage Data & Table"
-        },
-        {
-            "address": "804FF750",
-            "baseIndex": 1,
-            "label": "SubBoss Table Ref",
-            "typeIndex": 2,
-            "unsigned": false
-        },
-        {
-            "address": "804C5558",
-            "baseIndex": 0,
-            "label": "SubBoss Table Ref 2",
-            "typeIndex": 2,
-            "unsigned": false
-        },
-        {
-            "address": "80520188",
-            "baseIndex": 0,
-            "label": "No label",
-            "typeIndex": 3,
-            "unsigned": false
-        },
-        {
-            "address": "805F7F74",
-            "baseIndex": 0,
-            "label": "Samurai Blade Related",
-            "typeIndex": 3,
-            "unsigned": false
-        },
-        {
-            "address": "805F7F78",
-            "baseIndex": 0,
-            "label": "Samurai Blade Related",
-            "typeIndex": 3,
-            "unsigned": false
-        },
-        {
-            "address": "8051E058",
-            "baseIndex": 0,
-            "label": "Samurai Blade Related SatelliteLaser01",
-            "length": 55,
-            "pointerOffsets": [
-                "0",
-                "0"
-            ],
-            "typeIndex": 5,
-            "unsigned": false
-        },
-        {
-            "address": "805F7F7C",
-            "baseIndex": 0,
-            "label": "Samurai Blade Related",
-            "typeIndex": 3,
-            "unsigned": false
-        },
-        {
-            "address": "80F868C8",
-            "baseIndex": 0,
-            "label": "UserInput for P1",
-            "length": 55,
-            "pointerOffsets": [
-                "0",
-                "0",
-                "0"
-            ],
-            "typeIndex": 5,
-            "unsigned": false
-        },
-        {
-            "address": "80F81D80",
-            "baseIndex": 0,
-            "label": "Player::Control::UserInput CurrentState",
-            "length": 4,
-            "typeIndex": 6,
-            "unsigned": false
-        },
-        {
-            "address": "80F81D84",
-            "baseIndex": 3,
-            "label": "Shadow Dies if Set > 2",
-            "typeIndex": 2,
-            "unsigned": false
-        },
-        {
-            "address": "80F81D84",
-            "baseIndex": 0,
-            "label": "Shadow Dies if Set > 2",
-            "typeIndex": 2,
-            "unsigned": false
-        },
-        {
-            "groupEntries": [
-                {
-                    "groupEntries": [
-                        {
-                            "address": "8051EBA4",
-                            "baseIndex": 0,
-                            "label": "Ammo",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "Pistol"
-                },
-                {
-                    "groupEntries": [
-                        {
-                            "address": "805F7F70",
-                            "baseIndex": 0,
-                            "label": "Swing Damage",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "8054D308",
-                            "baseIndex": 0,
-                            "label": "Ammo",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "Katana / Samurai Blade"
-                },
-                {
-                    "groupEntries": [
-                        {
-                            "address": "8051E8AC",
-                            "baseIndex": 0,
-                            "label": "Ammo",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "Black Sword"
-                },
-                {
-                    "groupEntries": [
-                        {
-                            "address": "8051F738",
-                            "baseIndex": 0,
-                            "label": "\"Stick\" Ammo",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "\"Stick\" / Env for Last Way Only"
-                },
-                {
-                    "groupEntries": [
-                        {
-                            "address": "80547D54",
-                            "baseIndex": 0,
-                            "label": "Ammo",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "Torch (Cryptic Castle)"
-                },
-                {
-                    "groupEntries": [
-                        {
-                            "address": "8051F054",
-                            "baseIndex": 0,
-                            "label": "Ammo",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "Egg Lance / EggSpear"
-                },
-                {
-                    "groupEntries": [
-                        {
-                            "address": "8051F000",
-                            "baseIndex": 0,
-                            "label": "Ammo",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "GUN Survival Knife"
-                },
-                {
-                    "address": "8051F0A8",
-                    "baseIndex": 0,
-                    "label": "Unknown ENV Melee Pickup Ammo",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "groupEntries": [
-                        {
-                            "address": "80559DEC",
-                            "baseIndex": 0,
-                            "label": "Ammo",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "Dark Hammer"
-                }
-            ],
-            "groupName": "Weapon Attributes"
         }
     ]
 }
