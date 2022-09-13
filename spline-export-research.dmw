@@ -1,0 +1,25 @@
+{
+    "watchList": [
+        {
+            "address": "81272190",
+            "baseIndex": 0,
+            "label": "when 69",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "81272270",
+            "baseIndex": 0,
+            "label": "when 70",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "812B9319",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 2,
+            "unsigned": false
+        }
+    ]
+}
