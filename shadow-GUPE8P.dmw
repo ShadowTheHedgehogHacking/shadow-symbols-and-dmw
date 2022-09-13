@@ -5540,6 +5540,81 @@
                         }
                     ],
                     "groupName": "SpaceGadget GravityBoard Signs & Gravity Phys"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F28E8",
+                            "baseIndex": 0,
+                            "label": "spindash-related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "812FEB0C",
+                            "baseIndex": 0,
+                            "label": "spindash-related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F27A0",
+                            "baseIndex": 0,
+                            "label": "airdashrelated",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F279C",
+                            "baseIndex": 0,
+                            "label": "airdashrelated",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F2798",
+                            "baseIndex": 0,
+                            "label": "airdashrelated",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F2794",
+                            "baseIndex": 0,
+                            "label": "airdashrelated",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F27B0",
+                            "baseIndex": 0,
+                            "label": "airdashrelated",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F271C",
+                            "baseIndex": 0,
+                            "label": "homingattackrelated",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F2720",
+                            "baseIndex": 0,
+                            "label": "homingattackrelated",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Shadow Physics"
+                },
+                {
+                    "address": "805F6794",
+                    "baseIndex": 0,
+                    "label": "Car Damage Per Hit",
+                    "typeIndex": 3,
+                    "unsigned": false
                 }
             ],
             "groupName": "Properties Affecting All Players"
@@ -5686,6 +5761,13 @@
                     "baseIndex": 0,
                     "label": "Dark Mission UI - Mission ID to Display",
                     "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F677C",
+                    "baseIndex": 0,
+                    "label": "2P CommandWindow Transition Animation Speed",
+                    "typeIndex": 3,
                     "unsigned": false
                 }
             ],
@@ -24945,6 +25027,83 @@
                 }
             ],
             "groupName": "Fog"
+        },
+        {
+            "groupEntries": [
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F13C4",
+                            "baseIndex": 0,
+                            "label": "DAT_805f13c4",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F13B0",
+                            "baseIndex": 1,
+                            "label": "DAT_805f13b0 INDEX Controller",
+                            "pointerOffsets": [
+                                "0"
+                            ],
+                            "typeIndex": 1,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F13C0",
+                            "baseIndex": 0,
+                            "label": "DAT_805f13c0",
+                            "pointerOffsets": [
+                                "0"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "anm_02"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805E12CC",
+                            "baseIndex": 0,
+                            "label": "sub_03_call_01 compare",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805FADE8",
+                            "baseIndex": 0,
+                            "label": "FLOAT_805fade8",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805FADD8",
+                            "baseIndex": 0,
+                            "label": "FLOAT_805fadd8",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805FADE0",
+                            "baseIndex": 0,
+                            "label": "dvar_805fade0",
+                            "typeIndex": 4,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "sub_03_call_01"
+                },
+                {
+                    "address": "805E12C8",
+                    "baseIndex": 0,
+                    "label": "DAT_805e12c8 SetsAnimCycle Handles This",
+                    "typeIndex": 3,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "MTN Research"
         }
     ]
 }
