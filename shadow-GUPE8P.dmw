@@ -13275,6 +13275,32 @@
                     "label": "BkNinja AI Teleport Offset Related",
                     "typeIndex": 3,
                     "unsigned": false
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F4960",
+                            "baseIndex": 0,
+                            "label": "ElecSecurityCode Y Target",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F4988",
+                            "baseIndex": 0,
+                            "label": "ElecSecurityCode X/Z Target",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F4990",
+                            "baseIndex": 0,
+                            "label": "ElecSecurityCode Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "ElecCode"
                 }
             ],
             "groupName": "Enemy"
