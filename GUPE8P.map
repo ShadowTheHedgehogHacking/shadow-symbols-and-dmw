@@ -3695,7 +3695,7 @@
 800762cc 00000048 800762cc 0 dCreateGeom_4
 80076314 00000004 80076314 0 nullsub_1167
 80076318 00000078 80076318 0 zz_80076318_
-80076390 000000dc 80076390 0 sub r3=Player::Behavior::ElectricCircuit
+80076390 000000dc 80076390 0 Apply Electric Spline Speed sub r3=Player::Behavior::ElectricCircuit
 8007646c 00000010 8007646c 0 zz_8007646c_
 8007647c 00000134 8007647c 0 r3=Player::Behavior::ElectricCircuit
 800765b0 0000005c 800765b0 0 Player::Behavior::InitializeArgsJump_Related__FormationOffensive::__dt(void)
@@ -5028,8 +5028,8 @@
 8009ea44 0000005c 8009ea44 0 zz_8009ea44_
 8009eaa0 0000002c 8009eaa0 0 zz_8009eaa0_
 8009eacc 00000084 8009eacc 0 zz_8009eacc_
-8009eb50 00000028 8009eb50 0 zz_8009eb50_
-8009eb78 00000008 8009eb78 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_66
+8009eb50 00000028 8009eb50 0 Sub Get Player::Controller::UserInput
+8009eb78 00000008 8009eb78 0 Get Player::Controller::UserInput Deref
 8009eb80 00000024 8009eb80 0 cFielder::UpdatePlay(float)_47
 8009eba4 00000024 8009eba4 0 cFielder::UpdatePlay(float)_48
 8009ebc8 00000024 8009ebc8 0 cFielder::UpdatePlay(float)_49
@@ -5085,7 +5085,7 @@
 800a1380 00000044 800a1380 0 zz_800a1380_
 800a13c4 00000120 800a13c4 0 zz_800a13c4_
 800a14e4 00000180 800a14e4 0 CheckRingDashRange && TargetList Check
-800a1664 00000234 800a1664 0 zz_800a1664_
+800a1664 00000234 800a1664 0 Controller Specific Deref
 800a1898 00000018 800a1898 0 JGadget::operator==(JGadget::TNodeLinkList::iterator, JGadget::TNodeLinkList::iterator) _JAudio2.a JASTrack.o_8
 800a18b0 0000006c 800a18b0 0 zz_800a18b0_
 800a191c 00000088 800a191c 0 timerTickDownPARTNER_CONTROL_800a191c_
@@ -16119,7 +16119,7 @@
 801d5300 000000c4 801d5300 0 zz_801d5300_
 801d53c4 00000130 801d53c4 0 zz_801d53c4_
 801d54f4 00000118 801d54f4 0 zz_801d54f4_
-801d560c 0000006c 801d560c 0 ??UNKNOWN_GUNMech_RelatedToZeroHP_Destroy2_801d560c_
+801d560c 0000006c 801d560c 0 ??UNKNOWN_GUNMech_RelatedToZeroHP_Destroy2_SFX_Player
 801d5678 000003ec 801d5678 0 zz_801d5678_
 801d5a64 00000110 801d5a64 0 zz_801d5a64_
 801d5b74 0000019c 801d5b74 0 zz_801d5b74_
@@ -24776,7 +24776,7 @@
 802dba38 00000148 802dba38 0 zz_802dba38_
 802dbb80 00000008 802dbb80 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_237
 802dbb88 00000058 802dbb88 0 zz_802dbb88_
-802dbbe0 000000ac 802dbbe0 0 zz_802dbbe0_
+802dbbe0 000000ac 802dbbe0 0 Player SFX?
 802dbc8c 00000090 802dbc8c 0 zz_802dbc8c_
 802dbd1c 00000030 802dbd1c 0 zz_802dbd1c_
 802dbd4c 00000030 802dbd4c 0 zz_802dbd4c_
