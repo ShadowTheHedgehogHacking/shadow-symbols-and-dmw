@@ -124,7 +124,7 @@
 8000a124 00000074 8000a124 0 ExternalCam_SetPosition3
 8000a198 0000000c 8000a198 0 GetOneTimerLeadGroundContactAnims(void)
 8000a1a4 00000024 8000a1a4 0 CommonDesireData::CalcBoolChance(float)
-8000a1c8 00000008 8000a1c8 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle
+8000a1c8 00000008 8000a1c8 0 get0x0(r3)_1
 8000a1d0 00000070 8000a1d0 0 std::runtime_error_maybe
 8000a240 00000094 8000a240 0 zz_8000a240_
 8000a2d4 00000030 8000a2d4 0 ExternalCam_Render()_BOSSDIABLON?
@@ -289,7 +289,7 @@
 8000d094 00000020 8000d094 0 cPlayer::PostPhysicsUpdate(void)_4
 8000d0b4 00000014 8000d0b4 0 nw4hbm::lyt::Material::GetTexSRTAry(void) _homebuttonLib.a lyt_material.o
 8000d0c8 00000020 8000d0c8 0 cPlayer::PostPhysicsUpdate(void)_5
-8000d0e8 00000008 8000d0e8 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_1
+8000d0e8 00000008 8000d0e8 0 get0x8(r3)
 8000d0f0 00000040 8000d0f0 0 zz_8000d0f0_
 8000d130 00000040 8000d130 0 zz_8000d130_
 8000d170 00000070 8000d170 0 CameraUpdatePositionSub2
@@ -320,7 +320,7 @@
 8000d8ec 0000007c 8000d8ec 0 zz_8000d8ec_
 8000d968 00000020 8000d968 0 cPlayer::PostPhysicsUpdate(void)_8
 8000d988 00000094 8000d988 0 zz_8000d988_
-8000da1c 00000008 8000da1c 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_2
+8000da1c 00000008 8000da1c 0 get0x0(r3)_2
 8000da24 0000008c 8000da24 0 zz_8000da24_
 8000dab0 00000008 8000dab0 0 nw4hbm::ut::TextWriterBase<w>::SetCharSpace(float) _homebuttonLib.a ut_TextWriterBase.o
 8000dab8 00000098 8000dab8 0 hasCallForMovingSpecialCamInEV?
@@ -402,7 +402,7 @@
 8000f654 00000168 8000f654 0 zz_8000f654_
 8000f7bc 0000004c 8000f7bc 0 zz_8000f7bc_
 8000f808 00000048 8000f808 0 zz_8000f808_
-8000f850 00000008 8000f850 0 CBGetBytesAvailableForRead RVL\Circle_3
+8000f850 00000008 8000f850 0 get0x0(r3)_3
 8000f858 00000008 8000f858 0 CBGetBytesAvailableForRead RVL\Circle_4
 8000f860 00000054 8000f860 0 calls_tanf
 8000f8b4 00000134 8000f8b4 0 zz_8000f8b4_
@@ -419,6 +419,10 @@
 800105c8 00000080 800105c8 0 zz_800105c8_
 80010648 0000006c 80010648 0 zz_80010648_
 800106b4 00000544 800106b4 0 idazz_sub_800106B4
+80010838 000000a8 80010838 0 zz_80010838_
+800108e0 00000148 800108e0 0 zz_800108e0_
+80010a28 00000168 80010a28 0 zz_80010a28_
+80010b90 00000068 80010b90 0 zz_80010b90_
 80010bf8 000002e8 80010bf8 0 zz_80010bf8_
 80010ee0 0000014c 80010ee0 0 zz_80010ee0_
 8001102c 00000084 8001102c 0 zz_8001102c_
@@ -675,7 +679,7 @@
 80018b80 00000064 80018b80 0 zz_80018b80_
 80018be4 00000020 80018be4 0 cPlayer::PostPhysicsUpdate(void)_27
 80018c04 00000074 80018c04 0 zz_80018c04_
-80018c78 00000008 80018c78 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_8
+80018c78 00000008 80018c78 0 get0x0(r3)_4
 80018c80 00000028 80018c80 0 zz_80018c80_
 80018ca8 00000004 80018ca8 0 nullsub_151
 80018cac 00000008 80018cac 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_17
@@ -731,7 +735,7 @@
 80019fc8 00000034 80019fc8 0 zz_80019fc8_
 80019ffc 00000008 80019ffc 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_19
 8001a004 00000014 8001a004 0 zz_8001a004_
-8001a018 00000008 8001a018 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_9
+8001a018 00000008 8001a018 0 get0x0(r3)_5
 8001a020 00000038 8001a020 0 zz_8001a020_
 8001a058 00000094 8001a058 0 zz_8001a058_
 8001a0ec 00000744 8001a0ec 0 zz_8001a0ec_
@@ -794,11 +798,11 @@
 8001bf94 00000028 8001bf94 0 zz_8001bf94_
 8001bfbc 000000dc 8001bfbc 0 zz_8001bfbc_
 8001c098 00000034 8001c098 0 zz_8001c098_
-8001c0cc 00000008 8001c0cc 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_10
+8001c0cc 00000008 8001c0cc 0 get0x4(r3)
 8001c0d4 00000030 8001c0d4 0 zz_8001c0d4_
 8001c104 00000020 8001c104 0 cPlayer::PostPhysicsUpdate(void)_31
 8001c124 00000074 8001c124 0 zz_8001c124_
-8001c198 00000008 8001c198 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_11
+8001c198 00000008 8001c198 0 get0x0(r3)_6
 8001c1a0 00000028 8001c1a0 0 zz_8001c1a0_
 8001c1c8 00000004 8001c1c8 0 nullsub_156
 8001c1cc 00000008 8001c1cc 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_23
@@ -860,7 +864,7 @@
 8001e640 00000014 8001e640 0 zz_8001e640_
 8001e654 00000020 8001e654 0 cPlayer::PostPhysicsUpdate(void)_33
 8001e674 00000074 8001e674 0 zz_8001e674_
-8001e6e8 00000008 8001e6e8 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_13
+8001e6e8 00000008 8001e6e8 0 get0x0(r3)_7
 8001e6f0 00000028 8001e6f0 0 zz_8001e6f0_
 8001e718 00000004 8001e718 0 nullsub_159
 8001e71c 00000008 8001e71c 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_24
@@ -1122,6 +1126,7 @@
 80030a10 0000004c 80030a10 0 zz_80030a10_
 80030a5c 00000080 80030a5c 0 zz_80030a5c_
 80030adc 000000a0 80030adc 0 zz_80030adc_
+80030ae0 0000009c 80030ae0 0 zz_80030ae0_
 80030b7c 00000044 80030b7c 0 ??CheckpointYCollisionCalc_80030b7c_
 80030bc0 00000030 80030bc0 0 zz_80030bc0_
 80030bf0 00000008 80030bf0 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_31
@@ -1636,7 +1641,7 @@
 80041d40 000000ec 80041d40 0 ??duringLevelCalling_06_memcpy_80041d40_
 80041e2c 00000008 80041e2c 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_24
 80041e34 00000070 80041e34 0 zz_80041e34_
-80041ea4 00000008 80041ea4 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_25
+80041ea4 00000008 80041ea4 0 get0x0(r3)_8
 80041eac 0000000c 80041eac 0 GXInitLightColor_10
 80041eb8 00000090 80041eb8 0 ??duringLevelCalling_04_memcpy_80041eb8_
 80041f48 000001f0 80041f48 0 zz_80041f48_
@@ -1785,6 +1790,7 @@
 80045ed8 00000024 80045ed8 0 zz_80045ed8_
 80045efc 00000024 80045efc 0 zz_80045efc_
 80045f20 00000064 80045f20 0 zz_80045f20_
+80045f74 00000010 80045f74 0 zz_80045f74_
 80045f84 0000000c 80045f84 0 FETweener::setDoneCallFunc(void (*)(void *), void *)
 80045f90 0000000c 80045f90 0 FETweener::setDoneCallFunc(void (*)(void *), void *)_2
 80045f9c 00000004 80045f9c 0 nullsub_1134
@@ -1867,6 +1873,7 @@
 8004924c 00000044 8004924c 0 VehicleCar_DontAngleBasedOnSlope
 80049290 00000134 80049290 0 zz_80049290_
 800493c4 00000134 800493c4 0 zz_800493c4_
+800494d4 00000024 800494d4 0 zz_800494d4_
 800494f8 00000134 800494f8 0 sharedCheckCollision
 8004962c 00000064 8004962c 0 zz_8004962c_
 80049690 00000068 80049690 0 zz_80049690_
@@ -2225,7 +2232,7 @@
 80052ec8 00000024 80052ec8 0 zz_80052ec8_
 80052eec 00000050 80052eec 0 zz_80052eec_
 80052f3c 00000010 80052f3c 0 nlListContainer<P8SaveData>::__ct(void)_15
-80052f4c 00000008 80052f4c 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_30
+80052f4c 00000008 80052f4c 0 get0x0(r3)_9
 80052f54 0000007c 80052f54 0 zz_80052f54_
 80052fd0 00000040 80052fd0 0 zz_80052fd0_
 80053010 00000114 80053010 0 zz_80053010_
@@ -2266,7 +2273,7 @@
 80053e0c 00000078 80053e0c 0 zz_80053e0c_
 80053e84 00000004 80053e84 0 nullsub_182
 80053e88 00000008 80053e88 0 OSGetStackPointer _os.a OSContext.o
-80053e90 00000008 80053e90 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_31
+80053e90 00000008 80053e90 0 get0x0(r3)_10
 80053e98 00000284 80053e98 0 zz_80053e98_
 8005411c 00000048 8005411c 0 zz_8005411c_
 80054164 00000064 80054164 0 zz_80054164_
@@ -2304,7 +2311,7 @@
 80054d70 00000030 80054d70 0 LexicalCast<45BasicString<c,Q26Detail19TempStringAllocator>,PCc>(char *&)
 80054da0 00000020 80054da0 0 cPlayer::PostPhysicsUpdate(void)_90
 80054dc0 00000008 80054dc0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_33
-80054dc8 00000008 80054dc8 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_34
+80054dc8 00000008 80054dc8 0 get0x0(r3)_11
 80054dd0 00000058 80054dd0 0 zz_80054dd0_
 80054e28 00000030 80054e28 0 TRK_memset_76
 80054e58 00000058 80054e58 0 zz_80054e58_
@@ -2480,6 +2487,7 @@
 800593e8 0000004c 800593e8 0 zz_800593e8_
 80059434 00000004 80059434 0 nullsub_1144
 80059438 00000004 80059438 0 nullsub_1145
+8005943c 00000030 8005943c 0 zz_8005943c_
 80059440 0000002c 80059440 0 idazz_sub_80059440
 8005946c 0000004c 8005946c 0 zz_8005946c_
 800594b8 000000c0 800594b8 0 zz_800594b8_
@@ -2745,7 +2753,7 @@
 8005f830 00000024 8005f830 0 cFielder::UpdatePlay(float)_6
 8005f854 00000024 8005f854 0 cFielder::UpdatePlay(float)_7
 8005f878 00000048 8005f878 0 zz_8005f878_
-8005f8c0 00000008 8005f8c0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_35
+8005f8c0 00000008 8005f8c0 0 get0x0(r3)_12
 8005f8c8 0000002c 8005f8c8 0 zz_8005f8c8_
 8005f8f4 00000048 8005f8f4 0 zz_8005f8f4_
 8005f93c 00000064 8005f93c 0 zz_8005f93c_
@@ -2795,13 +2803,13 @@
 80060760 00000020 80060760 0 cPlayer::PostPhysicsUpdate(void)_98
 80060780 00000008 80060780 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_36
 80060788 00000088 80060788 0 zz_80060788_
-80060810 00000008 80060810 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_37
+80060810 00000008 80060810 0 get0x0(r3)_13
 80060818 00000020 80060818 0 cPlayer::PostPhysicsUpdate(void)_99
 80060838 00000008 80060838 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_38
 80060840 00000020 80060840 0 cPlayer::PostPhysicsUpdate(void)_100
 80060860 00000020 80060860 0 cPlayer::PostPhysicsUpdate(void)_101
 80060880 000000ac 80060880 0 zz_80060880_
-8006092c 00000008 8006092c 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_39
+8006092c 00000008 8006092c 0 get0x0(r3)_14
 80060934 00000058 80060934 0 zz_80060934_
 8006098c 000000cc 8006098c 0 LockonWeapon_PickTarget_?1
 80060a58 00000020 80060a58 0 cPlayer::PostPhysicsUpdate(void)_102
@@ -2902,7 +2910,7 @@
 80062ae8 00000078 80062ae8 0 DrawLockOn_RenderUnit_Sub2
 80062b60 00000004 80062b60 0 nullsub_209
 80062b64 00000008 80062b64 0 OSGetStackPointer _os.a OSContext.o_5
-80062b6c 00000008 80062b6c 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_40
+80062b6c 00000008 80062b6c 0 get0x0(r3)_15
 80062b74 0000015c 80062b74 0 zz_80062b74_
 80062cd0 00000030 80062cd0 0 TRK_memset_85
 80062d00 00000058 80062d00 0 zz_80062d00_
@@ -2924,7 +2932,7 @@
 80063130 00000024 80063130 0 cFielder::UpdatePlay(float)_13
 80063154 00000024 80063154 0 cFielder::UpdatePlay(float)_14
 80063178 0000002c 80063178 0 zz_80063178_
-800631a4 00000008 800631a4 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_41
+800631a4 00000008 800631a4 0 get0x0(r3)_16
 800631ac 00000024 800631ac 0 cFielder::UpdatePlay(float)_15
 800631d0 0000002c 800631d0 0 AirSaucer_FlickerOnHurt
 800631fc 00000038 800631fc 0 zz_800631fc_
@@ -3107,7 +3115,7 @@
 80067624 0000024c 80067624 0 zz_80067624_
 80067870 00000024 80067870 0 cFielder::UpdatePlay(float)_22
 80067894 00000028 80067894 0 MeleeWeapon_SubtractAmmo_OnHit
-800678bc 00000008 800678bc 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_42
+800678bc 00000008 800678bc 0 get0x0(r3)_17
 800678c4 00000048 800678c4 0 zz_800678c4_
 8006790c 0000000c 8006790c 0 cGame::GetGameTime(void)
 80067918 00000030 80067918 0 zz_80067918_
@@ -3282,7 +3290,7 @@
 8006c7b8 000000dc 8006c7b8 0 zz_8006c7b8_
 8006c894 0000005c 8006c894 0 HAS_Motion_HAS_Sonic(Partner?)
 8006c8f0 00000180 8006c8f0 0 zz_8006c8f0_
-8006ca70 00000008 8006ca70 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_46
+8006ca70 00000008 8006ca70 0 get0x0(r3)_18
 8006ca78 0000006c 8006ca78 0 zz_8006ca78_
 8006cae4 00000020 8006cae4 0 cPlayer::PostPhysicsUpdate(void)_124
 8006cb04 00000020 8006cb04 0 cPlayer::PostPhysicsUpdate(void)_125
@@ -3326,7 +3334,7 @@
 8006da10 00000040 8006da10 0 zz_8006da10_
 8006da50 00000010 8006da50 0 nlListContainer<P8SaveData>::__ct(void)_26
 8006da60 000001d8 8006da60 0 zz_8006da60_
-8006dc38 00000008 8006dc38 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_48
+8006dc38 00000008 8006dc38 0 get0x0(r3)_19
 8006dc40 00000040 8006dc40 0 zz_8006dc40_
 8006dc80 00000104 8006dc80 0 zz_8006dc80_
 8006dd84 0000002c 8006dd84 0 zz_8006dd84_
@@ -3505,7 +3513,7 @@
 80072810 00000078 80072810 0 zz_80072810_
 80072888 00000004 80072888 0 nullsub_235
 8007288c 00000008 8007288c 0 OSGetStackPointer _os.a OSContext.o_7
-80072894 00000008 80072894 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_53
+80072894 00000008 80072894 0 get0x0(r3)_20
 8007289c 00000114 8007289c 0 zz_8007289c_
 800729b0 00000030 800729b0 0 TRK_memset_98
 800729e0 00000058 800729e0 0 zz_800729e0_
@@ -3578,7 +3586,7 @@
 80073a80 00000028 80073a80 0 zz_80073a80_
 80073aa8 00000028 80073aa8 0 zz_80073aa8_
 80073ad0 000003d0 80073ad0 0 Read/Write Partner HasBeen Seen Flag
-80073ea0 00000008 80073ea0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_54
+80073ea0 00000008 80073ea0 0 GetPartnerSomething(r3)
 80073ea8 00000040 80073ea8 0 zz_80073ea8_
 80073ee8 00000050 80073ee8 0 zz_80073ee8_
 80073f38 0000009c 80073f38 0 zz_80073f38_
@@ -3759,7 +3767,7 @@
 800777a4 00000114 800777a4 0 HAS_Player::IgnoreInputCommand
 800778b8 00000024 800778b8 0 cFielder::UpdatePlay(float)_32
 800778dc 00000024 800778dc 0 cFielder::UpdatePlay(float)_33
-80077900 00000008 80077900 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_56
+80077900 00000008 80077900 0 get0x0(r3)_21
 80077908 00000024 80077908 0 cFielder::UpdatePlay(float)_34
 8007792c 00000024 8007792c 0 cFielder::UpdatePlay(float)_35
 80077950 00000024 80077950 0 cFielder::UpdatePlay(float)_36
@@ -3787,7 +3795,7 @@
 80078290 00000074 80078290 0 zz_80078290_
 80078304 0000005c 80078304 0 zz_80078304_
 80078360 00000090 80078360 0 zz_80078360_
-800783f0 00000008 800783f0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_57
+800783f0 00000008 800783f0 0 get0x0(r3)_22
 800783f8 000000ac 800783f8 0 zz_800783f8_
 800784a4 000000f4 800784a4 0 zz_800784a4_
 80078598 0000002c 80078598 0 zz_80078598_
@@ -3925,7 +3933,7 @@
 8007b278 00000078 8007b278 0 zz_8007b278_
 8007b2f0 00000004 8007b2f0 0 nullsub_246
 8007b2f4 00000008 8007b2f4 0 OSGetStackPointer _os.a OSContext.o_9
-8007b2fc 00000008 8007b2fc 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_58
+8007b2fc 00000008 8007b2fc 0 get0x0(r3)_23
 8007b304 0000016c 8007b304 0 ChaosBlast_NoStopButCreateStartBubble(r3=Player::Behavior::ChaosBlast,r5/r30=Player::Behavior::InitializeArgs, r26=Player::ChaosBlastCommand, r28=ShadowExecuter, r29=ShadowExecuter)
 8007b470 00000030 8007b470 0 TRK_memset_111
 8007b4a0 00000058 8007b4a0 0 zz_8007b4a0_
@@ -4062,7 +4070,7 @@
 8007f9e8 00000078 8007f9e8 0 zz_8007f9e8_
 8007fa60 00000004 8007fa60 0 nullsub_258
 8007fa64 00000008 8007fa64 0 OSGetStackPointer _os.a OSContext.o_11
-8007fa6c 00000008 8007fa6c 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_59
+8007fa6c 00000008 8007fa6c 0 get0x0(r3)_24
 8007fa74 000001d0 8007fa74 0 zz_8007fa74_
 8007fc44 00000048 8007fc44 0 zz_8007fc44_
 8007fc8c 00000064 8007fc8c 0 zz_8007fc8c_
@@ -4071,6 +4079,7 @@
 8007fdc0 00000090 8007fdc0 0 zz_8007fdc0_
 8007fe50 00000078 8007fe50 0 zz_8007fe50_
 8007fec8 00000058 8007fec8 0 idazz_sub_8007FEC8
+8007ff08 00000018 8007ff08 0 zz_8007ff08_
 8007ff20 00000068 8007ff20 0 zz_8007ff20_
 8007ff88 0000004c 8007ff88 0 zz_8007ff88_
 8007ffd4 00000004 8007ffd4 0 nullsub_259
@@ -4232,7 +4241,7 @@
 80085e10 00000078 80085e10 0 zz_80085e10_
 80085e88 00000004 80085e88 0 nullsub_266
 80085e8c 00000008 80085e8c 0 OSGetStackPointer _os.a OSContext.o_15
-80085e94 00000008 80085e94 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_60
+80085e94 00000008 80085e94 0 get0x0(r3)_25
 80085e9c 0000022c 80085e9c 0 zz_80085e9c_
 800860c8 00000074 800860c8 0 zz_800860c8_
 8008613c 0000005c 8008613c 0 zz_8008613c_
@@ -4745,7 +4754,7 @@
 80095644 00000030 80095644 0 zz_80095644_
 80095674 00000020 80095674 0 cPlayer::PostPhysicsUpdate(void)_159
 80095694 00000074 80095694 0 zz_80095694_
-80095708 00000008 80095708 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_63
+80095708 00000008 80095708 0 get0x0(r3)_26
 80095710 00000028 80095710 0 zz_80095710_
 80095738 00000004 80095738 0 nullsub_218
 8009573c 00000008 8009573c 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_59
@@ -4785,7 +4794,7 @@
 80095fe4 00000024 80095fe4 0 CommonDesireData::CalcBoolChance(float)_8
 80096008 000003ec 80096008 0 ShadowExecutor Chain
 800963f4 00000040 800963f4 0 Player::InRangeOfWeaponSwapCircleORVehicle
-80096434 00000008 80096434 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_64
+80096434 00000008 80096434 0 get0x0(r3)_27
 8009643c 00000080 8009643c 0 zz_8009643c_
 800964bc 000000b4 800964bc 0 zz_800964bc_
 80096570 00000034 80096570 0 zz_80096570_
@@ -5122,7 +5131,7 @@
 800a2814 00000040 800a2814 0 zz_800a2814_
 800a2854 0000005c 800a2854 0 zz_800a2854_
 800a28b0 00000034 800a28b0 0 zz_800a28b0_
-800a28e4 00000008 800a28e4 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_67
+800a28e4 00000008 800a28e4 0 get0x0(r3)_28
 800a28ec 00000034 800a28ec 0 zz_800a28ec_
 800a2920 00000058 800a2920 0 zz_800a2920_
 800a2978 00000024 800a2978 0 cFielder::UpdatePlay(float)_50
@@ -5238,7 +5247,7 @@
 800a6248 00000078 800a6248 0 zz_800a6248_
 800a62c0 00000004 800a62c0 0 nullsub_288
 800a62c4 00000008 800a62c4 0 OSGetStackPointer _os.a OSContext.o_24
-800a62cc 00000008 800a62cc 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_68
+800a62cc 00000008 800a62cc 0 get0x0(r3)_29
 800a62d4 00000088 800a62d4 0 zz_800a62d4_
 800a635c 00000074 800a635c 0 zz_800a635c_
 800a63d0 00000030 800a63d0 0 zz_800a63d0_
@@ -5249,7 +5258,7 @@
 800a6520 00000078 800a6520 0 zz_800a6520_
 800a6598 00000004 800a6598 0 nullsub_289
 800a659c 00000008 800a659c 0 OSGetStackPointer _os.a OSContext.o_25
-800a65a4 00000008 800a65a4 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_69
+800a65a4 00000008 800a65a4 0 get0x0(r3)_30
 800a65ac 00000190 800a65ac 0 SET_DEMO_CAMERA_ChaosPowersFunc
 800a673c 00000030 800a673c 0 TRK_memset_123
 800a676c 00000058 800a676c 0 ExternalCam_SetStart_AndUpdate1
@@ -5464,7 +5473,7 @@
 800aba4c 00000024 800aba4c 0 cFielder::EndAction(void)_32
 800aba70 00000034 800aba70 0 zz_800aba70_
 800abaa4 0000003c 800abaa4 0 zz_800abaa4_
-800abae0 00000008 800abae0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_73
+800abae0 00000008 800abae0 0 get0x0(r3)_31
 800abae8 0000002c 800abae8 0 zz_800abae8_
 800abb14 00000034 800abb14 0 GrindRail Spline Track r30=Player::Behavior::Grind
 800abb48 00000038 800abb48 0 zz_800abb48_
@@ -5512,7 +5521,7 @@
 800acea8 00000078 800acea8 0 zz_800acea8_
 800acf20 00000004 800acf20 0 nullsub_290
 800acf24 00000008 800acf24 0 OSGetStackPointer _os.a OSContext.o_26
-800acf2c 00000008 800acf2c 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_74
+800acf2c 00000008 800acf2c 0 get0x0(r3)_32
 800acf34 000000c4 800acf34 0 zz_800acf34_
 800acff8 00000038 800acff8 0 zz_800acff8_
 800ad030 0000005c 800ad030 0 zz_800ad030_
@@ -5621,7 +5630,7 @@
 800afff0 00000024 800afff0 0 cFielder::UpdatePlay(float)_62
 800b0014 00000024 800b0014 0 cFielder::UpdatePlay(float)_63
 800b0038 00000044 800b0038 0 zz_800b0038_
-800b007c 00000008 800b007c 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_75
+800b007c 00000008 800b007c 0 get0x0(r3)_33
 800b0084 0000006c 800b0084 0 zz_800b0084_
 800b00f0 00000034 800b00f0 0 zz_800b00f0_
 800b0124 00000024 800b0124 0 cFielder::UpdatePlay(float)_64
@@ -5722,7 +5731,7 @@
 800b3ffc 00000078 800b3ffc 0 zz_800b3ffc_
 800b4074 00000004 800b4074 0 nullsub_293
 800b4078 00000008 800b4078 0 OSGetStackPointer _os.a OSContext.o_28
-800b4080 00000008 800b4080 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_76
+800b4080 00000008 800b4080 0 get0x0(r3)_34
 800b4088 000000c0 800b4088 0 zz_800b4088_
 800b4148 00000074 800b4148 0 zz_800b4148_
 800b41bc 0000005c 800b41bc 0 zz_800b41bc_
@@ -5763,7 +5772,7 @@
 800b5608 00000074 800b5608 0 zz_800b5608_
 800b567c 00000514 800b567c 0 Cancerous_SetAnimation_All_Registers
 800b5b90 0000002c 800b5b90 0 zz_800b5b90_
-800b5bbc 00000008 800b5bbc 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_77
+800b5bbc 00000008 800b5bbc 0 get0x0(r3)_35
 800b5bc4 00000024 800b5bc4 0 cFielder::UpdatePlay(float)_68
 800b5be8 00000024 800b5be8 0 cFielder::UpdatePlay(float)_69
 800b5c0c 00000024 800b5c0c 0 cFielder::UpdatePlay(float)_70
@@ -6042,7 +6051,7 @@
 800bef78 00000024 800bef78 0 cFielder::EndAction(void)_43
 800bef9c 00000034 800bef9c 0 zz_800bef9c_
 800befd0 00000030 800befd0 0 zz_800befd0_
-800bf000 00000008 800bf000 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_78
+800bf000 00000008 800bf000 0 get0x0(r3)_36
 800bf008 00000030 800bf008 0 zz_800bf008_
 800bf038 00000030 800bf038 0 zz_800bf038_
 800bf068 00000024 800bf068 0 cFielder::UpdatePlay(float)_74
@@ -6476,11 +6485,11 @@
 800cd56c 00000010 800cd56c 0 nlListContainer<P8SaveData>::__ct(void)_58
 800cd57c 0000002c 800cd57c 0 zz_800cd57c_
 800cd5a8 00000050 800cd5a8 0 zz_800cd5a8_
-800cd5f8 00000008 800cd5f8 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_85
+800cd5f8 00000008 800cd5f8 0 get0x0(r3)_37
 800cd600 00000020 800cd600 0 cPlayer::PostPhysicsUpdate(void)_184
 800cd620 00000008 800cd620 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_86
 800cd628 00000010 800cd628 0 cFielder::IsStriker( (void))_8
-800cd638 00000008 800cd638 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_87
+800cd638 00000008 800cd638 0 get0x0(r3)_38
 800cd640 00000020 800cd640 0 cPlayer::PostPhysicsUpdate(void)_185
 800cd660 0000000c 800cd660 0 cAIPad::__ct(void)_10
 800cd66c 000000a0 800cd66c 0 zz_800cd66c_
@@ -6556,11 +6565,12 @@
 800cf750 0000005c 800cf750 0 zz_800cf750_
 800cf7ac 00000090 800cf7ac 0 zz_800cf7ac_
 800cf83c 00000020 800cf83c 0 zz_800cf83c_
+800cf85c 00000018 800cf85c 0 zz_800cf85c_
 800cf860 00000014 800cf860 0 idazz_sub_800CF860
 800cf874 000000a0 800cf874 0 zz_800cf874_
 800cf914 000004b8 800cf914 0 zz_800cf914_
 800cfdcc 00000018 800cfdcc 0 JGadget::operator==(JGadget::TNodeLinkList::iterator, JGadget::TNodeLinkList::iterator) _JAudio2.a JASTrack.o_10
-800cfde4 00000008 800cfde4 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_88
+800cfde4 00000008 800cfde4 0 get0x0(r3)_39
 800cfdec 00000050 800cfdec 0 zz_800cfdec_
 800cfe3c 0000005c 800cfe3c 0 zz_800cfe3c_
 800cfe98 0000009c 800cfe98 0 zz_800cfe98_
@@ -6588,7 +6598,7 @@
 800d054c 00000078 800d054c 0 zz_800d054c_
 800d05c4 00000004 800d05c4 0 nullsub_347
 800d05c8 00000008 800d05c8 0 OSGetStackPointer _os.a OSContext.o_37
-800d05d0 00000008 800d05d0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_89
+800d05d0 00000008 800d05d0 0 get0x0(r3)_40
 800d05d8 0000042c 800d05d8 0 zz_800d05d8_
 800d0a04 00000074 800d0a04 0 zz_800d0a04_
 800d0a78 0000005c 800d0a78 0 zz_800d0a78_
@@ -6846,7 +6856,7 @@
 800d7324 00000040 800d7324 0 zz_800d7324_
 800d7364 00000020 800d7364 0 cPlayer::PostPhysicsUpdate(void)_193
 800d7384 00000074 800d7384 0 zz_800d7384_
-800d73f8 00000008 800d73f8 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_91
+800d73f8 00000008 800d73f8 0 get0x0(r3)_41
 800d7400 00000028 800d7400 0 zz_800d7400_
 800d7428 00000004 800d7428 0 nullsub_358
 800d742c 00000008 800d742c 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_73
@@ -7014,6 +7024,7 @@
 800db188 00000090 800db188 0 zz_800db188_
 800db218 000000a0 800db218 0 zz_800db218_
 800db2b8 000001f4 800db2b8 0 zz_800db2b8_
+800db2ec 000001c0 800db2ec 0 zz_800db2ec_
 800db4ac 0000004c 800db4ac 0 zz_800db4ac_
 800db4f8 0000004c 800db4f8 0 zz_800db4f8_
 800db544 00000074 800db544 0 FallingStone::FallingStone()
@@ -7064,7 +7075,7 @@
 800dc06c 00000040 800dc06c 0 zz_800dc06c_
 800dc0ac 00000020 800dc0ac 0 cPlayer::PostPhysicsUpdate(void)_194
 800dc0cc 00000074 800dc0cc 0 zz_800dc0cc_
-800dc140 00000008 800dc140 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_93
+800dc140 00000008 800dc140 0 get0x0(r3)_42
 800dc148 00000028 800dc148 0 zz_800dc148_
 800dc170 00000004 800dc170 0 nullsub_366
 800dc174 00000008 800dc174 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_76
@@ -7141,7 +7152,7 @@
 800ddf20 0000006c 800ddf20 0 zz_800ddf20_
 800ddf8c 00000040 800ddf8c 0 zz_800ddf8c_
 800ddfcc 000001a4 800ddfcc 0 zz_800ddfcc_
-800de170 00000008 800de170 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_94
+800de170 00000008 800de170 0 get0x0(r3)_43
 800de178 00000040 800de178 0 zz_800de178_
 800de1b8 0000005c 800de1b8 0 zz_800de1b8_
 800de214 0000009c 800de214 0 zz_800de214_
@@ -7382,7 +7393,7 @@
 800e5540 00000004 800e5540 0 nullsub_384
 800e5544 00000008 800e5544 0 OSGetStackPointer _os.a OSContext.o_48
 800e554c 000003c0 800e554c 0 zz_800e554c_
-800e590c 00000008 800e590c 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_96
+800e590c 00000008 800e590c 0 get0x0(r3)_44
 800e5914 00000004 800e5914 0 nullsub_383
 800e5918 0000007c 800e5918 0 zz_800e5918_
 800e5994 00000050 800e5994 0 zz_800e5994_
@@ -7685,7 +7696,7 @@
 800ee7c4 00000040 800ee7c4 0 zz_800ee7c4_
 800ee804 00000010 800ee804 0 nlListContainer<P8SaveData>::__ct(void)_67
 800ee814 00000140 800ee814 0 zz_800ee814_
-800ee954 00000008 800ee954 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_97
+800ee954 00000008 800ee954 0 get0x0(r3)_45
 800ee95c 000000d4 800ee95c 0 zz_800ee95c_
 800eea30 00000080 800eea30 0 zz_800eea30_
 800eeab0 00000048 800eeab0 0 zz_800eeab0_
@@ -7729,7 +7740,7 @@
 800efb98 00000078 800efb98 0 zz_800efb98_
 800efc10 00000004 800efc10 0 nullsub_405
 800efc14 00000008 800efc14 0 OSGetStackPointer _os.a OSContext.o_59
-800efc1c 00000008 800efc1c 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_98
+800efc1c 00000008 800efc1c 0 get0x0(r3)_46
 800efc24 00000088 800efc24 0 zz_800efc24_
 800efcac 00000074 800efcac 0 zz_800efcac_
 800efd20 00000030 800efd20 0 zz_800efd20_
@@ -7941,7 +7952,7 @@
 800f51b4 00000078 800f51b4 0 zz_800f51b4_
 800f522c 00000004 800f522c 0 nullsub_420
 800f5230 00000008 800f5230 0 OSGetStackPointer _os.a OSContext.o_65
-800f5238 00000008 800f5238 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_99
+800f5238 00000008 800f5238 0 get0x0(r3)_47
 800f5240 00000088 800f5240 0 zz_800f5240_
 800f52c8 00000074 800f52c8 0 zz_800f52c8_
 800f533c 00000030 800f533c 0 zz_800f533c_
@@ -8361,7 +8372,7 @@
 801011ac 00000004 801011ac 0 nullsub_1288
 801011b0 00000078 801011b0 0 zz_801011b0_
 80101228 0000007c 80101228 0 zz_80101228_
-801012a4 00000008 801012a4 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_100
+801012a4 00000008 801012a4 0 get0x0(r3)_48
 801012ac 00000070 801012ac 0 zz_801012ac_
 8010131c 0000004c 8010131c 0 zz_8010131c_
 80101368 00000024 80101368 0 cFielder::EndAction(void)_50
@@ -8451,8 +8462,10 @@
 80103fe0 00000058 80103fe0 0 zz_80103fe0_
 80104038 00000004 80104038 0 nullsub_1291
 8010403c 00000004 8010403c 0 nullsub_1292
+80104040 00000018 80104040 0 zz_80104040_
 80104044 00000014 80104044 0 idazz_sub_80104044
 80104058 00000118 80104058 0 zz_80104058_
+80104170 00000024 80104170 0 zz_80104170_
 80104174 00000020 80104174 0 idazz_sub_80104174
 80104194 0000007c 80104194 0 zz_80104194_
 80104210 00000088 80104210 0 zz_80104210_
@@ -8511,6 +8524,7 @@
 801057ac 00000040 801057ac 0 zz_801057ac_
 801057ec 000000c4 801057ec 0 zz_801057ec_
 801058b0 00000040 801058b0 0 zz_801058b0_
+801058f0 00000018 801058f0 0 zz_801058f0_
 801058f4 00000014 801058f4 0 idazz_sub_801058F4
 80105908 00000118 80105908 0 zz_80105908_
 80105a20 00000080 80105a20 0 zz_80105a20_
@@ -8574,7 +8588,7 @@
 801074dc 00000004 801074dc 0 nullsub_1295
 801074e0 0000002c 801074e0 0 MoviePlayerScene::PlayScreenBackSFX(void)_19
 8010750c 0000007c 8010750c 0 zz_8010750c_
-80107588 00000008 80107588 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_101
+80107588 00000008 80107588 0 get0x0(r3)_49
 80107590 0000004c 80107590 0 zz_80107590_
 801075dc 00000038 801075dc 0 zz_801075dc_
 80107614 00000098 80107614 0 zz_80107614_
@@ -8746,7 +8760,7 @@
 8010bd94 00000024 8010bd94 0 zz_8010bd94_
 8010bdb8 00000010 8010bdb8 0 nlListContainer<P8SaveData>::__ct(void)_72
 8010bdc8 00000088 8010bdc8 0 SetItemBoxTask::Exec() || ItemCapsule
-8010be50 00000008 8010be50 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_102
+8010be50 00000008 8010be50 0 get0x0(r3)_50
 8010be58 00000074 8010be58 0 zz_8010be58_
 8010becc 000000e0 8010becc 0 zz_8010becc_
 8010bfac 000000a0 8010bfac 0 zz_8010bfac_
@@ -8911,6 +8925,7 @@
 80110814 00000004 80110814 0 nullsub_1300
 80110818 00000004 80110818 0 nullsub_1301
 8011081c 000000b8 8011081c 0 zz_8011081c_
+801108d4 00000024 801108d4 0 zz_801108d4_
 801108d8 00000020 801108d8 0 idazz_sub_801108D8
 801108f8 0000007c 801108f8 0 zz_801108f8_
 80110974 00000074 80110974 0 zz_80110974_
@@ -9052,7 +9067,7 @@
 80114ab0 00000040 80114ab0 0 zz_80114ab0_
 80114af0 00000050 80114af0 0 zz_80114af0_
 80114b40 000001c4 80114b40 0 zz_80114b40_
-80114d04 00000008 80114d04 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_103
+80114d04 00000008 80114d04 0 get0x0(r3)_51
 80114d0c 00000068 80114d0c 0 zz_80114d0c_
 80114d74 0000014c 80114d74 0 zz_80114d74_
 80114ec0 000000e8 80114ec0 0 zz_80114ec0_
@@ -9167,7 +9182,7 @@
 80117ce0 00000078 80117ce0 0 ??Layer3_CheckpointVirtualFunction_80117ce0_
 80117d58 00000004 80117d58 0 nullsub_506
 80117d5c 00000008 80117d5c 0 OSGetStackPointer _os.a OSContext.o_104
-80117d64 00000008 80117d64 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_104
+80117d64 00000008 80117d64 0 get0x0(r3)_52
 80117d6c 00000300 80117d6c 0 SETObj::Checkpoint
 8011806c 00000030 8011806c 0 TRK_memset_162
 8011809c 00000058 8011809c 0 zz_8011809c_
@@ -9425,7 +9440,7 @@
 8011eec0 00000024 8011eec0 0 zz_8011eec0_
 8011eee4 00000010 8011eee4 0 nlListContainer<P8SaveData>::__ct(void)_74
 8011eef4 00000088 8011eef4 0 zz_8011eef4_
-8011ef7c 00000008 8011ef7c 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_105
+8011ef7c 00000008 8011ef7c 0 get0x0(r3)_53
 8011ef84 00000074 8011ef84 0 zz_8011ef84_
 8011eff8 00000134 8011eff8 0 zz_8011eff8_
 8011f12c 00000148 8011f12c 0 zz_8011f12c_
@@ -9452,7 +9467,7 @@
 8011f9d0 00000008 8011f9d0 0 OSGetStackPointer _os.a OSContext.o_111
 8011f9d8 000002f8 8011f9d8 0 zz_8011f9d8_
 8011fcd0 00000008 8011fcd0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_106
-8011fcd8 00000008 8011fcd8 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_107
+8011fcd8 00000008 8011fcd8 0 get0x0(r3)_54
 8011fce0 00000040 8011fce0 0 zz_8011fce0_
 8011fd20 00000040 8011fd20 0 zz_8011fd20_
 8011fd60 00000074 8011fd60 0 zz_8011fd60_
@@ -9665,7 +9680,7 @@
 80125f1c 000000d0 80125f1c 0 zz_80125f1c_
 80125fec 00000210 80125fec 0 zz_80125fec_
 801261fc 00000098 801261fc 0 zz_801261fc_
-80126294 00000008 80126294 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_108
+80126294 00000008 80126294 0 get0x0(r3)_55
 8012629c 000000d4 8012629c 0 zz_8012629c_
 80126370 00000060 80126370 0 zz_80126370_
 801263d0 000001e8 801263d0 0 zz_801263d0_
@@ -10030,7 +10045,7 @@
 80131a14 00000064 80131a14 0 zz_80131a14_
 80131a78 000001f4 80131a78 0 zz_80131a78_
 80131c6c 00000120 80131c6c 0 zz_80131c6c_
-80131d8c 00000008 80131d8c 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_109
+80131d8c 00000008 80131d8c 0 get0x0(r3)_56
 80131d94 00000040 80131d94 0 zz_80131d94_
 80131dd4 00000050 80131dd4 0 zz_80131dd4_
 80131e24 0000005c 80131e24 0 zz_80131e24_
@@ -10280,7 +10295,7 @@
 80139bb4 0000005c 80139bb4 0 zz_80139bb4_
 80139c10 00000090 80139c10 0 zz_80139c10_
 80139ca0 00000040 80139ca0 0 zz_80139ca0_
-80139ce0 00000008 80139ce0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_110
+80139ce0 00000008 80139ce0 0 get0x0(r3)_57
 80139ce8 00000040 80139ce8 0 zz_80139ce8_
 80139d28 0000005c 80139d28 0 zz_80139d28_
 80139d84 0000009c 80139d84 0 zz_80139d84_
@@ -10966,6 +10981,7 @@
 8014e25c 0000014c 8014e25c 0 zz_8014e25c_
 8014e3a8 00000040 8014e3a8 0 zz_8014e3a8_
 8014e3e8 00000054 8014e3e8 0 zz_8014e3e8_
+8014e43c 00000018 8014e43c 0 zz_8014e43c_
 8014e440 00000014 8014e440 0 idazz_sub_8014E440
 8014e454 0000005c 8014e454 0 zz_8014e454_
 8014e4b0 00000148 8014e4b0 0 zz_8014e4b0_
@@ -11088,6 +11104,7 @@
 80152164 000001f0 80152164 0 zz_80152164_
 80152354 0000005c 80152354 0 zz_80152354_
 801523b0 0000002c 801523b0 0 idazz_sub_801523B0
+801523d4 00000008 801523d4 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
 801523dc 00000054 801523dc 0 zz_801523dc_
 80152430 00000004 80152430 0 nullsub_1354
 80152434 00000028 80152434 0 zz_80152434_
@@ -11149,6 +11166,7 @@
 80153450 00000024 80153450 0 zz_80153450_
 80153474 00000004 80153474 0 nullsub_626
 80153478 0000002c 80153478 0 idazz_sub_80153478
+8015349c 00000008 8015349c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
 801534a4 00000054 801534a4 0 zz_801534a4_
 801534f8 00000004 801534f8 0 nullsub_1355
 801534fc 0000002c 801534fc 0 MoviePlayerScene::PlayScreenBackSFX(void)_41
@@ -11672,7 +11690,7 @@
 801647dc 00000054 801647dc 0 zz_801647dc_
 80164830 00000020 80164830 0 cPlayer::PostPhysicsUpdate(void)_230
 80164850 00000074 80164850 0 zz_80164850_
-801648c4 00000008 801648c4 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_114
+801648c4 00000008 801648c4 0 get0x0(r3)_58
 801648cc 00000028 801648cc 0 zz_801648cc_
 801648f4 00000004 801648f4 0 nullsub_329
 801648f8 00000008 801648f8 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_93
@@ -11700,7 +11718,7 @@
 80164dcc 0000006c 80164dcc 0 zz_80164dcc_
 80164e38 00000020 80164e38 0 cPlayer::PostPhysicsUpdate(void)_231
 80164e58 00000074 80164e58 0 zz_80164e58_
-80164ecc 00000008 80164ecc 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_116
+80164ecc 00000008 80164ecc 0 get0x0(r3)_59
 80164ed4 00000028 80164ed4 0 zz_80164ed4_
 80164efc 00000004 80164efc 0 nullsub_342
 80164f00 00000008 80164f00 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_95
@@ -11728,7 +11746,7 @@
 801653d4 00000054 801653d4 0 zz_801653d4_
 80165428 00000020 80165428 0 cPlayer::PostPhysicsUpdate(void)_232
 80165448 00000074 80165448 0 zz_80165448_
-801654bc 00000008 801654bc 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_118
+801654bc 00000008 801654bc 0 get0x0(r3)_60
 801654c4 00000028 801654c4 0 zz_801654c4_
 801654ec 00000004 801654ec 0 nullsub_336
 801654f0 00000008 801654f0 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_97
@@ -11770,7 +11788,7 @@
 80165e08 00000034 80165e08 0 zz_80165e08_
 80165e3c 00000008 80165e3c 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_99
 80165e44 00000038 80165e44 0 zz_80165e44_
-80165e7c 00000008 80165e7c 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_119
+80165e7c 00000008 80165e7c 0 get0x0(r3)_61
 80165e84 0000000c 80165e84 0 AnimatedModelExplodable::GetWorldMatrix( (void))_12
 80165e90 0000002c 80165e90 0 LexicalCast<46BasicString<Us,Q26Detail19TempStringAllocator>,46BasicString<Us,Q26Detail19TempStringAllocator>>(BasicString<Us,Q_19
 80165ebc 00000038 80165ebc 0 zz_80165ebc_
@@ -12206,7 +12224,7 @@
 8016eeac 00000014 8016eeac 0 idazz_sub_8016EEAC
 8016eec0 00000008 8016eec0 0 GetChaosPowerState
 8016eec8 00000008 8016eec8 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_125
-8016eed0 00000008 8016eed0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_126
+8016eed0 00000008 8016eed0 0 get0x0(r3)_62
 8016eed8 00000008 8016eed8 0 GXInitTexObjUserData _gx.a GXTexture.o_39
 8016eee0 00000008 8016eee0 0 GXInitTexObjUserData _gx.a GXTexture.o_40
 8016eee8 00000008 8016eee8 0 GXInitTexObjUserData _gx.a GXTexture.o_41
@@ -12215,7 +12233,7 @@
 8016ef00 00000008 8016ef00 0 GXInitTexObjUserData _gx.a GXTexture.o_44
 8016ef08 00000008 8016ef08 0 GXInitTexObjUserData _gx.a GXTexture.o_45
 8016ef10 00000020 8016ef10 0 zz_8016ef10_
-8016ef30 00000008 8016ef30 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_127
+8016ef30 00000008 8016ef30 0 get0x0(r3)_63
 8016ef38 0000003c 8016ef38 0 AmmoChecker_8016ef38_
 8016ef74 00000008 8016ef74 0 SetAmmoAndRingsEtc_To_0__GXInitTexObjUserData _gx.a GXTexture.o
 8016ef7c 00000008 8016ef7c 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_128
@@ -12231,7 +12249,7 @@
 8016f21c 00000034 8016f21c 0 cCharacter::IsPlayingEffect( (EffectsGroup *))_6
 8016f250 00000018 8016f250 0 zz_8016f250_
 8016f268 00000018 8016f268 0 zz_8016f268_
-8016f280 00000008 8016f280 0 GetRingCount___CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle
+8016f280 00000008 8016f280 0 getRingCount(r3)
 8016f288 00000054 8016f288 0 PARAM_RING::addRingNum(int, int)
 8016f2dc 00000068 8016f2dc 0 PlayerRingReset_Store
 8016f344 0000001c 8016f344 0 zz_8016f344_
@@ -12301,7 +12319,7 @@
 80171b38 0000001c 80171b38 0 ModeledScreenTransition::Time( (void))
 80171b54 0000004c 80171b54 0 zz_80171b54_
 80171ba0 000001c4 80171ba0 0 EVENT_SetCameraToAttach
-80171d64 00000008 80171d64 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_131
+80171d64 00000008 80171d64 0 get0x0(r3)_64
 80171d6c 0000000c 80171d6c 0 WorldDarkening::Fade(float, float)
 80171d78 00000040 80171d78 0 zz_80171d78_
 80171db8 00000024 80171db8 0 dGeomSphereSetRadius
@@ -12557,7 +12575,7 @@
 80178edc 00000024 80178edc 0 cFielder::EndAction(void)_58
 80178f00 0000006c 80178f00 0 zz_80178f00_
 80178f6c 00000364 80178f6c 0 zz_80178f6c_
-801792d0 00000008 801792d0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_132
+801792d0 00000008 801792d0 0 get0x0(r3)_65
 801792d8 00000008 801792d8 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_133
 801792e0 00000024 801792e0 0 zz_801792e0_
 80179304 00000030 80179304 0 LexicalCast<45BasicString<c,Q26Detail19TempStringAllocator>,PCc>(char *&)_2_fun
@@ -12729,6 +12747,7 @@
 8017c71c 0000003c 8017c71c 0 zz_8017c71c_
 8017c758 00000008 8017c758 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_96
 8017c760 0000003c 8017c760 0 zz_8017c760_
+8017c79c 00000054 8017c79c 0 zz_8017c79c_
 8017c7f0 0000002c 8017c7f0 0 NSNMessengerScene::SceneCreated(void)_4
 8017c81c 00000008 8017c81c 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_97
 8017c824 00000048 8017c824 0 zz_8017c824_
@@ -13233,7 +13252,7 @@
 80189600 00000010 80189600 0 zz_80189600_
 80189610 0000001c 80189610 0 zz_80189610_
 8018962c 00000140 8018962c 0 zz_8018962c_
-8018976c 00000008 8018976c 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_149
+8018976c 00000008 8018976c 0 get0x0(r3)_66
 80189774 00000048 80189774 0 zz_80189774_
 801897bc 00000290 801897bc 0 BkLarvaGenerator_ReadsMainPlayerID@80189930
 80189a4c 00000094 80189a4c 0 zz_80189a4c_
@@ -13335,6 +13354,7 @@
 8018d468 000001e8 8018d468 0 zz_8018d468_
 8018d650 00000044 8018d650 0 zz_8018d650_
 8018d694 00000050 8018d694 0 idazz_sub_8018D694
+8018d6dc 00000008 8018d6dc 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
 8018d6e4 000000b8 8018d6e4 0 zz_8018d6e4_
 8018d79c 00000008 8018d79c 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_118
 8018d7a4 00000014 8018d7a4 0 zz_8018d7a4_
@@ -13638,6 +13658,7 @@
 80192014 000000dc 80192014 0 zz_80192014_
 801920f0 000000f8 801920f0 0 zz_801920f0_
 801921e8 00000030 801921e8 0 idazz_sub_801921E8
+80192210 00000008 80192210 0 zz_80192210_
 80192218 00000050 80192218 0 zz_80192218_
 80192268 000000c0 80192268 0 zz_80192268_
 80192328 00000048 80192328 0 zz_80192328_
@@ -13874,6 +13895,7 @@
 8019734c 000001f4 8019734c 0 zz_8019734c_
 80197540 00000044 80197540 0 zz_80197540_
 80197584 00000050 80197584 0 idazz_sub_80197584
+801975cc 00000008 801975cc 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
 801975d4 00000098 801975d4 0 zz_801975d4_
 8019766c 00000008 8019766c 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_165
 80197674 00000014 80197674 0 zz_80197674_
@@ -14275,7 +14297,7 @@
 801a1680 00000078 801a1680 0 zz_801a1680_
 801a16f8 00000004 801a16f8 0 nullsub_696
 801a16fc 00000008 801a16fc 0 OSGetStackPointer _os.a OSContext.o_171
-801a1704 00000008 801a1704 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_159
+801a1704 00000008 801a1704 0 get0x0(r3)_67
 801a170c 0000029c 801a170c 0 bctrl EnemyModel?
 801a19a8 00000040 801a19a8 0 zz_801a19a8_
 801a19e8 00000048 801a19e8 0 zz_801a19e8_
@@ -14520,7 +14542,7 @@
 801a73a4 0000005c 801a73a4 0 zz_801a73a4_
 801a7400 00000078 801a7400 0 zz_801a7400_
 801a7478 00000044 801a7478 0 zz_801a7478_
-801a74bc 00000008 801a74bc 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_161
+801a74bc 00000008 801a74bc 0 get0x0(r3)_68
 801a74c4 00000024 801a74c4 0 cFielder::UpdatePlay(float)_89
 801a74e8 00000020 801a74e8 0 zz_801a74e8_
 801a7508 00000024 801a7508 0 cFielder::UpdatePlay(float)_90
@@ -14579,7 +14601,7 @@
 801a8c5c 00000078 801a8c5c 0 zz_801a8c5c_
 801a8cd4 00000004 801a8cd4 0 nullsub_697
 801a8cd8 00000008 801a8cd8 0 OSGetStackPointer _os.a OSContext.o_172
-801a8ce0 00000008 801a8ce0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_162
+801a8ce0 00000008 801a8ce0 0 get0x0(r3)_69
 801a8ce8 000000bc 801a8ce8 0 zz_801a8ce8_
 801a8da4 00000030 801a8da4 0 TRK_memset_213
 801a8dd4 00000058 801a8dd4 0 zz_801a8dd4_
@@ -14672,7 +14694,7 @@
 801ab310 000000a0 801ab310 0 zz_801ab310_
 801ab3b0 00000040 801ab3b0 0 zz_801ab3b0_
 801ab3f0 00000094 801ab3f0 0 setEnemyGunType()
-801ab484 00000008 801ab484 0 Weapon::Stick::Load()___CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle
+801ab484 00000008 801ab484 0 getWeapon::Stick::Load(r3)
 801ab48c 00000068 801ab48c 0 zz_801ab48c_
 801ab4f4 0000009c 801ab4f4 0 zz_801ab4f4_
 801ab590 000000c0 801ab590 0 zz_801ab590_
@@ -14980,7 +15002,7 @@
 801b4b74 0000005c 801b4b74 0 FormationOffensive::__dt(void)_184
 801b4bd0 00000028 801b4bd0 0 SidelineExplodable::Allocate(void)_95
 801b4bf8 0000004c 801b4bf8 0 zz_801b4bf8_
-801b4c44 00000008 801b4c44 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_163
+801b4c44 00000008 801b4c44 0 get0x0(r3)_70
 801b4c4c 00000054 801b4c4c 0 zz_801b4c4c_
 801b4ca0 00000054 801b4ca0 0 zz_801b4ca0_
 801b4cf4 00000024 801b4cf4 0 cFielder::UpdatePlay(float)_100
@@ -15032,7 +15054,7 @@
 801b5d1c 00000008 801b5d1c 0 nw4hbm::ut::TextWriterBase<w>::SetCharSpace(float) _homebuttonLib.a ut_TextWriterBase.o_8
 801b5d24 00000030 801b5d24 0 zz_801b5d24_
 801b5d54 0000009c 801b5d54 0 zz_801b5d54_
-801b5df0 00000008 801b5df0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_164
+801b5df0 00000008 801b5df0 0 get0x0(r3)_71
 801b5df8 000000ac 801b5df8 0 LostImpactTurrets_OnLoadMalloc&CameraEtc
 801b5ea4 00000040 801b5ea4 0 zz_801b5ea4_
 801b5ee4 000000c0 801b5ee4 0 zz_801b5ee4_
@@ -15088,7 +15110,7 @@
 801b6938 0000000c 801b6938 0 SHARED_AffectsGUNMechJumpHeight__DrawableCharacter::GetAnimController( (void))
 801b6944 00000014 801b6944 0 zz_801b6944_
 801b6958 00000060 801b6958 0 LostImpactTurrets_bctrl_ToCameraHook
-801b69b8 00000008 801b69b8 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_165
+801b69b8 00000008 801b69b8 0 get0x0(r3)_72
 801b69c0 00000074 801b69c0 0 zz_801b69c0_
 801b6a34 00000008 801b6a34 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_203
 801b6a3c 00000008 801b6a3c 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_204
@@ -15204,7 +15226,7 @@
 801b922c 0000003c 801b922c 0 OnMountCarTypeVehicle__Player::Behavior::DriveVehicle_801b922c_
 801b9268 00000070 801b9268 0 zz_801b9268_
 801b92d8 00000008 801b92d8 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_129
-801b92e0 00000008 801b92e0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_166
+801b92e0 00000008 801b92e0 0 get0x0(r3)_73
 801b92e8 00000078 801b92e8 0 Open Car & Motorcycle LogicParent1
 801b9360 00000044 801b9360 0 zz_801b9360_
 801b93a4 00000098 801b93a4 0 zz_801b93a4_
@@ -15392,7 +15414,7 @@
 801c1d40 00000058 801c1d40 0 zz_801c1d40_
 801c1d98 00000008 801c1d98 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_212
 801c1da0 0000007c 801c1da0 0 zz_801c1da0_
-801c1e1c 00000008 801c1e1c 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_167
+801c1e1c 00000008 801c1e1c 0 get0x0(r3)_74
 801c1e24 00000024 801c1e24 0 CommonDesireData::CalcBoolChance(float)_42
 801c1e48 00000040 801c1e48 0 zz_801c1e48_
 801c1e88 00000184 801c1e88 0 PJSCamera::CameraModeGeneral
@@ -15459,7 +15481,7 @@
 801c5194 0000002c 801c5194 0 LexicalCast<46BasicString<Us,Q26Detail19TempStringAllocator>,46BasicString<Us,Q26Detail19TempStringAllocator>>(BasicString<Us,Q_32
 801c51c0 00000014 801c51c0 0 zz_801c51c0_
 801c51d4 00000154 801c51d4 0 zz_801c51d4_
-801c5328 00000008 801c5328 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_168
+801c5328 00000008 801c5328 0 get0x0(r3)_75
 801c5330 0000024c 801c5330 0 zz_801c5330_
 801c557c 00000034 801c557c 0 zz_801c557c_
 801c55b0 00000024 801c55b0 0 zz_801c55b0_
@@ -15590,8 +15612,9 @@
 801c948c 00000048 801c948c 0 CreateSpecialCameraEvent(r8=boost::detail::sp_counted_base, r31=StageCameraManager)
 801c94d4 0000000c 801c94d4 0 DrawableCharacter::GetAnimController( (void))_3
 801c94e0 00000024 801c94e0 0 cFielder::UpdatePlay(float)_109
+801c9500 00000004 801c9500 0 DBClose 	NdevExi2A.a DebuggerDriver.o
 801c9504 00000198 801c9504 0 Camera_PlayerManualC-StickAdjustments_MasterController_relatedTo:StageCameraManager
-801c969c 00000008 801c969c 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_170
+801c969c 00000008 801c969c 0 get0x0(r3)_76
 801c96a4 00000094 801c96a4 0 zz_801c96a4_
 801c9738 0000004c 801c9738 0 zz_801c9738_
 801c9784 00000024 801c9784 0 cFielder::EndAction(void)_65
@@ -15668,7 +15691,7 @@
 801cc004 00000030 801cc004 0 zz_801cc004_
 801cc034 00000020 801cc034 0 cPlayer::PostPhysicsUpdate(void)_293
 801cc054 00000074 801cc054 0 zz_801cc054_
-801cc0c8 00000008 801cc0c8 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_172
+801cc0c8 00000008 801cc0c8 0 get0x0(r3)_77
 801cc0d0 00000028 801cc0d0 0 zz_801cc0d0_
 801cc0f8 00000004 801cc0f8 0 nullsub_252
 801cc0fc 00000008 801cc0fc 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_133
@@ -16075,7 +16098,7 @@
 801d4844 00000030 801d4844 0 zz_801d4844_
 801d4874 00000020 801d4874 0 cPlayer::PostPhysicsUpdate(void)_324
 801d4894 00000074 801d4894 0 zz_801d4894_
-801d4908 00000008 801d4908 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_178
+801d4908 00000008 801d4908 0 get0x0(r3)_78
 801d4910 00000028 801d4910 0 zz_801d4910_
 801d4938 00000004 801d4938 0 nullsub_260
 801d493c 00000008 801d493c 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_139
@@ -16529,7 +16552,7 @@
 801e0884 00000078 801e0884 0 zz_801e0884_
 801e08fc 00000004 801e08fc 0 nullsub_739
 801e0900 00000008 801e0900 0 OSGetStackPointer _os.a OSContext.o_187
-801e0908 00000008 801e0908 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_180
+801e0908 00000008 801e0908 0 get0x0(r3)_79
 801e0910 00000f3c 801e0910 0 zz_801e0910_
 801e184c 00000074 801e184c 0 zz_801e184c_
 801e18c0 0000005c 801e18c0 0 zz_801e18c0_
@@ -16938,7 +16961,7 @@
 801eab58 00000030 801eab58 0 zz_801eab58_
 801eab88 00000020 801eab88 0 cPlayer::PostPhysicsUpdate(void)_367
 801eaba8 00000074 801eaba8 0 zz_801eaba8_
-801eac1c 00000008 801eac1c 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_183
+801eac1c 00000008 801eac1c 0 get0x0(r3)_80
 801eac24 00000028 801eac24 0 zz_801eac24_
 801eac4c 00000004 801eac4c 0 nullsub_242
 801eac50 00000008 801eac50 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_158
@@ -17521,6 +17544,7 @@
 801f8c1c 00000014 801f8c1c 0 zz_801f8c1c_
 801f8c30 00000028 801f8c30 0 zz_801f8c30_
 801f8c58 0000002c 801f8c58 0 idazz_sub_801F8C58
+801f8c7c 00000008 801f8c7c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
 801f8c84 00000054 801f8c84 0 zz_801f8c84_
 801f8cd8 00000004 801f8cd8 0 nullsub_1533
 801f8cdc 0000002c 801f8cdc 0 MoviePlayerScene::PlayScreenBackSFX(void)_47
@@ -17777,13 +17801,13 @@
 80200f4c 00000050 80200f4c 0 zz_80200f4c_
 80200f9c 00000014 80200f9c 0 zz_80200f9c_
 80200fb0 00000058 80200fb0 0 MainFunc18(r3/r31=TGiScoreDisplay, r29=TGameInfomation)
-80201008 00000008 80201008 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_185
+80201008 00000008 80201008 0 get0x0(r3)_81
 80201010 00000068 80201010 0 zz_80201010_
 80201078 0000004c 80201078 0 zz_80201078_
 802010c4 00000024 802010c4 0 cFielder::EndAction(void)_69
 802010e8 00000064 802010e8 0 zz_802010e8_
 8020114c 000001bc 8020114c 0 zz_8020114c_
-80201308 00000008 80201308 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_186
+80201308 00000008 80201308 0 get0x0(r3)_82
 80201310 00000744 80201310 0 UI_Scores::Render()
 80201a54 00000040 80201a54 0 zz_80201a54_
 80201a94 0000008c 80201a94 0 zz_80201a94_
@@ -18030,7 +18054,7 @@
 80209b58 000000ac 80209b58 0 zz_80209b58_
 80209c04 00000024 80209c04 0 cFielder::UpdatePlay(float)_112
 80209c28 00000078 80209c28 0 zz_80209c28_
-80209ca0 00000008 80209ca0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_187
+80209ca0 00000008 80209ca0 0 get0x0(r3)_83
 80209ca8 00000064 80209ca8 0 zz_80209ca8_
 80209d0c 0000001c 80209d0c 0 zz_80209d0c_
 80209d28 00000110 80209d28 0 zz_80209d28_
@@ -18160,7 +18184,7 @@
 8020e040 00000028 8020e040 0 zz_8020e040_
 8020e068 00000028 8020e068 0 zz_8020e068_
 8020e090 00000054 8020e090 0 zz_8020e090_
-8020e0e4 00000008 8020e0e4 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_189
+8020e0e4 00000008 8020e0e4 0 get0x0(r3)_84
 8020e0ec 00000054 8020e0ec 0 zz_8020e0ec_
 8020e140 0000002c 8020e140 0 zz_8020e140_
 8020e16c 00000024 8020e16c 0 GUNMech_FlickerOnHurt2__cFielder::UpdatePlay(float)
@@ -18192,7 +18216,7 @@
 8020e988 00000078 8020e988 0 GUNMech_UpdatePositionWhileJumping4
 8020ea00 00000004 8020ea00 0 nullsub_791
 8020ea04 00000008 8020ea04 0 OSGetStackPointer _os.a OSContext.o_211
-8020ea0c 00000008 8020ea0c 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_190
+8020ea0c 00000008 8020ea0c 0 get0x0(r3)_85
 8020ea14 00000110 8020ea14 0 GUNMech_AnimationJump
 8020eb24 00000048 8020eb24 0 zz_8020eb24_
 8020eb6c 00000064 8020eb6c 0 zz_8020eb6c_
@@ -19023,6 +19047,7 @@
 80229708 00000058 80229708 0 zz_80229708_
 80229760 00000004 80229760 0 nullsub_1555
 80229764 0000002c 80229764 0 MoviePlayerScene::PlayScreenBackSFX(void)_55
+80229790 00000018 80229790 0 zz_80229790_
 80229794 00000014 80229794 0 idazz_sub_80229794
 802297a8 00000134 802297a8 0 zz_802297a8_
 802298dc 00000040 802298dc 0 zz_802298dc_
@@ -19189,7 +19214,7 @@
 8022ec48 00000024 8022ec48 0 cFielder::UpdatePlay(float)_117
 8022ec6c 00000024 8022ec6c 0 cFielder::UpdatePlay(float)_118
 8022ec90 00000024 8022ec90 0 cFielder::UpdatePlay(float)_119
-8022ecb4 00000008 8022ecb4 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_192
+8022ecb4 00000008 8022ecb4 0 get0x0(r3)_86
 8022ecbc 00000028 8022ecbc 0 zz_8022ecbc_
 8022ece4 00000030 8022ece4 0 TRK_memset_295
 8022ed14 00000028 8022ed14 0 zz_8022ed14_
@@ -19361,6 +19386,7 @@
 80233574 00000004 80233574 0 nullsub_1569
 80233578 00000004 80233578 0 nullsub_1570
 8023357c 00000004 8023357c 0 nullsub_1571
+80233580 00000008 80233580 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
 80233588 00000028 80233588 0 SidelineExplodable::Allocate(void)_119
 802335b0 0000004c 802335b0 0 zz_802335b0_
 802335fc 000000b4 802335fc 0 zz_802335fc_
@@ -19488,7 +19514,7 @@
 80237c90 00000164 80237c90 0 zz_80237c90_
 80237df4 00000040 80237df4 0 zz_80237df4_
 80237e34 000000a0 80237e34 0 zz_80237e34_
-80237ed4 00000008 80237ed4 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_193
+80237ed4 00000008 80237ed4 0 get0x0(r3)_87
 80237edc 00000008 80237edc 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_241
 80237ee4 0000002c 80237ee4 0 LexicalCast<46BasicString<Us,Q26Detail19TempStringAllocator>,46BasicString<Us,Q26Detail19TempStringAllocator>>(BasicString<Us,Q_43
 80237f10 000000f0 80237f10 0 zz_80237f10_
@@ -19503,7 +19529,7 @@
 80238180 00000004 80238180 0 nullsub_1575
 80238184 00000004 80238184 0 nullsub_1576
 80238188 000000b8 80238188 0 zz_80238188_
-80238240 00000008 80238240 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_194
+80238240 00000008 80238240 0 get0x0(r3)_88
 80238248 00000020 80238248 0 zz_80238248_
 80238268 00000048 80238268 0 zz_80238268_
 802382b0 00000030 802382b0 0 zz_802382b0_
@@ -19558,6 +19584,7 @@
 8023993c 0000005c 8023993c 0 zz_8023993c_
 80239998 0000009c 80239998 0 zz_80239998_
 80239a34 000000d8 80239a34 0 zz_80239a34_
+80239a58 000000b4 80239a58 0 zz_80239a58_
 80239b0c 0000009c 80239b0c 0 zz_80239b0c_
 80239ba8 00000044 80239ba8 0 zz_80239ba8_
 80239bec 00000010 80239bec 0 nlListContainer<P8SaveData>::__ct(void)_111
@@ -19636,7 +19663,7 @@
 8023b784 00000214 8023b784 0 zz_8023b784_
 8023b998 000000e0 8023b998 0 zz_8023b998_
 8023ba78 00000040 8023ba78 0 zz_8023ba78_
-8023bab8 00000008 8023bab8 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_198
+8023bab8 00000008 8023bab8 0 get0x0(r3)_89
 8023bac0 00000264 8023bac0 0 @unnamed@PlayerShadowWeaponCannon_cpp@::ControlCannon
 8023bd24 000000e0 8023bd24 0 zz_8023bd24_
 8023be04 00000088 8023be04 0 ControlCannon::ControlCannon()
@@ -19650,7 +19677,7 @@
 8023c304 0000014c 8023c304 0 zz_8023c304_
 8023c450 00000040 8023c450 0 zz_8023c450_
 8023c490 00000368 8023c490 0 bctrl_weapons_related_8023c490_
-8023c7f8 00000008 8023c7f8 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_199
+8023c7f8 00000008 8023c7f8 0 get0x0(r3)_90
 8023c800 000000c8 8023c800 0 zz_8023c800_
 8023c8c8 00000088 8023c8c8 0 zz_8023c8c8_
 8023c950 00000074 8023c950 0 zz_8023c950_
@@ -19663,14 +19690,14 @@
 8023cb30 00000080 8023cb30 0 zz_8023cb30_
 8023cbb0 00000004 8023cbb0 0 nullsub_836
 8023cbb4 00000008 8023cbb4 0 OSGetStackPointer _os.a OSContext.o_230
-8023cbbc 00000008 8023cbbc 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_200
+8023cbbc 00000008 8023cbbc 0 get0x0(r3)_91
 8023cbc4 00000224 8023cbc4 0 ControlGun::ControlGun()
 8023cde8 00000024 8023cde8 0 CommonDesireData::CalcBoolChance(float)_51
 8023ce0c 00000030 8023ce0c 0 TRK_memset_298
 8023ce3c 00000074 8023ce3c 0 zz_8023ce3c_
 8023ceb0 0000005c 8023ceb0 0 zz_8023ceb0_
 8023cf0c 00000090 8023cf0c 0 zz_8023cf0c_
-8023cf9c 00000008 8023cf9c 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_201
+8023cf9c 00000008 8023cf9c 0 get0x0(r3)_92
 8023cfa4 00000040 8023cfa4 0 zz_8023cfa4_
 8023cfe4 00000010 8023cfe4 0 nlListContainer<P8SaveData>::__ct(void)_113
 8023cff4 00000004 8023cff4 0 nullsub_834
@@ -20088,7 +20115,7 @@
 8024b798 00000078 8024b798 0 zz_8024b798_
 8024b810 00000004 8024b810 0 nullsub_845
 8024b814 00000008 8024b814 0 OSGetStackPointer _os.a OSContext.o_235
-8024b81c 00000008 8024b81c 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_202
+8024b81c 00000008 8024b81c 0 get0x0(r3)_93
 8024b824 000003f4 8024b824 0 zz_8024b824_
 8024bc18 00000074 8024bc18 0 zz_8024bc18_
 8024bc8c 0000005c 8024bc8c 0 zz_8024bc8c_
@@ -20191,6 +20218,7 @@
 8024fcc8 0000012c 8024fcc8 0 zz_8024fcc8_
 8024fdf4 00000170 8024fdf4 0 zz_8024fdf4_
 8024ff64 000000b4 8024ff64 0 zz_8024ff64_
+8024ffdc 0000003c 8024ffdc 0 zz_8024ffdc_
 80250018 0000009c 80250018 0 zz_80250018_
 802500b4 000000a4 802500b4 0 zz_802500b4_
 80250158 0000009c 80250158 0 zz_80250158_
@@ -21069,7 +21097,7 @@
 8026923c 0000004c 8026923c 0 zz_8026923c_
 80269288 00000070 80269288 0 zz_80269288_
 802692f8 0000033c 802692f8 0 SetWatchCamera::Exec()
-80269634 00000008 80269634 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_203
+80269634 00000008 80269634 0 get0x0(r3)_94
 8026963c 000000c0 8026963c 0 zz_8026963c_
 802696fc 00000050 802696fc 0 zz_802696fc_
 8026974c 00000050 8026974c 0 zz_8026974c_
@@ -21333,7 +21361,7 @@
 80270edc 00000040 80270edc 0 zz_80270edc_
 80270f1c 00000020 80270f1c 0 cPlayer::PostPhysicsUpdate(void)_439
 80270f3c 00000074 80270f3c 0 zz_80270f3c_
-80270fb0 00000008 80270fb0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_206
+80270fb0 00000008 80270fb0 0 get0x0(r3)_95
 80270fb8 00000028 80270fb8 0 zz_80270fb8_
 80270fe0 00000004 80270fe0 0 nullsub_145
 80270fe4 00000008 80270fe4 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_189
@@ -21361,7 +21389,7 @@
 802714b8 00000040 802714b8 0 zz_802714b8_
 802714f8 00000020 802714f8 0 cPlayer::PostPhysicsUpdate(void)_440
 80271518 00000074 80271518 0 zz_80271518_
-8027158c 00000008 8027158c 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_208
+8027158c 00000008 8027158c 0 get0x0(r3)_96
 80271594 00000028 80271594 0 zz_80271594_
 802715bc 00000004 802715bc 0 nullsub_254
 802715c0 00000008 802715c0 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_191
@@ -21735,7 +21763,7 @@
 8027aa78 0000002c 8027aa78 0 Colorize_StrangeSuperShadow2_CallToEndOfBuffer
 8027aaa4 00000078 8027aaa4 0 zz_8027aaa4_
 8027ab1c 00000038 8027ab1c 0 zz_8027ab1c_
-8027ab54 00000008 8027ab54 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_210
+8027ab54 00000008 8027ab54 0 get0x0(r3)_97
 8027ab5c 0000004c 8027ab5c 0 zz_8027ab5c_
 8027aba8 0000004c 8027aba8 0 zz_8027aba8_
 8027abf4 00000048 8027abf4 0 zz_8027abf4_
@@ -21798,7 +21826,7 @@
 8027c5a0 00000024 8027c5a0 0 cFielder::EndAction(void)_77
 8027c5c4 00000034 8027c5c4 0 zz_8027c5c4_
 8027c5f8 00000024 8027c5f8 0 zz_8027c5f8_
-8027c61c 00000008 8027c61c 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_211
+8027c61c 00000008 8027c61c 0 get0x0(r3)_98
 8027c624 0000002c 8027c624 0 zz_8027c624_
 8027c650 0000002c 8027c650 0 zz_8027c650_
 8027c67c 0000002c 8027c67c 0 zz_8027c67c_
@@ -21874,7 +21902,7 @@
 8027e2d0 00000088 8027e2d0 0 Super::Super
 8027e358 00000088 8027e358 0 zz_8027e358_
 8027e3e0 000000f8 8027e3e0 0 zz_8027e3e0_
-8027e4d8 00000008 8027e4d8 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_212
+8027e4d8 00000008 8027e4d8 0 get0x0(r3)_99
 8027e4e0 000000bc 8027e4e0 0 zz_8027e4e0_
 8027e59c 00000170 8027e59c 0 zz_8027e59c_
 8027e70c 00000394 8027e70c 0 Exception@8027e788__DevilDoomP2TpSuperOnInit()_AfterNullCheck
@@ -22228,7 +22256,7 @@
 80289bac 000000f8 80289bac 0 zz_80289bac_
 80289ca4 00000030 80289ca4 0 zz_80289ca4_
 80289cd4 0000002c 80289cd4 0 zz_80289cd4_
-80289d00 00000008 80289d00 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_215
+80289d00 00000008 80289d00 0 get0x0(r3)_100
 80289d08 0000002c 80289d08 0 zz_80289d08_
 80289d34 00000050 80289d34 0 zz_80289d34_
 80289d84 00000048 80289d84 0 zz_80289d84_
@@ -22248,7 +22276,7 @@
 80289f44 000000e4 80289f44 0 zz_80289f44_
 8028a028 0000006c 8028a028 0 zz_8028a028_
 8028a094 00000124 8028a094 0 zz_8028a094_
-8028a1b8 00000008 8028a1b8 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_216
+8028a1b8 00000008 8028a1b8 0 get0x0(r3)_101
 8028a1c0 000000c8 8028a1c0 0 zz_8028a1c0_
 8028a288 000000f8 8028a288 0 zz_8028a288_
 8028a380 00000008 8028a380 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_217
@@ -22632,7 +22660,7 @@
 80294988 00000014 80294988 0 zz_80294988_
 8029499c 00000050 8029499c 0 zz_8029499c_
 802949ec 000000e4 802949ec 0 zz_802949ec_
-80294ad0 00000008 80294ad0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_219
+80294ad0 00000008 80294ad0 0 get0x0(r3)_102
 80294ad8 00000118 80294ad8 0 zz_80294ad8_
 80294bf0 00000028 80294bf0 0 zz_80294bf0_
 80294c18 00000148 80294c18 0 zz_80294c18_
@@ -22841,7 +22869,7 @@
 8029be5c 00000014 8029be5c 0 zz_8029be5c_
 8029be70 00000028 8029be70 0 zz_8029be70_
 8029be98 00000118 8029be98 0 zz_8029be98_
-8029bfb0 00000008 8029bfb0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_224
+8029bfb0 00000008 8029bfb0 0 get0x0(r3)_103
 8029bfb8 00000054 8029bfb8 0 zz_8029bfb8_
 8029c00c 00000160 8029c00c 0 zz_8029c00c_
 8029c16c 00000088 8029c16c 0 zz_8029c16c_
@@ -23660,7 +23688,7 @@
 802b4414 00000024 802b4414 0 ListContainerBase<P6cSAnim,33NewAdapter<19ListEntry<P6cSAnim>>>::DeleteEntry(ListEntry<P6cSAnim> *)_60
 802b4438 00000024 802b4438 0 cFielder::EndAction(void)_84
 802b445c 00000034 802b445c 0 zz_802b445c_
-802b4490 00000008 802b4490 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_228
+802b4490 00000008 802b4490 0 get0x0(r3)_104
 802b4498 00000030 802b4498 0 zz_802b4498_
 802b44c8 00000024 802b44c8 0 cFielder::UpdatePlay(float)_126
 802b44ec 00000024 802b44ec 0 CommonDesireData::CalcBoolChance(float)_65
@@ -23877,6 +23905,7 @@
 802b9f54 00000024 802b9f54 0 cFielder::UpdatePlay(float)_130
 802b9f78 00000068 802b9f78 0 zz_802b9f78_
 802b9fe0 0000004c 802b9fe0 0 zz_802b9fe0_
+802ba010 0000001c 802ba010 0 zz_802ba010_
 802ba02c 00000024 802ba02c 0 cFielder::EndAction(void)_87
 802ba050 00000060 802ba050 0 zz_802ba050_
 802ba0b0 0000011c 802ba0b0 0 zz_802ba0b0_
@@ -23899,6 +23928,7 @@
 802bba0c 00000120 802bba0c 0 zz_802bba0c_
 802bbb2c 0000008c 802bbb2c 0 menu03
 802bbbb8 00000100 802bbbb8 0 menu04
+802bbbc8 000000f0 802bbbc8 0 zz_802bbbc8_
 802bbcb8 00000090 802bbcb8 0 menu05
 802bbd48 00000720 802bbd48 0 zz_802bbd48_
 802bc468 00000428 802bc468 0 StoryRouteRelatedMaybe?
@@ -24073,6 +24103,9 @@
 802c8824 00000068 802c8824 0 zz_802c8824_
 802c888c 00000084 802c888c 0 zz_802c888c_
 802c8910 000001e4 802c8910 0 zz_802c8910_
+802c8af4 00000008 802c8af4 0 nw4hbm::ut::TextWriterBase<w>::GetCharSpace(void) const 	homebuttonLib.a ut_TextWriterBase.o
+802c8afc 00000008 802c8afc 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+802c8b04 00000008 802c8b04 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
 802c8b0c 00000088 802c8b0c 0 zz_802c8b0c_
 802c8b94 0000009c 802c8b94 0 zz_802c8b94_
 802c8c30 000000a8 802c8c30 0 zz_802c8c30_
@@ -24087,7 +24120,7 @@
 802c8f14 00000028 802c8f14 0 zz_802c8f14_
 802c8f3c 00000024 802c8f3c 0 cFielder::UpdatePlay(float)_136
 802c8f60 00000030 802c8f60 0 zz_802c8f60_
-802c8f90 00000008 802c8f90 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_231
+802c8f90 00000008 802c8f90 0 get0x0(r3)_105
 802c8f98 0000002c 802c8f98 0 zz_802c8f98_
 802c8fc4 0000003c 802c8fc4 0 zz_802c8fc4_
 802c9000 00000044 802c9000 0 zz_802c9000_
@@ -24207,7 +24240,7 @@
 802cd380 00000040 802cd380 0 zz_802cd380_
 802cd3c0 00000060 802cd3c0 0 zz_802cd3c0_
 802cd420 00000028 802cd420 0 zz_802cd420_
-802cd448 00000008 802cd448 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_232
+802cd448 00000008 802cd448 0 get0x0(r3)_106
 802cd450 0000005c 802cd450 0 zz_802cd450_
 802cd4ac 0000005c 802cd4ac 0 zz_802cd4ac_
 802cd508 00000058 802cd508 0 zz_802cd508_
@@ -24494,7 +24527,7 @@
 802d38c4 0000003c 802d38c4 0 zz_802d38c4_
 802d3900 00000034 802d3900 0 zz_802d3900_
 802d3934 000001a0 802d3934 0 ??BossDiablon_WarpPlayerToCoordinatesOnPhaseChangeAndIntro
-802d3ad4 00000008 802d3ad4 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_233
+802d3ad4 00000008 802d3ad4 0 get0x0(r3)_107
 802d3adc 00000090 802d3adc 0 zz_802d3adc_
 802d3b6c 00000040 802d3b6c 0 ??BossDiabonPositionWeird
 802d3bac 00000020 802d3bac 0 cPlayer::PostPhysicsUpdate(void)_472
@@ -24701,8 +24734,8 @@
 802d9e00 0000004c 802d9e00 0 zz_802d9e00_
 802d9e4c 0000002c 802d9e4c 0 zz_802d9e4c_
 802d9e78 00000050 802d9e78 0 zz_802d9e78_
-802d9ec8 00000008 802d9ec8 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_234
-802d9ed0 00000008 802d9ed0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_235
+802d9ec8 00000008 802d9ec8 0 get0x0(r3)_108
+802d9ed0 00000008 802d9ed0 0 get0x0(r3)_109
 802d9ed8 00000024 802d9ed8 0 cFielder::UpdatePlay(float)_155
 802d9efc 000000e0 802d9efc 0 zz_802d9efc_
 802d9fdc 00000050 802d9fdc 0 zz_802d9fdc_
@@ -24735,7 +24768,7 @@
 802da838 00000024 802da838 0 cFielder::UpdatePlay(float)_157
 802da85c 00000024 802da85c 0 cFielder::UpdatePlay(float)_158
 802da880 00000170 802da880 0 zz_802da880_
-802da9f0 00000008 802da9f0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_236
+802da9f0 00000008 802da9f0 0 get0x0(r3)_110
 802da9f8 0000009c 802da9f8 0 zz_802da9f8_
 802daa94 00000068 802daa94 0 zz_802daa94_
 802daafc 0000004c 802daafc 0 zz_802daafc_
@@ -24774,7 +24807,7 @@
 802db878 0000003c 802db878 0 SpindashCharging_AUDIO
 802db8b4 00000184 802db8b4 0 zz_802db8b4_
 802dba38 00000148 802dba38 0 zz_802dba38_
-802dbb80 00000008 802dbb80 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_237
+802dbb80 00000008 802dbb80 0 get0x0(r3)_111
 802dbb88 00000058 802dbb88 0 zz_802dbb88_
 802dbbe0 000000ac 802dbbe0 0 Player SFX?
 802dbc8c 00000090 802dbc8c 0 zz_802dbc8c_
@@ -24862,7 +24895,7 @@
 802dd98c 00000040 802dd98c 0 zz_802dd98c_
 802dd9cc 00000020 802dd9cc 0 cPlayer::PostPhysicsUpdate(void)_474
 802dd9ec 00000074 802dd9ec 0 zz_802dd9ec_
-802dda60 00000008 802dda60 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_239
+802dda60 00000008 802dda60 0 get0x0(r3)_112
 802dda68 00000028 802dda68 0 zz_802dda68_
 802dda90 00000004 802dda90 0 nullsub_941
 802dda94 00000008 802dda94 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_196
@@ -24878,7 +24911,7 @@
 802ddc5c 00000030 802ddc5c 0 TRK_memset_340
 802ddc8c 00000008 802ddc8c 0 GXInitTexObjUserData _gx.a GXTexture.o_64
 802ddc94 0000002c 802ddc94 0 TrailStateExecutor
-802ddcc0 00000008 802ddcc0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_240
+802ddcc0 00000008 802ddcc0 0 get0x0(r3)_113
 802ddcc8 00000024 802ddcc8 0 cFielder::UpdatePlay(float)_159
 802ddcec 00000058 802ddcec 0 zz_802ddcec_
 802ddd44 00000068 802ddd44 0 zz_802ddd44_
@@ -24903,7 +24936,7 @@
 802de9bc 00000010 802de9bc 0 zz_802de9bc_
 802de9cc 00000010 802de9cc 0 zz_802de9cc_
 802de9dc 0000002c 802de9dc 0 MeleeSwingEffectBoldness
-802dea08 00000008 802dea08 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_241
+802dea08 00000008 802dea08 0 get0x0(r3)_114
 802dea10 00000058 802dea10 0 MeleeSwordDrawSwingEffect
 802dea68 00000068 802dea68 0 zz_802dea68_
 802dead0 0000004c 802dead0 0 zz_802dead0_
@@ -26110,6 +26143,7 @@
 80300034 00000004 80300034 0 nullsub_1678
 80300038 00000028 80300038 0 zz_80300038_
 80300060 00000084 80300060 0 zz_80300060_
+803000e4 00000018 803000e4 0 zz_803000e4_
 803000e8 00000014 803000e8 0 idazz_sub_803000E8
 803000fc 000000ac 803000fc 0 zz_803000fc_
 803001a8 000001c0 803001a8 0 zz_803001a8_
@@ -26317,7 +26351,7 @@
 80305ce4 00000044 80305ce4 0 zz_80305ce4_
 80305d28 00000058 80305d28 0 zz_80305d28_
 80305d80 00000038 80305d80 0 r3=AdvReal::MemoryCheck::Phase
-80305db8 00000008 80305db8 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_247
+80305db8 00000008 80305db8 0 get0x0(r3)_115
 80305dc0 00000024 80305dc0 0 r3=AdvReal::MemoryCheck::Phase_2
 80305de4 00000068 80305de4 0 zz_80305de4_
 80305e4c 0000004c 80305e4c 0 zz_80305e4c_
@@ -26940,7 +26974,7 @@
 80319fe4 00000028 80319fe4 0 SidelineExplodable::Allocate(void)_189
 8031a00c 0000004c 8031a00c 0 zz_8031a00c_
 8031a058 00000040 8031a058 0 zz_8031a058_
-8031a098 00000008 8031a098 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_251
+8031a098 00000008 8031a098 0 get0x0(r3)_116
 8031a0a0 00000024 8031a0a0 0 cFielder::UpdatePlay(float)_164
 8031a0c4 00000024 8031a0c4 0 cFielder::UpdatePlay(float)_165
 8031a0e8 00000024 8031a0e8 0 cFielder::UpdatePlay(float)_166
@@ -27465,7 +27499,7 @@
 8032d9b8 00000020 8032d9b8 0 cPlayer::PostPhysicsUpdate(void)_534
 8032d9d8 00000010 8032d9d8 0 zz_8032d9d8_
 8032d9e8 00000028 8032d9e8 0 zz_8032d9e8_
-8032da10 00000008 8032da10 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_252
+8032da10 00000008 8032da10 0 get0x0(r3)_117
 8032da18 00000024 8032da18 0 cFielder::UpdatePlay(float)_170
 8032da3c 00000024 8032da3c 0 cFielder::UpdatePlay(float)_171
 8032da60 0000004c 8032da60 0 zz_8032da60_
@@ -27531,7 +27565,7 @@
 8032fcd8 00000014 8032fcd8 0 zz_8032fcd8_
 8032fcec 00000014 8032fcec 0 zz_8032fcec_
 8032fd00 0000002c 8032fd00 0 zz_8032fd00_
-8032fd2c 00000008 8032fd2c 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_253
+8032fd2c 00000008 8032fd2c 0 get0x0(r3)_118
 8032fd34 00000024 8032fd34 0 cFielder::UpdatePlay(float)_172
 8032fd58 00000068 8032fd58 0 zz_8032fd58_
 8032fdc0 0000004c 8032fdc0 0 zz_8032fdc0_
@@ -27572,7 +27606,7 @@
 80330f80 0000002c 80330f80 0 zz_80330f80_
 80330fac 00000014 80330fac 0 GameInfoManager::GetResultsOfLastUserGame( (void))
 80330fc0 00000010 80330fc0 0 cFielder::IsStriker( (void))_21
-80330fd0 00000008 80330fd0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_254
+80330fd0 00000008 80330fd0 0 get0x0(r3)_119
 80330fd8 00000080 80330fd8 0 zz_80330fd8_
 80331058 0000004c 80331058 0 zz_80331058_
 803310a4 0000004c 803310a4 0 zz_803310a4_
@@ -27684,7 +27718,7 @@
 80335634 00000110 80335634 0 zz_80335634_
 80335744 0000002c 80335744 0 zz_80335744_
 80335770 00000040 80335770 0 zz_80335770_
-803357b0 00000008 803357b0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_255
+803357b0 00000008 803357b0 0 get0x0(r3)_120
 803357b8 0000003c 803357b8 0 zz_803357b8_
 803357f4 00000014 803357f4 0 zz_803357f4_
 80335808 0000003c 80335808 0 zz_80335808_
@@ -27765,7 +27799,7 @@
 8033709c 0000002c 8033709c 0 zz_8033709c_
 803370c8 000001a0 803370c8 0 zz_803370c8_
 80337268 00000040 80337268 0 zz_80337268_
-803372a8 00000008 803372a8 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_256
+803372a8 00000008 803372a8 0 get0x0(r3)_121
 803372b0 00000040 803372b0 0 zz_803372b0_
 803372f0 00000010 803372f0 0 nlListContainer<P8SaveData>::__ct(void)_138
 80337300 00000028 80337300 0 zz_80337300_
@@ -28303,7 +28337,7 @@
 803476f0 00000078 803476f0 0 zz_803476f0_
 80347768 00000008 80347768 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_202
 80347770 0000005c 80347770 0 zz_80347770_
-803477cc 00000008 803477cc 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_260
+803477cc 00000008 803477cc 0 get0x0(r3)_122
 803477d4 00000024 803477d4 0 cFielder::UpdatePlay(float)_187
 803477f8 00000024 803477f8 0 cFielder::UpdatePlay(float)_188
 8034781c 00000040 8034781c 0 zz_8034781c_
@@ -28354,6 +28388,7 @@
 803492e8 00000008 803492e8 0 OSGetStackPointer _os.a OSContext.o_330
 803492f0 000001f8 803492f0 0 zz_803492f0_
 803494e8 00000074 803494e8 0 zz_803494e8_
+80349514 00000048 80349514 0 zz_80349514_
 8034955c 0000005c 8034955c 0 zz_8034955c_
 803495b8 00000090 803495b8 0 zz_803495b8_
 80349648 00000004 80349648 0 nullsub_663
@@ -28499,7 +28534,7 @@
 8034cb4c 00000034 8034cb4c 0 zz_8034cb4c_
 8034cb80 00000008 8034cb80 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_204
 8034cb88 00000014 8034cb88 0 zz_8034cb88_
-8034cb9c 00000008 8034cb9c 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_263
+8034cb9c 00000008 8034cb9c 0 get0x0(r3)_123
 8034cba4 0000000c 8034cba4 0 AnimatedModelExplodable::GetWorldMatrix( (void))_34
 8034cbb0 00000038 8034cbb0 0 zz_8034cbb0_
 8034cbe8 0000002c 8034cbe8 0 zz_8034cbe8_
@@ -28546,7 +28581,7 @@
 8034d7e4 00000030 8034d7e4 0 zz_8034d7e4_
 8034d814 00000020 8034d814 0 cPlayer::PostPhysicsUpdate(void)_565
 8034d834 00000074 8034d834 0 zz_8034d834_
-8034d8a8 00000008 8034d8a8 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_265
+8034d8a8 00000008 8034d8a8 0 get0x0(r3)_124
 8034d8b0 00000028 8034d8b0 0 zz_8034d8b0_
 8034d8d8 00000004 8034d8d8 0 nullsub_223
 8034d8dc 00000008 8034d8dc 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_206
@@ -28639,7 +28674,7 @@
 8034f578 000000a8 8034f578 0 zz_8034f578_
 8034f620 0000004c 8034f620 0 zz_8034f620_
 8034f66c 0000006c 8034f66c 0 zz_8034f66c_
-8034f6d8 00000008 8034f6d8 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_266
+8034f6d8 00000008 8034f6d8 0 get0x0(r3)_125
 8034f6e0 00000024 8034f6e0 0 cFielder::UpdatePlay(float)_194
 8034f704 00000024 8034f704 0 cFielder::UpdatePlay(float)_195
 8034f728 00000004 8034f728 0 nullsub_296
@@ -28851,7 +28886,7 @@
 80355a08 0000003c 80355a08 0 zz_80355a08_
 80355a44 00000020 80355a44 0 cPlayer::PostPhysicsUpdate(void)_576
 80355a64 00000074 80355a64 0 zz_80355a64_
-80355ad8 00000008 80355ad8 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_268
+80355ad8 00000008 80355ad8 0 get0x0(r3)_126
 80355ae0 00000028 80355ae0 0 zz_80355ae0_
 80355b08 00000004 80355b08 0 nullsub_704
 80355b0c 00000008 80355b0c 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_210
@@ -28931,7 +28966,7 @@
 80357484 00000030 80357484 0 TRK_memset_390
 803574b4 00000020 803574b4 0 cPlayer::PostPhysicsUpdate(void)_577
 803574d4 00000074 803574d4 0 zz_803574d4_
-80357548 00000008 80357548 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_270
+80357548 00000008 80357548 0 get0x0(r3)_127
 80357550 00000028 80357550 0 zz_80357550_
 80357578 00000004 80357578 0 nullsub_222
 8035757c 00000008 8035757c 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_213
@@ -29017,7 +29052,7 @@
 8035974c 000002cc 8035974c 0 r5=boost::detail::sp_counted_base_impl<TMessageDisp *, boost::checked_deleter<TMessageDisp>>
 803598e4 000002cc 803598e4 0 def_803598B8
 80359a18 00000024 80359a18 0 r3=SaveCycle::Check::Phase
-80359a3c 00000008 80359a3c 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_271
+80359a3c 00000008 80359a3c 0 get0x0(r3)_128
 80359a44 00000024 80359a44 0 cFielder::UpdatePlay(float)_202
 80359a68 00000068 80359a68 0 zz_80359a68_
 80359ad0 0000004c 80359ad0 0 zz_80359ad0_
@@ -29032,7 +29067,7 @@
 8035a384 00000084 8035a384 0 zz_8035a384_
 8035a408 00000014 8035a408 0 Jumbotron::StopPlaying(void)_2
 8035a41c 00000024 8035a41c 0 CommonDesireData::CalcBoolChance(float)_74
-8035a440 00000008 8035a440 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_272
+8035a440 00000008 8035a440 0 get0x0(r3)_129
 8035a448 00000024 8035a448 0 cFielder::UpdatePlay(float)_203
 8035a46c 00000068 8035a46c 0 zz_8035a46c_
 8035a4d4 0000004c 8035a4d4 0 zz_8035a4d4_
@@ -29048,7 +29083,7 @@
 8035adb8 0000009c 8035adb8 0 zz_8035adb8_
 8035ae54 00000010 8035ae54 0 nlListContainer<P8SaveData>::__ct(void)_142
 8035ae64 00000024 8035ae64 0 CommonDesireData::CalcBoolChance(float)_75
-8035ae88 00000008 8035ae88 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_273
+8035ae88 00000008 8035ae88 0 get0x0(r3)_130
 8035ae90 00000024 8035ae90 0 cFielder::UpdatePlay(float)_204
 8035aeb4 00000068 8035aeb4 0 zz_8035aeb4_
 8035af1c 0000004c 8035af1c 0 zz_8035af1c_
@@ -29097,12 +29132,14 @@
 8035d464 00000144 8035d464 0 UI_Pause_DrawPauseScreen
 8035d5a8 000000c4 8035d5a8 0 zz_8035d5a8_
 8035d66c 0000043c 8035d66c 0 UI_MissionStuff_WithFloats?
+8035d99c 0000010c 8035d99c 0 zz_8035d99c_
 8035daa8 000001c0 8035daa8 0 UI_NoAnimate_No_PauseScreen
 8035dc68 000001f8 8035dc68 0 UnknownStepToUI_MissionStuff_1_Sub1_Sub1
 8035de60 000002a4 8035de60 0 UnknownStepToUI_MissionStuff_1_Sub1
 8035e104 00000058 8035e104 0 MissionUI_Animation_2
 8035e15c 000003cc 8035e15c 0 UnknownStepToUI_MissionStuff_1
 8035e528 0000003c 8035e528 0 zz_8035e528_
+8035e558 0000000c 8035e558 0 zz_8035e558_
 8035e564 00000294 8035e564 0 zz_8035e564_
 8035e7f8 000001bc 8035e7f8 0 bctrl_UI_Textures
 8035e9b4 00000044 8035e9b4 0 UI_Ring_Maybe_Please_PositionScaleMagic
@@ -29315,6 +29352,7 @@
 80364024 00000034 80364024 0 zz_80364024_
 80364058 0000000c 80364058 0 GetOneTimerLeadGroundContactAnims(void)_53
 80364064 00000078 80364064 0 zz_80364064_
+8036408c 00000050 8036408c 0 zz_8036408c_
 803640dc 00000038 803640dc 0 zz_803640dc_
 80364114 000001e0 80364114 0 zz_80364114_
 803642f4 00000034 803642f4 0 zz_803642f4_
@@ -29764,7 +29802,7 @@
 8036e9cc 00000030 8036e9cc 0 zz_8036e9cc_
 8036e9fc 00000020 8036e9fc 0 cPlayer::PostPhysicsUpdate(void)_603
 8036ea1c 00000074 8036ea1c 0 zz_8036ea1c_
-8036ea90 00000008 8036ea90 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_278
+8036ea90 00000008 8036ea90 0 get0x0(r3)_131
 8036ea98 00000028 8036ea98 0 zz_8036ea98_
 8036eac0 00000004 8036eac0 0 nullsub_571
 8036eac4 00000008 8036eac4 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_231
@@ -30180,6 +30218,7 @@
 80380680 00000060 80380680 0 PADSetSpec
 803806e0 00000174 803806e0 0 SPEC0_MakeStatus
 80380854 00000174 80380854 0 SPEC0_MakeStatus_2
+803809c8 00000470 803809c8 0 SPEC2_MakeStatus
 803809cc 0000046c 803809cc 0 idazz_sub_803809CC
 80380e38 000000bc 80380e38 0 OnReset_2
 80380ef4 00000060 80380ef4 0 SamplingHandler
@@ -30670,6 +30709,7 @@
 8039c984 0000003c 8039c984 0 TRK_ppc_memcpy
 8039c9c0 00000088 8039c9c0 0 zz_8039c9c0_
 8039cbf0 00000118 8039cbf0 0 zz_8039cbf0_
+8039ccb4 00000078 8039ccb4 0 TRKInterruptHandlerEnableInterrupts
 8039cd08 00000024 8039cd08 0 ReadFPSCR
 8039cd2c 00000024 8039cd2c 0 WriteFPSCR
 8039cd50 000000c4 8039cd50 0 TRKTargetAccessARAM
@@ -30794,22 +30834,38 @@
 803a0d78 0000005c 803a0d78 0 __cvt_fp2unsigned
 803a0dd4 0000002c 803a0dd4 0 idazz_sub_803A0DD4
 803a0e00 00000020 803a0e00 0 __save_fpr::
+803a0e08 00000018 803a0e08 0 __save_fpr::
+803a0e0c 00000014 803a0e0c 0 __save_fpr::
+803a0e10 00000010 803a0e10 0 __save_fpr::
 803a0e20 0000002c 803a0e20 0 idazz_sub_803A0E20
 803a0e4c 00000020 803a0e4c 0 __restore_fpr::
+803a0e54 00000018 803a0e54 0 __restore_fpr::
+803a0e58 00000014 803a0e58 0 __restore_fpr::
+803a0e5c 00000010 803a0e5c 0 __restore_fpr::
 803a0e6c 0000000c 803a0e6c 0 __save_gpr
 803a0e70 0000000c 803a0e70 0 __save_gpr::
+803a0e74 00000044 803a0e74 0 __save_gpr::
 803a0e78 0000000c 803a0e78 0 idazz_sub_803A0E78
+803a0e7c 0000003c 803a0e7c 0 __save_gpr::
+803a0e80 00000038 803a0e80 0 __save_gpr::
 803a0e84 00000008 803a0e84 0 idazz_sub_803A0E84
+803a0e88 00000030 803a0e88 0 __save_gpr::
 803a0e8c 00000008 803a0e8c 0 idazz_sub_803A0E8C
+803a0e90 00000028 803a0e90 0 __save_gpr::
 803a0e94 00000004 803a0e94 0 idazz_sub_803A0E94
 803a0e98 00000004 803a0e98 0 idazz_sub_803A0E98
 803a0e9c 00000004 803a0e9c 0 idazz_sub_803A0E9C
 803a0ea0 00000018 803a0ea0 0 __save_gpr::_12
 803a0eb8 0000000c 803a0eb8 0 __restore_gpr
 803a0ebc 0000000c 803a0ebc 0 __restore_gpr::
+803a0ec0 00000044 803a0ec0 0 __restore_gpr::
 803a0ec4 0000000c 803a0ec4 0 idazz_sub_803A0EC4
+803a0ec8 0000003c 803a0ec8 0 __restore_gpr::
+803a0ecc 00000038 803a0ecc 0 __restore_gpr::
 803a0ed0 00000008 803a0ed0 0 idazz_sub_803A0ED0
+803a0ed4 00000030 803a0ed4 0 __restore_gpr::
 803a0ed8 00000008 803a0ed8 0 idazz_sub_803A0ED8
+803a0edc 00000028 803a0edc 0 __restore_gpr::
 803a0ee0 00000004 803a0ee0 0 idazz_sub_803A0EE0
 803a0ee4 00000004 803a0ee4 0 idazz_sub_803A0EE4
 803a0ee8 00000004 803a0ee8 0 idazz_sub_803A0EE8
@@ -31639,6 +31695,7 @@
 803d7224 000000b0 803d7224 0 zz_803d7224_
 803d72d4 00000380 803d72d4 0 zz_803d72d4_
 803d7654 000002ec 803d7654 0 zz_803d7654_
+803d77cc 00000174 803d77cc 0 zz_803d77cc_
 803d7940 00000088 803d7940 0 zz_803d7940_
 803d79c8 0000008c 803d79c8 0 zz_803d79c8_
 803d7a54 0000001c 803d7a54 0 zz_803d7a54_
@@ -31678,8 +31735,13 @@
 803da4d8 00000364 803da4d8 0 zz_803da4d8_
 803da83c 00000130 803da83c 0 zz_803da83c_
 803da96c 000003ec 803da96c 0 zz_803da96c_
+803dac80 000000d8 803dac80 0 zz_803dac80_
 803dad58 00000330 803dad58 0 zz_803dad58_
 803db088 00000450 803db088 0 zz_803db088_
+803db104 00000090 803db104 0 zz_803db104_
+803db194 000000c4 803db194 0 zz_803db194_
+803db258 00000130 803db258 0 zz_803db258_
+803db388 00000150 803db388 0 zz_803db388_
 803db4d8 0000002c 803db4d8 0 zz_803db4d8_
 803db504 000002c8 803db504 0 zz_803db504_
 803db7cc 0000046c 803db7cc 0 zz_803db7cc_
@@ -31696,6 +31758,7 @@
 803ddd90 000005bc 803ddd90 0 zz_803ddd90_
 803de34c 0000022c 803de34c 0 zz_803de34c_
 803de578 00000014 803de578 0 zz_803de578_
+803de580 0000000c 803de580 0 zz_803de580_
 803de58c 000000f0 803de58c 0 zz_803de58c_
 803de67c 0000058c 803de67c 0 zz_803de67c_
 803dec08 00000124 803dec08 0 zz_803dec08_
@@ -31716,6 +31779,10 @@
 803dfd24 00000470 803dfd24 0 zz_803dfd24_
 803e0194 000004c0 803e0194 0 zz_803e0194_
 803e0654 00000660 803e0654 0 zz_803e0654_
+803e07cc 0000024c 803e07cc 0 zz_803e07cc_
+803e0a18 000000dc 803e0a18 0 zz_803e0a18_
+803e0af4 000000e0 803e0af4 0 zz_803e0af4_
+803e0bd4 000000e0 803e0bd4 0 zz_803e0bd4_
 803e0cb4 0000002c 803e0cb4 0 zz_803e0cb4_
 803e0ce0 00000008 803e0ce0 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_387
 803e0ce8 00000008 803e0ce8 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_388
@@ -32057,6 +32124,7 @@
 803fe96c 000000f0 803fe96c 0 zz_803fe96c_
 803fea5c 000000d4 803fea5c 0 zz_803fea5c_
 803feb30 00000a50 803feb30 0 zz_803feb30_
+803ff080 00000500 803ff080 0 zz_803ff080_
 803ff580 00000080 803ff580 0 zz_803ff580_
 803ff600 00000008 803ff600 0 GXInitTexObjUserData _gx.a GXTexture.o_94
 803ff608 00000008 803ff608 0 GXInitTexObjUserData _gx.a GXTexture.o_95
@@ -32098,6 +32166,7 @@
 804016a8 0000009c 804016a8 0 zz_804016a8_
 80401744 000001d4 80401744 0 zz_80401744_
 80401918 0000034c 80401918 0 zz_80401918_
+80401c5c 00000008 80401c5c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
 80401c64 000000f0 80401c64 0 zz_80401c64_
 80401d54 0000026c 80401d54 0 zz_80401d54_
 80401fc0 0000002c 80401fc0 0 zz_80401fc0_
@@ -32524,6 +32593,7 @@
 804186a0 00000200 804186a0 0 WritePlayerModelData_MTP?
 804188a0 000001ac 804188a0 0 ApplyMTN()_MTN Corruption w/2P MTP Code
 80418a4c 000008a0 80418a4c 0 MotionInfLoopOnGameNoMTP
+80418c2c 000006c0 80418c2c 0 zz_80418c2c_
 804192ec 000001cc 804192ec 0 zz_804192ec_
 804194b8 000001b4 804194b8 0 zz_804194b8_
 8041966c 00000278 8041966c 0 zz_8041966c_
@@ -32948,6 +33018,7 @@
 8043dab0 00000034 8043dab0 0 zz_8043dab0_
 8043dae4 00000024 8043dae4 0 zz_8043dae4_
 8043db08 0000020c 8043db08 0 zz_8043db08_
+8043dc3c 000000d8 8043dc3c 0 zz_8043dc3c_
 8043dd14 000002f0 8043dd14 0 zz_8043dd14_
 8043e004 00000084 8043e004 0 zz_8043e004_
 8043e088 00000060 8043e088 0 zz_8043e088_
@@ -33182,7 +33253,7 @@
 80452bd8 0000002c 80452bd8 0 zz_80452bd8_
 80452c04 00000048 80452c04 0 zz_80452c04_
 80452c4c 0000002c 80452c4c 0 zz_80452c4c_
-80452c78 00000008 80452c78 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_307
+80452c78 00000008 80452c78 0 get0x0(r3)_132
 80452c80 00000008 80452c80 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_308
 80452c88 00000010 80452c88 0 cAnimInventory::GetAnim(int)
 80452c98 00000044 80452c98 0 zz_80452c98_
@@ -33512,6 +33583,7 @@
 804669ec 00000068 804669ec 0 zz_804669ec_
 80466a54 00000104 80466a54 0 zz_80466a54_
 80466af8 00000104 80466af8 0 def_80466A74
+80466b00 00000058 80466b00 0 zz_80466b00_
 80466b58 00001070 80466b58 0 Geo_VertChugging_Or_ToomanyChunk
 80467bc8 000007e4 80467bc8 0 zz_80467bc8_
 804683ac 00000730 804683ac 0 CrashOnLoad_IF_L_FLAG_DETECTED
@@ -33546,7 +33618,32 @@
 8046fc1c 0000002c 8046fc1c 0 zz_8046fc1c_
 8046fc48 00000008 8046fc48 0 GXInitTexObjUserData _gx.a GXTexture.o_100
 8046fc50 000002e4 8046fc50 0 zz_8046fc50_
+8046fca4 00000038 8046fca4 0 zz_8046fca4_
+8046fcdc 00000050 8046fcdc 0 zz_8046fcdc_
+8046fd2c 0000002c 8046fd2c 0 zz_8046fd2c_
+8046fd58 0000002c 8046fd58 0 zz_8046fd58_
+8046fd84 00000034 8046fd84 0 zz_8046fd84_
+8046fdb8 00000030 8046fdb8 0 zz_8046fdb8_
+8046fde8 00000034 8046fde8 0 zz_8046fde8_
+8046fe1c 00000034 8046fe1c 0 zz_8046fe1c_
+8046fe50 00000048 8046fe50 0 zz_8046fe50_
+8046fe98 00000034 8046fe98 0 zz_8046fe98_
+8046fecc 00000034 8046fecc 0 zz_8046fecc_
+8046ff00 00000034 8046ff00 0 zz_8046ff00_
 8046ff34 00000538 8046ff34 0 zz_8046ff34_
+8046ff74 00000030 8046ff74 0 zz_8046ff74_
+8046ffa4 00000020 8046ffa4 0 zz_8046ffa4_
+8046ffc4 0000004c 8046ffc4 0 zz_8046ffc4_
+80470010 0000004c 80470010 0 zz_80470010_
+8047005c 00000070 8047005c 0 zz_8047005c_
+804700cc 00000074 804700cc 0 zz_804700cc_
+80470140 00000074 80470140 0 zz_80470140_
+804701b4 00000074 804701b4 0 zz_804701b4_
+80470228 00000074 80470228 0 zz_80470228_
+8047029c 00000074 8047029c 0 zz_8047029c_
+80470310 00000074 80470310 0 zz_80470310_
+80470384 00000074 80470384 0 zz_80470384_
+804703f8 00000074 804703f8 0 zz_804703f8_
 8047046c 00000008 8047046c 0 J3DColorBlockLightOff::setColorChanNum(unsigned char) _J3DGraphBase.a J3DMatBlock.o_11
 80470474 00000060 80470474 0 zz_80470474_
 804704d4 00000078 804704d4 0 zz_804704d4_
@@ -33728,7 +33825,7 @@
 8047e03c 00000008 8047e03c 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_313
 8047e044 00000088 8047e044 0 zz_8047e044_
 8047e0cc 00000014 8047e0cc 0 zz_8047e0cc_
-8047e0e0 00000008 8047e0e0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_314
+8047e0e0 00000008 8047e0e0 0 get0x0(r3)_133
 8047e0e8 00000018 8047e0e8 0 zz_8047e0e8_
 8047e100 00000198 8047e100 0 zz_8047e100_
 8047e298 0000046c 8047e298 0 zz_8047e298_
@@ -33917,6 +34014,7 @@
 8048915c 0000025c 8048915c 0 ImageConvertDepth
 804893b8 00000100 804893b8 0 RwImageCopy
 804894b8 00000378 804894b8 0 RwImageGammaCorrect
+80489538 000002f8 80489538 0 zz_80489538_
 80489830 00000178 80489830 0 zz_80489830_
 804899a8 00000074 804899a8 0 zz_804899a8_
 80489a1c 00000074 80489a1c 0 zz_80489a1c_
