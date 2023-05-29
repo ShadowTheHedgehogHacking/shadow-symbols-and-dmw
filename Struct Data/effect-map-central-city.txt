@@ -1,0 +1,15 @@
+Central City Effects Map
+---
+2 = One Time Dust Multi-Particle
+23 = One Time Dust Multi-Particle, Light
+33 = Light Red/White pulsing Light, very Dim, Shine Rotate
+51 = One Time Dust Multi-Particle
+89 = Red Pulsing Light, Dim
+90 = Red Pulsing Light
+91 = Fire
+92 = Fire ball
+93 = Dark Smoke Stream
+94 = Smoke Stream
+95 = Smoke Cluster
+96 = One Time, Tree leaf hit particle
+102 = 

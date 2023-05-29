@@ -1,0 +1,2 @@
+GUN Soldier AI State Struct
+0x008A = IsHit

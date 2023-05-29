@@ -25151,6 +25151,13 @@
                 }
             ],
             "groupName": "MTN Research"
+        },
+        {
+            "address": "8057D728",
+            "baseIndex": 0,
+            "label": "Global Frame Counter",
+            "typeIndex": 2,
+            "unsigned": true
         }
     ]
 }
