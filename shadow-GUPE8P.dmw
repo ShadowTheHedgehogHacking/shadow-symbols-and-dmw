@@ -670,9 +670,23 @@
                     "unsigned": false
                 },
                 {
+                    "address": "80575F80",
+                    "baseIndex": 0,
+                    "label": "StageAction (0-16)",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
                     "address": "80575F87",
                     "baseIndex": 0,
                     "label": "Execute/Change StageAction (0-16)",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "80575F95",
+                    "baseIndex": 1,
+                    "label": "On Stage Completed Flag",
                     "typeIndex": 0,
                     "unsigned": false
                 },
@@ -25157,6 +25171,109 @@
             "baseIndex": 0,
             "label": "Global Frame Counter",
             "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "address": "805F28F8",
+            "baseIndex": 0,
+            "label": "Max Spindash Time",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "80204BDC",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805ABCBD",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 0,
+            "unsigned": true
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "807D76C8",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "807D7724",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "807D775C",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "807D77B8",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "807D3950",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "805A1E3C",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "80585930",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "8057FA7C",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "805766DC",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "8056EEA4",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "typeIndex": 2,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "Research EGGDEALER EVENTCAM"
+        },
+        {
+            "address": "805EE65C",
+            "baseIndex": 0,
+            "label": "Static ALL Bosses HP",
+            "typeIndex": 3,
             "unsigned": true
         }
     ]
