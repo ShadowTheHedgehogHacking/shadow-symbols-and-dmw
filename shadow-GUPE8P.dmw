@@ -25085,6 +25085,13 @@
                     "label": "BG Base Pointer",
                     "typeIndex": 2,
                     "unsigned": false
+                },
+                {
+                    "address": "804ABF00",
+                    "baseIndex": 1,
+                    "label": "Fog Debug",
+                    "typeIndex": 2,
+                    "unsigned": false
                 }
             ],
             "groupName": "Fog"
