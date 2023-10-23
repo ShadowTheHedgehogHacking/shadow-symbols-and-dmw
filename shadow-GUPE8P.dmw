@@ -342,37 +342,89 @@
                 {
                     "groupEntries": [
                         {
-                            "address": "804C4A18",
-                            "baseIndex": 0,
-                            "label": "Stage table: stg0000 slot data",
-                            "typeIndex": 2,
-                            "unsigned": false
+                            "groupEntries": [
+                                {
+                                    "address": "804C4A18",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4A34",
+                                    "baseIndex": 0,
+                                    "label": "Next Stage (Dark)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4A40",
+                                    "baseIndex": 0,
+                                    "label": "Next Stage (Normal)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4A4C",
+                                    "baseIndex": 0,
+                                    "label": "Next Stage (Hero)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0000"
                         },
                         {
                             "address": "804C4B58",
                             "baseIndex": 0,
-                            "label": "Stage table: stg0005 slot data",
+                            "label": "stg0005",
                             "typeIndex": 2,
                             "unsigned": false
                         },
                         {
                             "address": "804C4BA8",
                             "baseIndex": 0,
-                            "label": "Stage table: stg0100 slot data",
+                            "label": "stg0100",
                             "typeIndex": 2,
                             "unsigned": false
                         },
                         {
-                            "address": "804C4BF8",
-                            "baseIndex": 0,
-                            "label": "Stage table: stg0200 slot data",
-                            "typeIndex": 2,
-                            "unsigned": false
+                            "groupEntries": [
+                                {
+                                    "address": "804C4BF8",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4C14",
+                                    "baseIndex": 0,
+                                    "label": "Next Stage (Dark)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4C20",
+                                    "baseIndex": 0,
+                                    "label": "Next Stage (Normal)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4C2C",
+                                    "baseIndex": 0,
+                                    "label": "Next Stage (Hero)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0200"
                         },
                         {
                             "address": "804C4C48",
                             "baseIndex": 0,
-                            "label": "Stage table: stg0201 slot data",
+                            "label": "stg0201",
                             "typeIndex": 2,
                             "unsigned": false
                         },
@@ -597,7 +649,7 @@
                     "groupName": "Expert progress tracking"
                 }
             ],
-            "groupName": "Stage Data & Story/Select/Expert Tables"
+            "groupName": "Stage Data & Tables"
         },
         {
             "groupEntries": [
@@ -892,19 +944,6 @@
         {
             "groupEntries": [
                 {
-                    "address": "807D86C8",
-                    "baseIndex": 0,
-                    "label": "StageManager FirstStage Pick Only (Dynamic; Not Static)",
-                    "length": 55,
-                    "pointerOffsets": [
-                        "0",
-                        "0",
-                        "0"
-                    ],
-                    "typeIndex": 5,
-                    "unsigned": false
-                },
-                {
                     "address": "80575F78",
                     "baseIndex": 0,
                     "label": "Current StageAction",
@@ -937,6 +976,13 @@
                     "baseIndex": 1,
                     "label": "On Stage Completed Flag",
                     "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "807D747C",
+                    "baseIndex": 0,
+                    "label": "StageID StoryMode Stage Sequence",
+                    "typeIndex": 2,
                     "unsigned": false
                 },
                 {
