@@ -260,84 +260,38 @@
         {
             "groupEntries": [
                 {
-                    "address": "804C4A18",
-                    "baseIndex": 0,
-                    "label": "Select Mode Data Table Start",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "804C4C48",
-                    "baseIndex": 0,
-                    "label": "Select Mode Data Table -> Glyphic Canyon",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "804C4D38",
-                    "baseIndex": 0,
-                    "label": "Select Mode Data Table -> Prison Island",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "804C4D3C",
-                    "baseIndex": 0,
-                    "label": "Select Mode Data Table -> Prison Island",
-                    "length": 155,
-                    "pointerOffsets": [
-                        "0"
-                    ],
-                    "typeIndex": 5,
-                    "unsigned": false
-                },
-                {
                     "address": "805F4DD0",
                     "baseIndex": 0,
-                    "label": "in-game EVENT data table on real stages?",
+                    "label": "in-game EVENT data table on non-event stages?",
                     "length": 55,
                     "typeIndex": 5,
                     "unsigned": false
                 },
                 {
-                    "address": "804C528C",
-                    "baseIndex": 0,
-                    "label": "Select Mode Data Table -> Last Way 0x1B",
-                    "length": 45,
-                    "pointerOffsets": [
-                        "0"
+                    "groupEntries": [
+                        {
+                            "address": "804FF690",
+                            "baseIndex": 0,
+                            "label": "Association ID Table Start (Westopolis)",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804FF700",
+                            "baseIndex": 0,
+                            "label": "Sel 6, 0 (stg0700) table ref",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804FF750",
+                            "baseIndex": 1,
+                            "label": "SubBoss Table Ref",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
                     ],
-                    "typeIndex": 5,
-                    "unsigned": false
-                },
-                {
-                    "address": "804C5288",
-                    "baseIndex": 0,
-                    "label": "Select Mode Data Table -> Last Way",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "804C4964",
-                    "baseIndex": 0,
-                    "label": "BossLast Slot",
-                    "length": 155,
-                    "typeIndex": 5,
-                    "unsigned": false
-                },
-                {
-                    "address": "804C57D8",
-                    "baseIndex": 0,
-                    "label": "Select Mode Data Table -> Devil Doom 0x2C",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "804FF700",
-                    "baseIndex": 0,
-                    "label": "Sel 6, 0 (stg0700) table ref",
-                    "typeIndex": 2,
-                    "unsigned": false
+                    "groupName": "Association ID Table"
                 },
                 {
                     "groupEntries": [
@@ -348,6 +302,17 @@
                                     "baseIndex": 0,
                                     "label": "Stage ID",
                                     "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4A1C",
+                                    "baseIndex": 0,
+                                    "label": "Stage Name",
+                                    "length": 8,
+                                    "pointerOffsets": [
+                                        "0"
+                                    ],
+                                    "typeIndex": 5,
                                     "unsigned": false
                                 },
                                 {
@@ -372,21 +337,183 @@
                                     "unsigned": false
                                 }
                             ],
-                            "groupName": "stg0000"
+                            "groupName": "stg0000 / 0"
                         },
                         {
-                            "address": "804C4B58",
-                            "baseIndex": 0,
-                            "label": "stg0005",
-                            "typeIndex": 2,
-                            "unsigned": false
+                            "groupEntries": [
+                            ],
+                            "groupName": "stg0001 / 1"
                         },
                         {
-                            "address": "804C4BA8",
-                            "baseIndex": 0,
-                            "label": "stg0100",
-                            "typeIndex": 2,
-                            "unsigned": false
+                            "groupEntries": [
+                            ],
+                            "groupName": "stg0002 / 2"
+                        },
+                        {
+                            "groupEntries": [
+                            ],
+                            "groupName": "stg0003 / 3"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C4B58",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0005 / 4"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C4BA8",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4BAC",
+                                    "baseIndex": 0,
+                                    "label": "Stage Name",
+                                    "length": 5,
+                                    "pointerOffsets": [
+                                        "0"
+                                    ],
+                                    "typeIndex": 5,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4BB0",
+                                    "baseIndex": 0,
+                                    "label": "Game Mode (01 = Boss Flag 02 = Race Mode ? unimplemented, but activates splits 03, 04, 05 = Battle mode, revert split after intro 06 , 07 = Battle mode, persist split after intro 08 = Super Shadow Single Player (NORMAL)  09 =  Super Shadow Single Player (BOSS)\n0A = Super Shadow, activate splits, but no P2)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4BB4",
+                                    "baseIndex": 0,
+                                    "label": "0xC",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4BB8",
+                                    "baseIndex": 0,
+                                    "label": "0x10",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4BBC",
+                                    "baseIndex": 0,
+                                    "label": "0x14",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4BC0",
+                                    "baseIndex": 0,
+                                    "label": "0x18",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4BC4",
+                                    "baseIndex": 0,
+                                    "label": "0x1C Next Stage (Dark)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4BC8",
+                                    "baseIndex": 0,
+                                    "label": "0x20 Dark Mission What to Track & Count (Nukkoro Offset)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4BCC",
+                                    "baseIndex": 0,
+                                    "label": "0x24 Dark Mission Voice Line (fnt message ID)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4BD0",
+                                    "baseIndex": 0,
+                                    "label": "0x28 Next Stage (Normal)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4BD4",
+                                    "baseIndex": 0,
+                                    "label": "0x2C Normal Mission What to Track & Count (Nukkoro Offset)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4BD8",
+                                    "baseIndex": 0,
+                                    "label": "0x30 Normal Mission Voice Line (fnt message ID)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4BDC",
+                                    "baseIndex": 0,
+                                    "label": "0x34 Next Stage (Hero)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4BE0",
+                                    "baseIndex": 0,
+                                    "label": "0x38 Hero Mission What to Track & Count (Nukkoro Offset)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4BE4",
+                                    "baseIndex": 0,
+                                    "label": "0x3C Hero Mission Voice Line (fnt message ID)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4BE8",
+                                    "baseIndex": 0,
+                                    "label": "0x40 ??? Next Stage (Expert?)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4BEC",
+                                    "baseIndex": 0,
+                                    "label": "0x44 Pause UI Mission Text (fnt message ID)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4BF0",
+                                    "baseIndex": 0,
+                                    "label": "0x48 Pause UI Mission Voice Line (fnt message ID)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4BF4",
+                                    "baseIndex": 0,
+                                    "label": "0x4C Unknown",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0100 / 5"
                         },
                         {
                             "groupEntries": [
@@ -395,6 +522,17 @@
                                     "baseIndex": 0,
                                     "label": "Stage ID",
                                     "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4BFC",
+                                    "baseIndex": 0,
+                                    "label": "Stage Name",
+                                    "length": 7,
+                                    "pointerOffsets": [
+                                        "0"
+                                    ],
+                                    "typeIndex": 5,
                                     "unsigned": false
                                 },
                                 {
@@ -419,28 +557,824 @@
                                     "unsigned": false
                                 }
                             ],
-                            "groupName": "stg0200"
+                            "groupName": "stg0200 / 6"
                         },
                         {
-                            "address": "804C4C48",
-                            "baseIndex": 0,
-                            "label": "stg0201",
-                            "typeIndex": 2,
-                            "unsigned": false
+                            "groupEntries": [
+                                {
+                                    "address": "804C4C48",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4C4C",
+                                    "baseIndex": 0,
+                                    "label": "Stage Name",
+                                    "length": 7,
+                                    "pointerOffsets": [
+                                        "0"
+                                    ],
+                                    "typeIndex": 5,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4C64",
+                                    "baseIndex": 0,
+                                    "label": "Next Stage (Dark)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4C70",
+                                    "baseIndex": 0,
+                                    "label": "Next Stage (Normal)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4C7C",
+                                    "baseIndex": 0,
+                                    "label": "Next Stage (Hero)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0201 / 7"
                         },
                         {
-                            "address": "804FF750",
-                            "baseIndex": 1,
-                            "label": "SubBoss Table Ref",
-                            "typeIndex": 2,
-                            "unsigned": false
+                            "groupEntries": [
+                                {
+                                    "address": "804C4C98",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4C9C",
+                                    "baseIndex": 0,
+                                    "label": "Stage Name",
+                                    "length": 7,
+                                    "pointerOffsets": [
+                                        "0"
+                                    ],
+                                    "typeIndex": 5,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4CB4",
+                                    "baseIndex": 0,
+                                    "label": "Next Stage (Dark)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4CC0",
+                                    "baseIndex": 0,
+                                    "label": "Next Stage (Normal)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4CCC",
+                                    "baseIndex": 0,
+                                    "label": "Next Stage (Hero)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0202 / 8"
                         },
                         {
-                            "address": "804C5558",
-                            "baseIndex": 0,
-                            "label": "SubBoss Table Ref 2",
-                            "typeIndex": 2,
-                            "unsigned": false
+                            "groupEntries": [
+                                {
+                                    "address": "804C4CE8",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4CEC",
+                                    "baseIndex": 0,
+                                    "label": "Stage Name",
+                                    "length": 12,
+                                    "pointerOffsets": [
+                                        "0"
+                                    ],
+                                    "typeIndex": 5,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4D04",
+                                    "baseIndex": 0,
+                                    "label": "Next Stage (Dark)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4D10",
+                                    "baseIndex": 0,
+                                    "label": "Next Stage (Normal)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4D1C",
+                                    "baseIndex": 0,
+                                    "label": "Next Stage (Hero)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0300 / 9"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C4D38",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4D3C",
+                                    "baseIndex": 0,
+                                    "label": "Stage Name",
+                                    "length": 12,
+                                    "pointerOffsets": [
+                                        "0"
+                                    ],
+                                    "typeIndex": 5,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0301 / 10"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C4D88",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0302 / 11"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C4DD8",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "804C4DDC",
+                                    "baseIndex": 0,
+                                    "label": "Stage Name",
+                                    "length": 5,
+                                    "pointerOffsets": [
+                                        "0"
+                                    ],
+                                    "typeIndex": 5,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4DF4",
+                                    "baseIndex": 0,
+                                    "label": "Next Stage (Dark)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4E00",
+                                    "baseIndex": 0,
+                                    "label": "Next Stage (Normal)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4E0C",
+                                    "baseIndex": 0,
+                                    "label": "Next Stage (Hero)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0400 / 12"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C4E28",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0401 / 13"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C4E78",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0402 / 14"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C4EC8",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0403 / 15"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C4F18",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0404 / 16"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C4F68",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0500 / 17"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C4FB8",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0501 / 18"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5008",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0502 / 19"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5058",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0503 / 20"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C50A8",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0504 / 21"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C50F8",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0600 / 22"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5148",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0601 / 23"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5198",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0602 / 24"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C51E8",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0603 / 25"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5238",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0604 / 26"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5288",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C528C",
+                                    "baseIndex": 0,
+                                    "label": "Stage Name",
+                                    "length": 9,
+                                    "pointerOffsets": [
+                                        "0"
+                                    ],
+                                    "typeIndex": 5,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0700 / 27"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C52D8",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0210 / 28"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5328",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0310 / 29"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5378",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0410 / 30"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C53C8",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0411 / 31"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5418",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0412 / 32"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5468",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0510 / 33"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C54B8",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0511 / 34"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5508",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0610 / 35"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5558",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C555C",
+                                    "baseIndex": 0,
+                                    "label": "Stage Name",
+                                    "length": 14,
+                                    "pointerOffsets": [
+                                        "0"
+                                    ],
+                                    "typeIndex": 5,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C5574",
+                                    "baseIndex": 0,
+                                    "label": "Next Stage (Dark)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C5580",
+                                    "baseIndex": 0,
+                                    "label": "Next Stage (Normal)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C558C",
+                                    "baseIndex": 0,
+                                    "label": "Next Stage (Hero)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0611 / 36"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C55A8",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0612 / 37"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C55F8",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0613 / 38"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5648",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0614 / 39"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5698",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0615 / 40"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C56E8",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0616 / 41"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5738",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0617 / 42"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5788",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0618 / 43"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C57D8",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C57DC",
+                                    "baseIndex": 0,
+                                    "label": "Stage Name",
+                                    "length": 8,
+                                    "pointerOffsets": [
+                                        "0"
+                                    ],
+                                    "typeIndex": 5,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0710 / 44"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5828",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0800 / 45"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5878",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0801 / 46"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C58C8",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0802 / 47"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5918",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0901 / 48"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5968",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0902 / 49"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C59B8",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0903 / 50"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5A08",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0904 / 51"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5A58",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0905 / 52"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5AA8",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0906 / 53"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5AF8",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0907 / 54"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5B48",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0908 / 55"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5B98",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0909 / 56"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5BE8",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0910 / 57"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804C5C38",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "stg0911 / 58"
                         }
                     ],
                     "groupName": "Stage Table"
@@ -632,13 +1566,6 @@
                                     "address": "804C52D8",
                                     "baseIndex": 0,
                                     "label": "Black Bull Stage Table",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "804C4A18",
-                                    "baseIndex": 0,
-                                    "label": "Master Stage Reference",
                                     "typeIndex": 2,
                                     "unsigned": false
                                 }
@@ -980,7 +1907,7 @@
                 },
                 {
                     "address": "807D747C",
-                    "baseIndex": 0,
+                    "baseIndex": 1,
                     "label": "StageID StoryMode Stage Sequence",
                     "typeIndex": 2,
                     "unsigned": false
@@ -4479,6 +5406,32 @@
                                         }
                                     ],
                                     "groupName": "GUN Fortress"
+                                },
+                                {
+                                    "groupEntries": [
+                                        {
+                                            "address": "807D6A58",
+                                            "baseIndex": 0,
+                                            "label": "D",
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "807D66E8",
+                                            "baseIndex": 0,
+                                            "label": "H",
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        }
+                                    ],
+                                    "groupName": "The Ark"
+                                },
+                                {
+                                    "address": "807D6A24",
+                                    "baseIndex": 1,
+                                    "label": "Pointing to Mission data?",
+                                    "typeIndex": 2,
+                                    "unsigned": true
                                 }
                             ],
                             "groupName": "Stage Mission Types"
@@ -21563,6 +22516,13 @@
                 }
             ],
             "groupName": "Research - MTN Functions"
+        },
+        {
+            "address": "804C4F68",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 2,
+            "unsigned": true
         }
     ]
 }
