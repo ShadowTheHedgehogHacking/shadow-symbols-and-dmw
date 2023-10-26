@@ -296,6 +296,14 @@
                 {
                     "groupEntries": [
                         {
+                            "address": "802D2130",
+                            "baseIndex": 0,
+                            "label": "Story Mode Starting Stage (PPC INSTRUCTION)",
+                            "length": 4,
+                            "typeIndex": 6,
+                            "unsigned": false
+                        },
+                        {
                             "groupEntries": [
                                 {
                                     "address": "804C4A18",
@@ -826,6 +834,48 @@
                                     "label": "Stage ID",
                                     "typeIndex": 2,
                                     "unsigned": false
+                                },
+                                {
+                                    "address": "804C4F84",
+                                    "baseIndex": 0,
+                                    "label": "0x1C Next Stage (Dark)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4F88",
+                                    "baseIndex": 0,
+                                    "label": "0x20 Dark Mission What to Track & Count (Nukkoro Offset)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4F90",
+                                    "baseIndex": 0,
+                                    "label": "0x28 Next Stage (Normal)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4F94",
+                                    "baseIndex": 0,
+                                    "label": "0x2C Normal Mission What to Track & Count (Nukkoro Offset)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4F9C",
+                                    "baseIndex": 0,
+                                    "label": "0x34 Next Stage (Hero)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C4FA0",
+                                    "baseIndex": 0,
+                                    "label": "0x38 Hero Mission What to Track & Count (Nukkoro Offset)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
                                 }
                             ],
                             "groupName": "stg0500 / 17"
@@ -1029,6 +1079,38 @@
                                     "label": "Stage ID",
                                     "typeIndex": 2,
                                     "unsigned": false
+                                },
+                                {
+                                    "address": "804C546C",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "length": 8,
+                                    "pointerOffsets": [
+                                        "0"
+                                    ],
+                                    "typeIndex": 5,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C5484",
+                                    "baseIndex": 0,
+                                    "label": "0x1C Next Stage (Dark)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C5490",
+                                    "baseIndex": 0,
+                                    "label": "0x28 Next Stage (Normal)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C549C",
+                                    "baseIndex": 0,
+                                    "label": "0x28 Next Stage (Hero)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
                                 }
                             ],
                             "groupName": "stg0510 / 33"
@@ -1133,6 +1215,27 @@
                                     "label": "Stage ID",
                                     "typeIndex": 2,
                                     "unsigned": false
+                                },
+                                {
+                                    "address": "804C5664",
+                                    "baseIndex": 0,
+                                    "label": "0x1C Next Stage (Dark)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C5670",
+                                    "baseIndex": 0,
+                                    "label": "0x28 Next Stage (Normal)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C567C",
+                                    "baseIndex": 0,
+                                    "label": "0x34 Next Stage (Hero)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
                                 }
                             ],
                             "groupName": "stg0614 / 39"
@@ -1203,6 +1306,27 @@
                                         "0"
                                     ],
                                     "typeIndex": 5,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C57F4",
+                                    "baseIndex": 0,
+                                    "label": "Next Stage (Dark)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C5800",
+                                    "baseIndex": 0,
+                                    "label": "Next Stage (Normal)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C580C",
+                                    "baseIndex": 0,
+                                    "label": "Next Stage (Hero)",
+                                    "typeIndex": 2,
                                     "unsigned": false
                                 }
                             ],
@@ -1907,7 +2031,7 @@
                 },
                 {
                     "address": "807D747C",
-                    "baseIndex": 1,
+                    "baseIndex": 0,
                     "label": "StageID StoryMode Stage Sequence",
                     "typeIndex": 2,
                     "unsigned": false
@@ -4068,6 +4192,59 @@
                         {
                             "address": "80575F54",
                             "baseIndex": 0,
+                            "label": "0x38 **Player::Npc",
+                            "length": 50,
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "38",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575F54",
+                            "baseIndex": 1,
+                            "label": "0x38 vTable ",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "38"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575F54",
+                            "baseIndex": 0,
+                            "label": "0x3c name",
+                            "length": 11,
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "3C"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575F54",
+                            "baseIndex": 0,
+                            "label": "0x54 PlayerID?",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "54"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575F54",
+                            "baseIndex": 0,
                             "label": "0x64 CharacterID",
                             "pointerOffsets": [
                                 "0",
@@ -4088,6 +4265,95 @@
                             ],
                             "typeIndex": 2,
                             "unsigned": false
+                        },
+                        {
+                            "address": "80575F54",
+                            "baseIndex": 1,
+                            "label": "0x234 pAttack",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "234"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575F54",
+                            "baseIndex": 1,
+                            "label": "0x238 pShadowWeapon",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "238"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80575F54",
+                                    "baseIndex": 0,
+                                    "label": "0x34 pWeapon?",
+                                    "pointerOffsets": [
+                                        "0",
+                                        "0",
+                                        "238",
+                                        "34"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "groupEntries": [
+                                        {
+                                            "address": "80575F54",
+                                            "baseIndex": 0,
+                                            "label": "0x0 pppWeapon?",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "0"
+                                            ],
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575F54",
+                                            "baseIndex": 0,
+                                            "label": "0x14 weaponID (forAnimation?)",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "14"
+                                            ],
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575F54",
+                                            "baseIndex": 0,
+                                            "label": "0x18 weaponType",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "18"
+                                            ],
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        }
+                                    ],
+                                    "groupName": "pppWeapon?"
+                                }
+                            ],
+                            "groupName": "0x238 pShadowWeapon"
                         },
                         {
                             "address": "80575F54",
@@ -4348,6 +4614,13 @@
                     "address": "8057D710",
                     "baseIndex": 0,
                     "label": "Split Number acting on for render()",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8056EE7C",
+                    "baseIndex": 0,
+                    "label": "Split Screen Type Written To",
                     "typeIndex": 2,
                     "unsigned": false
                 },
@@ -7129,6 +7402,1280 @@
                 {
                     "groupEntries": [
                         {
+                            "address": "805F58B0",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F58B4",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F58B8",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F58BC",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F58C0",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F58C4",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F58C8",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F58CC",
+                            "baseIndex": 0,
+                            "label": "Gravity on Walker",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F58D0",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F58D4",
+                            "baseIndex": 0,
+                            "label": "SpeedRelated",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F58D8",
+                            "baseIndex": 0,
+                            "label": "HoverUpwardForce",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F58DC",
+                            "baseIndex": 0,
+                            "label": "unknown1",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F58E0",
+                            "baseIndex": 0,
+                            "label": "Walker Friction",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F58E4",
+                            "baseIndex": 0,
+                            "label": "?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F58E8",
+                            "baseIndex": 0,
+                            "label": "?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F58EC",
+                            "baseIndex": 0,
+                            "label": "Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F58F0",
+                            "baseIndex": 0,
+                            "label": "Jump Height",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F58F4",
+                            "baseIndex": 0,
+                            "label": "Unknown",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F58F8",
+                            "baseIndex": 0,
+                            "label": "Unknown",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F58FC",
+                            "baseIndex": 0,
+                            "label": "Unknown",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5900",
+                            "baseIndex": 0,
+                            "label": "Unknown",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5904",
+                            "baseIndex": 0,
+                            "label": "Unknown",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5908",
+                            "baseIndex": 0,
+                            "label": "Unknown",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F590C",
+                            "baseIndex": 0,
+                            "label": "DropShadowScale",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5910",
+                            "baseIndex": 0,
+                            "label": "Unknown",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5914",
+                            "baseIndex": 0,
+                            "label": "Unknown",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5918",
+                            "baseIndex": 0,
+                            "label": "Unknown",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F591C",
+                            "baseIndex": 0,
+                            "label": "Unknown",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A3F",
+                            "baseIndex": 0,
+                            "label": "ENDING",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Walker"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F5924",
+                            "baseIndex": 0,
+                            "label": "Air Saucer Global Tilt",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5928",
+                            "baseIndex": 0,
+                            "label": "AirSaucer Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F592C",
+                            "baseIndex": 0,
+                            "label": "Saucer Timescale? Normalizer?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5930",
+                            "baseIndex": 0,
+                            "label": "AirSaucer Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5934",
+                            "baseIndex": 0,
+                            "label": "Saucer Rotation Tilt Damp",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5938",
+                            "baseIndex": 0,
+                            "label": "AirSaucer Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F593C",
+                            "baseIndex": 0,
+                            "label": "AirSaucer Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5940",
+                            "baseIndex": 0,
+                            "label": "AirSaucer Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5944",
+                            "baseIndex": 0,
+                            "label": "Saucer Jump Strength",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5948",
+                            "baseIndex": 0,
+                            "label": "AirSaucer Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F594C",
+                            "baseIndex": 0,
+                            "label": "AirSaucer Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5950",
+                            "baseIndex": 0,
+                            "label": "AirSaucer Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5954",
+                            "baseIndex": 0,
+                            "label": "AirSaucer Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5958",
+                            "baseIndex": 0,
+                            "label": "AirSaucer Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F595C",
+                            "baseIndex": 0,
+                            "label": "Saucer Tilt Tolerance ",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5960",
+                            "baseIndex": 0,
+                            "label": "AirSaucer Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5964",
+                            "baseIndex": 0,
+                            "label": "AirSaucer Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5968",
+                            "baseIndex": 0,
+                            "label": "AirSaucer Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F596C",
+                            "baseIndex": 0,
+                            "label": "AirSaucer Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5970",
+                            "baseIndex": 0,
+                            "label": "AirSaucer Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5974",
+                            "baseIndex": 0,
+                            "label": "Shadow Rotation Controller",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5978",
+                            "baseIndex": 0,
+                            "label": "Tilt Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F597C",
+                            "baseIndex": 0,
+                            "label": "AirSaucer Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5980",
+                            "baseIndex": 0,
+                            "label": "AirSaucer Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5984",
+                            "baseIndex": 0,
+                            "label": "Turn Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5988",
+                            "baseIndex": 0,
+                            "label": "AirSaucer Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F598C",
+                            "baseIndex": 0,
+                            "label": "AirSaucer Prop?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "805F5990",
+                                    "baseIndex": 0,
+                                    "label": "Prop?",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F5994",
+                                    "baseIndex": 0,
+                                    "label": "Prop?",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F5998",
+                                    "baseIndex": 0,
+                                    "label": "Prop?",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F599C",
+                                    "baseIndex": 0,
+                                    "label": "Tilt Rotation Damp",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F59A0",
+                                    "baseIndex": 0,
+                                    "label": "Prop?",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F59A4",
+                                    "baseIndex": 0,
+                                    "label": "Saucer Speed",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F59A8",
+                                    "baseIndex": 0,
+                                    "label": "Saucer Weight",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F59AC",
+                                    "baseIndex": 0,
+                                    "label": "Speed Damp Force",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F59B0",
+                                    "baseIndex": 0,
+                                    "label": "Prop?",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F59B4",
+                                    "baseIndex": 0,
+                                    "label": "Saucer AirSpeed",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F59B8",
+                                    "baseIndex": 0,
+                                    "label": "Prop?",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F59BC",
+                                    "baseIndex": 0,
+                                    "label": "Prop?",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F59C0",
+                                    "baseIndex": 0,
+                                    "label": "Prop?",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F59C4",
+                                    "baseIndex": 0,
+                                    "label": "Prop?",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F59C8",
+                                    "baseIndex": 0,
+                                    "label": "Tilt Related",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F59CC",
+                                    "baseIndex": 0,
+                                    "label": "Saucer Shadow Size",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F59D0",
+                                    "baseIndex": 0,
+                                    "label": "Prop?",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F59D4",
+                                    "baseIndex": 0,
+                                    "label": "Prop?",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F59D8",
+                                    "baseIndex": 0,
+                                    "label": "Prop?",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F59DC",
+                                    "baseIndex": 0,
+                                    "label": "Prop?",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Props 2"
+                        }
+                    ],
+                    "groupName": "Air Saucer"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F8E10",
+                            "baseIndex": 0,
+                            "label": "AirBolt Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8E14",
+                            "baseIndex": 0,
+                            "label": "Rider Origin Rotation on Hawk",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8E18",
+                            "baseIndex": 0,
+                            "label": "Rider Rotation -1 = forward",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8E1C",
+                            "baseIndex": 0,
+                            "label": "AirBolt Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8E20",
+                            "baseIndex": 0,
+                            "label": "AirBolt Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8E24",
+                            "baseIndex": 0,
+                            "label": "AirBolt Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8E28",
+                            "baseIndex": 0,
+                            "label": "Volt WeaponSystem Fire Delay",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8E2C",
+                            "baseIndex": 0,
+                            "label": "Volt WeaponSystem LockOn Effect Position",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8E30",
+                            "baseIndex": 0,
+                            "label": "AirBolt Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8E34",
+                            "baseIndex": 0,
+                            "label": "Global Enemy Flyables (Beetles, Hawk) Animation Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8E38",
+                            "baseIndex": 0,
+                            "label": "AirBolt Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8E3C",
+                            "baseIndex": 0,
+                            "label": "AirBolt Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8E40",
+                            "baseIndex": 0,
+                            "label": "AirBolt Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F8E44",
+                            "baseIndex": 0,
+                            "label": "AirBolt Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8051DD9C",
+                            "baseIndex": 0,
+                            "label": "BlackVolt Rocket Max Range",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F1FFC",
+                            "baseIndex": 0,
+                            "label": "All LockOn Detection Range Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F1FF8",
+                            "baseIndex": 0,
+                            "label": "All LockOn Related?Maybe",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Black Volt (AirBolt)"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F59F0",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F59F4",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F59F8",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F59FC",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A00",
+                            "baseIndex": 0,
+                            "label": "AirWing Camera Left/Right Shift",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A04",
+                            "baseIndex": 0,
+                            "label": "AirWing Camera Distance",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A08",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A0C",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A10",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A14",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A18",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A1C",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A20",
+                            "baseIndex": 0,
+                            "label": "AirWing Relative Rotation To Spline?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A24",
+                            "baseIndex": 0,
+                            "label": "AirWing Camera UpDown Track Snap",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A28",
+                            "baseIndex": 0,
+                            "label": "AirWing Point & Camera Direction",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A2C",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A30",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A34",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A38",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F5A3C",
+                            "baseIndex": 0,
+                            "label": "AirWing Related",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Black Hawk (AirWing)"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80557F58",
+                            "baseIndex": 0,
+                            "label": "BirdBase - Spline Hook Related?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F5C",
+                            "baseIndex": 0,
+                            "label": "BirdBase Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F60",
+                            "baseIndex": 0,
+                            "label": "BirdBase - Friction",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F64",
+                            "baseIndex": 0,
+                            "label": "BirdBase - Normal Speed (Cannot be greater than Max Speed)",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F68",
+                            "baseIndex": 0,
+                            "label": "BirdBase - Max Speed / Holding A Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F6C",
+                            "baseIndex": 0,
+                            "label": "BirdBase - Holding A Speed Damp",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F70",
+                            "baseIndex": 0,
+                            "label": "BirdBase - Time to Normal Speed On Release A",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F74",
+                            "baseIndex": 0,
+                            "label": "BirdBase - Drag To Spline Strength",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F78",
+                            "baseIndex": 0,
+                            "label": "BirdBase - Y Axis Turn Rate",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F7C",
+                            "baseIndex": 0,
+                            "label": "BirdBase - X Axis Turn Rate",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F80",
+                            "baseIndex": 0,
+                            "label": "BirdBase Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F84",
+                            "baseIndex": 0,
+                            "label": "BirdBase Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F88",
+                            "baseIndex": 0,
+                            "label": "BirdBase Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F8C",
+                            "baseIndex": 0,
+                            "label": "BirdBase Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F90",
+                            "baseIndex": 0,
+                            "label": "BirdBase - Fly Range Limit",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F94",
+                            "baseIndex": 0,
+                            "label": "BirdBase Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F98",
+                            "baseIndex": 0,
+                            "label": "BirdBase Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557F9C",
+                            "baseIndex": 0,
+                            "label": "BirdBase Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557FA0",
+                            "baseIndex": 0,
+                            "label": "BirdBase Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557FA4",
+                            "baseIndex": 0,
+                            "label": "BirdBase Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557FA8",
+                            "baseIndex": 0,
+                            "label": "BirdBase Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557FAC",
+                            "baseIndex": 0,
+                            "label": "BirdBase Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80557FB0",
+                            "baseIndex": 0,
+                            "label": "BirdBase Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Core Flyable Props (BirdBase)"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F9A10",
+                            "baseIndex": 0,
+                            "label": "GUN Lift Accelerate Rate",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9A14",
+                            "baseIndex": 0,
+                            "label": "GUN Lift Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9A18",
+                            "baseIndex": 0,
+                            "label": "GUN Lift A-Press Accelerate Rate",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9A1C",
+                            "baseIndex": 0,
+                            "label": "GUN Lift A-Press Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "GunLiftLocal (Normal)"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F9A20",
+                            "baseIndex": 0,
+                            "label": "GUN Lift Accelerate Rate",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9A24",
+                            "baseIndex": 0,
+                            "label": "GUN Lift Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9A28",
+                            "baseIndex": 0,
+                            "label": "GUN Lift A-Press Accelerate Rate",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9A2C",
+                            "baseIndex": 0,
+                            "label": "GUN Lift A-Press Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "GunLiftExpress (Expert)"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F9A3C",
+                            "baseIndex": 0,
+                            "label": "GUN Lift Camera Angle",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9A40",
+                            "baseIndex": 0,
+                            "label": "GUN Lift Rotation Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9A44",
+                            "baseIndex": 0,
+                            "label": "GUN Lift Rotation Range",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9A48",
+                            "baseIndex": 0,
+                            "label": "GUN Lift Up/Down Range",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9A4C",
+                            "baseIndex": 0,
+                            "label": "GUN Lift Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9A50",
+                            "baseIndex": 0,
+                            "label": "GUN Lift Bullet Direction?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9A54",
+                            "baseIndex": 0,
+                            "label": "GUN Lift Prop",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "GunLift Common Vars"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "P1 Writeable X812E8EC0",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "A8F0"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED258",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3)",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED264",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3)  + 0xC",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED268",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3)  + 0x10",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED26C",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3)  + 0x14",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED270",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3) + 0x18 Velocity?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED2BC",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3) + 0x64",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED2CC",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3) + 0x74",
+                            "pointerOffsets": [
+                                "0",
+                                "0"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED2D8",
+                            "baseIndex": 1,
+                            "label": "Vehicle Instance (r3) + 0x80 (Rider instance?)",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED2F4",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3) + 0x9C",
+                            "pointerOffsets": [
+                                "0"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED2F8",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3) + 0xA0",
+                            "pointerOffsets": [
+                                "0"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED324",
+                            "baseIndex": 1,
+                            "label": "Vehicle Instance (r3) + 0xCC",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED334",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3) + 0xDC",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED340",
+                            "baseIndex": 1,
+                            "label": "Vehicle Instance (r3) + 0xE8",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED364",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3) + 0x10C",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED37C",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3) + 0x124",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED38C",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3) + 0x134",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED39C",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3) + 0x144",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED3B4",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3) + 0x15C",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "813ED3D4",
+                            "baseIndex": 0,
+                            "label": "Vehicle Instance (r3) + 0x17C (State)",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F15E0",
+                            "baseIndex": 0,
+                            "label": "RenderWare FILTER GX Library Related",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Dynamic - Vehicle Instance Struct"
+                }
+            ],
+            "groupName": "Vehicle"
+        },
+        {
+            "groupEntries": [
+                {
+                    "groupEntries": [
+                        {
                             "address": "805F294C",
                             "baseIndex": 0,
                             "label": "WallJump Land Anim Speed",
@@ -9124,1280 +10671,6 @@
                 }
             ],
             "groupName": "LimblessVector list"
-        },
-        {
-            "groupEntries": [
-                {
-                    "groupEntries": [
-                        {
-                            "address": "805F58B0",
-                            "baseIndex": 0,
-                            "label": "No label",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F58B4",
-                            "baseIndex": 0,
-                            "label": "No label",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F58B8",
-                            "baseIndex": 0,
-                            "label": "No label",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F58BC",
-                            "baseIndex": 0,
-                            "label": "No label",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F58C0",
-                            "baseIndex": 0,
-                            "label": "No label",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F58C4",
-                            "baseIndex": 0,
-                            "label": "No label",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F58C8",
-                            "baseIndex": 0,
-                            "label": "No label",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F58CC",
-                            "baseIndex": 0,
-                            "label": "Gravity on Walker",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F58D0",
-                            "baseIndex": 0,
-                            "label": "No label",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F58D4",
-                            "baseIndex": 0,
-                            "label": "SpeedRelated",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F58D8",
-                            "baseIndex": 0,
-                            "label": "HoverUpwardForce",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F58DC",
-                            "baseIndex": 0,
-                            "label": "unknown1",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F58E0",
-                            "baseIndex": 0,
-                            "label": "Walker Friction",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F58E4",
-                            "baseIndex": 0,
-                            "label": "?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F58E8",
-                            "baseIndex": 0,
-                            "label": "?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F58EC",
-                            "baseIndex": 0,
-                            "label": "Speed",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F58F0",
-                            "baseIndex": 0,
-                            "label": "Jump Height",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F58F4",
-                            "baseIndex": 0,
-                            "label": "Unknown",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F58F8",
-                            "baseIndex": 0,
-                            "label": "Unknown",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F58FC",
-                            "baseIndex": 0,
-                            "label": "Unknown",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5900",
-                            "baseIndex": 0,
-                            "label": "Unknown",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5904",
-                            "baseIndex": 0,
-                            "label": "Unknown",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5908",
-                            "baseIndex": 0,
-                            "label": "Unknown",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F590C",
-                            "baseIndex": 0,
-                            "label": "DropShadowScale",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5910",
-                            "baseIndex": 0,
-                            "label": "Unknown",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5914",
-                            "baseIndex": 0,
-                            "label": "Unknown",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5918",
-                            "baseIndex": 0,
-                            "label": "Unknown",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F591C",
-                            "baseIndex": 0,
-                            "label": "Unknown",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5A3F",
-                            "baseIndex": 0,
-                            "label": "ENDING",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "Walker"
-                },
-                {
-                    "groupEntries": [
-                        {
-                            "address": "805F5924",
-                            "baseIndex": 0,
-                            "label": "Air Saucer Global Tilt",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5928",
-                            "baseIndex": 0,
-                            "label": "AirSaucer Prop?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F592C",
-                            "baseIndex": 0,
-                            "label": "Saucer Timescale? Normalizer?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5930",
-                            "baseIndex": 0,
-                            "label": "AirSaucer Prop?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5934",
-                            "baseIndex": 0,
-                            "label": "Saucer Rotation Tilt Damp",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5938",
-                            "baseIndex": 0,
-                            "label": "AirSaucer Prop?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F593C",
-                            "baseIndex": 0,
-                            "label": "AirSaucer Prop?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5940",
-                            "baseIndex": 0,
-                            "label": "AirSaucer Prop?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5944",
-                            "baseIndex": 0,
-                            "label": "Saucer Jump Strength",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5948",
-                            "baseIndex": 0,
-                            "label": "AirSaucer Prop?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F594C",
-                            "baseIndex": 0,
-                            "label": "AirSaucer Prop?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5950",
-                            "baseIndex": 0,
-                            "label": "AirSaucer Prop?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5954",
-                            "baseIndex": 0,
-                            "label": "AirSaucer Prop?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5958",
-                            "baseIndex": 0,
-                            "label": "AirSaucer Prop?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F595C",
-                            "baseIndex": 0,
-                            "label": "Saucer Tilt Tolerance ",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5960",
-                            "baseIndex": 0,
-                            "label": "AirSaucer Prop?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5964",
-                            "baseIndex": 0,
-                            "label": "AirSaucer Prop?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5968",
-                            "baseIndex": 0,
-                            "label": "AirSaucer Prop?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F596C",
-                            "baseIndex": 0,
-                            "label": "AirSaucer Prop?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5970",
-                            "baseIndex": 0,
-                            "label": "AirSaucer Prop?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5974",
-                            "baseIndex": 0,
-                            "label": "Shadow Rotation Controller",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5978",
-                            "baseIndex": 0,
-                            "label": "Tilt Related",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F597C",
-                            "baseIndex": 0,
-                            "label": "AirSaucer Prop?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5980",
-                            "baseIndex": 0,
-                            "label": "AirSaucer Prop?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5984",
-                            "baseIndex": 0,
-                            "label": "Turn Speed",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5988",
-                            "baseIndex": 0,
-                            "label": "AirSaucer Prop?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F598C",
-                            "baseIndex": 0,
-                            "label": "AirSaucer Prop?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "groupEntries": [
-                                {
-                                    "address": "805F5990",
-                                    "baseIndex": 0,
-                                    "label": "Prop?",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F5994",
-                                    "baseIndex": 0,
-                                    "label": "Prop?",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F5998",
-                                    "baseIndex": 0,
-                                    "label": "Prop?",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F599C",
-                                    "baseIndex": 0,
-                                    "label": "Tilt Rotation Damp",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F59A0",
-                                    "baseIndex": 0,
-                                    "label": "Prop?",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F59A4",
-                                    "baseIndex": 0,
-                                    "label": "Saucer Speed",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F59A8",
-                                    "baseIndex": 0,
-                                    "label": "Saucer Weight",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F59AC",
-                                    "baseIndex": 0,
-                                    "label": "Speed Damp Force",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F59B0",
-                                    "baseIndex": 0,
-                                    "label": "Prop?",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F59B4",
-                                    "baseIndex": 0,
-                                    "label": "Saucer AirSpeed",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F59B8",
-                                    "baseIndex": 0,
-                                    "label": "Prop?",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F59BC",
-                                    "baseIndex": 0,
-                                    "label": "Prop?",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F59C0",
-                                    "baseIndex": 0,
-                                    "label": "Prop?",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F59C4",
-                                    "baseIndex": 0,
-                                    "label": "Prop?",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F59C8",
-                                    "baseIndex": 0,
-                                    "label": "Tilt Related",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F59CC",
-                                    "baseIndex": 0,
-                                    "label": "Saucer Shadow Size",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F59D0",
-                                    "baseIndex": 0,
-                                    "label": "Prop?",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F59D4",
-                                    "baseIndex": 0,
-                                    "label": "Prop?",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F59D8",
-                                    "baseIndex": 0,
-                                    "label": "Prop?",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "805F59DC",
-                                    "baseIndex": 0,
-                                    "label": "Prop?",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                }
-                            ],
-                            "groupName": "Props 2"
-                        }
-                    ],
-                    "groupName": "Air Saucer"
-                },
-                {
-                    "groupEntries": [
-                        {
-                            "address": "805F8E10",
-                            "baseIndex": 0,
-                            "label": "AirBolt Related",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F8E14",
-                            "baseIndex": 0,
-                            "label": "Rider Origin Rotation on Hawk",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F8E18",
-                            "baseIndex": 0,
-                            "label": "Rider Rotation -1 = forward",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F8E1C",
-                            "baseIndex": 0,
-                            "label": "AirBolt Related",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F8E20",
-                            "baseIndex": 0,
-                            "label": "AirBolt Related",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F8E24",
-                            "baseIndex": 0,
-                            "label": "AirBolt Related",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F8E28",
-                            "baseIndex": 0,
-                            "label": "Volt WeaponSystem Fire Delay",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F8E2C",
-                            "baseIndex": 0,
-                            "label": "Volt WeaponSystem LockOn Effect Position",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F8E30",
-                            "baseIndex": 0,
-                            "label": "AirBolt Related",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F8E34",
-                            "baseIndex": 0,
-                            "label": "Global Enemy Flyables (Beetles, Hawk) Animation Speed",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F8E38",
-                            "baseIndex": 0,
-                            "label": "AirBolt Related",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F8E3C",
-                            "baseIndex": 0,
-                            "label": "AirBolt Related",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F8E40",
-                            "baseIndex": 0,
-                            "label": "AirBolt Related",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F8E44",
-                            "baseIndex": 0,
-                            "label": "AirBolt Related",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "8051DD9C",
-                            "baseIndex": 0,
-                            "label": "BlackVolt Rocket Max Range",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F1FFC",
-                            "baseIndex": 0,
-                            "label": "All LockOn Detection Range Related",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F1FF8",
-                            "baseIndex": 0,
-                            "label": "All LockOn Related?Maybe",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "Black Volt (AirBolt)"
-                },
-                {
-                    "groupEntries": [
-                        {
-                            "address": "805F59F0",
-                            "baseIndex": 0,
-                            "label": "AirWing Related",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F59F4",
-                            "baseIndex": 0,
-                            "label": "AirWing Related",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F59F8",
-                            "baseIndex": 0,
-                            "label": "AirWing Related",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F59FC",
-                            "baseIndex": 0,
-                            "label": "AirWing Related",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5A00",
-                            "baseIndex": 0,
-                            "label": "AirWing Camera Left/Right Shift",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5A04",
-                            "baseIndex": 0,
-                            "label": "AirWing Camera Distance",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5A08",
-                            "baseIndex": 0,
-                            "label": "AirWing Related",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5A0C",
-                            "baseIndex": 0,
-                            "label": "AirWing Related",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5A10",
-                            "baseIndex": 0,
-                            "label": "AirWing Related",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5A14",
-                            "baseIndex": 0,
-                            "label": "AirWing Related",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5A18",
-                            "baseIndex": 0,
-                            "label": "AirWing Related",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5A1C",
-                            "baseIndex": 0,
-                            "label": "AirWing Related",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5A20",
-                            "baseIndex": 0,
-                            "label": "AirWing Relative Rotation To Spline?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5A24",
-                            "baseIndex": 0,
-                            "label": "AirWing Camera UpDown Track Snap",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5A28",
-                            "baseIndex": 0,
-                            "label": "AirWing Point & Camera Direction",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5A2C",
-                            "baseIndex": 0,
-                            "label": "AirWing Related",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5A30",
-                            "baseIndex": 0,
-                            "label": "AirWing Related",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5A34",
-                            "baseIndex": 0,
-                            "label": "AirWing Related",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5A38",
-                            "baseIndex": 0,
-                            "label": "AirWing Related",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F5A3C",
-                            "baseIndex": 0,
-                            "label": "AirWing Related",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "Black Hawk (AirWing)"
-                },
-                {
-                    "groupEntries": [
-                        {
-                            "address": "80557F58",
-                            "baseIndex": 0,
-                            "label": "BirdBase - Spline Hook Related?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80557F5C",
-                            "baseIndex": 0,
-                            "label": "BirdBase Prop",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80557F60",
-                            "baseIndex": 0,
-                            "label": "BirdBase - Friction",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80557F64",
-                            "baseIndex": 0,
-                            "label": "BirdBase - Normal Speed (Cannot be greater than Max Speed)",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80557F68",
-                            "baseIndex": 0,
-                            "label": "BirdBase - Max Speed / Holding A Speed",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80557F6C",
-                            "baseIndex": 0,
-                            "label": "BirdBase - Holding A Speed Damp",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80557F70",
-                            "baseIndex": 0,
-                            "label": "BirdBase - Time to Normal Speed On Release A",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80557F74",
-                            "baseIndex": 0,
-                            "label": "BirdBase - Drag To Spline Strength",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80557F78",
-                            "baseIndex": 0,
-                            "label": "BirdBase - Y Axis Turn Rate",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80557F7C",
-                            "baseIndex": 0,
-                            "label": "BirdBase - X Axis Turn Rate",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80557F80",
-                            "baseIndex": 0,
-                            "label": "BirdBase Prop",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80557F84",
-                            "baseIndex": 0,
-                            "label": "BirdBase Prop",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80557F88",
-                            "baseIndex": 0,
-                            "label": "BirdBase Prop",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80557F8C",
-                            "baseIndex": 0,
-                            "label": "BirdBase Prop",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80557F90",
-                            "baseIndex": 0,
-                            "label": "BirdBase - Fly Range Limit",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80557F94",
-                            "baseIndex": 0,
-                            "label": "BirdBase Prop",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80557F98",
-                            "baseIndex": 0,
-                            "label": "BirdBase Prop",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80557F9C",
-                            "baseIndex": 0,
-                            "label": "BirdBase Prop",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80557FA0",
-                            "baseIndex": 0,
-                            "label": "BirdBase Prop",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80557FA4",
-                            "baseIndex": 0,
-                            "label": "BirdBase Prop",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80557FA8",
-                            "baseIndex": 0,
-                            "label": "BirdBase Prop",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80557FAC",
-                            "baseIndex": 0,
-                            "label": "BirdBase Prop",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80557FB0",
-                            "baseIndex": 0,
-                            "label": "BirdBase Prop",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "Core Flyable Props (BirdBase)"
-                },
-                {
-                    "groupEntries": [
-                        {
-                            "address": "805F9A10",
-                            "baseIndex": 0,
-                            "label": "GUN Lift Accelerate Rate",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F9A14",
-                            "baseIndex": 0,
-                            "label": "GUN Lift Speed",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F9A18",
-                            "baseIndex": 0,
-                            "label": "GUN Lift A-Press Accelerate Rate",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F9A1C",
-                            "baseIndex": 0,
-                            "label": "GUN Lift A-Press Speed",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "GunLiftLocal (Normal)"
-                },
-                {
-                    "groupEntries": [
-                        {
-                            "address": "805F9A20",
-                            "baseIndex": 0,
-                            "label": "GUN Lift Accelerate Rate",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F9A24",
-                            "baseIndex": 0,
-                            "label": "GUN Lift Speed",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F9A28",
-                            "baseIndex": 0,
-                            "label": "GUN Lift A-Press Accelerate Rate",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F9A2C",
-                            "baseIndex": 0,
-                            "label": "GUN Lift A-Press Speed",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "GunLiftExpress (Expert)"
-                },
-                {
-                    "groupEntries": [
-                        {
-                            "address": "805F9A3C",
-                            "baseIndex": 0,
-                            "label": "GUN Lift Camera Angle",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F9A40",
-                            "baseIndex": 0,
-                            "label": "GUN Lift Rotation Speed",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F9A44",
-                            "baseIndex": 0,
-                            "label": "GUN Lift Rotation Range",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F9A48",
-                            "baseIndex": 0,
-                            "label": "GUN Lift Up/Down Range",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F9A4C",
-                            "baseIndex": 0,
-                            "label": "GUN Lift Prop",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F9A50",
-                            "baseIndex": 0,
-                            "label": "GUN Lift Bullet Direction?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F9A54",
-                            "baseIndex": 0,
-                            "label": "GUN Lift Prop",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "GunLift Common Vars"
-                },
-                {
-                    "groupEntries": [
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P1 Writeable X812E8EC0",
-                            "pointerOffsets": [
-                                "0",
-                                "0",
-                                "A8F0"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "813ED258",
-                            "baseIndex": 0,
-                            "label": "Vehicle Instance (r3)",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "813ED264",
-                            "baseIndex": 0,
-                            "label": "Vehicle Instance (r3)  + 0xC",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "813ED268",
-                            "baseIndex": 0,
-                            "label": "Vehicle Instance (r3)  + 0x10",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "813ED26C",
-                            "baseIndex": 0,
-                            "label": "Vehicle Instance (r3)  + 0x14",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "813ED270",
-                            "baseIndex": 0,
-                            "label": "Vehicle Instance (r3) + 0x18 Velocity?",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "813ED2BC",
-                            "baseIndex": 0,
-                            "label": "Vehicle Instance (r3) + 0x64",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "813ED2CC",
-                            "baseIndex": 0,
-                            "label": "Vehicle Instance (r3) + 0x74",
-                            "pointerOffsets": [
-                                "0",
-                                "0"
-                            ],
-                            "typeIndex": 2,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "813ED2D8",
-                            "baseIndex": 1,
-                            "label": "Vehicle Instance (r3) + 0x80 (Rider instance?)",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "813ED2F4",
-                            "baseIndex": 0,
-                            "label": "Vehicle Instance (r3) + 0x9C",
-                            "pointerOffsets": [
-                                "0"
-                            ],
-                            "typeIndex": 2,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "813ED2F8",
-                            "baseIndex": 0,
-                            "label": "Vehicle Instance (r3) + 0xA0",
-                            "pointerOffsets": [
-                                "0"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "813ED324",
-                            "baseIndex": 1,
-                            "label": "Vehicle Instance (r3) + 0xCC",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "813ED334",
-                            "baseIndex": 0,
-                            "label": "Vehicle Instance (r3) + 0xDC",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "813ED340",
-                            "baseIndex": 1,
-                            "label": "Vehicle Instance (r3) + 0xE8",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "813ED364",
-                            "baseIndex": 0,
-                            "label": "Vehicle Instance (r3) + 0x10C",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "813ED37C",
-                            "baseIndex": 0,
-                            "label": "Vehicle Instance (r3) + 0x124",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "813ED38C",
-                            "baseIndex": 0,
-                            "label": "Vehicle Instance (r3) + 0x134",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "813ED39C",
-                            "baseIndex": 0,
-                            "label": "Vehicle Instance (r3) + 0x144",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "813ED3B4",
-                            "baseIndex": 0,
-                            "label": "Vehicle Instance (r3) + 0x15C",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "813ED3D4",
-                            "baseIndex": 0,
-                            "label": "Vehicle Instance (r3) + 0x17C (State)",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F15E0",
-                            "baseIndex": 0,
-                            "label": "RenderWare FILTER GX Library Related",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "Dynamic - Vehicle Instance Struct"
-                }
-            ],
-            "groupName": "Vehicle"
         },
         {
             "groupEntries": [
@@ -22523,6 +22796,190 @@
             "label": "No label",
             "typeIndex": 2,
             "unsigned": true
+        },
+        {
+            "groupEntries": [
+                {
+                    "groupEntries": [
+                    ],
+                    "groupName": "Sonic"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "804F188C",
+                            "baseIndex": 0,
+                            "label": "Unknown",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F1890",
+                            "baseIndex": 0,
+                            "label": "Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F1894",
+                            "baseIndex": 0,
+                            "label": "canHomingAttack",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F1895",
+                            "baseIndex": 0,
+                            "label": "Unknown",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F1896",
+                            "baseIndex": 0,
+                            "label": "Unknown",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Tails"
+                },
+                {
+                    "groupEntries": [
+                    ],
+                    "groupName": "Knuckles"
+                },
+                {
+                    "groupEntries": [
+                    ],
+                    "groupName": "Amy"
+                },
+                {
+                    "groupEntries": [
+                    ],
+                    "groupName": "Rouge"
+                },
+                {
+                    "groupEntries": [
+                    ],
+                    "groupName": "Omega"
+                },
+                {
+                    "groupEntries": [
+                    ],
+                    "groupName": "Vector"
+                },
+                {
+                    "groupEntries": [
+                    ],
+                    "groupName": "Espio"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "804F19C0",
+                            "baseIndex": 0,
+                            "label": "Unknown",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F19C4",
+                            "baseIndex": 0,
+                            "label": "Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F19C8",
+                            "baseIndex": 0,
+                            "label": "canHomingAttack",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F19C9",
+                            "baseIndex": 0,
+                            "label": "canDashAttack",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F19CA",
+                            "baseIndex": 0,
+                            "label": "???",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Maria"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "804F19EC",
+                            "baseIndex": 0,
+                            "label": "Unknown",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F19F0",
+                            "baseIndex": 0,
+                            "label": "Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F19F4",
+                            "baseIndex": 0,
+                            "label": "canHomingAttack",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F19F5",
+                            "baseIndex": 0,
+                            "label": "canDashAttack",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F19F6",
+                            "baseIndex": 0,
+                            "label": "????",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Charmy"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "804F1A18",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Eggman"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "804F1A44",
+                            "baseIndex": 0,
+                            "label": "Affinity?",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Dooms Eye"
+                }
+            ],
+            "groupName": "Partner Stats (Size for each is 0x2C)"
         }
     ]
 }
