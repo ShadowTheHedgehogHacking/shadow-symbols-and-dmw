@@ -124,6 +124,13 @@
                 {
                     "groupEntries": [
                         {
+                            "address": "8057D734",
+                            "baseIndex": 0,
+                            "label": "Global Stage Timer",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
                             "address": "805EC170",
                             "baseIndex": 0,
                             "label": "GameMode Byte",
@@ -5491,375 +5498,9 @@
         {
             "groupEntries": [
                 {
-                    "groupEntries": [
-                        {
-                            "groupEntries": [
-                                {
-                                    "address": "80000000",
-                                    "baseIndex": 0,
-                                    "label": "WARNING: Many stages SHARE same address used!",
-                                    "typeIndex": 0,
-                                    "unsigned": false
-                                },
-                                {
-                                    "groupEntries": [
-                                        {
-                                            "address": "807D6710",
-                                            "baseIndex": 0,
-                                            "label": "D",
-                                            "typeIndex": 2,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "807D66E8",
-                                            "baseIndex": 0,
-                                            "label": "N",
-                                            "typeIndex": 2,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "807D6738",
-                                            "baseIndex": 0,
-                                            "label": "H",
-                                            "typeIndex": 2,
-                                            "unsigned": false
-                                        }
-                                    ],
-                                    "groupName": "Westopolis"
-                                },
-                                {
-                                    "groupEntries": [
-                                        {
-                                            "address": "807D6760",
-                                            "baseIndex": 0,
-                                            "label": "D",
-                                            "typeIndex": 2,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "807D66E8",
-                                            "baseIndex": 0,
-                                            "label": "H",
-                                            "typeIndex": 2,
-                                            "unsigned": false
-                                        }
-                                    ],
-                                    "groupName": "Digital Circuit"
-                                },
-                                {
-                                    "groupEntries": [
-                                        {
-                                            "address": "807D6788",
-                                            "baseIndex": 0,
-                                            "label": "D",
-                                            "typeIndex": 2,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "807D66E8",
-                                            "baseIndex": 0,
-                                            "label": "N",
-                                            "typeIndex": 2,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "807D67B0",
-                                            "baseIndex": 0,
-                                            "label": "H",
-                                            "typeIndex": 2,
-                                            "unsigned": false
-                                        }
-                                    ],
-                                    "groupName": "Glyphic Canyon"
-                                },
-                                {
-                                    "groupEntries": [
-                                        {
-                                            "address": "807D68F0",
-                                            "baseIndex": 0,
-                                            "label": "D",
-                                            "typeIndex": 2,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "807D6918",
-                                            "baseIndex": 0,
-                                            "label": "H",
-                                            "typeIndex": 2,
-                                            "unsigned": false
-                                        }
-                                    ],
-                                    "groupName": "Central City"
-                                },
-                                {
-                                    "groupEntries": [
-                                        {
-                                            "address": "807D66E8",
-                                            "baseIndex": 0,
-                                            "label": "D",
-                                            "typeIndex": 2,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "807D6968",
-                                            "baseIndex": 0,
-                                            "label": "H",
-                                            "typeIndex": 2,
-                                            "unsigned": false
-                                        }
-                                    ],
-                                    "groupName": "The Doom"
-                                },
-                                {
-                                    "groupEntries": [
-                                        {
-                                            "address": "807D6B20",
-                                            "baseIndex": 0,
-                                            "label": "D",
-                                            "typeIndex": 2,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "807D66E8",
-                                            "baseIndex": 0,
-                                            "label": "N",
-                                            "typeIndex": 2,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "807D6B48",
-                                            "baseIndex": 0,
-                                            "label": "H",
-                                            "typeIndex": 2,
-                                            "unsigned": false
-                                        }
-                                    ],
-                                    "groupName": "Space Gadget"
-                                },
-                                {
-                                    "groupEntries": [
-                                        {
-                                            "address": "807D6BE8",
-                                            "baseIndex": 0,
-                                            "label": "D",
-                                            "typeIndex": 2,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "807D66E8",
-                                            "baseIndex": 0,
-                                            "label": "H",
-                                            "typeIndex": 2,
-                                            "unsigned": false
-                                        }
-                                    ],
-                                    "groupName": "Lava Shelter"
-                                },
-                                {
-                                    "groupEntries": [
-                                        {
-                                            "address": "807D6C10",
-                                            "baseIndex": 0,
-                                            "label": "D",
-                                            "typeIndex": 2,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "807D6C38",
-                                            "baseIndex": 0,
-                                            "label": "H",
-                                            "typeIndex": 2,
-                                            "unsigned": false
-                                        }
-                                    ],
-                                    "groupName": "Cosmic Fall"
-                                },
-                                {
-                                    "groupEntries": [
-                                        {
-                                            "address": "807D6B98",
-                                            "baseIndex": 0,
-                                            "label": "D",
-                                            "typeIndex": 2,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "807D66E8",
-                                            "baseIndex": 0,
-                                            "label": "H",
-                                            "typeIndex": 2,
-                                            "unsigned": false
-                                        }
-                                    ],
-                                    "groupName": "GUN Fortress"
-                                },
-                                {
-                                    "groupEntries": [
-                                        {
-                                            "address": "807D6A58",
-                                            "baseIndex": 0,
-                                            "label": "D",
-                                            "typeIndex": 2,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "807D66E8",
-                                            "baseIndex": 0,
-                                            "label": "H",
-                                            "typeIndex": 2,
-                                            "unsigned": false
-                                        }
-                                    ],
-                                    "groupName": "The Ark"
-                                },
-                                {
-                                    "address": "807D6A24",
-                                    "baseIndex": 1,
-                                    "label": "Pointing to Mission data?",
-                                    "typeIndex": 2,
-                                    "unsigned": true
-                                }
-                            ],
-                            "groupName": "Stage Mission Types"
-                        },
-                        {
-                            "groupEntries": [
-                                {
-                                    "address": "8052B810",
-                                    "baseIndex": 1,
-                                    "label": "MissionTable Base",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "8052B814",
-                                    "baseIndex": 1,
-                                    "label": "MissionTable + 4 (GoalMission)",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "8052B818",
-                                    "baseIndex": 1,
-                                    "label": "MissionTable + 8 (CountMission)",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "8052B81C",
-                                    "baseIndex": 1,
-                                    "label": "MissionTable + C (EnemyMission)",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "8052B824",
-                                    "baseIndex": 1,
-                                    "label": "MissionTable + 14 (TimerGoalMission)",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                }
-                            ],
-                            "groupName": "Missions vTable (incomplete)"
-                        },
-                        {
-                            "address": "80575F2C",
-                            "baseIndex": 0,
-                            "label": "Mission Related (Unknown)",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80575F14",
-                            "baseIndex": 0,
-                            "label": "Hero Mission Pointer",
-                            "length": 55,
-                            "pointerOffsets": [
-                                "0",
-                                "0",
-                                "0",
-                                "0"
-                            ],
-                            "typeIndex": 5,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "8057D734",
-                            "baseIndex": 0,
-                            "label": "Global Stage Timer",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "8057FB54",
-                            "baseIndex": 0,
-                            "label": "Black Arms Dead",
-                            "typeIndex": 2,
-                            "unsigned": true
-                        },
-                        {
-                            "address": "8057FB60",
-                            "baseIndex": 0,
-                            "label": "Black Arms Killed by Player",
-                            "typeIndex": 2,
-                            "unsigned": true
-                        },
-                        {
-                            "address": "8057FB4C",
-                            "baseIndex": 0,
-                            "label": "GUN Dead",
-                            "typeIndex": 2,
-                            "unsigned": true
-                        },
-                        {
-                            "address": "8057FB58",
-                            "baseIndex": 0,
-                            "label": "GUN Killed by Player",
-                            "typeIndex": 2,
-                            "unsigned": true
-                        },
-                        {
-                            "address": "8057FB50",
-                            "baseIndex": 0,
-                            "label": "EGG Dead",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "8057D73C",
-                            "baseIndex": 0,
-                            "label": "Hero Mission Time Until Fail",
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "8057D740",
-                            "baseIndex": 0,
-                            "label": "Hero Timer Decrement",
-                            "typeIndex": 3,
-                            "unsigned": true
-                        }
-                    ],
-                    "groupName": "New Stuff Missions EnemiesDead and Mission vTable"
-                },
-                {
                     "address": "80575F1C",
                     "baseIndex": 0,
                     "label": "Mission Selected",
-                    "typeIndex": 2,
-                    "unsigned": true
-                },
-                {
-                    "address": "8057FB5C",
-                    "baseIndex": 0,
-                    "label": "Global Eggman Affinity KillCount",
-                    "typeIndex": 2,
-                    "unsigned": true
-                },
-                {
-                    "address": "8057FB50",
-                    "baseIndex": 0,
-                    "label": "Global MadMatrixPanels AND Eggman Affinity KillCount2 ",
                     "typeIndex": 2,
                     "unsigned": true
                 },
@@ -5878,49 +5519,377 @@
                 {
                     "groupEntries": [
                         {
-                            "address": "809DCF50",
+                            "address": "80000000",
                             "baseIndex": 0,
-                            "label": "UI DarkMission GlyphicCanyon Collectible",
-                            "typeIndex": 2,
-                            "unsigned": true
+                            "label": "WARNING: Many stages SHARE same address used!",
+                            "typeIndex": 0,
+                            "unsigned": false
                         },
                         {
-                            "address": "809E2F50",
-                            "baseIndex": 0,
-                            "label": "DYNAMIC UI DarkMission Westopolis KillEnemies",
-                            "typeIndex": 2,
-                            "unsigned": true
+                            "groupEntries": [
+                                {
+                                    "address": "807D6710",
+                                    "baseIndex": 0,
+                                    "label": "D",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "807D66E8",
+                                    "baseIndex": 0,
+                                    "label": "N",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "807D6738",
+                                    "baseIndex": 0,
+                                    "label": "H",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Westopolis"
                         },
                         {
-                            "address": "809E2D60",
-                            "baseIndex": 0,
-                            "label": "DYNAMIC UI HeroMission PrisonIsland Collectibles",
-                            "typeIndex": 2,
-                            "unsigned": true
+                            "groupEntries": [
+                                {
+                                    "address": "807D6760",
+                                    "baseIndex": 0,
+                                    "label": "D",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "807D66E8",
+                                    "baseIndex": 0,
+                                    "label": "H",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Digital Circuit"
                         },
                         {
-                            "address": "809DCFF8",
-                            "baseIndex": 0,
-                            "label": "DYNAMIC UI HeroMission PrisonIsland Collectibles",
-                            "typeIndex": 2,
-                            "unsigned": true
+                            "groupEntries": [
+                                {
+                                    "address": "807D6788",
+                                    "baseIndex": 0,
+                                    "label": "D",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "807D66E8",
+                                    "baseIndex": 0,
+                                    "label": "N",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "807D67B0",
+                                    "baseIndex": 0,
+                                    "label": "H",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Glyphic Canyon"
                         },
                         {
-                            "address": "809E2CB8",
-                            "baseIndex": 0,
-                            "label": "UI PrisonIsland Dark KillEnemies",
-                            "typeIndex": 2,
-                            "unsigned": true
+                            "groupEntries": [
+                                {
+                                    "address": "807D68F0",
+                                    "baseIndex": 0,
+                                    "label": "D",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "807D6918",
+                                    "baseIndex": 0,
+                                    "label": "H",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Central City"
                         },
                         {
-                            "address": "809DCFF8",
-                            "baseIndex": 0,
-                            "label": "DYNAMIC UI MissionHeroGlyphicCanyon Count",
+                            "groupEntries": [
+                                {
+                                    "address": "807D66E8",
+                                    "baseIndex": 0,
+                                    "label": "D",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "807D6968",
+                                    "baseIndex": 0,
+                                    "label": "H",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "The Doom"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "807D6B20",
+                                    "baseIndex": 0,
+                                    "label": "D",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "807D66E8",
+                                    "baseIndex": 0,
+                                    "label": "N",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "807D6B48",
+                                    "baseIndex": 0,
+                                    "label": "H",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Space Gadget"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "807D6BE8",
+                                    "baseIndex": 0,
+                                    "label": "D",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "807D66E8",
+                                    "baseIndex": 0,
+                                    "label": "H",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Lava Shelter"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "807D6C10",
+                                    "baseIndex": 0,
+                                    "label": "D",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "807D6C38",
+                                    "baseIndex": 0,
+                                    "label": "H",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Cosmic Fall"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "807D6B98",
+                                    "baseIndex": 0,
+                                    "label": "D",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "807D66E8",
+                                    "baseIndex": 0,
+                                    "label": "H",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "GUN Fortress"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "807D6A58",
+                                    "baseIndex": 0,
+                                    "label": "D",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "807D66E8",
+                                    "baseIndex": 0,
+                                    "label": "H",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "The Ark"
+                        },
+                        {
+                            "address": "807D6A24",
+                            "baseIndex": 1,
+                            "label": "Pointing to Mission data?",
                             "typeIndex": 2,
                             "unsigned": true
                         }
                     ],
-                    "groupName": "Dynamic For Research"
+                    "groupName": "Stage Mission Types"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8052B810",
+                            "baseIndex": 1,
+                            "label": "MissionTable Base",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8052B814",
+                            "baseIndex": 1,
+                            "label": "MissionTable + 4 (GoalMission)",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8052B818",
+                            "baseIndex": 1,
+                            "label": "MissionTable + 8 (CountMission)",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8052B81C",
+                            "baseIndex": 1,
+                            "label": "MissionTable + C (EnemyMission)",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8052B824",
+                            "baseIndex": 1,
+                            "label": "MissionTable + 14 (TimerGoalMission)",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Missions vTable (incomplete)"
+                },
+                {
+                    "address": "80575F2C",
+                    "baseIndex": 0,
+                    "label": "Mission Related (Unknown)",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80575F04",
+                    "baseIndex": 0,
+                    "label": "Dark Mission Pointer",
+                    "length": 55,
+                    "pointerOffsets": [
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "typeIndex": 5,
+                    "unsigned": false
+                },
+                {
+                    "address": "80575F0C",
+                    "baseIndex": 0,
+                    "label": "Normal Mission Pointer",
+                    "length": 55,
+                    "pointerOffsets": [
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "typeIndex": 5,
+                    "unsigned": false
+                },
+                {
+                    "address": "80575F14",
+                    "baseIndex": 0,
+                    "label": "Hero Mission Pointer",
+                    "length": 55,
+                    "pointerOffsets": [
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "typeIndex": 5,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057FB4C",
+                    "baseIndex": 0,
+                    "label": "GUN Dead",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "8057FB50",
+                    "baseIndex": 0,
+                    "label": "EGG Dead",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057FB54",
+                    "baseIndex": 0,
+                    "label": "Black Arms Dead",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "8057FB58",
+                    "baseIndex": 0,
+                    "label": "GUN Killed by Player",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "8057FB5C",
+                    "baseIndex": 0,
+                    "label": "EGG Killed by Player",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057FB60",
+                    "baseIndex": 0,
+                    "label": "Black Arms Killed by Player",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "8057D73C",
+                    "baseIndex": 0,
+                    "label": "Hero Mission Time Until Fail",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057D740",
+                    "baseIndex": 0,
+                    "label": "RO TimerCountMission Decrement",
+                    "typeIndex": 3,
+                    "unsigned": true
                 }
             ],
             "groupName": "Mission"
