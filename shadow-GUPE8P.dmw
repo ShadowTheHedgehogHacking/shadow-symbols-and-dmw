@@ -4371,6 +4371,19 @@
                         {
                             "address": "80575F54",
                             "baseIndex": 0,
+                            "label": "0x42C Motion Count in MTP",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "230",
+                                "42C"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575F54",
+                            "baseIndex": 0,
                             "label": "0x3E0 motionID indexStart",
                             "pointerOffsets": [
                                 "0",
@@ -22801,6 +22814,104 @@
             "groupEntries": [
                 {
                     "groupEntries": [
+                        {
+                            "address": "804F1860",
+                            "baseIndex": 0,
+                            "label": "Affinity",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F1864",
+                            "baseIndex": 0,
+                            "label": "Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F1868",
+                            "baseIndex": 0,
+                            "label": "canHomingAttack",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F1869",
+                            "baseIndex": 0,
+                            "label": "canDashJump",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F186A",
+                            "baseIndex": 0,
+                            "label": "drawFallingEffect",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F186B",
+                            "baseIndex": 0,
+                            "label": "0xB Unknown",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F186C",
+                            "baseIndex": 0,
+                            "label": "0xC FlyNpc Radius",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F1870",
+                            "baseIndex": 0,
+                            "label": "0x10 FlyNpc Y Offset",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F1874",
+                            "baseIndex": 0,
+                            "label": "0x14 FlyNpc X/Z Offset",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F1878",
+                            "baseIndex": 0,
+                            "label": "0x18 JumpBall Effect ID",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F187C",
+                            "baseIndex": 0,
+                            "label": "0x1C JumpDash Effect ID",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F1880",
+                            "baseIndex": 1,
+                            "label": "0x20 Trail Red",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F1884",
+                            "baseIndex": 1,
+                            "label": "0x24 Trail Green",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F1888",
+                            "baseIndex": 1,
+                            "label": "0x28 Trail Blue",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
                     ],
                     "groupName": "Sonic"
                 },
@@ -22809,7 +22920,7 @@
                         {
                             "address": "804F188C",
                             "baseIndex": 0,
-                            "label": "Unknown",
+                            "label": "Affinity",
                             "typeIndex": 2,
                             "unsigned": false
                         },
@@ -22830,15 +22941,78 @@
                         {
                             "address": "804F1895",
                             "baseIndex": 0,
-                            "label": "Unknown",
+                            "label": "canDashJump",
                             "typeIndex": 0,
                             "unsigned": false
                         },
                         {
                             "address": "804F1896",
                             "baseIndex": 0,
-                            "label": "Unknown",
+                            "label": "drawFallingEffect",
                             "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F1897",
+                            "baseIndex": 0,
+                            "label": "0xB Unknown",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F1898",
+                            "baseIndex": 0,
+                            "label": "0xC FlyNpc Radius",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F189C",
+                            "baseIndex": 0,
+                            "label": "0x10 FlyNpc Y Offset",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F18A0",
+                            "baseIndex": 0,
+                            "label": "0x14 FlyNpc X/Z Offset",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F18A4",
+                            "baseIndex": 0,
+                            "label": "0x18 JumpBall Effect ID",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F18A8",
+                            "baseIndex": 0,
+                            "label": "0x1C JumpDash Effect ID",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F18AC",
+                            "baseIndex": 1,
+                            "label": "0x20 Trail Red",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F18B0",
+                            "baseIndex": 1,
+                            "label": "0x24 Trail Green",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F18B4",
+                            "baseIndex": 1,
+                            "label": "0x28 Trail Blue",
+                            "typeIndex": 2,
                             "unsigned": false
                         }
                     ],
@@ -22846,31 +23020,199 @@
                 },
                 {
                     "groupEntries": [
+                        {
+                            "address": "804F18B8",
+                            "baseIndex": 0,
+                            "label": "Affinity",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F18BC",
+                            "baseIndex": 0,
+                            "label": "Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F18C0",
+                            "baseIndex": 0,
+                            "label": "canHomingAttack",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F18C1",
+                            "baseIndex": 0,
+                            "label": "canDashJump",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F18C2",
+                            "baseIndex": 0,
+                            "label": "drawFallingEffect",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F18C3",
+                            "baseIndex": 0,
+                            "label": "0xB Unknown",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F18C4",
+                            "baseIndex": 0,
+                            "label": "0xC FlyNpc Radius",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F18C8",
+                            "baseIndex": 0,
+                            "label": "0x10 FlyNpc Y Offset",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F18CC",
+                            "baseIndex": 0,
+                            "label": "0x14 FlyNpc X/Z Offset",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F18D0",
+                            "baseIndex": 0,
+                            "label": "0x18 JumpBall Effect ID",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F18D4",
+                            "baseIndex": 0,
+                            "label": "0x1C JumpDash Effect ID",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F18D8",
+                            "baseIndex": 1,
+                            "label": "0x20 Trail Red",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F18DC",
+                            "baseIndex": 1,
+                            "label": "0x24 Trail Green",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F18E0",
+                            "baseIndex": 1,
+                            "label": "0x28 Trail Blue",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
                     ],
                     "groupName": "Knuckles"
                 },
                 {
                     "groupEntries": [
+                        {
+                            "address": "804F18E4",
+                            "baseIndex": 0,
+                            "label": "Affinity",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F18E8",
+                            "baseIndex": 0,
+                            "label": "Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
                     ],
                     "groupName": "Amy"
                 },
                 {
                     "groupEntries": [
+                        {
+                            "address": "804F1910",
+                            "baseIndex": 0,
+                            "label": "Affinity",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
                     ],
                     "groupName": "Rouge"
                 },
                 {
                     "groupEntries": [
+                        {
+                            "address": "804F193C",
+                            "baseIndex": 0,
+                            "label": "Affinity",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
                     ],
                     "groupName": "Omega"
                 },
                 {
                     "groupEntries": [
+                        {
+                            "address": "804F1968",
+                            "baseIndex": 0,
+                            "label": "Affinity",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
                     ],
                     "groupName": "Vector"
                 },
                 {
                     "groupEntries": [
+                        {
+                            "address": "804F1994",
+                            "baseIndex": 0,
+                            "label": "Affinity",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F1998",
+                            "baseIndex": 0,
+                            "label": "Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F199C",
+                            "baseIndex": 0,
+                            "label": "canHomingAttack",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F199D",
+                            "baseIndex": 0,
+                            "label": "canDashJump",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F199E",
+                            "baseIndex": 0,
+                            "label": "drawFallingEffect",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        }
                     ],
                     "groupName": "Espio"
                 },
@@ -22879,7 +23221,7 @@
                         {
                             "address": "804F19C0",
                             "baseIndex": 0,
-                            "label": "Unknown",
+                            "label": "Affinity",
                             "typeIndex": 2,
                             "unsigned": false
                         },
@@ -22900,15 +23242,78 @@
                         {
                             "address": "804F19C9",
                             "baseIndex": 0,
-                            "label": "canDashAttack",
+                            "label": "canDashJump",
                             "typeIndex": 0,
                             "unsigned": false
                         },
                         {
                             "address": "804F19CA",
                             "baseIndex": 0,
-                            "label": "???",
+                            "label": "drawFallingEffect",
                             "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F19CB",
+                            "baseIndex": 0,
+                            "label": "0xB Unknown",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F19CC",
+                            "baseIndex": 0,
+                            "label": "0xC FlyNpc Radius",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F19D0",
+                            "baseIndex": 0,
+                            "label": "0x10 FlyNpc Y Offset",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F19D4",
+                            "baseIndex": 0,
+                            "label": "0x14 FlyNpc X/Z Offset",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F19D8",
+                            "baseIndex": 0,
+                            "label": "0x18 JumpBall Effect ID",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F19DC",
+                            "baseIndex": 0,
+                            "label": "0x1C JumpDash Effect ID",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F19E0",
+                            "baseIndex": 1,
+                            "label": "0x20 Trail Red",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F19E4",
+                            "baseIndex": 1,
+                            "label": "0x24 Trail Green",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F19E8",
+                            "baseIndex": 1,
+                            "label": "0x28 Trail Blue",
+                            "typeIndex": 2,
                             "unsigned": false
                         }
                     ],
@@ -22919,7 +23324,7 @@
                         {
                             "address": "804F19EC",
                             "baseIndex": 0,
-                            "label": "Unknown",
+                            "label": "Affinity",
                             "typeIndex": 2,
                             "unsigned": false
                         },
@@ -22940,15 +23345,78 @@
                         {
                             "address": "804F19F5",
                             "baseIndex": 0,
-                            "label": "canDashAttack",
+                            "label": "canDashJump",
                             "typeIndex": 0,
                             "unsigned": false
                         },
                         {
                             "address": "804F19F6",
                             "baseIndex": 0,
-                            "label": "????",
+                            "label": "0xA Unknown",
                             "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F19F7",
+                            "baseIndex": 0,
+                            "label": "0xB Unknown",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F19F8",
+                            "baseIndex": 0,
+                            "label": "0xC FlyNpc Radius",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F19FC",
+                            "baseIndex": 0,
+                            "label": "0x10 FlyNpc Y Offset",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F1A00",
+                            "baseIndex": 0,
+                            "label": "0x14 FlyNpc Distance",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F1A04",
+                            "baseIndex": 0,
+                            "label": "0x18 JumpBall Effect ID",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F1A08",
+                            "baseIndex": 0,
+                            "label": "0x1C JumpDash Effect ID",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F1A0C",
+                            "baseIndex": 1,
+                            "label": "0x20 Trail Red",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F1A10",
+                            "baseIndex": 1,
+                            "label": "0x24 Trail Green",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804F1A14",
+                            "baseIndex": 1,
+                            "label": "0x28 Trail Blue",
+                            "typeIndex": 2,
                             "unsigned": false
                         }
                     ],
@@ -22959,19 +23427,19 @@
                         {
                             "address": "804F1A18",
                             "baseIndex": 0,
-                            "label": "No label",
+                            "label": "Affinity",
                             "typeIndex": 2,
                             "unsigned": false
                         }
                     ],
-                    "groupName": "Eggman"
+                    "groupName": "Egg Monitor"
                 },
                 {
                     "groupEntries": [
                         {
                             "address": "804F1A44",
                             "baseIndex": 0,
-                            "label": "Affinity?",
+                            "label": "Affinity",
                             "typeIndex": 2,
                             "unsigned": false
                         }
@@ -22979,7 +23447,26 @@
                     "groupName": "Dooms Eye"
                 }
             ],
-            "groupName": "Partner Stats (Size for each is 0x2C)"
+            "groupName": "Partner Properties (Size for each is 0x2C)"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "804EF004",
+                    "baseIndex": 0,
+                    "label": "Tails Idle Animation Action Entry Start",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804EF008",
+                    "baseIndex": 0,
+                    "label": "Tails Idle Animation Action Index",
+                    "typeIndex": 2,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Partner Animation Action Table"
         }
     ]
 }
