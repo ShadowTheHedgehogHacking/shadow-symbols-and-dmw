@@ -410,8 +410,8 @@
                                 },
                                 {
                                     "address": "804C4BB4",
-                                    "baseIndex": 0,
-                                    "label": "0xC",
+                                    "baseIndex": 1,
+                                    "label": "0xC Virtual Function",
                                     "typeIndex": 2,
                                     "unsigned": false
                                 },
@@ -500,16 +500,16 @@
                                     "unsigned": false
                                 },
                                 {
-                                    "address": "804C4BE8",
+                                    "address": "804C4BEC",
                                     "baseIndex": 0,
-                                    "label": "0x40 ??? Next Stage (Expert?)",
+                                    "label": "0x44 Pause UI Mission Text (fnt message ID)",
                                     "typeIndex": 2,
                                     "unsigned": false
                                 },
                                 {
-                                    "address": "804C4BEC",
+                                    "address": "804C4BE8",
                                     "baseIndex": 0,
-                                    "label": "0x44 Pause UI Mission Text (fnt message ID)",
+                                    "label": "0x40 ??? Next Stage (Expert?)",
                                     "typeIndex": 2,
                                     "unsigned": false
                                 },
@@ -1038,6 +1038,20 @@
                                     "label": "Stage ID",
                                     "typeIndex": 2,
                                     "unsigned": false
+                                },
+                                {
+                                    "address": "804C5344",
+                                    "baseIndex": 0,
+                                    "label": "0x1C Next Stage (Dark)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C5348",
+                                    "baseIndex": 0,
+                                    "label": "0x20 Dark Mission What to Track & Count (Nukkoro Offset)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
                                 }
                             ],
                             "groupName": "stg0310 / 29"
@@ -1316,6 +1330,13 @@
                                     "unsigned": false
                                 },
                                 {
+                                    "address": "804C57E4",
+                                    "baseIndex": 1,
+                                    "label": "0xC Virtual Function",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
                                     "address": "804C57F4",
                                     "baseIndex": 0,
                                     "label": "Next Stage (Dark)",
@@ -1345,6 +1366,20 @@
                                     "address": "804C5828",
                                     "baseIndex": 0,
                                     "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C5844",
+                                    "baseIndex": 0,
+                                    "label": "0x1C",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C5848",
+                                    "baseIndex": 0,
+                                    "label": "0x20",
                                     "typeIndex": 2,
                                     "unsigned": false
                                 }
@@ -7267,13 +7302,6 @@
                     "unsigned": true
                 },
                 {
-                    "address": "8057673B",
-                    "baseIndex": 0,
-                    "label": "UI X button State - 0 none, 1 ringdash, 2 pickupbox, 9 android",
-                    "typeIndex": 0,
-                    "unsigned": false
-                },
-                {
                     "address": "8057D7D4",
                     "baseIndex": 0,
                     "label": "P1 Win Count/Graphic",
@@ -7285,6 +7313,13 @@
                     "baseIndex": 0,
                     "label": "P2 Win Count/Graphic",
                     "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057673B",
+                    "baseIndex": 0,
+                    "label": "UI X button State - 0 none, 1 ringdash, 2 pickupbox, 9 android",
+                    "typeIndex": 0,
                     "unsigned": false
                 },
                 {
