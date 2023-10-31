@@ -2058,10 +2058,10 @@
                     "unsigned": false
                 },
                 {
-                    "address": "80575F87",
+                    "address": "80575F84",
                     "baseIndex": 0,
                     "label": "Execute/Change StageAction (0-16)",
-                    "typeIndex": 0,
+                    "typeIndex": 2,
                     "unsigned": false
                 },
                 {
