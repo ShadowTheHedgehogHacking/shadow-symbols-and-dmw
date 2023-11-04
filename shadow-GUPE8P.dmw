@@ -1550,7 +1550,7 @@
                         {
                             "address": "80576988",
                             "baseIndex": 0,
-                            "label": "Story Continue progress",
+                            "label": "Story Continue",
                             "typeIndex": 2,
                             "unsigned": true
                         },
@@ -1625,7 +1625,7 @@
                             "unsigned": false
                         }
                     ],
-                    "groupName": "Story progress tracking"
+                    "groupName": "Story Mode Menu Status"
                 },
                 {
                     "groupEntries": [
@@ -2101,20 +2101,6 @@
                 },
                 {
                     "groupEntries": [
-                        {
-                            "address": "807D24E8",
-                            "baseIndex": 0,
-                            "label": "NumberOfShotsOnScreen(IncludesEnemyShooting)",
-                            "typeIndex": 2,
-                            "unsigned": true
-                        },
-                        {
-                            "address": "8057D768",
-                            "baseIndex": 0,
-                            "label": "FreezeControlOnSeeingPartner/ChaosControl/PauseGame | Pause Timer when Paused",
-                            "typeIndex": 0,
-                            "unsigned": false
-                        }
                     ],
                     "groupName": "Misc Game State / Properties"
                 },
@@ -7188,6 +7174,20 @@
                     "label": "Max Spindash Time",
                     "typeIndex": 3,
                     "unsigned": false
+                },
+                {
+                    "address": "807D24E8",
+                    "baseIndex": 0,
+                    "label": "NumberOfShotsOnScreen(IncludesEnemyShooting)",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "8057D768",
+                    "baseIndex": 0,
+                    "label": "FreezeControlOnSeeingPartner/ChaosControl/PauseGame | Pause Timer when Paused",
+                    "typeIndex": 0,
+                    "unsigned": false
                 }
             ],
             "groupName": "Properties Affecting All Players"
@@ -7421,28 +7421,28 @@
                         {
                             "address": "805F58B0",
                             "baseIndex": 0,
-                            "label": "No label",
+                            "label": "Model and Collision Origin",
                             "typeIndex": 3,
                             "unsigned": false
                         },
                         {
                             "address": "805F58B4",
                             "baseIndex": 0,
-                            "label": "No label",
+                            "label": "Control Damp / Resistance",
                             "typeIndex": 3,
                             "unsigned": false
                         },
                         {
                             "address": "805F58B8",
                             "baseIndex": 0,
-                            "label": "No label",
+                            "label": "Turn Strength",
                             "typeIndex": 3,
                             "unsigned": false
                         },
                         {
                             "address": "805F58BC",
                             "baseIndex": 0,
-                            "label": "No label",
+                            "label": "Slide Threshold / Weight?",
                             "typeIndex": 3,
                             "unsigned": false
                         },
@@ -7463,7 +7463,7 @@
                         {
                             "address": "805F58C8",
                             "baseIndex": 0,
-                            "label": "No label",
+                            "label": "Ground Threshold?",
                             "typeIndex": 3,
                             "unsigned": false
                         },
@@ -7484,7 +7484,7 @@
                         {
                             "address": "805F58D4",
                             "baseIndex": 0,
-                            "label": "SpeedRelated",
+                            "label": "Constant for Float Multiplier",
                             "typeIndex": 3,
                             "unsigned": false
                         },
@@ -7512,14 +7512,14 @@
                         {
                             "address": "805F58E4",
                             "baseIndex": 0,
-                            "label": "?",
+                            "label": "Jump Gravity Strength After Duration",
                             "typeIndex": 3,
                             "unsigned": false
                         },
                         {
                             "address": "805F58E8",
                             "baseIndex": 0,
-                            "label": "?",
+                            "label": "Gravity Direction?",
                             "typeIndex": 3,
                             "unsigned": false
                         },
@@ -7575,7 +7575,7 @@
                         {
                             "address": "805F5908",
                             "baseIndex": 0,
-                            "label": "Unknown",
+                            "label": "Object Collision Size",
                             "typeIndex": 3,
                             "unsigned": false
                         },
@@ -8672,13 +8672,6 @@
                             "address": "813ED3D4",
                             "baseIndex": 0,
                             "label": "Vehicle Instance (r3) + 0x17C (State)",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "805F15E0",
-                            "baseIndex": 0,
-                            "label": "RenderWare FILTER GX Library Related",
                             "typeIndex": 2,
                             "unsigned": false
                         }
