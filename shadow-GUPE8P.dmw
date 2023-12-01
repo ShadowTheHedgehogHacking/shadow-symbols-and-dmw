@@ -23403,6 +23403,67 @@
             "label": "No label",
             "typeIndex": 2,
             "unsigned": true
+        },
+        {
+            "address": "80ED6710",
+            "baseIndex": 0,
+            "label": "CAMERA_READMODETYPE P2 HEAP COPY",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "80ED67B8",
+            "baseIndex": 0,
+            "label": "CAMERA_READMODETYPE P2 + A8",
+            "length": 155,
+            "pointerOffsets": [
+                "0",
+                "0",
+                "0"
+            ],
+            "typeIndex": 5,
+            "unsigned": false
+        },
+        {
+            "address": "8128B248",
+            "baseIndex": 0,
+            "label": "CAMERA_READMODETYPE P1 HEAP COPY",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "811BB368",
+            "baseIndex": 0,
+            "label": "CAMERA_READMODETYPE P1 + A8",
+            "length": 55,
+            "pointerOffsets": [
+                "0",
+                "0",
+                "0"
+            ],
+            "typeIndex": 5,
+            "unsigned": false
+        },
+        {
+            "address": "8054267C",
+            "baseIndex": 1,
+            "label": "FixCamLookAddr",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "8128B248",
+            "baseIndex": 0,
+            "label": "BossCamer r29?",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "8128B2E8",
+            "baseIndex": 0,
+            "label": "WhichCameraToTarget?",
+            "typeIndex": 2,
+            "unsigned": false
         }
     ]
 }
