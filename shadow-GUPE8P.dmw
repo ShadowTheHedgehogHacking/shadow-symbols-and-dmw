@@ -303,6 +303,19 @@
                 {
                     "groupEntries": [
                         {
+                            "address": "804C0000",
+                            "baseIndex": 0,
+                            "label": "Stage 0",
+                            "length": 55,
+                            "typeIndex": 5,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "RouteMenu Icon Table"
+                },
+                {
+                    "groupEntries": [
+                        {
                             "address": "802D2130",
                             "baseIndex": 0,
                             "label": "Story Mode Starting Stage (PPC INSTRUCTION)",
@@ -965,6 +978,27 @@
                                     "address": "804C5198",
                                     "baseIndex": 0,
                                     "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C51B4",
+                                    "baseIndex": 1,
+                                    "label": "0x1C Next Stage (Dark)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C51C0",
+                                    "baseIndex": 1,
+                                    "label": "0x24 Next Stage (n)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C51CC",
+                                    "baseIndex": 1,
+                                    "label": "0x30 Next Stage (H)",
                                     "typeIndex": 2,
                                     "unsigned": false
                                 }
@@ -2086,6 +2120,13 @@
                     "unsigned": true
                 },
                 {
+                    "address": "80584724",
+                    "baseIndex": 0,
+                    "label": "StoryMode - New Game / Continue Game / Last Story",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
                     "address": "8057D748",
                     "baseIndex": 0,
                     "label": "StageID CurrentLoaded",
@@ -2105,42 +2146,6 @@
                     "groupName": "Misc Game State / Properties"
                 },
                 {
-                    "groupEntries": [
-                        {
-                            "address": "8057D6A0",
-                            "baseIndex": 0,
-                            "label": "StageSequence Related?",
-                            "typeIndex": 0,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80558160",
-                            "baseIndex": 0,
-                            "label": "StageSequence Related?",
-                            "length": 36,
-                            "pointerOffsets": [
-                                "0",
-                                "0"
-                            ],
-                            "typeIndex": 5,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "8055837C",
-                            "baseIndex": 0,
-                            "label": "StageSequence Related?",
-                            "length": 555,
-                            "pointerOffsets": [
-                                "0",
-                                "0"
-                            ],
-                            "typeIndex": 5,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "StageSequence"
-                },
-                {
                     "address": "805EF9A8",
                     "baseIndex": 0,
                     "label": "StageSequenceManager",
@@ -2152,6 +2157,28 @@
                         "0"
                     ],
                     "typeIndex": 5,
+                    "unsigned": false
+                },
+                {
+                    "address": "805EF9A8",
+                    "baseIndex": 0,
+                    "label": "StageSequenceManager Current Phase",
+                    "length": 155,
+                    "pointerOffsets": [
+                        "8",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "typeIndex": 5,
+                    "unsigned": false
+                },
+                {
+                    "address": "805EF9AC",
+                    "baseIndex": 1,
+                    "label": "StageSequenceManager Phase Related (Byte)",
+                    "typeIndex": 0,
                     "unsigned": false
                 },
                 {
@@ -2565,8 +2592,8 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 0,
-                            "label": "0x3c name",
-                            "length": 6,
+                            "label": "0x3C name",
+                            "length": 9,
                             "pointerOffsets": [
                                 "0",
                                 "0",
@@ -2675,7 +2702,7 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 1,
-                            "label": "statusbit",
+                            "label": "0xA2 statusbit",
                             "pointerOffsets": [
                                 "0",
                                 "0",
@@ -2687,7 +2714,7 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 0,
-                            "label": "statusbit",
+                            "label": "0xA3 statusbit",
                             "length": 1,
                             "pointerOffsets": [
                                 "0",
@@ -2724,7 +2751,7 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 0,
-                            "label": "b0",
+                            "label": "0xB0",
                             "pointerOffsets": [
                                 "0",
                                 "0",
@@ -3796,6 +3823,19 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 0,
+                            "label": "0x3c name",
+                            "length": 13,
+                            "pointerOffsets": [
+                                "8",
+                                "0",
+                                "3C"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
                             "label": "0x54 playerID?",
                             "pointerOffsets": [
                                 "8",
@@ -3813,6 +3853,67 @@
                                 "8",
                                 "0",
                                 "64"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0xA2 statusbit",
+                            "pointerOffsets": [
+                                "8",
+                                "0",
+                                "A2"
+                            ],
+                            "typeIndex": 1,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0xA3 statusbit",
+                            "length": 1,
+                            "pointerOffsets": [
+                                "8",
+                                "0",
+                                "A3"
+                            ],
+                            "typeIndex": 6,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 1,
+                            "label": "0xA8 Status 2",
+                            "pointerOffsets": [
+                                "8",
+                                "0",
+                                "A8"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 1,
+                            "label": "0xAC Status 3",
+                            "pointerOffsets": [
+                                "8",
+                                "0",
+                                "AC"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0xB0",
+                            "pointerOffsets": [
+                                "8",
+                                "0",
+                                "B0"
                             ],
                             "typeIndex": 2,
                             "unsigned": false
@@ -3966,6 +4067,95 @@
                                 }
                             ],
                             "groupName": "0x22C pShadowExecutor Group"
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 1,
+                            "label": "0x234 pAttack",
+                            "pointerOffsets": [
+                                "8",
+                                "0",
+                                "234"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 1,
+                            "label": "0x238 pShadowWeapon",
+                            "pointerOffsets": [
+                                "8",
+                                "0",
+                                "238"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80575FA8",
+                                    "baseIndex": 1,
+                                    "label": "0x34 pWeapon?",
+                                    "pointerOffsets": [
+                                        "8",
+                                        "0",
+                                        "238",
+                                        "34"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "groupEntries": [
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 1,
+                                            "label": "0x0 pppWeapon?",
+                                            "pointerOffsets": [
+                                                "8",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "0"
+                                            ],
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 0,
+                                            "label": "0x14 weaponID (forAnimation?)",
+                                            "pointerOffsets": [
+                                                "8",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "14"
+                                            ],
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 0,
+                                            "label": "0x18 weaponType",
+                                            "pointerOffsets": [
+                                                "8",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "18"
+                                            ],
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        }
+                                    ],
+                                    "groupName": "pppWeapon?"
+                                }
+                            ],
+                            "groupName": "0x238 pShadowWeapon"
                         },
                         {
                             "address": "80575FA8",
@@ -11998,6 +12188,145 @@
                     "label": "Static ALL Bosses HP",
                     "typeIndex": 3,
                     "unsigned": true
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805F97FC",
+                            "baseIndex": 0,
+                            "label": "Devil Doom Boss Related - Rotation and Wingspan?",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8055B808",
+                            "baseIndex": 0,
+                            "label": "DevilDoomVarParam",
+                            "length": 55,
+                            "pointerOffsets": [
+                                "0",
+                                "0"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8055B808",
+                            "baseIndex": 0,
+                            "label": "DevilDoomVarParam",
+                            "length": 55,
+                            "pointerOffsets": [
+                                "0",
+                                "0"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F9838",
+                            "baseIndex": 0,
+                            "label": "Devil Doom Initial Health",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "805F983C",
+                                    "baseIndex": 0,
+                                    "label": "Devil Doom Eye Y Roll",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F9840",
+                                    "baseIndex": 0,
+                                    "label": "Devil Doom Psycho Attack Object Y Oscillation",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F9844",
+                                    "baseIndex": 0,
+                                    "label": "Devil Doom Chaos Control Warp Distance",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F9848",
+                                    "baseIndex": 0,
+                                    "label": "Devil Doom Unknown",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F984C",
+                                    "baseIndex": 0,
+                                    "label": "Devil Doom Unknown",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F9850",
+                                    "baseIndex": 0,
+                                    "label": "Devil Doom Unknown",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F9854",
+                                    "baseIndex": 0,
+                                    "label": "Devil Doom Unknown",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F9858",
+                                    "baseIndex": 0,
+                                    "label": "Devil Doom Psycho Attack Rise Duration",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F985C",
+                                    "baseIndex": 0,
+                                    "label": "Devil Doom Chaos Control Duration",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F9860",
+                                    "baseIndex": 0,
+                                    "label": "Devil Doom Player Nearby Distance to Warp",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F9864",
+                                    "baseIndex": 0,
+                                    "label": "Devil Doom Player Far Away Distance to Warp",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F9868",
+                                    "baseIndex": 0,
+                                    "label": "Devil Doom Unknown",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805F986C",
+                                    "baseIndex": 0,
+                                    "label": "Devil Doom Unknown",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Boss Properties"
+                        }
+                    ],
+                    "groupName": "Devil Doom"
                 }
             ],
             "groupName": "Boss"
@@ -23463,6 +23792,63 @@
             "baseIndex": 0,
             "label": "WhichCameraToTarget?",
             "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "8054BF48",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 55,
+            "pointerOffsets": [
+                "0"
+            ],
+            "typeIndex": 5,
+            "unsigned": false
+        },
+        {
+            "address": "805EE12C",
+            "baseIndex": 0,
+            "label": "Fade Screen State (0 = No Fade; 1 = Full)",
+            "pointerOffsets": [
+                "0"
+            ],
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "80572DA8",
+            "baseIndex": 0,
+            "label": "Fade Task State (0x14 from Screen State)",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "805EE128",
+            "baseIndex": 0,
+            "label": "Fade Task byte?",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "address": "807D85B0",
+            "baseIndex": 0,
+            "label": "Fade",
+            "length": 555,
+            "pointerOffsets": [
+                "0"
+            ],
+            "typeIndex": 5,
+            "unsigned": false
+        },
+        {
+            "address": "805224D8",
+            "baseIndex": 0,
+            "label": "R24 @ 800BB230 (RouteMenu Draw)",
+            "length": 55,
+            "pointerOffsets": [
+                "0"
+            ],
+            "typeIndex": 5,
             "unsigned": false
         }
     ]
