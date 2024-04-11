@@ -2175,10 +2175,13 @@
                     "unsigned": false
                 },
                 {
-                    "address": "805EF9AC",
-                    "baseIndex": 1,
+                    "address": "805EF9A8",
+                    "baseIndex": 0,
                     "label": "StageSequenceManager Phase Related (Byte)",
-                    "typeIndex": 0,
+                    "pointerOffsets": [
+                        "4"
+                    ],
+                    "typeIndex": 2,
                     "unsigned": false
                 },
                 {
@@ -23849,6 +23852,48 @@
                 "0"
             ],
             "typeIndex": 5,
+            "unsigned": false
+        },
+        {
+            "address": "80F75964",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "804CC374",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "805F17F8",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "805F93B8",
+            "baseIndex": 0,
+            "label": "Charge Held Time to Say \"Chaos\" While Chaos Spear Charging",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805F93A0",
+            "baseIndex": 0,
+            "label": "Chaos Spear Bullet Speed",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805F93A8",
+            "baseIndex": 0,
+            "label": "Chaos Spear Charge Time Required for Max Power",
+            "typeIndex": 3,
             "unsigned": false
         }
     ]
