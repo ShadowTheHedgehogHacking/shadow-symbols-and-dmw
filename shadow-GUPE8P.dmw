@@ -2273,18 +2273,6 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 0,
-                            "label": "P1 Z-Axis Velocity",
-                            "pointerOffsets": [
-                                "0",
-                                "0",
-                                "20"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
                             "label": "P1 ForceToAdd X",
                             "pointerOffsets": [
                                 "0",
@@ -3211,6 +3199,62 @@
                                         },
                                         {
                                             "address": "80575FA8",
+                                            "baseIndex": 1,
+                                            "label": "0x4",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "4"
+                                            ],
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 1,
+                                            "label": "0x8",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "8"
+                                            ],
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 1,
+                                            "label": "0xC",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "C"
+                                            ],
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 1,
+                                            "label": "0x10",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "10"
+                                            ],
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
                                             "baseIndex": 0,
                                             "label": "0x14 weaponID (forAnimation?)",
                                             "pointerOffsets": [
@@ -3235,6 +3279,572 @@
                                                 "18"
                                             ],
                                             "typeIndex": 2,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 1,
+                                            "label": "0x1C",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "1C"
+                                            ],
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 0,
+                                            "label": "0x20 PosX",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "20"
+                                            ],
+                                            "typeIndex": 3,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 0,
+                                            "label": "0x24 PosX",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "24"
+                                            ],
+                                            "typeIndex": 3,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 0,
+                                            "label": "0x28 PosZ",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "28"
+                                            ],
+                                            "typeIndex": 3,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 0,
+                                            "label": "0x2C",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "2C"
+                                            ],
+                                            "typeIndex": 3,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 0,
+                                            "label": "0x30",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "30"
+                                            ],
+                                            "typeIndex": 3,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 0,
+                                            "label": "0x34",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "34"
+                                            ],
+                                            "typeIndex": 3,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 1,
+                                            "label": "0x38 - HurtMask Pointer",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "38"
+                                            ],
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "groupEntries": [
+                                                {
+                                                    "address": "80575FA8",
+                                                    "baseIndex": 1,
+                                                    "label": "0x0 - Current HurtMask",
+                                                    "pointerOffsets": [
+                                                        "0",
+                                                        "0",
+                                                        "238",
+                                                        "34",
+                                                        "38",
+                                                        "0"
+                                                    ],
+                                                    "typeIndex": 2,
+                                                    "unsigned": false
+                                                },
+                                                {
+                                                    "address": "80575FA8",
+                                                    "baseIndex": 1,
+                                                    "label": "0x4 - Some Other HurtMask Related or Effect",
+                                                    "pointerOffsets": [
+                                                        "0",
+                                                        "0",
+                                                        "238",
+                                                        "34",
+                                                        "38",
+                                                        "4"
+                                                    ],
+                                                    "typeIndex": 2,
+                                                    "unsigned": false
+                                                },
+                                                {
+                                                    "address": "80575FA8",
+                                                    "baseIndex": 1,
+                                                    "label": "0x8",
+                                                    "pointerOffsets": [
+                                                        "0",
+                                                        "0",
+                                                        "238",
+                                                        "34",
+                                                        "38",
+                                                        "8"
+                                                    ],
+                                                    "typeIndex": 2,
+                                                    "unsigned": false
+                                                },
+                                                {
+                                                    "address": "80575FA8",
+                                                    "baseIndex": 0,
+                                                    "label": "0xC PosX",
+                                                    "pointerOffsets": [
+                                                        "0",
+                                                        "0",
+                                                        "238",
+                                                        "34",
+                                                        "38",
+                                                        "C"
+                                                    ],
+                                                    "typeIndex": 3,
+                                                    "unsigned": false
+                                                },
+                                                {
+                                                    "address": "80575FA8",
+                                                    "baseIndex": 0,
+                                                    "label": "0x10 PosY",
+                                                    "pointerOffsets": [
+                                                        "0",
+                                                        "0",
+                                                        "238",
+                                                        "34",
+                                                        "38",
+                                                        "10"
+                                                    ],
+                                                    "typeIndex": 3,
+                                                    "unsigned": false
+                                                },
+                                                {
+                                                    "address": "80575FA8",
+                                                    "baseIndex": 0,
+                                                    "label": "0x14 PosZ",
+                                                    "pointerOffsets": [
+                                                        "0",
+                                                        "0",
+                                                        "238",
+                                                        "34",
+                                                        "38",
+                                                        "14"
+                                                    ],
+                                                    "typeIndex": 3,
+                                                    "unsigned": false
+                                                },
+                                                {
+                                                    "address": "80575FA8",
+                                                    "baseIndex": 0,
+                                                    "label": "0x18",
+                                                    "pointerOffsets": [
+                                                        "0",
+                                                        "0",
+                                                        "238",
+                                                        "34",
+                                                        "38",
+                                                        "18"
+                                                    ],
+                                                    "typeIndex": 3,
+                                                    "unsigned": false
+                                                },
+                                                {
+                                                    "address": "80575FA8",
+                                                    "baseIndex": 0,
+                                                    "label": "0x1C",
+                                                    "pointerOffsets": [
+                                                        "0",
+                                                        "0",
+                                                        "238",
+                                                        "34",
+                                                        "38",
+                                                        "1C"
+                                                    ],
+                                                    "typeIndex": 3,
+                                                    "unsigned": false
+                                                },
+                                                {
+                                                    "address": "80575FA8",
+                                                    "baseIndex": 0,
+                                                    "label": "0x20",
+                                                    "pointerOffsets": [
+                                                        "0",
+                                                        "0",
+                                                        "238",
+                                                        "34",
+                                                        "38",
+                                                        "20"
+                                                    ],
+                                                    "typeIndex": 3,
+                                                    "unsigned": false
+                                                },
+                                                {
+                                                    "address": "80575FA8",
+                                                    "baseIndex": 0,
+                                                    "label": "0x24",
+                                                    "pointerOffsets": [
+                                                        "0",
+                                                        "0",
+                                                        "238",
+                                                        "34",
+                                                        "38",
+                                                        "24"
+                                                    ],
+                                                    "typeIndex": 3,
+                                                    "unsigned": false
+                                                },
+                                                {
+                                                    "address": "80575FA8",
+                                                    "baseIndex": 0,
+                                                    "label": "0x28",
+                                                    "pointerOffsets": [
+                                                        "0",
+                                                        "0",
+                                                        "238",
+                                                        "34",
+                                                        "38",
+                                                        "28"
+                                                    ],
+                                                    "typeIndex": 3,
+                                                    "unsigned": false
+                                                },
+                                                {
+                                                    "address": "80575FA8",
+                                                    "baseIndex": 0,
+                                                    "label": "0x2C",
+                                                    "pointerOffsets": [
+                                                        "0",
+                                                        "0",
+                                                        "238",
+                                                        "34",
+                                                        "38",
+                                                        "2C"
+                                                    ],
+                                                    "typeIndex": 3,
+                                                    "unsigned": false
+                                                },
+                                                {
+                                                    "address": "80575FA8",
+                                                    "baseIndex": 0,
+                                                    "label": "0x30",
+                                                    "pointerOffsets": [
+                                                        "0",
+                                                        "0",
+                                                        "238",
+                                                        "34",
+                                                        "38",
+                                                        "30"
+                                                    ],
+                                                    "typeIndex": 3,
+                                                    "unsigned": false
+                                                },
+                                                {
+                                                    "address": "80575FA8",
+                                                    "baseIndex": 0,
+                                                    "label": "0x34",
+                                                    "pointerOffsets": [
+                                                        "0",
+                                                        "0",
+                                                        "238",
+                                                        "34",
+                                                        "38",
+                                                        "34"
+                                                    ],
+                                                    "typeIndex": 3,
+                                                    "unsigned": false
+                                                },
+                                                {
+                                                    "address": "80575FA8",
+                                                    "baseIndex": 0,
+                                                    "label": "0x38",
+                                                    "pointerOffsets": [
+                                                        "0",
+                                                        "0",
+                                                        "238",
+                                                        "34",
+                                                        "38",
+                                                        "38"
+                                                    ],
+                                                    "typeIndex": 3,
+                                                    "unsigned": false
+                                                }
+                                            ],
+                                            "groupName": "ppppWeaponHurtMask"
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 0,
+                                            "label": "0x3C",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "3C"
+                                            ],
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 0,
+                                            "label": "0x40",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "40"
+                                            ],
+                                            "typeIndex": 3,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 0,
+                                            "label": "0x44",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "44"
+                                            ],
+                                            "typeIndex": 3,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 0,
+                                            "label": "0x48",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "48"
+                                            ],
+                                            "typeIndex": 3,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 0,
+                                            "label": "0x4C",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "4C"
+                                            ],
+                                            "typeIndex": 3,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 0,
+                                            "label": "0x50",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "50"
+                                            ],
+                                            "typeIndex": 3,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 0,
+                                            "label": "0x54",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "54"
+                                            ],
+                                            "typeIndex": 3,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 0,
+                                            "label": "0x58 TrailMask Position",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "58"
+                                            ],
+                                            "typeIndex": 3,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 0,
+                                            "label": "0x5C",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "5C"
+                                            ],
+                                            "typeIndex": 3,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 0,
+                                            "label": "0x60",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "60"
+                                            ],
+                                            "typeIndex": 3,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 0,
+                                            "label": "0x64",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "64"
+                                            ],
+                                            "typeIndex": 3,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 0,
+                                            "label": "0x68",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "68"
+                                            ],
+                                            "typeIndex": 3,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 0,
+                                            "label": "0x6C",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "6C"
+                                            ],
+                                            "typeIndex": 3,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 0,
+                                            "label": "0x70",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "70"
+                                            ],
+                                            "typeIndex": 3,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 0,
+                                            "label": "0x74",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "74"
+                                            ],
+                                            "typeIndex": 3,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
+                                            "baseIndex": 0,
+                                            "label": "0x78",
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "78"
+                                            ],
+                                            "typeIndex": 3,
                                             "unsigned": false
                                         }
                                     ],
