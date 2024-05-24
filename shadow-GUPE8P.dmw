@@ -4285,6 +4285,18 @@
                         },
                         {
                             "address": "80575FA8",
+                            "baseIndex": 1,
+                            "label": "0x268 - WatchInput (ingameInputChecker Func)",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "268"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
                             "baseIndex": 0,
                             "label": "0x298",
                             "pointerOffsets": [
@@ -4769,6 +4781,18 @@
                                 }
                             ],
                             "groupName": "0x238 pShadowWeapon"
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0x268 - WatchInput (ingameInputChecker Func)",
+                            "pointerOffsets": [
+                                "8",
+                                "0",
+                                "268"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
                         },
                         {
                             "address": "80575FA8",
@@ -24519,25 +24543,32 @@
             "unsigned": false
         },
         {
-            "address": "80F801EC",
-            "baseIndex": 0,
+            "address": "81372224",
+            "baseIndex": 1,
             "label": "No label",
-            "typeIndex": 3,
-            "unsigned": false
-        },
-        {
-            "address": "80B40D5C",
-            "baseIndex": 0,
-            "label": "No label",
-            "typeIndex": 3,
+            "typeIndex": 2,
             "unsigned": true
         },
         {
-            "address": "80000000",
-            "baseIndex": 0,
-            "label": "test",
-            "typeIndex": 0,
-            "unsigned": false
+            "address": "80F4AD40",
+            "baseIndex": 1,
+            "label": "No label",
+            "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "address": "81372224",
+            "baseIndex": 1,
+            "label": "No label",
+            "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "address": "81127FB0",
+            "baseIndex": 1,
+            "label": "No label",
+            "typeIndex": 2,
+            "unsigned": true
         }
     ]
 }

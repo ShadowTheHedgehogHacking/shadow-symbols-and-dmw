@@ -25866,8 +25866,8 @@
 802f753c 000000bc 802f753c 0 zz_802f753c_
 802f75f8 00000270 802f75f8 0 Helicopter_CheckMainPlayerID_For_Grab
 802f7868 00000018 802f7868 0 JGadget::operator==(JGadget::TNodeLinkList::iterator, JGadget::TNodeLinkList::iterator) _JAudio2.a JASTrack.o_23
-802f7880 00000024 802f7880 0 glxCopyMatrix(float (&)[4][4], nlMatrix4 &)_3
-802f78a4 00000024 802f78a4 0 glxCopyMatrix(float (&)[4][4], nlMatrix4 &)_4
+802f7880 00000024 802f7880 0 Helicopter_RightLegGrabbable_CollisionCheck
+802f78a4 00000024 802f78a4 0 Helicopter_LeftLegGrabbable_CollisionCheck
 802f78c8 0000009c 802f78c8 0 zz_802f78c8_
 802f7964 00000040 802f7964 0 zz_802f7964_
 802f79a4 00000284 802f79a4 0 zz_802f79a4_
@@ -25888,9 +25888,9 @@
 802f87bc 00000054 802f87bc 0 zz_802f87bc_
 802f8810 00000014 802f8810 0 zz_802f8810_
 802f8824 00000058 802f8824 0 zz_802f8824_
-802f887c 00000034 802f887c 0 zz_802f887c_
-802f88b0 00000040 802f88b0 0 zz_802f88b0_
-802f88f0 00000078 802f88f0 0 zz_802f88f0_
+802f887c 00000034 802f887c 0 Helicopter_CollisionCheck
+802f88b0 00000040 802f88b0 0 Helicopter_CollisionCheck_Sub
+802f88f0 00000078 802f88f0 0 Helicopter_CollisionCheck_Sub2
 802f8968 00000004 802f8968 0 nullsub_963
 802f896c 00000008 802f896c 0 OSGetStackPointer _os.a OSContext.o_288
 802f8974 00000088 802f8974 0 zz_802f8974_
