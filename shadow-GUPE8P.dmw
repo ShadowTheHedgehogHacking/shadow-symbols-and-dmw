@@ -2195,8 +2195,10 @@
             "groupName": "StageManager"
         },
         {
+            "expanded": true,
             "groupEntries": [
                 {
+                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "80575FA8",
@@ -2419,6 +2421,7 @@
                     "unsigned": true
                 },
                 {
+                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "80575FA8",
@@ -2692,32 +2695,31 @@
                         },
                         {
                             "address": "80575FA8",
-                            "baseIndex": 1,
-                            "label": "0xA2 statusbit",
+                            "baseIndex": 0,
+                            "label": "0xA0 Status",
                             "pointerOffsets": [
                                 "0",
                                 "0",
-                                "A2"
+                                "A0"
                             ],
-                            "typeIndex": 1,
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 3,
+                            "label": "0xA0 Status",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "A0"
+                            ],
+                            "typeIndex": 2,
                             "unsigned": false
                         },
                         {
                             "address": "80575FA8",
                             "baseIndex": 0,
-                            "label": "0xA3 statusbit",
-                            "length": 1,
-                            "pointerOffsets": [
-                                "0",
-                                "0",
-                                "A3"
-                            ],
-                            "typeIndex": 6,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 1,
                             "label": "0xA8 Status 2",
                             "pointerOffsets": [
                                 "0",
