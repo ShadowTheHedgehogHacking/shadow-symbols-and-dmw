@@ -131,6 +131,13 @@
                             "unsigned": false
                         },
                         {
+                            "address": "8057D908",
+                            "baseIndex": 0,
+                            "label": "SX Stage Timer",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
                             "address": "805EC170",
                             "baseIndex": 0,
                             "label": "GameMode Byte",
@@ -471,9 +478,32 @@
                                     "unsigned": false
                                 },
                                 {
+                                    "address": "80510EA0",
+                                    "baseIndex": 0,
+                                    "label": "No label",
+                                    "length": 5,
+                                    "typeIndex": 5,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80510EB0",
+                                    "baseIndex": 0,
+                                    "label": "No label",
+                                    "length": 5,
+                                    "typeIndex": 5,
+                                    "unsigned": false
+                                },
+                                {
                                     "address": "804C4BD0",
                                     "baseIndex": 0,
                                     "label": "0x28 Next Stage (Normal)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80575F84",
+                                    "baseIndex": 0,
+                                    "label": "Execute/Change StageAction (0-16)",
                                     "typeIndex": 2,
                                     "unsigned": false
                                 },
@@ -961,6 +991,7 @@
                             "groupName": "stg0600 / 22"
                         },
                         {
+                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "804C5148",
@@ -1183,6 +1214,7 @@
                             "groupName": "stg0511 / 34"
                         },
                         {
+                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "804C5508",
@@ -1195,6 +1227,7 @@
                             "groupName": "stg0610 / 35"
                         },
                         {
+                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "804C5558",
@@ -1239,6 +1272,7 @@
                             "groupName": "stg0611 / 36"
                         },
                         {
+                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "804C55A8",
@@ -1246,11 +1280,23 @@
                                     "label": "Stage ID",
                                     "typeIndex": 2,
                                     "unsigned": false
+                                },
+                                {
+                                    "address": "804C55AC",
+                                    "baseIndex": 0,
+                                    "label": "Stage ID",
+                                    "length": 551,
+                                    "pointerOffsets": [
+                                        "0"
+                                    ],
+                                    "typeIndex": 5,
+                                    "unsigned": false
                                 }
                             ],
                             "groupName": "stg0612 / 37"
                         },
                         {
+                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "804C55F8",
@@ -1924,6 +1970,13 @@
                     "unsigned": false
                 },
                 {
+                    "address": "8057D7E8",
+                    "baseIndex": 0,
+                    "label": "HUD Visible",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
                     "address": "805F4C4C",
                     "baseIndex": 0,
                     "label": "EV_Unknown_60",
@@ -2195,10 +2248,8 @@
             "groupName": "StageManager"
         },
         {
-            "expanded": true,
             "groupEntries": [
                 {
-                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "80575FA8",
@@ -2421,7 +2472,6 @@
                     "unsigned": true
                 },
                 {
-                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "80575FA8",
@@ -2953,6 +3003,7 @@
                             "unsigned": false
                         },
                         {
+                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "80575FA8",
@@ -5060,6 +5111,38 @@
                                 "0",
                                 "0",
                                 "64"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575F54",
+                            "baseIndex": 0,
+                            "label": "0x22C pBehavior Executor?",
+                            "length": 55,
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "22C",
+                                "30",
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575F54",
+                            "baseIndex": 0,
+                            "label": "0x22C pBehavior Executor?",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "22C",
+                                "30",
+                                "10"
                             ],
                             "typeIndex": 2,
                             "unsigned": false
@@ -8392,10 +8475,10 @@
                 },
                 {
                     "address": "80520200",
-                    "baseIndex": 1,
+                    "baseIndex": 0,
                     "label": "Chaos Blast Damage",
                     "typeIndex": 3,
-                    "unsigned": true
+                    "unsigned": false
                 },
                 {
                     "address": "805F24FC",
@@ -8473,6 +8556,20 @@
                     "groupName": "SuperShadow Static Properties"
                 },
                 {
+                    "address": "805F2700",
+                    "baseIndex": 0,
+                    "label": "Melee Travel While Swinging Speed",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F2704",
+                    "baseIndex": 0,
+                    "label": "Melee Rotation Speed",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
                     "groupEntries": [
                         {
                             "address": "805F7318",
@@ -8525,20 +8622,6 @@
                         }
                     ],
                     "groupName": "WeaponDrop Attributes"
-                },
-                {
-                    "address": "805F2700",
-                    "baseIndex": 0,
-                    "label": "Melee Travel While Swinging Speed",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "805F2704",
-                    "baseIndex": 0,
-                    "label": "Melee Rotation Speed",
-                    "typeIndex": 3,
-                    "unsigned": false
                 },
                 {
                     "groupEntries": [
@@ -24571,6 +24654,39 @@
             "label": "No label",
             "typeIndex": 2,
             "unsigned": true
+        },
+        {
+            "address": "805EF2A0",
+            "baseIndex": 0,
+            "label": "event",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "804D044A",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 155,
+            "typeIndex": 5,
+            "unsigned": false
+        },
+        {
+            "address": "80510EA0",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 155,
+            "typeIndex": 5,
+            "unsigned": false
+        },
+        {
+            "address": "809DBC58",
+            "baseIndex": 0,
+            "label": "No label",
+            "pointerOffsets": [
+                "0"
+            ],
+            "typeIndex": 2,
+            "unsigned": false
         }
     ]
 }
