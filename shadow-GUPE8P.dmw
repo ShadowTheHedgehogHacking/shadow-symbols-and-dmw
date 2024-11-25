@@ -321,6 +321,7 @@
                     "groupName": "RouteMenu Icon Table"
                 },
                 {
+                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "802D2130",
@@ -402,6 +403,7 @@
                             "groupName": "stg0005 / 4"
                         },
                         {
+                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "804C4BA8",
@@ -424,7 +426,7 @@
                                 {
                                     "address": "804C4BB0",
                                     "baseIndex": 0,
-                                    "label": "Game Mode (01 = Boss Flag 02 = Race Mode ? unimplemented, but activates splits 03, 04, 05 = Battle mode, revert split after intro 06 , 07 = Battle mode, persist split after intro 08 = Super Shadow Single Player (NORMAL)  09 =  Super Shadow Single Player (BOSS)\n0A = Super Shadow, activate splits, but no P2)",
+                                    "label": "Game Mode (01 = Boss Flag 02 = Race Mode ? unimplemented, but activates splits 03, 04, 05 = Battle mode, revert split after intro 06 , 07 = Battle mode, persist split after intro 08 = Super Shadow Single Player (NORMAL)  09 = Super Shadow Single Player (BOSS)\n0A = Super Shadow, activate splits, but no P2)",
                                     "typeIndex": 2,
                                     "unsigned": false
                                 },
@@ -2248,6 +2250,7 @@
             "groupName": "StageManager"
         },
         {
+            "expanded": true,
             "groupEntries": [
                 {
                     "groupEntries": [
@@ -2472,6 +2475,7 @@
                     "unsigned": true
                 },
                 {
+                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "80575FA8",
@@ -4542,9 +4546,9 @@
                             "pointerOffsets": [
                                 "8",
                                 "0",
-                                "A2"
+                                "A0"
                             ],
-                            "typeIndex": 1,
+                            "typeIndex": 2,
                             "unsigned": false
                         },
                         {
@@ -4837,7 +4841,7 @@
                         },
                         {
                             "address": "80575FA8",
-                            "baseIndex": 0,
+                            "baseIndex": 1,
                             "label": "0x268 - WatchInput (ingameInputChecker Func)",
                             "pointerOffsets": [
                                 "8",
@@ -4873,7 +4877,7 @@
                         },
                         {
                             "address": "80575FA8",
-                            "baseIndex": 0,
+                            "baseIndex": 1,
                             "label": "0x230 pMotion",
                             "pointerOffsets": [
                                 "8",
@@ -5003,16 +5007,282 @@
                             ],
                             "typeIndex": 2,
                             "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 1,
+                            "label": "state related?",
+                            "pointerOffsets": [
+                                "8",
+                                "0",
+                                "AB"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 1,
+                            "label": "state related?",
+                            "pointerOffsets": [
+                                "8",
+                                "0",
+                                "B3"
+                            ],
+                            "typeIndex": 1,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 1,
+                            "label": "state related?",
+                            "pointerOffsets": [
+                                "8",
+                                "0",
+                                "B6"
+                            ],
+                            "typeIndex": 1,
+                            "unsigned": false
                         }
                     ],
                     "groupName": "P2 Struct [Donut]"
+                },
+                {
+                    "expanded": true,
+                    "groupEntries": [
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "x",
+                            "pointerOffsets": [
+                                "10",
+                                "0",
+                                "0"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "y",
+                            "pointerOffsets": [
+                                "10",
+                                "0",
+                                "4"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "z",
+                            "pointerOffsets": [
+                                "10",
+                                "0",
+                                "C"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "statusbit",
+                            "pointerOffsets": [
+                                "10",
+                                "0",
+                                "A2"
+                            ],
+                            "typeIndex": 1,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 1,
+                            "label": "statusbit",
+                            "pointerOffsets": [
+                                "10",
+                                "0",
+                                "AC"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0x3c name",
+                            "length": 13,
+                            "pointerOffsets": [
+                                "10",
+                                "0",
+                                "3C"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "P3 Struct"
+                },
+                {
+                    "expanded": true,
+                    "groupEntries": [
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "x",
+                            "pointerOffsets": [
+                                "18",
+                                "0",
+                                "0"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "y",
+                            "pointerOffsets": [
+                                "18",
+                                "0",
+                                "4"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "z",
+                            "pointerOffsets": [
+                                "18",
+                                "0",
+                                "C"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "statusbit",
+                            "pointerOffsets": [
+                                "18",
+                                "0",
+                                "A2"
+                            ],
+                            "typeIndex": 1,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "statusbit",
+                            "pointerOffsets": [
+                                "18",
+                                "0",
+                                "AC"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0x3c name",
+                            "length": 13,
+                            "pointerOffsets": [
+                                "18",
+                                "0",
+                                "3C"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        },
+                        {
+                            "expanded": true,
+                            "groupEntries": [
+                                {
+                                    "address": "80575FA8",
+                                    "baseIndex": 0,
+                                    "label": "0x30 pBehavior",
+                                    "length": 155,
+                                    "pointerOffsets": [
+                                        "18",
+                                        "0",
+                                        "22C",
+                                        "30",
+                                        "0",
+                                        "0",
+                                        "0",
+                                        "0"
+                                    ],
+                                    "typeIndex": 5,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80575FA8",
+                                    "baseIndex": 0,
+                                    "label": "0x30 -> 0x10 Behavior ID",
+                                    "pointerOffsets": [
+                                        "18",
+                                        "0",
+                                        "22C",
+                                        "30",
+                                        "10"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80575FA8",
+                                    "baseIndex": 0,
+                                    "label": "0x30 pBehavior P5",
+                                    "length": 155,
+                                    "pointerOffsets": [
+                                        "20",
+                                        "0",
+                                        "22C",
+                                        "30",
+                                        "0",
+                                        "0",
+                                        "0",
+                                        "0"
+                                    ],
+                                    "typeIndex": 5,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80575FA8",
+                                    "baseIndex": 0,
+                                    "label": "0x30 -> 0x10 Behavior ID P5",
+                                    "pointerOffsets": [
+                                        "20",
+                                        "0",
+                                        "22C",
+                                        "30",
+                                        "10"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "0x22C pShadowExecutor Group"
+                        }
+                    ],
+                    "groupName": "P4 Struct"
                 }
             ],
             "groupName": "PlayerStruct"
         },
         {
+            "expanded": true,
             "groupEntries": [
                 {
+                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "80575F54",
@@ -5184,6 +5454,7 @@
                             "unsigned": false
                         },
                         {
+                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "80575F54",
@@ -5199,6 +5470,7 @@
                                     "unsigned": false
                                 },
                                 {
+                                    "expanded": true,
                                     "groupEntries": [
                                         {
                                             "address": "80575F54",
@@ -5313,7 +5585,7 @@
                             "unsigned": false
                         }
                     ],
-                    "groupName": "P3 Partner Struct [Donut]"
+                    "groupName": "Partner Struct Slot 01 [Donut]"
                 },
                 {
                     "groupEntries": [
@@ -5417,7 +5689,7 @@
                             "unsigned": false
                         }
                     ],
-                    "groupName": "P4 Partner Struct [Donut]"
+                    "groupName": "Partner Struct Slot 02 [Donut]"
                 }
             ],
             "groupName": "NpcStruct / Partner"
@@ -6081,6 +6353,7 @@
             "groupName": "Npc/Partner Animation Action Table"
         },
         {
+            "expanded": true,
             "groupEntries": [
                 {
                     "groupEntries": [
@@ -6210,8 +6483,10 @@
                     "unsigned": false
                 },
                 {
+                    "expanded": true,
                     "groupEntries": [
                         {
+                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "807D76B0",
@@ -6363,6 +6638,7 @@
                             "groupName": "Camera0"
                         },
                         {
+                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "807D7860",
@@ -8938,8 +9214,10 @@
             "groupName": "Score Tracking"
         },
         {
+            "expanded": true,
             "groupEntries": [
                 {
+                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "805F58B0",
