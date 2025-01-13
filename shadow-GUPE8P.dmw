@@ -1,6 +1,7 @@
 {
     "watchList": [
         {
+            "expanded": true,
             "groupEntries": [
                 {
                     "address": "805F15E0",
@@ -117,11 +118,33 @@
                                 }
                             ],
                             "groupName": "vTable"
+                        },
+                        {
+                            "address": "80520188",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8052019C",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805201C4",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 3,
+                            "unsigned": false
                         }
                     ],
                     "groupName": "Sonicteam::System::Heap"
                 },
                 {
+                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "8057D734",
@@ -272,6 +295,7 @@
             "groupName": "Select Mode Menu"
         },
         {
+            "expanded": true,
             "groupEntries": [
                 {
                     "address": "805F4DD0",
@@ -933,6 +957,7 @@
                             "groupName": "stg0500 / 17"
                         },
                         {
+                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "804C4FB8",
@@ -940,11 +965,19 @@
                                     "label": "Stage ID",
                                     "typeIndex": 2,
                                     "unsigned": false
+                                },
+                                {
+                                    "address": "804C4FC0",
+                                    "baseIndex": 0,
+                                    "label": "Game Mode (01 = Boss Flag 02 = Race Mode ? unimplemented, but activates splits 03, 04, 05 = Battle mode, revert split after intro 06 , 07 = Battle mode, persist split after intro 08 = Super Shadow Single Player (NORMAL)  09 = Super Shadow Single Player (BOSS)\n0A = Super Shadow, activate splits, but no P2)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
                                 }
                             ],
                             "groupName": "stg0501 / 18"
                         },
                         {
+                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "804C5008",
@@ -976,16 +1009,36 @@
                                     "label": "Stage ID",
                                     "typeIndex": 2,
                                     "unsigned": false
+                                },
+                                {
+                                    "groupEntries": [
+                                        {
+                                            "address": "804C51E8",
+                                            "baseIndex": 0,
+                                            "label": "Stage ID",
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        }
+                                    ],
+                                    "groupName": "stg0603 / 25"
                                 }
                             ],
                             "groupName": "stg0504 / 21"
                         },
                         {
+                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "804C50F8",
                                     "baseIndex": 0,
                                     "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C5100",
+                                    "baseIndex": 0,
+                                    "label": "Game Mode",
                                     "typeIndex": 2,
                                     "unsigned": false
                                 }
@@ -1037,18 +1090,6 @@
                                 }
                             ],
                             "groupName": "stg0602 / 24"
-                        },
-                        {
-                            "groupEntries": [
-                                {
-                                    "address": "804C51E8",
-                                    "baseIndex": 0,
-                                    "label": "Stage ID",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                }
-                            ],
-                            "groupName": "stg0603 / 25"
                         },
                         {
                             "groupEntries": [
@@ -2385,6 +2426,7 @@
                     "groupName": "P1"
                 },
                 {
+                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "80575FA8",
@@ -2475,7 +2517,6 @@
                     "unsigned": true
                 },
                 {
-                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "80575FA8",
@@ -5048,7 +5089,6 @@
                     "groupName": "P2 Struct [Donut]"
                 },
                 {
-                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "80575FA8",
@@ -5127,7 +5167,6 @@
                     "groupName": "P3 Struct"
                 },
                 {
-                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "80575FA8",
@@ -5279,7 +5318,6 @@
             "groupName": "PlayerStruct"
         },
         {
-            "expanded": true,
             "groupEntries": [
                 {
                     "expanded": true,
@@ -6353,7 +6391,6 @@
             "groupName": "Npc/Partner Animation Action Table"
         },
         {
-            "expanded": true,
             "groupEntries": [
                 {
                     "groupEntries": [
@@ -6689,6 +6726,7 @@
                     "groupName": "Cameras"
                 },
                 {
+                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "807C6A3C",
@@ -7337,6 +7375,7 @@
                     "unsigned": false
                 },
                 {
+                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "80000000",
@@ -7417,6 +7456,7 @@
                             "groupName": "Glyphic Canyon"
                         },
                         {
+                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "807D68F0",
@@ -7455,6 +7495,7 @@
                             "groupName": "The Doom"
                         },
                         {
+                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "807D6B20",
@@ -7567,6 +7608,7 @@
                     "groupName": "Stage Mission Types"
                 },
                 {
+                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "8052B810",
@@ -8846,6 +8888,7 @@
                     "unsigned": false
                 },
                 {
+                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "805F7318",
@@ -8900,6 +8943,7 @@
                     "groupName": "WeaponDrop Attributes"
                 },
                 {
+                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "805F28E8",
@@ -9214,7 +9258,6 @@
             "groupName": "Score Tracking"
         },
         {
-            "expanded": true,
             "groupEntries": [
                 {
                     "expanded": true,
@@ -10485,6 +10528,7 @@
         {
             "groupEntries": [
                 {
+                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "805F294C",
@@ -10602,6 +10646,7 @@
                     "groupName": "List 3"
                 },
                 {
+                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "80513C08",
@@ -12252,6 +12297,7 @@
                     "groupName": "List 2"
                 },
                 {
+                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "805E4580",
@@ -24964,6 +25010,30 @@
                 "0"
             ],
             "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "807D95ED",
+            "baseIndex": 0,
+            "label": "Pause Y Route Menu Related State",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "address": "805EF334",
+            "baseIndex": 0,
+            "label": "0x3EF4 r13",
+            "pointerOffsets": [
+                "0"
+            ],
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "805EF32D",
+            "baseIndex": 0,
+            "label": "0x3EED r13",
+            "typeIndex": 0,
             "unsigned": false
         }
     ]
