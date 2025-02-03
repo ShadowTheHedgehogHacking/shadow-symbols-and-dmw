@@ -2850,7 +2850,7 @@
 8006118c 000038 8006118c 0 zz_8006118c_
 800611c4 00005c 800611c4 0 FormationOffensive::__dt(void)_12
 80061220 00005c 80061220 0 FormationOffensive::__dt(void)_13
-8006127c 000018 8006127c 0 zz_8006127c_
+8006127c 000018 8006127c 0 Shared_MarkObjectForDeletion?
 80061294 000028 80061294 0 boost::detail::sp_counted_base_impl<TargetSearchList *, boost::checked_deleter<TargetSearchList>>
 800612bc 00004c 800612bc 0 zz_800612bc_
 80061308 000028 80061308 0 SidelineExplodable::Allocate(void)_9
@@ -11393,7 +11393,7 @@
 8015a7ec 00002c 8015a7ec 0 cCharacter::UpdateBlinking(float)_26
 8015a818 000040 8015a818 0 zz_8015a818_
 8015a858 000040 8015a858 0 zz_8015a858_
-8015a898 0000ac 8015a898 0 GenericObject_CollisionExec_GravityChangeCollision::Exec() and hwylamp::Exec() and Ring::Exec() and SetPickupBaseTask and BreakObj
+8015a898 0000ac 8015a898 0 SHARED_GenericObject_CollisionExec
 8015a944 000064 8015a944 0 SETObj_Iteration_Executors
 8015a9a8 000074 8015a9a8 0 Gadget::~Gadget()_Maybe
 8015aa1c 000068 8015aa1c 0 Gadget::Gadget()_Maybe
