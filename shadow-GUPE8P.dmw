@@ -1,7 +1,6 @@
 {
     "watchList": [
         {
-            "expanded": true,
             "groupEntries": [
                 {
                     "address": "805F15E0",
@@ -144,7 +143,6 @@
                     "groupName": "Sonicteam::System::Heap"
                 },
                 {
-                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "8057D734",
@@ -295,7 +293,6 @@
             "groupName": "Select Mode Menu"
         },
         {
-            "expanded": true,
             "groupEntries": [
                 {
                     "address": "805F4DD0",
@@ -345,7 +342,6 @@
                     "groupName": "RouteMenu Icon Table"
                 },
                 {
-                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "802D2130",
@@ -427,7 +423,6 @@
                             "groupName": "stg0005 / 4"
                         },
                         {
-                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "804C4BA8",
@@ -957,7 +952,6 @@
                             "groupName": "stg0500 / 17"
                         },
                         {
-                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "804C4FB8",
@@ -977,7 +971,6 @@
                             "groupName": "stg0501 / 18"
                         },
                         {
-                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "804C5008",
@@ -1026,7 +1019,6 @@
                             "groupName": "stg0504 / 21"
                         },
                         {
-                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "804C50F8",
@@ -1046,7 +1038,6 @@
                             "groupName": "stg0600 / 22"
                         },
                         {
-                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "804C5148",
@@ -1257,7 +1248,6 @@
                             "groupName": "stg0511 / 34"
                         },
                         {
-                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "804C5508",
@@ -1270,7 +1260,6 @@
                             "groupName": "stg0610 / 35"
                         },
                         {
-                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "804C5558",
@@ -1315,7 +1304,6 @@
                             "groupName": "stg0611 / 36"
                         },
                         {
-                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "804C55A8",
@@ -1339,7 +1327,6 @@
                             "groupName": "stg0612 / 37"
                         },
                         {
-                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "804C55F8",
@@ -2291,7 +2278,6 @@
             "groupName": "StageManager"
         },
         {
-            "expanded": true,
             "groupEntries": [
                 {
                     "groupEntries": [
@@ -2426,7 +2412,6 @@
                     "groupName": "P1"
                 },
                 {
-                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "80575FA8",
@@ -3048,7 +3033,6 @@
                             "unsigned": false
                         },
                         {
-                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "80575FA8",
@@ -5320,7 +5304,6 @@
         {
             "groupEntries": [
                 {
-                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "80575F54",
@@ -5492,7 +5475,6 @@
                             "unsigned": false
                         },
                         {
-                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "80575F54",
@@ -5508,7 +5490,6 @@
                                     "unsigned": false
                                 },
                                 {
-                                    "expanded": true,
                                     "groupEntries": [
                                         {
                                             "address": "80575F54",
@@ -6520,10 +6501,8 @@
                     "unsigned": false
                 },
                 {
-                    "expanded": true,
                     "groupEntries": [
                         {
-                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "807D76B0",
@@ -6675,7 +6654,6 @@
                             "groupName": "Camera0"
                         },
                         {
-                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "807D7860",
@@ -6726,7 +6704,6 @@
                     "groupName": "Cameras"
                 },
                 {
-                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "807C6A3C",
@@ -7375,7 +7352,6 @@
                     "unsigned": false
                 },
                 {
-                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "80000000",
@@ -7456,7 +7432,6 @@
                             "groupName": "Glyphic Canyon"
                         },
                         {
-                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "807D68F0",
@@ -7495,7 +7470,6 @@
                             "groupName": "The Doom"
                         },
                         {
-                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "807D6B20",
@@ -7608,7 +7582,6 @@
                     "groupName": "Stage Mission Types"
                 },
                 {
-                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "8052B810",
@@ -8888,7 +8861,6 @@
                     "unsigned": false
                 },
                 {
-                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "805F7318",
@@ -8943,7 +8915,6 @@
                     "groupName": "WeaponDrop Attributes"
                 },
                 {
-                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "805F28E8",
@@ -9260,7 +9231,6 @@
         {
             "groupEntries": [
                 {
-                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "805F58B0",
@@ -10528,7 +10498,6 @@
         {
             "groupEntries": [
                 {
-                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "805F294C",
@@ -10646,7 +10615,6 @@
                     "groupName": "List 3"
                 },
                 {
-                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "80513C08",
@@ -12297,7 +12265,6 @@
                     "groupName": "List 2"
                 },
                 {
-                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "805E4580",
