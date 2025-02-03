@@ -857,6 +857,13 @@
                                     "label": "Stage ID",
                                     "typeIndex": 2,
                                     "unsigned": false
+                                },
+                                {
+                                    "address": "804C4E30",
+                                    "baseIndex": 0,
+                                    "label": "Gamemode",
+                                    "typeIndex": 2,
+                                    "unsigned": false
                                 }
                             ],
                             "groupName": "stg0401 / 13"
@@ -2908,7 +2915,7 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 0,
-                            "label": "0xE8 GRAVITY",
+                            "label": "0xE8 GRAVITY X",
                             "pointerOffsets": [
                                 "0",
                                 "0",
@@ -2920,7 +2927,7 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 0,
-                            "label": "0xEC",
+                            "label": "0xEC GRAVITY Y",
                             "pointerOffsets": [
                                 "0",
                                 "0",
@@ -2932,7 +2939,7 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 0,
-                            "label": "0xF0",
+                            "label": "0xF0 GRAVITY Z",
                             "pointerOffsets": [
                                 "0",
                                 "0",
@@ -4498,7 +4505,7 @@
                             "pointerOffsets": [
                                 "8",
                                 "0",
-                                "C"
+                                "8"
                             ],
                             "typeIndex": 3,
                             "unsigned": false
@@ -25001,6 +25008,16 @@
             "baseIndex": 0,
             "label": "0x3EED r13",
             "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "address": "805F0340",
+            "baseIndex": 0,
+            "label": "0x4F00(r13) GravityStatePointer",
+            "pointerOffsets": [
+                "0"
+            ],
+            "typeIndex": 2,
             "unsigned": false
         }
     ]
