@@ -549,7 +549,7 @@
 80014e1c 000018 80014e1c 0 MOMENTUM_RESET?_ASSIGN_ControlsTurret_DestroyObjectOnPickup
 80014e34 00001c 80014e34 0 SHARED_Threshold_For_Actions
 80014e50 000014 80014e50 0 zz_80014e50_
-80014e64 000054 80014e64 0 ?duringLevelCalling_07_memcpy
+80014e64 000054 80014e64 0 duringLevelCalling_07_memcpy
 80014eb8 000008 80014eb8 0 CBGetBytesAvailableForRead Circle_6
 80014ec0 000054 80014ec0 0 zz_80014ec0_
 80014f14 00010c 80014f14 0 JumpSomething@80014f74 and 80014f34
@@ -1040,7 +1040,7 @@
 80028e90 000010 80028e90 0 nlListContainer<P8SaveData>::__ct(void)_7
 80028ea0 00002c 80028ea0 0 zz_80028ea0_
 80028ecc 000090 80028ecc 0 CollisionCalc?_80028ecc_
-80028f5c 000008 80028f5c 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_7
+80028f5c 000008 80028f5c 0 Set r3 = 0
 80028f64 0001b4 80028f64 0 zz_80028f64_
 80029118 000060 80029118 0 somethingThatComparesDistanceToPlayer_80029118_
 80029178 0000f0 80029178 0 zz_80029178_
@@ -1690,7 +1690,7 @@
 80043338 000008 80043338 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_48
 80043340 000004 80043340 0 nullsub_29
 80043344 00008c 80043344 0 zz_80043344_
-800433d0 00003c 800433d0 0 ?TRK+44
+800433d0 00003c 800433d0 0 TRK+44
 8004340c 0001d0 8004340c 0 zz_8004340c_
 800435dc 000020 800435dc 0 zz_800435dc_
 800435fc 00003c 800435fc 0 zz_800435fc_
@@ -2041,7 +2041,7 @@
 8004e718 00005c 8004e718 0 FormationOffensive::__dt(void)_8
 8004e774 000028 8004e774 0 SidelineExplodable::Allocate(void)_5
 8004e79c 00004c 8004e79c 0 zz_8004e79c_
-8004e7e8 000074 8004e7e8 0 ?ITER_PossibleMasterSETObjRender()
+8004e7e8 000074 8004e7e8 0 ITER_PossibleMasterSETObjRender()
 8004e85c 000014 8004e85c 0 zz_8004e85c_
 8004e870 000064 8004e870 0 zz_8004e870_
 8004e8d4 00004c 8004e8d4 0 zz_8004e8d4_
@@ -3867,14 +3867,14 @@
 80079628 000070 80079628 0 zz_80079628_
 80079698 000044 80079698 0 zz_80079698_
 800796dc 000044 800796dc 0 zz_800796dc_
-80079720 000050 80079720 0 ?MovementPlayer(r31=StringName of Player::Behavior r3=BehaviorReference)
+80079720 000050 80079720 0 MovementPlayer(r31=StringName of Player::Behavior r3=BehaviorReference)
 80079770 000098 80079770 0 DamageCommand
 80079808 000058 80079808 0 UpdateUIState_GetBytesFromParent
 80079860 000088 80079860 0 CalculateShadowCast_WhileNotGround
 800798e8 000030 800798e8 0 zz_800798e8_
 80079918 00005c 80079918 0 zz_80079918_
 80079974 00005c 80079974 0 HaltOnPressButtonWhileUsingGUNMech_80079974_
-800799d0 000050 800799d0 0 ?deeperStateCall_DPADPlayer::Npc::HideCommand_and_Regular Npc::ShowCommand_JumpsDirectlyHere and Player::EndAttackCommand
+800799d0 000050 800799d0 0 deeperStateCall_DPADPlayer::Npc::HideCommand_and_Regular Npc::ShowCommand_JumpsDirectlyHere and Player::EndAttackCommand
 80079a20 000050 80079a20 0 zz_80079a20_
 80079a70 000040 80079a70 0 CallToReleaseCamera
 80079ab0 000094 80079ab0 0 SharedPartnerStructAndPlayerStructMalloc
@@ -4501,7 +4501,7 @@
 8008e748 0001a8 8008e748 0 SomethingHang::Dismount(Behavior*, int)
 8008e8f0 000040 8008e8f0 0 zz_8008e8f0_
 8008e930 00016c 8008e930 0 HAS_Player::Behavior::InitializeArgsSomethingHang(int* args, ?, ?)
-8008ea9c 000050 8008ea9c 0 ?CoasterOrBehaviorInitRelated_8008ea9c_
+8008ea9c 000050 8008ea9c 0 CoasterOrBehaviorInitRelated
 8008eaec 000068 8008eaec 0 Player::Behavior::SomethingHang::End
 8008eb54 00004c 8008eb54 0 SomethingHang::SomethingHang()_8008eb54_
 8008eba0 000014 8008eba0 0 zz_8008eba0_
@@ -6245,7 +6245,7 @@
 800c6538 00002c 800c6538 0 r3=ObjCollideData, r4=CharaColliBody r5=CharaColliBodyCharInfo
 800c6564 000040 800c6564 0 zz_800c6564_
 800c65a4 00005c 800c65a4 0 zz_800c65a4_
-800c6600 000064 800c6600 0 ?PossibleCarAttackCollision?
+800c6600 000064 800c6600 0 PossibleCarAttackCollision
 800c6664 00043c 800c6664 0 AttackMask Coli (Shared) Coli Hit
 800c6aa0 0000e4 800c6aa0 0 zz_800c6aa0_
 800c6b84 000074 800c6b84 0 zz_800c6b84_
@@ -6264,7 +6264,7 @@
 800c7b4c 0000e8 800c7b4c 0 zz_800c7b4c_
 800c7c34 0000d0 800c7c34 0 zz_800c7c34_
 800c7d04 0000e8 800c7d04 0 zz_800c7d04_
-800c7dec 0000bc 800c7dec 0 ?SetCollisionTypeOnVehice?_hasParamsUpToR9
+800c7dec 0000bc 800c7dec 0 SetCollisionTypeOnVehice_hasParamsUpToR9
 800c7ea8 0000d4 800c7ea8 0 GenerateCollision_Size
 800c7f7c 000110 800c7f7c 0 zz_800c7f7c_
 800c808c 00005c 800c808c 0 zz_800c808c_
@@ -9012,7 +9012,7 @@
 80112af4 000180 80112af4 0 Ring::Exec()
 80112c74 000048 80112c74 0 cHeadTrack::__dt(void)_11
 80112cbc 0004d0 80112cbc 0 zz_80112cbc_
-8011318c 0000b0 8011318c 0 ?BufferRelated?CalledForEachSetObjectContructor?
+8011318c 0000b0 8011318c 0 BufferRelatedCalledForEachSetObjectContructor
 8011323c 00005c 8011323c 0 zz_8011323c_
 80113298 000088 80113298 0 zz_80113298_
 80113320 000074 80113320 0 zz_80113320_
@@ -9659,7 +9659,7 @@
 80125524 000064 80125524 0 zz_80125524_
 80125588 000004 80125588 0 nullsub_1320
 8012558c 00002c 8012558c 0 MoviePlayerScene::PlayScreenBackSFX(void)_25
-801255b8 000064 801255b8 0 ?unknown_has_cTeam::GetPlayer(int)_and_callToMalloc
+801255b8 000064 801255b8 0 TurnOver::TurnOverTask()
 8012561c 000004 8012561c 0 nullsub_1321
 80125620 00002c 80125620 0 MoviePlayerScene::PlayScreenBackSFX(void)_26
 8012564c 0000dc 8012564c 0 zz_8012564c_
@@ -10041,7 +10041,7 @@
 801311e0 00007c 801311e0 0 zz_801311e0_
 8013125c 000050 8013125c 0 zz_8013125c_
 801312ac 000014 801312ac 0 zz_801312ac_
-801312c0 000394 801312c0 0 ?setRideStateCoaster()
+801312c0 000394 801312c0 0 setRideStateCoaster()
 80131654 000040 80131654 0 zz_80131654_
 80131694 0000cc 80131694 0 stateController?PulleyEvent_80131694_
 80131760 0000a8 80131760 0 HAS_Player::TouchHangCommand_?PulleyWarpPlayerCalledByStateController
@@ -12012,7 +12012,7 @@
 8016ab34 000044 8016ab34 0 zz_8016ab34_
 8016ab78 000018 8016ab78 0 zz_8016ab78_
 8016ab90 000098 8016ab90 0 missionManager::CheckCompleted(r3=Mission, r4=CurrentValue)
-8016ac28 0000c0 8016ac28 0 ?CollectibleMissionGoalTrigger_StoreMissionCollectibleToUI@8016ac7c_8016ac28_
+8016ac28 0000c0 8016ac28 0 CollectibleMissionGoalTrigger_StoreMissionCollectibleToUI@8016ac7c_8016ac28_
 8016ace8 000008 8016ace8 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_121
 8016acf0 000008 8016acf0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_122
 8016acf8 000018 8016acf8 0 zz_8016acf8_
@@ -15363,7 +15363,7 @@
 801c05f8 00005c 801c05f8 0 zz_801c05f8_
 801c0654 000004 801c0654 0 nullsub_1487
 801c0658 000024 801c0658 0 homebutton::MotorCallback(OSAlarm *, OSContext *) _homebuttonLib.a HBMBase.o_22
-801c067c 000218 801c067c 0 ?SharedSomethingVehicles
+801c067c 000218 801c067c 0 SharedSomethingVehicles
 801c0894 00005c 801c0894 0 zz_801c0894_
 801c08f0 0000ec 801c08f0 0 zz_801c08f0_
 801c09dc 00005c 801c09dc 0 zz_801c09dc_
@@ -17945,7 +17945,7 @@
 80206b9c 000004 80206b9c 0 nullsub_1541
 80206ba0 000008 80206ba0 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_235
 80206ba8 000008 80206ba8 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_236
-80206bb0 000208 80206bb0 0 ?PlayerTarget: Boss Stage Setting
+80206bb0 000208 80206bb0 0 PlayerTarget: Boss Stage Setting
 80206db8 000068 80206db8 0 zz_80206db8_
 80206e20 000090 80206e20 0 zz_80206e20_
 80206eb0 000040 80206eb0 0 zz_80206eb0_
@@ -33121,7 +33121,7 @@
 80440e80 000198 80440e80 0 CollisionDataStreamRead
 80441018 000010 80441018 0 zz_80441018_
 80441028 000160 80441028 0 zz_80441028_
-80441188 000a70 80441188 0 ImportStage_CrashOn_CollisionRelatedReached_TheHatedGravityLevelImportChunkCrash
+80441188 000a70 80441188 0 _GeometryForAllTriIntsecLine()
 80441bf8 000618 80441bf8 0 zz_80441bf8_
 80442210 000894 80442210 0 zz_80442210_
 80442aa4 0000f4 80442aa4 0 zz_80442aa4_
