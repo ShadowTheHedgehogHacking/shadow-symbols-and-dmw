@@ -31185,7 +31185,7 @@
 803b6720 000008 803b6720 0 GXInitTexObjUserData _gx.a GXTexture.o_80
 803b6728 000008 803b6728 0 GXInitTexObjUserData _gx.a GXTexture.o_81
 803b6730 000008 803b6730 0 GXInitTexObjUserData _gx.a GXTexture.o_82
-803b6738 00000c 803b6738 0 FETweener::setDoneCallFunc(void (*)(void *), void *)_9
+803b6738 00000c 803b6738 0 _ADXSJD_EntryTrapFunc()
 803b6744 000008 803b6744 0 GXInitTexObjUserData _gx.a GXTexture.o_83
 803b674c 000008 803b674c 0 GXInitTexObjUserData _gx.a GXTexture.o_84
 803b6754 000008 803b6754 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_285
