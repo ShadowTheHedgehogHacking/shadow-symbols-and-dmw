@@ -99,7 +99,7 @@
 800099b8 00005c 800099b8 0 SonicteamUSA::System::Camera::CameraModeUser_SetPosition1[r3=CurrentFloat, r4=PointerToExternalCamsNewFloats, r29=Camera, r30=PJSCamera::PJSCameraFactory]
 80009a14 00002c 80009a14 0 ExternalCam_SetPosition2[r11=Effect::System::EffCmdWaitExec, r29=Camera]
 80009a40 000010 80009a40 0 cFielder::IsStriker( (void))_2
-80009a50 000080 80009a50 0 ?Unknown2_80009a50_
+80009a50 000080 80009a50 0 Unknown2_80009a50_
 80009ad0 00004c 80009ad0 0 zz_80009ad0_
 80009b1c 000048 80009b1c 0 zz_80009b1c_
 80009b64 000064 80009b64 0 zz_80009b64_
@@ -1091,7 +1091,7 @@
 8002daa4 0000d0 8002daa4 0 zz_8002daa4_
 8002db74 000054 8002db74 0 zz_8002db74_
 8002dbc8 0000c0 8002dbc8 0 zz_8002dbc8_
-8002dc88 0000a0 8002dc88 0 ?Unknown3_8002dc88_
+8002dc88 0000a0 8002dc88 0 Unknown3_8002dc88_
 8002dd28 000044 8002dd28 0 zz_8002dd28_
 8002dd6c 000030 8002dd6c 0 zz_8002dd6c_
 8002dd9c 000008 8002dd9c 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_30
@@ -1924,7 +1924,7 @@
 8004b1f4 000050 8004b1f4 0 zz_8004b1f4_
 8004b244 0000ac 8004b244 0 zz_8004b244_
 8004b2f0 000088 8004b2f0 0 zz_8004b2f0_
-8004b378 0002d8 8004b378 0 ?FileRelated(r3/r31=TOneFileAsync, r29=System)_8004b378_
+8004b378 0002d8 8004b378 0 FileRelated(r3/r31=TOneFileAsync, r29=System)
 8004b650 000010 8004b650 0 zz_8004b650_
 8004b660 0000ac 8004b660 0 zz_8004b660_
 8004b70c 000088 8004b70c 0 zz_8004b70c_
@@ -2067,7 +2067,7 @@
 8004f36c 00005c 8004f36c 0 zz_8004f36c_
 8004f3c8 000088 8004f3c8 0 zz_8004f3c8_
 8004f450 00012c 8004f450 0 zz_8004f450_
-8004f57c 000060 8004f57c 0 ?Unknown1_8004f57c_
+8004f57c 000060 8004f57c 0 Unknown1_8004f57c_
 8004f5dc 000058 8004f5dc 0 zz_8004f5dc_
 8004f634 000044 8004f634 0 zz_8004f634_
 8004f678 0000e8 8004f678 0 zz_8004f678_
@@ -12259,7 +12259,7 @@
 8016f2dc 000068 8016f2dc 0 PlayerRingReset_Store
 8016f344 00001c 8016f344 0 zz_8016f344_
 8016f360 000020 8016f360 0 zz_8016f360_
-8016f380 000020 8016f380 0 ?WarpRelatedOnDeathOrInit
+8016f380 000020 8016f380 0 WarpRelatedOnDeathOrInit
 8016f3a0 000034 8016f3a0 0 zz_8016f3a0_
 8016f3d4 000114 8016f3d4 0 updateCheckPointSomething(int* highestCheckPoint, float* checkpointPosition[3], ?, int touchedCheckPointID)
 8016f4e8 0000d0 8016f4e8 0 zz_8016f4e8_
@@ -15665,7 +15665,7 @@
 801cb6cc 000004 801cb6cc 0 nullsub_287
 801cb6d0 000050 801cb6d0 0 zz_801cb6d0_
 801cb720 000050 801cb720 0 zz_801cb720_
-801cb770 000054 801cb770 0 ?Unknown4_801cb770_
+801cb770 000054 801cb770 0 Unknown4_801cb770_
 801cb7c4 000040 801cb7c4 0 zz_801cb7c4_
 801cb804 000044 801cb804 0 ExclusiveUnknownCreatedSpecialCameraEvent
 801cb848 00004c 801cb848 0 SpecialCamLayer2ExclusiveUnknwnCreatedFunc1_801cb848_
@@ -15846,7 +15846,7 @@
 801cee94 000024 801cee94 0 zz_801cee94_
 801ceeb8 000040 801ceeb8 0 OtherDetach?_801ceeb8_
 801ceef8 00005c 801ceef8 0 ExclusiveSpecialCameraEventCALLS_SHAREDINCLUDES
-801cef54 00009c 801cef54 0 ?SHARED_INCLUDES_FLYABLES_LostImpactTurrets_CallWith_ConstantlyCalledCallToMalloc
+801cef54 00009c 801cef54 0 SHARED_INCLUDES_FLYABLES_LostImpactTurrets_CallWith_ConstantlyCalledCallToMalloc
 801ceff0 000028 801ceff0 0 zz_801ceff0_
 801cf018 000034 801cf018 0 zz_801cf018_
 801cf04c 00002c 801cf04c 0 Unhook_DeathCam_WithManager?_801cf04c_
@@ -15923,7 +15923,7 @@
 801d09f8 000080 801d09f8 0 zz_801d09f8_
 801d0a78 000060 801d0a78 0 zz_801d0a78_
 801d0ad8 000024 801d0ad8 0 homebutton::MotorCallback(OSAlarm *, OSContext *) _homebuttonLib.a HBMBase.o_25
-801d0afc 0002d0 801d0afc 0 ?VirtualVirtualFunctionRenderColorBallRelated_ProbablyRender_SonicteamUSA::System::Effect::EffectLaunchInfoUSA
+801d0afc 0002d0 801d0afc 0 VirtualVirtualFunctionRenderColorBallRelated_ProbablyRender_SonicteamUSA::System::Effect::EffectLaunchInfoUSA
 801d0da8 0002d0 801d0da8 0 def_801D0B58
 801d0dcc 000050 801d0dcc 0 zz_801d0dcc_
 801d0e1c 000068 801d0e1c 0 Effect::PJS::EffectLocusPJS__SubFunc

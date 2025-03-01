@@ -13602,186 +13602,6 @@
         {
             "groupEntries": [
                 {
-                    "groupEntries": [
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P1 Writeable X",
-                            "pointerOffsets": [
-                                "0",
-                                "0",
-                                "0"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P1 Writeable Y",
-                            "pointerOffsets": [
-                                "0",
-                                "0",
-                                "4"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P1 Writeable Z",
-                            "pointerOffsets": [
-                                "0",
-                                "0",
-                                "8"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P1 X-Axis Velocity",
-                            "pointerOffsets": [
-                                "0",
-                                "0",
-                                "18"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P1 Y-Axis Velocity",
-                            "pointerOffsets": [
-                                "0",
-                                "0",
-                                "1C"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P1 Z-Axis Velocity",
-                            "pointerOffsets": [
-                                "0",
-                                "0",
-                                "20"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P1 ForceToAdd X",
-                            "pointerOffsets": [
-                                "0",
-                                "0",
-                                "24"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P1 ForceToAdd Y",
-                            "pointerOffsets": [
-                                "0",
-                                "0",
-                                "28"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P1 ForceToAdd Z",
-                            "pointerOffsets": [
-                                "0",
-                                "0",
-                                "2C"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P1 0x64 CharacterID (PlayerStruct layer)",
-                            "pointerOffsets": [
-                                "0",
-                                "0",
-                                "64"
-                            ],
-                            "typeIndex": 2,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "807D783A",
-                            "baseIndex": 0,
-                            "label": "P1 Status Byte 0 = normal, 2 = spindash, 8 = zipline, 64 = wallcling, 128 = in air",
-                            "typeIndex": 0,
-                            "unsigned": true
-                        }
-                    ],
-                    "groupName": "P1"
-                },
-                {
-                    "groupEntries": [
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P2 Writeable X",
-                            "pointerOffsets": [
-                                "8",
-                                "0",
-                                "0"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P2 Writeable Y",
-                            "pointerOffsets": [
-                                "8",
-                                "0",
-                                "4"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "P2 Writeable Z",
-                            "pointerOffsets": [
-                                "8",
-                                "0",
-                                "8"
-                            ],
-                            "typeIndex": 3,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "807D79EA",
-                            "baseIndex": 0,
-                            "label": "P2 Status Byte",
-                            "typeIndex": 0,
-                            "unsigned": true
-                        }
-                    ],
-                    "groupName": "P2"
-                },
-                {
                     "address": "8057670C",
                     "baseIndex": 0,
                     "label": "P1 Ring Count",
@@ -13824,11 +13644,25 @@
                     "unsigned": true
                 },
                 {
+                    "address": "807D783A",
+                    "baseIndex": 0,
+                    "label": "P1 Status Byte 0 = normal, 2 = spindash, 8 = zipline, 64 = wallcling, 128 = in air",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "807D79EA",
+                    "baseIndex": 0,
+                    "label": "P2 Status Byte",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
                     "groupEntries": [
                         {
                             "address": "80575FA8",
                             "baseIndex": 0,
-                            "label": "x",
+                            "label": "0x0 pos.x",
                             "pointerOffsets": [
                                 "0",
                                 "0",
@@ -13840,7 +13674,7 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 0,
-                            "label": "y",
+                            "label": "0x4 pos.y",
                             "pointerOffsets": [
                                 "0",
                                 "0",
@@ -13852,7 +13686,7 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 0,
-                            "label": "z",
+                            "label": "0x8 pos.z",
                             "pointerOffsets": [
                                 "0",
                                 "0",
@@ -13936,7 +13770,7 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 0,
-                            "label": "0x24 sideways speed",
+                            "label": "0x24 forceToAdd X",
                             "pointerOffsets": [
                                 "0",
                                 "0",
@@ -13948,11 +13782,23 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 0,
-                            "label": "0x28 jump power maybe",
+                            "label": "0x28 forceToAdd Y",
                             "pointerOffsets": [
                                 "0",
                                 "0",
                                 "28"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0x2C forceToAdd Z",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "2C"
                             ],
                             "typeIndex": 3,
                             "unsigned": false
@@ -14043,6 +13889,42 @@
                                 "0",
                                 "0",
                                 "64"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0x68",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "68"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0x6C",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "6C"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0x70",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "70"
                             ],
                             "typeIndex": 2,
                             "unsigned": false
@@ -14194,7 +14076,7 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 0,
-                            "label": "d0",
+                            "label": "0xD0",
                             "pointerOffsets": [
                                 "0",
                                 "0",
@@ -14206,7 +14088,7 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 0,
-                            "label": "d4",
+                            "label": "0xD4",
                             "pointerOffsets": [
                                 "0",
                                 "0",
@@ -14218,7 +14100,19 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 0,
-                            "label": "dc",
+                            "label": "0xD8",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "D8"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0xDC",
                             "pointerOffsets": [
                                 "0",
                                 "0",
@@ -15792,7 +15686,7 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 0,
-                            "label": "x",
+                            "label": "0x0 pos.x",
                             "pointerOffsets": [
                                 "8",
                                 "0",
@@ -15804,7 +15698,7 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 0,
-                            "label": "y",
+                            "label": "0x4 pos.y",
                             "pointerOffsets": [
                                 "8",
                                 "0",
@@ -15816,7 +15710,7 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 0,
-                            "label": "z",
+                            "label": "0x8 pos.z",
                             "pointerOffsets": [
                                 "8",
                                 "0",
