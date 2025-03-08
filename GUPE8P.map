@@ -16389,7 +16389,7 @@
 801dc568 00006c 801dc568 0 RideCommand::RideCommand()
 801dc5d4 00006c 801dc5d4 0 zz_801dc5d4_
 801dc640 00005c 801dc640 0 zz_801dc640_
-801dc69c 00005c 801dc69c 0 DeadCommand::DeadCommand()_801dc69c_
+801dc69c 00005c 801dc69c 0 DeadCommand::DeadCommand()
 801dc6f8 00005c 801dc6f8 0 DamageCommand::DamageCommand()
 801dc754 00005c 801dc754 0 AccelerateCommand::AccelerateCommand()_801dc754_
 801dc7b0 00005c 801dc7b0 0 SetVelocityCommand::SetVelocityCommand()
@@ -17861,7 +17861,7 @@
 802039d8 000008 802039d8 0 J3DColorBlockLightOff::getColorChanNum(void) const _J3DGraphBase.a J3DMatBlock.o_22
 802039e0 000008 802039e0 0 J3DColorBlockLightOff::setColorChanNum(unsigned char) _J3DGraphBase.a J3DMatBlock.o_6
 802039e8 000028 802039e8 0 zz_802039e8_
-80203a10 00004c 80203a10 0 frameskip/timescale_related__80203a10_
+80203a10 00004c 80203a10 0 frameskip/timescale_related__storePlayerTimescale
 80203a5c 000074 80203a5c 0 zz_80203a5c_
 80203ad0 00008c 80203ad0 0 zz_80203ad0_
 80203b5c 000030 80203b5c 0 zz_80203b5c_
