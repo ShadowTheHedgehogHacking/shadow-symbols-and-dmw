@@ -536,18 +536,10 @@
                             "unsigned": false
                         },
                         {
-                            "address": "805A5240",
-                            "baseIndex": 1,
-                            "label": "Heap Linked List?",
+                            "address": "805F0340",
+                            "baseIndex": 0,
+                            "label": "0x4F00(r13) GravityStatePointer",
                             "pointerOffsets": [
-                                "0",
-                                "0",
-                                "0",
-                                "0",
-                                "0",
-                                "0",
-                                "0",
-                                "0",
                                 "0"
                             ],
                             "typeIndex": 2,
@@ -555,6 +547,53 @@
                         }
                     ],
                     "groupName": "Core Globals"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805EE12C",
+                            "baseIndex": 0,
+                            "label": "Fade Screen State (0 = No Fade; 1 = Full)",
+                            "pointerOffsets": [
+                                "0"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80572DA8",
+                            "baseIndex": 0,
+                            "label": "Fade Task State (0x14 from Screen State)",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805EE128",
+                            "baseIndex": 0,
+                            "label": "Fade Task byte?",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "807D85B0",
+                            "baseIndex": 0,
+                            "label": "FadeDrawTask",
+                            "length": 555,
+                            "pointerOffsets": [
+                                "0"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Fade Screen System"
+                },
+                {
+                    "address": "807D95ED",
+                    "baseIndex": 0,
+                    "label": "Pause System Animation Done (0 = Playing, 1 = Done)",
+                    "typeIndex": 0,
+                    "unsigned": false
                 }
             ],
             "groupName": "Core System"
@@ -1405,6 +1444,13 @@
                                     "address": "804C5008",
                                     "baseIndex": 0,
                                     "label": "Stage ID",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "804C5010",
+                                    "baseIndex": 0,
+                                    "label": "Game Mode",
                                     "typeIndex": 2,
                                     "unsigned": false
                                 }
@@ -13517,7 +13563,7 @@
                 },
                 {
                     "address": "807D747C",
-                    "baseIndex": 0,
+                    "baseIndex": 1,
                     "label": "StageID StoryMode Stage Sequence",
                     "typeIndex": 2,
                     "unsigned": false
@@ -14315,10 +14361,73 @@
                         },
                         {
                             "address": "80575FA8",
-                            "baseIndex": 1,
+                            "baseIndex": 0,
                             "label": "0x21C CharCommandUnit** ?",
-                            "typeIndex": 2,
+                            "length": 55,
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "21C",
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "typeIndex": 5,
                             "unsigned": false
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80575FA8",
+                                    "baseIndex": 0,
+                                    "label": "0x21C CharCommandUnit** ?",
+                                    "length": 1505,
+                                    "pointerOffsets": [
+                                        "0",
+                                        "0",
+                                        "21C",
+                                        "30",
+                                        "0",
+                                        "0",
+                                        "0"
+                                    ],
+                                    "typeIndex": 5,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80575FA8",
+                                    "baseIndex": 0,
+                                    "label": "0x21C CharCommandUnit** ?",
+                                    "pointerOffsets": [
+                                        "0",
+                                        "0",
+                                        "21C",
+                                        "30",
+                                        "4"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80575FA8",
+                                    "baseIndex": 0,
+                                    "label": "0x21C CharCommandUnit** ?",
+                                    "length": 1505,
+                                    "pointerOffsets": [
+                                        "0",
+                                        "0",
+                                        "21C",
+                                        "78",
+                                        "0",
+                                        "0",
+                                        "0"
+                                    ],
+                                    "typeIndex": 5,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "0x21C CharCommandUnit Group"
                         },
                         {
                             "address": "80575FA8",
@@ -15679,6 +15788,38 @@
                         },
                         {
                             "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "--> 0xC Target",
+                            "length": 55,
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "24C",
+                                "C",
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "--> 0xC Target Flags",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "24C",
+                                "C",
+                                "30"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
                             "baseIndex": 1,
                             "label": "0x254 pTarget?",
                             "pointerOffsets": [
@@ -16174,6 +16315,50 @@
                                 }
                             ],
                             "groupName": "0x238 pShadowWeapon"
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0x24C Player::Shadow::PlayerTarget",
+                            "pointerOffsets": [
+                                "8",
+                                "0",
+                                "24C"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "--> 0xC Target",
+                            "length": 55,
+                            "pointerOffsets": [
+                                "8",
+                                "0",
+                                "24C",
+                                "C",
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "--> 0xC Target Flags",
+                            "pointerOffsets": [
+                                "8",
+                                "0",
+                                "24C",
+                                "C",
+                                "30"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
                         },
                         {
                             "address": "80575FA8",
@@ -24647,13 +24832,6 @@
             "groupName": "Weapon"
         },
         {
-            "address": "804C4F68",
-            "baseIndex": 0,
-            "label": "No label",
-            "typeIndex": 2,
-            "unsigned": true
-        },
-        {
             "address": "80ED6710",
             "baseIndex": 0,
             "label": "CAMERA_READMODETYPE P2 HEAP COPY",
@@ -24726,41 +24904,6 @@
             "unsigned": false
         },
         {
-            "address": "805EE12C",
-            "baseIndex": 0,
-            "label": "Fade Screen State (0 = No Fade; 1 = Full)",
-            "pointerOffsets": [
-                "0"
-            ],
-            "typeIndex": 3,
-            "unsigned": false
-        },
-        {
-            "address": "80572DA8",
-            "baseIndex": 0,
-            "label": "Fade Task State (0x14 from Screen State)",
-            "typeIndex": 2,
-            "unsigned": false
-        },
-        {
-            "address": "805EE128",
-            "baseIndex": 0,
-            "label": "Fade Task byte?",
-            "typeIndex": 0,
-            "unsigned": false
-        },
-        {
-            "address": "807D85B0",
-            "baseIndex": 0,
-            "label": "Fade",
-            "length": 555,
-            "pointerOffsets": [
-                "0"
-            ],
-            "typeIndex": 5,
-            "unsigned": false
-        },
-        {
             "address": "805224D8",
             "baseIndex": 0,
             "label": "R24 @ 800BB230 (RouteMenu Draw)",
@@ -24769,122 +24912,6 @@
                 "0"
             ],
             "typeIndex": 5,
-            "unsigned": false
-        },
-        {
-            "address": "80F75964",
-            "baseIndex": 0,
-            "label": "No label",
-            "typeIndex": 3,
-            "unsigned": true
-        },
-        {
-            "address": "804CC374",
-            "baseIndex": 0,
-            "label": "No label",
-            "typeIndex": 3,
-            "unsigned": true
-        },
-        {
-            "address": "805F17F8",
-            "baseIndex": 0,
-            "label": "No label",
-            "typeIndex": 3,
-            "unsigned": true
-        },
-        {
-            "address": "81372224",
-            "baseIndex": 1,
-            "label": "No label",
-            "typeIndex": 2,
-            "unsigned": true
-        },
-        {
-            "address": "80F4AD40",
-            "baseIndex": 1,
-            "label": "No label",
-            "typeIndex": 2,
-            "unsigned": true
-        },
-        {
-            "address": "81372224",
-            "baseIndex": 1,
-            "label": "No label",
-            "typeIndex": 2,
-            "unsigned": true
-        },
-        {
-            "address": "81127FB0",
-            "baseIndex": 1,
-            "label": "No label",
-            "typeIndex": 2,
-            "unsigned": true
-        },
-        {
-            "address": "805EF2A0",
-            "baseIndex": 0,
-            "label": "event",
-            "typeIndex": 2,
-            "unsigned": false
-        },
-        {
-            "address": "804D044A",
-            "baseIndex": 0,
-            "label": "No label",
-            "length": 155,
-            "typeIndex": 5,
-            "unsigned": false
-        },
-        {
-            "address": "80510EA0",
-            "baseIndex": 0,
-            "label": "No label",
-            "length": 155,
-            "typeIndex": 5,
-            "unsigned": false
-        },
-        {
-            "address": "809DBC58",
-            "baseIndex": 0,
-            "label": "No label",
-            "pointerOffsets": [
-                "0"
-            ],
-            "typeIndex": 2,
-            "unsigned": false
-        },
-        {
-            "address": "807D95ED",
-            "baseIndex": 0,
-            "label": "Pause Y Route Menu Related State",
-            "typeIndex": 0,
-            "unsigned": false
-        },
-        {
-            "address": "805EF334",
-            "baseIndex": 0,
-            "label": "0x3EF4 r13",
-            "pointerOffsets": [
-                "0"
-            ],
-            "typeIndex": 2,
-            "unsigned": false
-        },
-        {
-            "address": "805EF32D",
-            "baseIndex": 0,
-            "label": "0x3EED r13",
-            "typeIndex": 0,
-            "unsigned": false
-        },
-        {
-            "address": "805F0340",
-            "baseIndex": 0,
-            "label": "0x4F00(r13) GravityStatePointer",
-            "pointerOffsets": [
-                "0"
-            ],
-            "typeIndex": 2,
             "unsigned": false
         }
     ]
