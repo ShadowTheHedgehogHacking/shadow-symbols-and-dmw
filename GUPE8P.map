@@ -5611,7 +5611,7 @@
 800af480 0000bc 800af480 0 HoldingObject(HealUnit,Box)_ShadowExecuterStuff_800af480_
 800af53c 0003a8 800af53c 0 Command::Executer()
 800af8e4 00005c 800af8e4 0 zz_800af8e4_
-800af940 00004c 800af940 0 ShadowExecuter Top Level Fixed
+800af940 00004c 800af940 0 Player::Shadow::ShadowExecuter::Exec
 800af98c 000058 800af98c 0 zz_800af98c_
 800af9e4 000088 800af9e4 0 zz_800af9e4_
 800afa6c 000074 800afa6c 0 zz_800afa6c_
@@ -5798,7 +5798,7 @@
 800b62f8 000044 800b62f8 0 zz_800b62f8_
 800b633c 000214 800b633c 0 zz_800b633c_
 800b6550 000150 800b6550 0 zz_800b6550_
-800b66a0 000048 800b66a0 0 dCreateGeom_39
+800b66a0 000048 800b66a0 0 Player::Shadow::PlayerTarget::Create
 800b66e8 0000cc 800b66e8 0 zz_800b66e8_
 800b67b4 000028 800b67b4 0 Player::Shadow::PlayerTarget Check
 800b67dc 000028 800b67dc 0 zz_800b67dc_
@@ -5811,7 +5811,7 @@
 800b690c 000068 800b690c 0 zz_800b690c_
 800b6974 00004c 800b6974 0 zz_800b6974_
 800b69c0 000024 800b69c0 0 cFielder::EndAction(void)_41
-800b69e4 00006c 800b69e4 0 PlayerTarget__MODE_Set
+800b69e4 00006c 800b69e4 0 Player::Shadow::PlayerTarget::PlayerTarget
 800b6a50 000410 800b6a50 0 zz_800b6a50_
 800b6e60 000040 800b6e60 0 zz_800b6e60_
 800b6ea0 000048 800b6ea0 0 zz_800b6ea0_
@@ -9277,7 +9277,7 @@
 80119f50 0000fc 80119f50 0 zz_80119f50_
 8011a04c 00004c 8011a04c 0 zz_8011a04c_
 8011a098 0002e0 8011a098 0 Read Ring Timeout Flash
-8011a378 0000ac 8011a378 0 zz_8011a378_
+8011a378 0000ac 8011a378 0 ScatteringRing::~ScatteringRing
 8011a424 000088 8011a424 0 zz_8011a424_
 8011a4ac 000074 8011a4ac 0 zz_8011a4ac_
 8011a520 000030 8011a520 0 zz_8011a520_
@@ -11395,7 +11395,7 @@
 8015a858 000040 8015a858 0 zz_8015a858_
 8015a898 0000ac 8015a898 0 SHARED_GenericObject_CollisionExec
 8015a944 000064 8015a944 0 SETObj_Iteration_Executors
-8015a9a8 000074 8015a9a8 0 Gadget::~Gadget()_Maybe
+8015a9a8 000074 8015a9a8 0 Gadget::~Gadget()
 8015aa1c 000068 8015aa1c 0 Gadget::Gadget()_Maybe
 8015aa84 0001c0 8015aa84 0 TouchObjectAndCollect_PickupChaosOrbSetChaosPower_8015aa84_
 8015ac44 000040 8015ac44 0 zz_8015ac44_
@@ -17951,7 +17951,7 @@
 80206eb0 000040 80206eb0 0 zz_80206eb0_
 80206ef0 000030 80206ef0 0 zz_80206ef0_
 80206f20 000028 80206f20 0 zz_80206f20_
-80206f48 00003c 80206f48 0 zz_80206f48_
+80206f48 00003c 80206f48 0 Player::Npc::NpcTarget
 80206f84 000068 80206f84 0 zz_80206f84_
 80206fec 00004c 80206fec 0 zz_80206fec_
 80207038 000024 80207038 0 cFielder::EndAction(void)_70
@@ -20010,7 +20010,7 @@
 802478a0 000054 802478a0 0 SE_Z7074__CreateInstanceofGravityInvisCollisionObject
 802478f4 000020 802478f4 0 cPlayer::PostPhysicsUpdate(void)_420
 80247914 000020 80247914 0 cPlayer::PostPhysicsUpdate(void)_421
-80247934 000074 80247934 0 GravityChangeCollision_InvisibleType_OnLeaveRange
+80247934 000074 80247934 0 GravityChangeCollision::~GravityChangeCollision
 802479a8 00013c 802479a8 0 GravityChangeCollision::GravityChangeCollision()
 80247ae4 000040 80247ae4 0 ExecuteChangeGravityCollision
 80247b24 000044 80247b24 0 GravityChangeZone_CollisionLogic
@@ -22697,7 +22697,7 @@
 802957c0 000028 802957c0 0 SidelineExplodable::Allocate(void)_133
 802957e8 00004c 802957e8 0 zz_802957e8_
 80295834 000028 80295834 0 zz_80295834_
-8029585c 00003c 8029585c 0 zz_8029585c_
+8029585c 00003c 8029585c 0 Player::Npc::BossSonicTarget
 80295898 000068 80295898 0 zz_80295898_
 80295900 00004c 80295900 0 zz_80295900_
 8029594c 000024 8029594c 0 cFielder::EndAction(void)_83
@@ -24822,7 +24822,7 @@
 802dbd1c 000030 802dbd1c 0 zz_802dbd1c_
 802dbd4c 000030 802dbd4c 0 zz_802dbd4c_
 802dbd7c 000074 802dbd7c 0 zz_802dbd7c_
-802dbdf0 000064 802dbdf0 0 zz_802dbdf0_
+802dbdf0 000064 802dbdf0 0 Write Player::Shadow::PlayerTarget in Player
 802dbe54 0000a0 802dbe54 0 zz_802dbe54_
 802dbef4 0000d4 802dbef4 0 zz_802dbef4_
 802dbfc8 000038 802dbfc8 0 BaseSceneHandler::OnActivate(void)_18
@@ -27645,12 +27645,12 @@
 80330dd0 00005c 80330dd0 0 FormationOffensive::__dt(void)_354
 80330e2c 000028 80330e2c 0 zz_80330e2c_
 80330e54 000058 80330e54 0 zz_80330e54_
-80330eac 0000d4 80330eac 0 CheckpointUI_LoopMain
+80330eac 0000d4 80330eac 0 SavePointSelect::SavePointSelectTask::Exec
 80330f80 00002c 80330f80 0 CheckpointUI_OnClosed
 80330fac 000014 80330fac 0 GameInfoManager::GetResultsOfLastUserGame( (void))
 80330fc0 000010 80330fc0 0 cFielder::IsStriker( (void))_21
 80330fd0 000008 80330fd0 0 get0x0(r3)_119
-80330fd8 000080 80330fd8 0 zz_80330fd8_
+80330fd8 000080 80330fd8 0 SavePointSelect::SavePointSelectTask::~SavePointSelectTask
 80331058 00004c 80331058 0 zz_80331058_
 803310a4 00004c 803310a4 0 zz_803310a4_
 803310f0 000024 803310f0 0 cFielder::EndAction(void)_113
@@ -30856,7 +30856,7 @@
 803a01d8 000030 803a01d8 0 zz_803a01d8_
 803a0208 00004c 803a0208 0 zz_803a0208_
 803a0254 000090 803a0254 0 nl_Init_MallocCall
-803a02e4 00004c 803a02e4 0 GenericCallToFree
+803a02e4 00004c 803a02e4 0 __dl (call to free)
 803a0330 00008c 803a0330 0 ObjectHeapMallocThing
 803a03bc 00007c 803a03bc 0 __destroy_new_array
 803a0438 000078 803a0438 0 __destroy_arr
@@ -30931,7 +30931,7 @@
 803a1754 000044 803a1754 0 zz_803a1754_
 803a1798 000410 803a1798 0 ExPPC_ThrowHandler__FP12ThrowContext
 803a1a4c 000410 803a1a4c 0 def_803A195C
-803a1ba8 0001b4 803a1ba8 0 zz_803a1ba8_
+803a1ba8 0001b4 803a1ba8 0 _unexpected
 803a1d5c 00005c 803a1d5c 0 FormationOffensive::__dt(void)_373
 803a1db8 00050c 803a1db8 0 ExPPC_UnwindStack__FP12ThrowContextP15MWExceptionInfoPv
 803a2298 00050c 803a2298 0 def_803A1E4C
@@ -34252,7 +34252,7 @@
 80499c38 0008e0 80499c38 0 _rwDlTextureSet()
 8049a518 0001cc 8049a518 0 zz_8049a518_
 8049a6e4 0000a8 8049a6e4 0 zz_8049a6e4_
-8049a78c 0000a0 8049a78c 0 StickyBit_100@8049a7d8
+8049a78c 0000a0 8049a78c 0 _rwDlTokenQueryDone
 8049a82c 0000e0 8049a82c 0 zz_8049a82c_
 8049a90c 000050 8049a90c 0 zz_8049a90c_
 8049a95c 00019c 8049a95c 0 RwIm3DRenderIndexedPrimitive
