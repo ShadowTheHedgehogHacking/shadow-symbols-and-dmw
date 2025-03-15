@@ -15851,7 +15851,7 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 1,
-                            "label": "0x260",
+                            "label": "0x260 pWaitTask",
                             "pointerOffsets": [
                                 "0",
                                 "0",
@@ -15862,14 +15862,17 @@
                         },
                         {
                             "address": "80575FA8",
-                            "baseIndex": 1,
+                            "baseIndex": 0,
                             "label": "0x268 - WatchInput (ingameInputChecker Func)",
+                            "length": 13,
                             "pointerOffsets": [
                                 "0",
                                 "0",
-                                "268"
+                                "268",
+                                "0",
+                                "0"
                             ],
-                            "typeIndex": 2,
+                            "typeIndex": 5,
                             "unsigned": false
                         },
                         {
