@@ -14712,6 +14712,24 @@
                                     "groupEntries": [
                                         {
                                             "address": "80575FA8",
+                                            "baseIndex": 0,
+                                            "label": "0x0 pppWeaponName",
+                                            "length": 55,
+                                            "pointerOffsets": [
+                                                "0",
+                                                "0",
+                                                "238",
+                                                "34",
+                                                "0",
+                                                "0",
+                                                "0",
+                                                "0"
+                                            ],
+                                            "typeIndex": 5,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80575FA8",
                                             "baseIndex": 1,
                                             "label": "0x0 pppWeapon?",
                                             "pointerOffsets": [
