@@ -40,8 +40,8 @@ The `*.dmw` files are memory list files for Shadow The Hedgehog, which can be op
 5. Navigate to the folder where you extracted the game
 6. Open the `sys` folder, and select "Select Folder"
 7. Close the confirmation pane, your games list should populate a new 0 filesize game of Shadow The Hedgehog. The 0 filesize entry is the FST format game.
-8. Open Dolphin Config (next to Graphics and Controllers)
-9. Click Interface on the Config settings window
+8. Select Config
+9. Select Interface
 10. Enable "Show Debugging UI", then close the window.
 11. Select 'View' in the menu bar and pick the things you need (Code, breakpoints, registers is a good start)
 
