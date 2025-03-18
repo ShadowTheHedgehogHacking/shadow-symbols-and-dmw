@@ -75,8 +75,8 @@
 800093b8 000050 800093b8 0 zz_800093b8_
 80009408 000054 80009408 0 GUI_something
 8000945c 00006c 8000945c 0 CameraAndEffectBCTRL_Iter
-800094c8 000038 800094c8 0 GenerateFX_bctrl
-80009500 000048 80009500 0 cHeadTrack::__dt(void)
+800094c8 000038 800094c8 0 boost::detail::sp_counted_base::destroy
+80009500 000048 80009500 0 boost::detail::sp_counted_base::`vector deleting destructor'
 80009548 00006c 80009548 0 Put PJSCamera::PJSCameraFactory into R3; HAS_PJSCamera::PJSCameraFactory_1
 800095b4 000004 800095b4 0 nullsub_1113
 800095b8 000058 800095b8 0 zz_800095b8_
@@ -2056,7 +2056,7 @@
 8004ec68 000144 8004ec68 0 mainLoop
 8004edac 0000b8 8004edac 0 zz_8004edac_
 8004ee64 000024 8004ee64 0 zz_8004ee64_
-8004ee88 00004c 8004ee88 0 zz_8004ee88_
+8004ee88 00004c 8004ee88 0 Task::KillChild
 8004eed4 0000f0 8004eed4 0 Task::~Task
 8004efc4 0000d4 8004efc4 0 __ct__4TaskFP4Task
 8004f098 00000c 8004f098 0 zz_8004f098_
@@ -2554,7 +2554,7 @@
 8005b2f0 0001a0 8005b2f0 0 zz_8005b2f0_
 8005b490 000110 8005b490 0 zz_8005b490_
 8005b5a0 0000f0 8005b5a0 0 zz_8005b5a0_
-8005b690 00005c 8005b690 0 FormationOffensive::__dt(void)_9
+8005b690 00005c 8005b690 0 boost::detail::sp_counted_base_impl<SonicteamUSA::System::CharaColli::CharaColliAttack *, boost::checked_deleter<SonicteamUSA::System::CharaColli::CharaColliAttack>>__dl
 8005b6ec 000028 8005b6ec 0 SidelineExplodable::Allocate(void)_6
 8005b714 00004c 8005b714 0 zz_8005b714_
 8005b760 00001c 8005b760 0 zz_8005b760_
@@ -2723,7 +2723,7 @@
 8005eb6c 000028 8005eb6c 0 zz_8005eb6c_
 8005eb94 000010 8005eb94 0 zz_8005eb94_
 8005eba4 00000c 8005eba4 0 cAIPad::__ct(void)_8
-8005ebb0 000058 8005ebb0 0 WeaponGunBase::~WeaponGunBase()_8005ebb0_
+8005ebb0 000058 8005ebb0 0 WeaponGunBase::~WeaponGunBase()
 8005ec08 000048 8005ec08 0 WeaponGunBase::WeaponGunBase()
 8005ec50 000040 8005ec50 0 zz_8005ec50_
 8005ec90 000084 8005ec90 0 HandGun::Init ID:0x01
@@ -2849,7 +2849,7 @@
 80061130 00005c 80061130 0 zz_80061130_
 8006118c 000038 8006118c 0 zz_8006118c_
 800611c4 00005c 800611c4 0 FormationOffensive::__dt(void)_12
-80061220 00005c 80061220 0 FormationOffensive::__dt(void)_13
+80061220 00005c 80061220 0 boost::detail::sp_counted_base_impl<TargetSearchList *, boost::checked_deleter<TargetSearchList>>__dl
 8006127c 000018 8006127c 0 Shared_MarkObjectForDeletion?
 80061294 000028 80061294 0 boost::detail::sp_counted_base_impl<TargetSearchList *, boost::checked_deleter<TargetSearchList>>
 800612bc 00004c 800612bc 0 zz_800612bc_
@@ -6295,7 +6295,7 @@
 800c8ca4 00005c 800c8ca4 0 FormationOffensive::__dt(void)_34
 800c8d00 00005c 800c8d00 0 FormationOffensive::__dt(void)_35
 800c8d5c 00005c 800c8d5c 0 FormationOffensive::__dt(void)_36
-800c8db8 00005c 800c8db8 0 FormationOffensive::__dt(void)_37
+800c8db8 00005c 800c8db8 0 boost::detail::sp_counted_base_impl<SonicteamUSA::System::CharaColli::CharaColliGeneralCharInfo *, boost::checked_deleter<SonicteamUSA::System::CharaColli::CharaColliGeneralCharInfo>>__dl
 800c8e14 00005c 800c8e14 0 FormationOffensive::__dt(void)_38
 800c8e70 000028 800c8e70 0 SidelineExplodable::Allocate(void)_25
 800c8e98 00004c 800c8e98 0 zz_800c8e98_
@@ -6618,7 +6618,7 @@
 800d0d98 000074 800d0d98 0 zz_800d0d98_
 800d0e0c 00005c 800d0e0c 0 zz_800d0e0c_
 800d0e68 000090 800d0e68 0 zz_800d0e68_
-800d0ef8 00005c 800d0ef8 0 FormationOffensive::__dt(void)_39
+800d0ef8 00005c 800d0ef8 0 boost::detail::sp_counted_base_impl<SonicteamUSA::System::Collision::CollisionResultList *, boost::checked_deleter<SonicteamUSA::System::Collision::CollisionResultList>>__dl
 800d0f54 00005c 800d0f54 0 FormationOffensive::__dt(void)_40
 800d0fb0 00005c 800d0fb0 0 FormationOffensive::__dt(void)_41
 800d100c 00005c 800d100c 0 FormationOffensive::__dt(void)_42
@@ -10532,7 +10532,7 @@
 8013fe98 000040 8013fe98 0 zz_8013fe98_
 8013fed8 00005c 8013fed8 0 zz_8013fed8_
 8013ff34 000138 8013ff34 0 zz_8013ff34_
-8014006c 00005c 8014006c 0 FormationOffensive::__dt(void)_77
+8014006c 00005c 8014006c 0 boost::detail::sp_counted_base_impl<ThreatObj *, boost::checked_deleter<ThreatObj>>__dl
 801400c8 000028 801400c8 0 SidelineExplodable::Allocate(void)_59
 801400f0 00004c 801400f0 0 zz_801400f0_
 8014013c 000004 8014013c 0 nullsub_584
@@ -11483,7 +11483,7 @@
 8015d0e0 000080 8015d0e0 0 SomethingHangPosition::Something(SomthingHangPosition*, LeaveCommand*)
 8015d160 000068 8015d160 0 GadgetCharInfo::GadgetCharInfo()_8015d160_
 8015d1c8 000054 8015d1c8 0 zz_8015d1c8_
-8015d21c 00005c 8015d21c 0 FormationOffensive::__dt(void)_81
+8015d21c 00005c 8015d21c 0 boost::detail::sp_counted_base_impl<GadgetCharInfo *, boost::checked_deleter<GadgetCharInfo>>__dl
 8015d278 000028 8015d278 0 SidelineExplodable::Allocate(void)_62
 8015d2a0 00004c 8015d2a0 0 zz_8015d2a0_
 8015d2ec 0000fc 8015d2ec 0 CoreLogic_Gravity
@@ -11677,8 +11677,8 @@
 801641ec 0001c8 801641ec 0 zz_801641ec_
 801643b4 000014 801643b4 0 zz_801643b4_
 801643c8 00002c 801643c8 0 zz_801643c8_
-801643f4 00005c 801643f4 0 FormationOffensive::__dt(void)_82
-80164450 00005c 80164450 0 FormationOffensive::__dt(void)_83
+801643f4 00005c 801643f4 0 boost::detail::sp_counted_base_impl<_stMtnPlayWork *, void (*)(_stMtnPlayWork *)>__dl
+80164450 00005c 80164450 0 boost::detail::sp_counted_base_impl<GadgetModelInfo *, boost::checked_deleter<GadgetModelInfo>>__dl
 801644ac 000028 801644ac 0 SidelineExplodable::Allocate(void)_63
 801644d4 00004c 801644d4 0 zz_801644d4_
 80164520 00002c 80164520 0 zz_80164520_
@@ -15470,7 +15470,7 @@
 801c49e8 0000bc 801c49e8 0 zz_801c49e8_
 801c4aa4 000074 801c4aa4 0 zz_801c4aa4_
 801c4b18 000070 801c4b18 0 zz_801c4b18_
-801c4b88 00005c 801c4b88 0 FormationOffensive::__dt(void)_187
+801c4b88 00005c 801c4b88 0 boost::detail::sp_counted_base_impl<SonicteamUSA::System::Collision::CollisionResult *, boost::checked_deleter<SonicteamUSA::System::Collision::CollisionResult>>__dl
 801c4be4 000028 801c4be4 0 SidelineExplodable::Allocate(void)_98
 801c4c0c 00004c 801c4c0c 0 zz_801c4c0c_
 801c4c58 000108 801c4c58 0 zz_801c4c58_
@@ -20524,7 +20524,7 @@
 8025907c 000054 8025907c 0 AnotherCheckpoint_UsesGravityStatePointer
 802590d0 000020 802590d0 0 cPlayer::PostPhysicsUpdate(void)_425
 802590f0 000030 802590f0 0 zz_802590f0_
-80259120 00007c 80259120 0 zz_80259120_
+80259120 00007c 80259120 0 GravitySignBoard::~GravitySignBoard
 8025919c 000134 8025919c 0 zz_8025919c_
 802592d0 000040 802592d0 0 zz_802592d0_
 80259310 0000a0 80259310 0 zz_80259310_
@@ -25638,7 +25638,7 @@
 802f0f54 000018 802f0f54 0 zz_802f0f54_
 802f0f6c 000020 802f0f6c 0 cPlayer::PostPhysicsUpdate(void)_523
 802f0f8c 0000b0 802f0f8c 0 ChargingChaosSpearHeld
-802f103c 00008c 802f103c 0 ChaosSpear::~ChaosSpear()_802f103c_
+802f103c 00008c 802f103c 0 ChaosSpear::~ChaosSpear()
 802f10c8 000098 802f10c8 0 zz_802f10c8_
 802f1160 00005c 802f1160 0 FormationOffensive::__dt(void)_327
 802f11bc 000028 802f11bc 0 SidelineExplodable::Allocate(void)_185
@@ -30856,7 +30856,7 @@
 803a01d8 000030 803a01d8 0 zz_803a01d8_
 803a0208 00004c 803a0208 0 zz_803a0208_
 803a0254 000090 803a0254 0 nl_Init_MallocCall
-803a02e4 00004c 803a02e4 0 __dl (call to free)
+803a02e4 00004c 803a02e4 0 __dl
 803a0330 00008c 803a0330 0 ObjectHeapMallocThing
 803a03bc 00007c 803a03bc 0 __destroy_new_array
 803a0438 000078 803a0438 0 __destroy_arr
