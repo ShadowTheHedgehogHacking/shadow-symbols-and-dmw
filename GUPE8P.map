@@ -3223,7 +3223,7 @@
 8006ae50 000078 8006ae50 0 zz_8006ae50_
 8006aec8 000030 8006aec8 0 zz_8006aec8_
 8006aef8 000070 8006aef8 0 zz_8006aef8_
-8006af68 000084 8006af68 0 zz_8006af68_
+8006af68 000084 8006af68 0 r3 = ResourceOneFileReq
 8006afec 00007c 8006afec 0 zz_8006afec_
 8006b068 000008 8006b068 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_44
 8006b070 000020 8006b070 0 cPlayer::PostPhysicsUpdate(void)_115
@@ -16612,7 +16612,7 @@
 801e3120 0000c8 801e3120 0 zz_801e3120_
 801e31e8 000078 801e31e8 0 zz_801e31e8_
 801e3260 000064 801e3260 0 Read Route Menu Pause State
-801e32c4 000078 801e32c4 0 zz_801e32c4_
+801e32c4 000078 801e32c4 0 OnLeftOrRightPressOnPauseMenu
 801e333c 0000c8 801e333c 0 zz_801e333c_
 801e3404 000624 801e3404 0 Main Pause Menu State Checks r3/r31=TPauseManager, r29=System
 801e3a28 000118 801e3a28 0 SomethingCheckingGameMode_801e3a28_
