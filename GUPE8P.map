@@ -4872,7 +4872,7 @@
 800997f8 00005c 800997f8 0 ResetCommand::Exec()
 80099854 000044 80099854 0 zz_80099854_
 80099898 0000bc 80099898 0 Player::ResetCameraCommand_CallToUnhook_DeathCam_WithManager
-80099954 00006c 80099954 0 SpecialCamsregisterGlobalObjectCall_80099954_
+80099954 00006c 80099954 0 SpecialCamsregisterGlobalObjectCall
 800999c0 000040 800999c0 0 zz_800999c0_
 80099a00 000050 80099a00 0 zz_80099a00_
 80099a50 000084 80099a50 0 zz_80099a50_
@@ -9559,7 +9559,7 @@
 801224c0 000054 801224c0 0 zz_801224c0_
 80122514 000014 80122514 0 zz_80122514_
 80122528 000058 80122528 0 zz_80122528_
-80122580 000414 80122580 0 zz_80122580_
+80122580 000414 80122580 0 Stick::Exec
 80122970 000414 80122970 0 def_801225D0
 80122994 000040 80122994 0 zz_80122994_
 801229d4 000094 801229d4 0 zz_801229d4_
@@ -10043,7 +10043,7 @@
 801312ac 000014 801312ac 0 zz_801312ac_
 801312c0 000394 801312c0 0 setRideStateCoaster()
 80131654 000040 80131654 0 zz_80131654_
-80131694 0000cc 80131694 0 stateController?PulleyEvent_80131694_
+80131694 0000cc 80131694 0 stateController?PulleyEvent
 80131760 0000a8 80131760 0 HAS_Player::TouchHangCommand_?PulleyWarpPlayerCalledByStateController
 80131808 000040 80131808 0 zz_80131808_
 80131848 0001cc 80131848 0 zz_80131848_
@@ -10063,7 +10063,7 @@
 80131ff4 0000d8 80131ff4 0 zz_80131ff4_
 801320cc 000154 801320cc 0 Coaster::Exec()_AKA_PulleyCheckDistanceFromPlayer1ThenResetIfTooFar_SETObj
 80132220 000160 80132220 0 zz_80132220_
-80132380 0007a8 80132380 0 Coaster::Exec()__HAS_Player::IgnoreInputCommand_AND_ClrVelocityCommand_AND_SetPositionCommand_AND_SetVelocityCommand_AND_Player::LaunchCommand
+80132380 0007a8 80132380 0 Coaster::Exec()
 80132b28 000040 80132b28 0 zz_80132b28_
 80132b68 000054 80132b68 0 Coaster::Init
 80132bbc 00000c 80132bbc 0 FEAudio::ResetRandomVoiceToggleSFX(void)_1
@@ -10077,7 +10077,7 @@
 80132ea4 000058 80132ea4 0 zz_80132ea4_
 80132efc 000034 80132efc 0 Coaster::CollisionFunction(void array[4], int collisionTypeMaybe, void*)
 80132f30 000040 80132f30 0 pulleyLayer2
-80132f70 000078 80132f70 0 triggerPulleyWarpEvent_80132f70_
+80132f70 000078 80132f70 0 triggerPulleyWarpEvent
 80132fe8 000004 80132fe8 0 nullsub_559
 80132fec 000008 80132fec 0 OSGetStackPointer _os.a OSContext.o_129
 80132ff4 000088 80132ff4 0 zz_80132ff4_
@@ -15996,7 +15996,7 @@
 801d2988 000058 801d2988 0 zz_801d2988_
 801d29e0 000024 801d29e0 0 homebutton::MotorCallback(OSAlarm *, OSContext *) _homebuttonLib.a HBMBase.o_27
 801d2a04 000058 801d2a04 0 zz_801d2a04_
-801d2a5c 000024 801d2a5c 0 EffectDrawShimmer__homebutton::MotorCallback(OSAlarm *, OSContext *) _homebuttonLib.a HBMBase.o
+801d2a5c 000024 801d2a5c 0 EffectDrawShimmer
 801d2a80 000058 801d2a80 0 zz_801d2a80_
 801d2ad8 000024 801d2ad8 0 MainFunc21(r3/r31=EffectDeleteResourceTask, r29=RenderLevel_PreRender)__homebutton::MotorCallback(OSAlarm *, OSContext *) _homebuttonLib.a HBMBase.o
 801d2afc 00003c 801d2afc 0 zz_801d2afc_
@@ -16154,8 +16154,8 @@
 801d5d10 000038 801d5d10 0 BaseSceneHandler::OnActivate(void)_6
 801d5d48 000038 801d5d48 0 BaseSceneHandler::OnActivate(void)_7
 801d5d80 000038 801d5d80 0 BaseSceneHandler::OnActivate(void)_8
-801d5db8 000038 801d5db8 0 BaseSceneHandler::OnActivate(void)_9
-801d5df0 000038 801d5df0 0 BaseSceneHandler::OnActivate(void)_10
+801d5db8 000038 801d5db8 0 PlaySFX_Main
+801d5df0 000038 801d5df0 0 PlaySFX
 801d5e28 000038 801d5e28 0 BaseSceneHandler::OnActivate(void)_11
 801d5e60 000038 801d5e60 0 BaseSceneHandler::OnActivate(void)_12
 801d5e98 000038 801d5e98 0 BaseSceneHandler::OnActivate(void)_13
@@ -16233,7 +16233,7 @@
 801d8fac 0000bc 801d8fac 0 zz_801d8fac_
 801d9068 0001ac 801d9068 0 zz_801d9068_
 801d9214 0001e8 801d9214 0 UnknownCheckingGameMode2
-801d93fc 000170 801d93fc 0 relatedToCoasterCollisionMaybe
+801d93fc 000170 801d93fc 0 PlayAudio_ForSETObject_Weapon_Etc
 801d956c 000038 801d956c 0 zz_801d956c_
 801d95a4 000064 801d95a4 0 zz_801d95a4_
 801d9608 000080 801d9608 0 zz_801d9608_
@@ -17325,7 +17325,7 @@
 801f2298 000068 801f2298 0 zz_801f2298_
 801f2300 0000c4 801f2300 0 zz_801f2300_
 801f23c4 0000e0 801f23c4 0 zz_801f23c4_
-801f24a4 0000f0 801f24a4 0 zz_801f24a4_
+801f24a4 0000f0 801f24a4 0 ProcessSound
 801f2594 000054 801f2594 0 zz_801f2594_
 801f25e8 00007c 801f25e8 0 zz_801f25e8_
 801f2664 000004 801f2664 0 nullsub_1519
@@ -17594,7 +17594,7 @@
 801fa194 000058 801fa194 0 ElecCristalWallSwitch::Exec()
 801fa1ec 000068 801fa1ec 0 zz_801fa1ec_
 801fa254 000088 801fa254 0 zz_801fa254_
-801fa2dc 000250 801fa2dc 0 Behavior::Launched RadialBlur Effect Exec
+801fa2dc 000250 801fa2dc 0 Effect::PJS::EffectGlobalParamPJS | The Doom Init Fog/Tint & Behavior::Launched RadialBlur Effect Exec
 801fa52c 0000a8 801fa52c 0 zz_801fa52c_
 801fa5d4 00013c 801fa5d4 0 zz_801fa5d4_
 801fa710 000008 801fa710 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_233
@@ -32962,7 +32962,7 @@
 8043418c 0000b8 8043418c 0 zz_8043418c_
 80434244 00002c 80434244 0 zz_80434244_
 80434270 00005c 80434270 0 FormationOffensive::__dt(void)_376
-804342cc 000e48 804342cc 0 EffectSplits -> CameraEffects__VacuumSuck_FinalHaunt_Barriers
+804342cc 000e48 804342cc 0 Effect::PJS::EffectShimmerPJS EffectSplits -> CameraEffects__VacuumSuck_FinalHaunt_Barriers
 80435114 0002fc 80435114 0 zz_80435114_
 80435410 00010c 80435410 0 zz_80435410_
 8043551c 000460 8043551c 0 zz_8043551c_
