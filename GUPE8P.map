@@ -5141,7 +5141,7 @@
 800a2920 000058 800a2920 0 zz_800a2920_
 800a2978 000024 800a2978 0 cFielder::UpdatePlay(float)_50
 800a299c 000024 800a299c 0 cFielder::UpdatePlay(float)_51
-800a29c0 000024 800a29c0 0 cFielder::UpdatePlay(float)_52
+800a29c0 000024 800a29c0 0 Skate_SFX
 800a29e4 000024 800a29e4 0 cFielder::UpdatePlay(float)_53
 800a2a08 000028 800a2a08 0 zz_800a2a08_
 800a2a30 000024 800a2a30 0 cFielder::UpdatePlay(float)_54
@@ -12511,7 +12511,7 @@
 80176c3c 000048 80176c3c 0 MainFunc52_MAIN_MISSION_AND_UI_ETC_READ_STGID(r29=System, r28/r31=TPauseManager)
 80176c84 000058 80176c84 0 zz_80176c84_
 80176cdc 00012c 80176cdc 0 zz_80176cdc_
-80176e08 00007c 80176e08 0 zz_80176e08_
+80176e08 00007c 80176e08 0 TStageKeyNoInput::TStageKeyNoInput
 80176e84 000164 80176e84 0 SetPlayerPosition_OnInitializeOrRestartOrDeathOrCheckPoint
 80176fe8 000174 80176fe8 0 LAND_ReloadOnInitOrDeathOrRestart_READSTGID
 8017715c 000174 8017715c 0 InitOrDeathOrRestart_WarpETC(r3/r31=TStageInitalizeTask, r29=Manager)
@@ -15963,7 +15963,7 @@
 801d2020 000068 801d2020 0 zz_801d2020_
 801d2088 00004c 801d2088 0 zz_801d2088_
 801d20d4 000024 801d20d4 0 cFielder::EndAction(void)_66
-801d20f8 000074 801d20f8 0 zz_801d20f8_
+801d20f8 000074 801d20f8 0 Effect::PJS::EffectTask::EffectTask
 801d216c 000058 801d216c 0 zz_801d216c_
 801d21c4 000034 801d21c4 0 MainFunc14(r3/r31=FullScreenShimmerDrawSub, r29=Particle)
 801d21f8 000058 801d21f8 0 zz_801d21f8_
@@ -16020,7 +16020,7 @@
 801d302c 00000c 801d302c 0 GoalOverlay::SceneCreated(void)_9
 801d3038 00004c 801d3038 0 zz_801d3038_
 801d3084 000010 801d3084 0 zz_801d3084_
-801d3094 0000ac 801d3094 0 r3=Advertise
+801d3094 0000ac 801d3094 0 Advertise::Exec
 801d3140 000034 801d3140 0 zz_801d3140_
 801d3174 000058 801d3174 0 NisPlayer::Instance(void)_3
 801d31cc 00004c 801d31cc 0 zz_801d31cc_
@@ -16186,9 +16186,9 @@
 801d6cf4 000394 801d6cf4 0 AudioRelated2(r3/r31=TObjBGM, r29=Audio)
 801d7060 000394 801d7060 0 def_801D6D30
 801d7088 0000a0 801d7088 0 zz_801d7088_
-801d7128 00006c 801d7128 0 zz_801d7128_
+801d7128 00006c 801d7128 0 TObjBGM::Stop
 801d7194 000058 801d7194 0 zz_801d7194_
-801d71ec 000110 801d71ec 0 VolumeControl_DampenBG_WhileChaosBlastingorChaosControl
+801d71ec 000110 801d71ec 0 Play__7TObjBGMFv
 801d72fc 000098 801d72fc 0 zz_801d72fc_
 801d7394 0000c4 801d7394 0 zz_801d7394_
 801d7458 0000a8 801d7458 0 zz_801d7458_
@@ -16207,7 +16207,7 @@
 801d7be0 0000d8 801d7be0 0 zz_801d7be0_
 801d7cb8 0000e8 801d7cb8 0 zz_801d7cb8_
 801d7da0 000070 801d7da0 0 zz_801d7da0_
-801d7e10 00009c 801d7e10 0 ChaosBlast_SayVoiceLineAndSFX_1
+801d7e10 00009c 801d7e10 0 (void BGM_ChangeCurrent_Cross(signed char))
 801d7eac 00002c 801d7eac 0 EmissionManager::ResetLingerers(void)_2
 801d7ed8 000054 801d7ed8 0 zz_801d7ed8_
 801d7f2c 000048 801d7f2c 0 zz_801d7f2c_
@@ -17327,7 +17327,7 @@
 801f23c4 0000e0 801f23c4 0 zz_801f23c4_
 801f24a4 0000f0 801f24a4 0 ProcessSound
 801f2594 000054 801f2594 0 zz_801f2594_
-801f25e8 00007c 801f25e8 0 zz_801f25e8_
+801f25e8 00007c 801f25e8 0 SFX_LoopControl
 801f2664 000004 801f2664 0 nullsub_1519
 801f2668 000004 801f2668 0 nullsub_1520
 801f266c 0000b0 801f266c 0 zz_801f266c_
@@ -23791,7 +23791,7 @@
 802b6350 0000c0 802b6350 0 def_802B62FC
 802b636c 00003c 802b636c 0 MainFunc51_Menu(r3/r31=AdvReal::AdvFolder, r29=RenderLevel_Sprite)
 802b63a8 000060 802b63a8 0 zz_802b63a8_
-802b6408 000068 802b6408 0 zz_802b6408_
+802b6408 000068 802b6408 0 AdvReal::AdvFolder::AdvFolder
 802b6470 0002c4 802b6470 0 zz_802b6470_
 802b6720 0002c4 802b6720 0 def_802B64C0
 802b6734 00005c 802b6734 0 zz_802b6734_
@@ -24819,8 +24819,8 @@
 802dbb88 000058 802dbb88 0 zz_802dbb88_
 802dbbe0 0000ac 802dbbe0 0 Player SFX
 802dbc8c 000090 802dbc8c 0 zz_802dbc8c_
-802dbd1c 000030 802dbd1c 0 zz_802dbd1c_
-802dbd4c 000030 802dbd4c 0 zz_802dbd4c_
+802dbd1c 000030 802dbd1c 0 ShadowSpinDash SFX
+802dbd4c 000030 802dbd4c 0 Punch SFX
 802dbd7c 000074 802dbd7c 0 zz_802dbd7c_
 802dbdf0 000064 802dbdf0 0 Write Player::Shadow::PlayerTarget in Player
 802dbe54 0000a0 802dbe54 0 zz_802dbe54_
@@ -31168,7 +31168,7 @@
 803b6440 000024 803b6440 0 ListContainerBase<P6cSAnim,33NewAdapter<19ListEntry<P6cSAnim>>>::DeleteEntry(ListEntry<P6cSAnim> *)_77
 803b6464 000024 803b6464 0 cFielder::UpdatePlay(float)_217
 803b6488 000024 803b6488 0 cFielder::UpdatePlay(float)_218
-803b64ac 000008 803b64ac 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_234
+803b64ac 000008 803b64ac 0 _ADXSJD_GetSpsdInfo
 803b64b4 000070 803b64b4 0 zz_803b64b4_
 803b6524 000060 803b6524 0 zz_803b6524_
 803b6584 000024 803b6584 0 cFielder::UpdatePlay(float)_219
@@ -31179,8 +31179,8 @@
 803b6648 000024 803b6648 0 cFielder::UpdatePlay(float)_223
 803b666c 000024 803b666c 0 cFielder::UpdatePlay(float)_224
 803b6690 000024 803b6690 0 cFielder::UpdatePlay(float)_225
-803b66b4 000024 803b66b4 0 cFielder::UpdatePlay(float)_226
-803b66d8 000024 803b66d8 0 cFielder::UpdatePlay(float)_227
+803b66b4 000024 803b66b4 0 _ADXSJD_GetNumChan
+803b66d8 000024 803b66d8 0 _ADXSJD_GetSfreq
 803b66fc 000024 803b66fc 0 cFielder::UpdatePlay(float)_228
 803b6720 000008 803b6720 0 GXInitTexObjUserData _gx.a GXTexture.o_80
 803b6728 000008 803b6728 0 GXInitTexObjUserData _gx.a GXTexture.o_81
@@ -31253,7 +31253,7 @@
 803ba9fc 000008 803ba9fc 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_295
 803baa04 00006c 803baa04 0 zz_803baa04_
 803baa70 000028 803baa70 0 zz_803baa70_
-803baa98 000008 803baa98 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_296
+803baa98 000008 803baa98 0 _ADXB_GetSfreq
 803baaa0 000008 803baaa0 0 zz_803baaa0_
 803baaa8 000008 803baaa8 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_297
 803baab0 00000c 803baab0 0 FETweener::setDoneCallFunc(void (*)(void *), void *)_10
@@ -31360,7 +31360,7 @@
 803c1134 000038 803c1134 0 zz_803c1134_
 803c116c 000004 803c116c 0 nullsub_1066
 803c1170 000004 803c1170 0 nullsub_1067
-803c1174 00015c 803c1174 0 zz_803c1174_
+803c1174 00015c 803c1174 0 _ADXT_Pause
 803c12d0 00005c 803c12d0 0 zz_803c12d0_
 803c132c 000054 803c132c 0 zz_803c132c_
 803c1380 0000b8 803c1380 0 zz_803c1380_
@@ -31385,10 +31385,10 @@
 803c2454 0000e4 803c2454 0 zz_803c2454_
 803c2538 000064 803c2538 0 zz_803c2538_
 803c259c 0002c4 803c259c 0 zz_803c259c_
-803c2860 000038 803c2860 0 sndSeqContinue
+803c2860 000038 803c2860 0 _ADXT_Destroy
 803c2898 00044c 803c2898 0 zz_803c2898_
 803c2ce4 000060 803c2ce4 0 sndFXCtrl
-803c2d44 0000ac 803c2d44 0 ChaosBlast_SayVoiceLineAndSFX_2
+803c2d44 0000ac 803c2d44 0 _ADXT_StartFrameRange
 803c2df0 00010c 803c2df0 0 zz_803c2df0_
 803c2efc 000344 803c2efc 0 zz_803c2efc_
 803c3240 000038 803c3240 0 sndSeqContinue_2
@@ -31428,7 +31428,7 @@
 803c47c0 000024 803c47c0 0 ListContainerBase<P6cSAnim,33NewAdapter<19ListEntry<P6cSAnim>>>::DeleteEntry(ListEntry<P6cSAnim> *)_78
 803c47e4 000024 803c47e4 0 cFielder::UpdatePlay(float)_230
 803c4808 000020 803c4808 0 cPlayer::PostPhysicsUpdate(void)_625
-803c4828 000024 803c4828 0 LexicalCast<PCc,f>(float &)_28
+803c4828 000024 803c4828 0 _ADXRNA_SetStmHdInfo
 803c484c 000004 803c484c 0 nullsub_1068
 803c4850 000020 803c4850 0 cPlayer::PostPhysicsUpdate(void)_626
 803c4870 000020 803c4870 0 cPlayer::PostPhysicsUpdate(void)_627
@@ -31436,7 +31436,7 @@
 803c4894 000020 803c4894 0 cPlayer::PostPhysicsUpdate(void)_628
 803c48b4 000020 803c48b4 0 cPlayer::PostPhysicsUpdate(void)_629
 803c48d4 000020 803c48d4 0 cPlayer::PostPhysicsUpdate(void)_630
-803c48f4 000020 803c48f4 0 cPlayer::PostPhysicsUpdate(void)_631
+803c48f4 000020 803c48f4 0 _ADXRNA_SetNumChan
 803c4914 000020 803c4914 0 cPlayer::PostPhysicsUpdate(void)_632
 803c4934 000020 803c4934 0 cPlayer::PostPhysicsUpdate(void)_633
 803c4954 000020 803c4954 0 cPlayer::PostPhysicsUpdate(void)_634
@@ -31493,7 +31493,7 @@
 803c8228 00006c 803c8228 0 zz_803c8228_
 803c8294 0000bc 803c8294 0 zz_803c8294_
 803c8350 000114 803c8350 0 zz_803c8350_
-803c8464 000054 803c8464 0 zz_803c8464_
+803c8464 000054 803c8464 0 _LSC_ResetEntry
 803c84b8 000234 803c84b8 0 zz_803c84b8_
 803c86ec 000008 803c86ec 0 GXInitTexObjUserData _gx.a GXTexture.o_86
 803c86f4 0000d8 803c86f4 0 zz_803c86f4_
@@ -32263,7 +32263,7 @@
 8040348c 000024 8040348c 0 cFielder::EndAction(void)_129
 804034b0 000028 804034b0 0 zz_804034b0_
 804034d8 00002c 804034d8 0 zz_804034d8_
-80403504 000008 80403504 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_430
+80403504 000008 80403504 0 _rt2dMessageStreamGetSizeDefaultCallBack
 8040350c 000008 8040350c 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_431
 80403514 000004 80403514 0 nullsub_1080
 80403518 000004 80403518 0 nullsub_163
