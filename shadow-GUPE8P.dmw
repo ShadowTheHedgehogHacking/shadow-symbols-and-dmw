@@ -14290,6 +14290,42 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 0,
+                            "label": "0xDC",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "DC"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0xE0",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "E0"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0xE4",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "E0"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
                             "label": "0xE8 GRAVITY X",
                             "pointerOffsets": [
                                 "0",
@@ -14451,18 +14487,6 @@
                                 "224"
                             ],
                             "typeIndex": 2,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "0xDC",
-                            "pointerOffsets": [
-                                "0",
-                                "0",
-                                "DC"
-                            ],
-                            "typeIndex": 3,
                             "unsigned": false
                         },
                         {
@@ -14768,6 +14792,21 @@
                                 }
                             ],
                             "groupName": "pMotion"
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0x234 pAttack",
+                            "length": 8,
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "234",
+                                "0",
+                                "0"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
                         },
                         {
                             "address": "80575FA8",
@@ -15912,6 +15951,30 @@
                         },
                         {
                             "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0x244",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "244"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 1,
+                            "label": "0x248",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "248"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
                             "baseIndex": 1,
                             "label": "0x24C Player::Shadow::PlayerTarget",
                             "pointerOffsets": [
@@ -15956,6 +16019,21 @@
                         },
                         {
                             "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0x250",
+                            "length": 55,
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "250",
+                                "0",
+                                "0"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
                             "baseIndex": 1,
                             "label": "0x254 pTarget?",
                             "pointerOffsets": [
@@ -15968,12 +16046,48 @@
                         },
                         {
                             "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0x258",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "258"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0x25C",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "25C"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
                             "baseIndex": 1,
                             "label": "0x260 pWaitTask",
                             "pointerOffsets": [
                                 "0",
                                 "0",
                                 "260"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 1,
+                            "label": "0x264",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "264"
                             ],
                             "typeIndex": 2,
                             "unsigned": false
@@ -15995,12 +16109,39 @@
                         },
                         {
                             "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0x26C",
+                            "length": 13,
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "26C",
+                                "0",
+                                "0"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
                             "baseIndex": 1,
-                            "label": "0x290",
+                            "label": "0x290 - Holding Box Task",
                             "pointerOffsets": [
                                 "0",
                                 "0",
                                 "290"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 1,
+                            "label": "0x294 - Holding Box Task Related",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "294"
                             ],
                             "typeIndex": 2,
                             "unsigned": false
@@ -16013,6 +16154,30 @@
                                 "0",
                                 "0",
                                 "298"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0x29C",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "29C"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0x2A0",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "2A0"
                             ],
                             "typeIndex": 2,
                             "unsigned": false
@@ -25616,6 +25781,41 @@
                 }
             ],
             "groupName": "Junk Separator"
+        },
+        {
+            "address": "8060B3E8",
+            "baseIndex": 1,
+            "label": "No label",
+            "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "address": "80F702B4",
+            "baseIndex": 1,
+            "label": "No label",
+            "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "address": "80F702E4",
+            "baseIndex": 1,
+            "label": "No label",
+            "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "address": "8119540C",
+            "baseIndex": 1,
+            "label": "No label",
+            "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "address": "8130EC80",
+            "baseIndex": 1,
+            "label": "No label",
+            "typeIndex": 2,
+            "unsigned": true
         }
     ]
 }
