@@ -329,7 +329,7 @@
 8000db9c 00007c 8000db9c 0 zz_8000db9c_
 8000dc18 000050 8000dc18 0 zz_8000dc18_
 8000dc68 000058 8000dc68 0 zz_8000dc68_
-8000dcc0 00006c 8000dcc0 0 zz_8000dcc0_
+8000dcc0 00006c 8000dcc0 0 SonicteamUSA::System::Camera::GetInstance
 8000dd2c 000020 8000dd2c 0 cPlayer::PostPhysicsUpdate(void)_9
 8000dd4c 000030 8000dd4c 0 TRK_memset_9
 8000dd7c 000030 8000dd7c 0 TRK_memset_10
@@ -1935,7 +1935,7 @@
 8004bbac 0002d8 8004bbac 0 HigherUpLevelFill_8004bbac_
 8004be84 000010 8004be84 0 zz_8004be84_
 8004be94 0000ac 8004be94 0 zz_8004be94_
-8004bf40 000088 8004bf40 0 PrepareToParseTXD
+8004bf40 000088 8004bf40 0 TOneFileAsync<RwTexDictionary>::Create
 8004bfc8 0002d4 8004bfc8 0 _RwTexDictionary *_GLOBAL_Buffer?_AddTextures?
 8004c29c 000010 8004c29c 0 zz_8004c29c_
 8004c2ac 0000ac 8004c2ac 0 zz_8004c2ac_
@@ -1955,7 +1955,7 @@
 8004cd10 0000e4 8004cd10 0 stg0XXX/stg0XXX_fx.one
 8004cdf4 000174 8004cdf4 0 zz_8004cdf4_
 8004cf68 000048 8004cf68 0 zz_8004cf68_
-8004cfb0 000084 8004cfb0 0 CalledByEarlyDebugDispCall_DebugModels.one
+8004cfb0 000084 8004cfb0 0 TOneFile::TOneFile
 8004d034 000058 8004d034 0 zz_8004d034_
 8004d08c 000024 8004d08c 0 cFielder::EndAction(void)_10
 8004d0b0 000058 8004d0b0 0 zz_8004d0b0_
@@ -2050,7 +2050,7 @@
 8004ea3c 000004 8004ea3c 0 nullsub_1135
 8004ea40 000048 8004ea40 0 zz_8004ea40_
 8004ea88 000038 8004ea88 0 zz_8004ea88_
-8004eac0 00002c 8004eac0 0 zz_8004eac0_
+8004eac0 00002c 8004eac0 0 CheckAlive__4TaskFv
 8004eaec 000094 8004eaec 0 zz_8004eaec_
 8004eb80 0000e8 8004eb80 0 zz_8004eb80_
 8004ec68 000144 8004ec68 0 Task::ExecChild
@@ -12248,7 +12248,7 @@
 8016f094 000020 8016f094 0 zz_8016f094_
 8016f0b4 000018 8016f0b4 0 zz_8016f0b4_
 8016f0cc 0000ac 8016f0cc 0 UpdateScore?ChaosPowersActive_8016f0cc_
-8016f178 000048 8016f178 0 zz_8016f178_
+8016f178 000048 8016f178 0 AssignDarkShadowPoints?
 8016f1c0 000008 8016f1c0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_130
 8016f1c8 000054 8016f1c8 0 zz_8016f1c8_
 8016f21c 000034 8016f21c 0 cCharacter::IsPlayingEffect( (EffectsGroup *))_6
@@ -12515,7 +12515,7 @@
 80176e84 000164 80176e84 0 SetPlayerPosition_OnInitializeOrRestartOrDeathOrCheckPoint
 80176fe8 000174 80176fe8 0 LAND_ReloadOnInitOrDeathOrRestart_READSTGID
 8017715c 000174 8017715c 0 InitOrDeathOrRestart_WarpETC(r3/r31=TStageInitalizeTask, r29=Manager)
-801772d0 000080 801772d0 0 UnfadePending?_801772d0_
+801772d0 000080 801772d0 0 TStageInitalizeTask::TStageInitalizeTask
 80177350 000058 80177350 0 zz_80177350_
 801773a8 000004 801773a8 0 nullsub_1372
 801773ac 000038 801773ac 0 LCEnable _os.a OSCache.o
@@ -16060,10 +16060,10 @@
 801d3888 0000a0 801d3888 0 ChaosPowersSoundEffectsAndMusic_801d3888_
 801d3928 000028 801d3928 0 zz_801d3928_
 801d3950 000030 801d3950 0 zz_801d3950_
-801d3980 000048 801d3980 0 loadAudioForStage
+801d3980 000048 801d3980 0 AudioController::ActStageController::Create
 801d39c8 0000c0 801d39c8 0 MainFunc02(r3/r31=ActStageController, r29=Manager)
 801d3a88 000080 801d3a88 0 zz_801d3a88_
-801d3b08 00010c 801d3b08 0 load_sng_stgXXXX.adx
+801d3b08 00010c 801d3b08 0 AudioController::ActStageController::ActStageController
 801d3c14 000024 801d3c14 0 nlVirtualTotalFree(void)_2_fun
 801d3c38 000090 801d3c38 0 zz_801d3c38_
 801d3cc8 000034 801d3cc8 0 zz_801d3cc8_
@@ -16185,9 +16185,9 @@
 801d6c4c 0000a8 801d6c4c 0 zz_801d6c4c_
 801d6cf4 000394 801d6cf4 0 AudioRelated2(r3/r31=TObjBGM, r29=Audio)
 801d7060 000394 801d7060 0 def_801D6D30
-801d7088 0000a0 801d7088 0 zz_801d7088_
+801d7088 0000a0 801d7088 0 ReqCrossOut__7TObjBGMFv
 801d7128 00006c 801d7128 0 TObjBGM::Stop
-801d7194 000058 801d7194 0 zz_801d7194_
+801d7194 000058 801d7194 0 SetFileName__7TObjBGMFPc
 801d71ec 000110 801d71ec 0 Play__7TObjBGMFv
 801d72fc 000098 801d72fc 0 zz_801d72fc_
 801d7394 0000c4 801d7394 0 zz_801d7394_
@@ -16207,13 +16207,13 @@
 801d7be0 0000d8 801d7be0 0 zz_801d7be0_
 801d7cb8 0000e8 801d7cb8 0 zz_801d7cb8_
 801d7da0 000070 801d7da0 0 zz_801d7da0_
-801d7e10 00009c 801d7e10 0 (void BGM_ChangeCurrent_Cross(signed char))
-801d7eac 00002c 801d7eac 0 EmissionManager::ResetLingerers(void)_2
+801d7e10 00009c 801d7e10 0 BGM_ChangeCurrent_Cross__7IsndADXFSc
+801d7eac 00002c 801d7eac 0 BGM_Stop__7IsndADXFv
 801d7ed8 000054 801d7ed8 0 zz_801d7ed8_
 801d7f2c 000048 801d7f2c 0 zz_801d7f2c_
 801d7f74 00007c 801d7f74 0 zz_801d7f74_
 801d7ff0 0000bc 801d7ff0 0 zz_801d7ff0_
-801d80ac 000240 801d80ac 0 Load AFS for Region
+801d80ac 000240 801d80ac 0 CreateTask__7IsndADXFv
 801d82ec 000020 801d82ec 0 cPlayer::PostPhysicsUpdate(void)_335
 801d830c 0000a0 801d830c 0 zz_801d830c_
 801d83ac 0000a0 801d83ac 0 bigchungus_malloc_amounts_buffer?
@@ -21414,7 +21414,7 @@
 80271a68 0000f0 80271a68 0 zz_80271a68_
 80271b58 000050 80271b58 0 zz_80271b58_
 80271ba8 000180 80271ba8 0 attachScreenToCam_80271ba8
-80271d28 00005c 80271d28 0 zz_80271d28_
+80271d28 00005c 80271d28 0 IMPORTANT_SPLIT
 80271d84 000008 80271d84 0 GXInitTexObjUserData _gx.a GXTexture.o_61
 80271d8c 000024 80271d8c 0 cPlayer::IsCaptain( (void))_4
 80271db0 00007c 80271db0 0 zz_80271db0_
@@ -26628,7 +26628,7 @@
 80310510 00005c 80310510 0 FormationOffensive::__dt(void)_334
 8031056c 00001c 8031056c 0 FEResourceManager::__ct(void)_12
 80310588 000004 80310588 0 nullsub_1688
-8031058c 000054 8031058c 0 zz_8031058c_
+8031058c 000054 8031058c 0 EggDealer::ShadowFever::Init
 803105e0 00004c 803105e0 0 zz_803105e0_
 8031062c 000050 8031062c 0 zz_8031062c_
 8031067c 00005c 8031067c 0 FormationOffensive::__dt(void)_335
@@ -26713,7 +26713,7 @@
 80312584 000030 80312584 0 zz_80312584_
 803125b4 000048 803125b4 0 zz_803125b4_
 803125fc 000004 803125fc 0 nullsub_996
-80312600 00003c 80312600 0 zz_80312600_
+80312600 00003c 80312600 0 EggDealer::ShadowFever::Exec
 8031263c 000008 8031263c 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_309
 80312644 000008 80312644 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_310
 8031264c 000008 8031264c 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_311
@@ -31464,7 +31464,7 @@
 803c5dc4 0002b0 803c5dc4 0 zz_803c5dc4_
 803c6074 000240 803c6074 0 zz_803c6074_
 803c62b4 00046c 803c62b4 0 _adxf_GetPtStat
-803c6720 000040 803c6720 0 sndFXKeyOff
+803c6720 000040 803c6720 0 _ADXF_GetPtStat
 803c6760 000048 803c6760 0 zz_803c6760_
 803c67a8 000348 803c67a8 0 _adxf_LoadPtBothNw
 803c6af0 0000a8 803c6af0 0 _ADXF_LoadPtNwEx
@@ -31605,7 +31605,7 @@
 803cdba0 0000b4 803cdba0 0 zz_803cdba0_
 803cdc54 0000ac 803cdc54 0 zz_803cdc54_
 803cdd00 000154 803cdd00 0 zz_803cdd00_
-803cde54 000010 803cde54 0 zz_803cde54_
+803cde54 000010 803cde54 0 _mwRnaSetNumChan
 803cde64 00005c 803cde64 0 zz_803cde64_
 803cdec0 000350 803cdec0 0 zz_803cdec0_
 803ce210 0000cc 803ce210 0 zz_803ce210_
@@ -32614,7 +32614,7 @@
 80415df8 00003c 80415df8 0 zz_80415df8_
 80415e34 00003c 80415e34 0 zz_80415e34_
 80415e70 000034 80415e70 0 CoreEnemy_Collision_Weapon_HealthBar
-80415ea4 0000f4 80415ea4 0 zz_80415ea4_
+80415ea4 0000f4 80415ea4 0 Calls ApplyMTN
 80415f98 00007c 80415f98 0 zz_80415f98_
 80416014 0000e4 80416014 0 zz_80416014_
 804160f8 000050 804160f8 0 zz_804160f8_
