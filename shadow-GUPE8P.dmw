@@ -18796,6 +18796,13 @@
                     "unsigned": false
                 },
                 {
+                    "address": "8056EE5C",
+                    "baseIndex": 1,
+                    "label": "SonicTeamCameraInstance",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
                     "address": "8056EE7C",
                     "baseIndex": 0,
                     "label": "Split Screen Type Written To",
