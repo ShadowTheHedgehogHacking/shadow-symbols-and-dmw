@@ -552,7 +552,7 @@
 80014e64 000054 80014e64 0 duringLevelCalling_07_memcpy
 80014eb8 000008 80014eb8 0 CBGetBytesAvailableForRead Circle_6
 80014ec0 000054 80014ec0 0 zz_80014ec0_
-80014f14 00010c 80014f14 0 JumpSomething@80014f74 and 80014f34
+80014f14 00010c 80014f14 0 std::string::change_size
 80015020 000044 80015020 0 zz_80015020_
 80015064 000058 80015064 0 zz_80015064_
 800150bc 000034 800150bc 0 zz_800150bc_
@@ -1240,7 +1240,7 @@
 80036464 00010c 80036464 0 zz_80036464_
 80036570 000238 80036570 0 zz_80036570_
 800367a8 000364 800367a8 0 zz_800367a8_
-80036b0c 00025c 80036b0c 0 zz_80036b0c_
+80036b0c 00025c 80036b0c 0 TMovieManager
 80036d68 000110 80036d68 0 zz_80036d68_
 80036e78 000360 80036e78 0 DolbyDigitalPlayWorkCreate_HHC
 800371d8 000064 800371d8 0 Load File?
@@ -3755,7 +3755,7 @@
 80077130 000050 80077130 0 zz_80077130_
 80077180 00005c 80077180 0 zz_80077180_
 800771dc 000040 800771dc 0 zz_800771dc_
-8007721c 000028 8007721c 0 zz_8007721c_
+8007721c 000028 8007721c 0 CheckBehaviorState_SHARED_bctrl_virt
 80077244 000028 80077244 0 zz_80077244_
 8007726c 000028 8007726c 0 PlayerModel_InvisibleOnDeath
 80077294 000008 80077294 0 GXInitTexObjUserData _gx.a GXTexture.o_21
@@ -5150,8 +5150,8 @@
 800a2ad8 00006c 800a2ad8 0 zz_800a2ad8_
 800a2b44 000034 800a2b44 0 Effect::DeleteSuper()
 800a2b78 000060 800a2b78 0 Effect::CreateSuperTask()
-800a2bd8 000028 800a2bd8 0 HeroShadowEffect
-800a2c00 000028 800a2c00 0 DarkShadowEffect
+800a2bd8 000028 800a2bd8 0 Awake->InvokeHeroShadow
+800a2c00 000028 800a2c00 0 Awake->InvokeDarkShadow
 800a2c28 000024 800a2c28 0 cFielder::UpdatePlay(float)_56
 800a2c4c 000024 800a2c4c 0 cFielder::UpdatePlay(float)_57
 800a2c70 000028 800a2c70 0 zz_800a2c70_
@@ -5216,7 +5216,7 @@
 800a481c 000090 800a481c 0 zz_800a481c_
 800a48ac 00004c 800a48ac 0 zz_800a48ac_
 800a48f8 00004c 800a48f8 0 zz_800a48f8_
-800a4944 000398 800a4944 0 zz_800a4944_
+800a4944 000398 800a4944 0 Awake
 800a4cdc 00012c 800a4cdc 0 ChaosPowersDisableOnOutOfMeter__DeletesEffect_ResetsMusic
 800a4e08 000240 800a4e08 0 @unnamed@PlayerEffect_cpp@::Awake::Awake
 800a5048 000100 800a5048 0 def_not_Related_2Pzz_800a5048_
@@ -5420,7 +5420,7 @@
 800aa700 000040 800aa700 0 zz_800aa700_
 800aa740 000008 800aa740 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_55
 800aa748 000010 800aa748 0 zz_800aa748_
-800aa758 000008 800aa758 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_70
+800aa758 000008 800aa758 0 GetPlayerExecutor->Motion->Task
 800aa760 000050 800aa760 0 zz_800aa760_
 800aa7b0 000008 800aa7b0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_71
 800aa7b8 000008 800aa7b8 0 ShadowSetGroundAnimationByte
@@ -10274,9 +10274,9 @@
 801389d0 000120 801389d0 0 zz_801389d0_
 80138af0 000080 80138af0 0 zz_80138af0_
 80138b70 00006c 80138b70 0 zz_80138b70_
-80138bdc 000140 80138bdc 0 zz_80138bdc_
+80138bdc 000140 80138bdc 0 Monster::Exec_AwaitTrigger
 80138d1c 000054 80138d1c 0 zz_80138d1c_
-80138d70 0004d8 80138d70 0 Monster::Exec()
+80138d70 0004d8 80138d70 0 Monster::Exec
 80139248 000054 80139248 0 zz_80139248_
 8013929c 000004 8013929c 0 nullsub_1331
 801392a0 00002c 801392a0 0 MoviePlayerScene::PlayScreenBackSFX(void)_31
@@ -12251,9 +12251,9 @@
 8016f178 000048 8016f178 0 AssignDarkShadowPoints?
 8016f1c0 000008 8016f1c0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_130
 8016f1c8 000054 8016f1c8 0 zz_8016f1c8_
-8016f21c 000034 8016f21c 0 cCharacter::IsPlayingEffect( (EffectsGroup *))_6
-8016f250 000018 8016f250 0 zz_8016f250_
-8016f268 000018 8016f268 0 zz_8016f268_
+8016f21c 000034 8016f21c 0 SetExactFloatInRange
+8016f250 000018 8016f250 0 SetMinCap
+8016f268 000018 8016f268 0 SetMaxCap
 8016f280 000008 8016f280 0 getRingCount(r3)
 8016f288 000054 8016f288 0 PARAM_RING::addRingNum(int, int)
 8016f2dc 000068 8016f2dc 0 PlayerRingReset_Store
@@ -12369,7 +12369,7 @@
 801738c4 000020 801738c4 0 zz_801738c4_
 801738e4 000024 801738e4 0 homebutton::MotorCallback(OSAlarm *, OSContext *) _homebuttonLib.a HBMBase.o_21
 80173908 0000d4 80173908 0 load event file
-801739dc 000134 801739dc 0 writeThatEV_CutsceneOver@80173a74___801739dc_
+801739dc 000134 801739dc 0 __dt__22TPjsEventActionManagerFv
 80173b10 000160 80173b10 0 writeThatEV_CutsceneStart@80173b9c__80173b10_
 80173c70 000064 80173c70 0 zz_80173c70_
 80173cd4 0001fc 80173cd4 0 zz_80173cd4_
@@ -16166,7 +16166,7 @@
 801d6118 000044 801d6118 0 zz_801d6118_
 801d615c 0001e4 801d615c 0 zz_801d615c_
 801d6340 00020c 801d6340 0 zz_801d6340_
-801d654c 000020 801d654c 0 cPlayer::PostPhysicsUpdate(void)_333
+801d654c 000020 801d654c 0 DestroyTask__6IsndSEFv
 801d656c 000020 801d656c 0 cPlayer::PostPhysicsUpdate(void)_334
 801d658c 0000b8 801d658c 0 callsTo_801D8600_r4_set_various_values
 801d6644 00011c 801d6644 0 zz_801d6644_
@@ -16573,7 +16573,7 @@
 801e1b4c 000014 801e1b4c 0 zz_801e1b4c_
 801e1b60 000074 801e1b60 0 zz_801e1b60_
 801e1bd4 0002e4 801e1bd4 0 LoadLibraryText?
-801e1eb8 000270 801e1eb8 0 frameskip/timescale_related
+801e1eb8 000270 801e1eb8 0 mainloop
 801e2128 000050 801e2128 0 zz_801e2128_
 801e2178 00006c 801e2178 0 zz_801e2178_
 801e21e4 000050 801e21e4 0 Terminate3D__Fv
@@ -16996,7 +16996,7 @@
 801eb314 000044 801eb314 0 zz_801eb314_
 801eb358 00000c 801eb358 0 __set_debug_bba_2
 801eb364 00000c 801eb364 0 __set_debug_bba_2_fun
-801eb370 00002c 801eb370 0 cCharacter::UpdateBlinking(float)_32
+801eb370 00002c 801eb370 0 Task::Exec
 801eb39c 000088 801eb39c 0 zz_801eb39c_
 801eb424 00005c 801eb424 0 TaskManager::TaskManager
 801eb480 000034 801eb480 0 MainFunc44(r3/r31=TextureUVAnimManagerTask)
@@ -17656,7 +17656,7 @@
 801fbd28 000024 801fbd28 0 zz_801fbd28_
 801fbd4c 000024 801fbd4c 0 zz_801fbd4c_
 801fbd70 000004 801fbd70 0 nullsub_82
-801fbd74 000024 801fbd74 0 homebutton::MotorCallback(OSAlarm *, OSContext *) _homebuttonLib.a HBMBase.o_29
+801fbd74 000024 801fbd74 0 max_size__Q23std105__vector_imp<Q218mwFileServerQueued9QueueItem,54mwFileMemAllocator<Q218mwFileServerQueued9QueueItem,3>,0>CFv
 801fbd98 00000c 801fbd98 0 GetOneTimerLeadGroundContactAnims(void)_40
 801fbda4 000004 801fbda4 0 nullsub_83
 801fbda8 00010c 801fbda8 0 zz_801fbda8_
@@ -21076,7 +21076,7 @@
 802684d0 000218 802684d0 0 zz_802684d0_
 802686e8 0000dc 802686e8 0 zz_802686e8_
 802687c4 000040 802687c4 0 zz_802687c4_
-80268804 000120 80268804 0 zz_80268804_
+80268804 000120 80268804 0 SetWatchCamera::TargetPlayer
 80268924 000074 80268924 0 zz_80268924_
 80268998 000064 80268998 0 zz_80268998_
 802689fc 000088 802689fc 0 zz_802689fc_
@@ -28123,7 +28123,6 @@
 8033fb40 00004c 8033fb40 0 zz_8033fb40_
 8033fb8c 000014 8033fb8c 0 zz_8033fb8c_
 8033fba0 000050 8033fba0 0 zz_8033fba0_
-•8033fbf0 000068 8033fbf0 0 HeatBarrier::CollisionCheck
 8033fc58 000030 8033fc58 0 zz_8033fc58_
 8033fc88 000088 8033fc88 0 zz_8033fc88_
 8033fd10 000074 8033fd10 0 zz_8033fd10_
@@ -34059,7 +34058,7 @@
 804893b8 000100 804893b8 0 RwImageCopy
 804894b8 000378 804894b8 0 RwImageGammaCorrect
 80489538 0002f8 80489538 0 zz_80489538_
-80489830 000178 80489830 0 __rwPluginRegistryInitObject
+80489830 000178 80489830 0 _RwImageSetGamma
 804899a8 000074 804899a8 0 zz_804899a8_
 80489a1c 000074 80489a1c 0 zz_80489a1c_
 80489a90 00009c 80489a90 0 zz_80489a90_
