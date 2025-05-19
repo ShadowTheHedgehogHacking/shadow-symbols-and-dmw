@@ -14001,8 +14001,8 @@
                         },
                         {
                             "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "0x68",
+                            "baseIndex": 1,
+                            "label": "0x68 - Set When Jump Dashing/Homing Attacking",
                             "pointerOffsets": [
                                 "0",
                                 "0",
@@ -14013,8 +14013,8 @@
                         },
                         {
                             "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "0x6C",
+                            "baseIndex": 1,
+                            "label": "0x6C - Set When Jump Dashing/Homing Attacking",
                             "pointerOffsets": [
                                 "0",
                                 "0",
@@ -14025,8 +14025,8 @@
                         },
                         {
                             "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "0x70",
+                            "baseIndex": 1,
+                            "label": "0x70 - Set When Jump Dashing/Homing Attacking",
                             "pointerOffsets": [
                                 "0",
                                 "0",
@@ -14038,7 +14038,7 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 1,
-                            "label": "0x74",
+                            "label": "0x74 - Set When GroundAttack/CC/CB/OverturnObj/CarryingBox",
                             "pointerOffsets": [
                                 "0",
                                 "0",
@@ -14049,8 +14049,8 @@
                         },
                         {
                             "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "0x78",
+                            "baseIndex": 1,
+                            "label": "0x78 - Set When GroundAttack/CC/CB/OverturnObj/CarryingBox",
                             "pointerOffsets": [
                                 "0",
                                 "0",
@@ -14061,8 +14061,8 @@
                         },
                         {
                             "address": "80575FA8",
-                            "baseIndex": 0,
-                            "label": "0x7C",
+                            "baseIndex": 1,
+                            "label": "0x7C - Set When GroundAttack/CC/CB/OverturnObj/CarryingBox",
                             "pointerOffsets": [
                                 "0",
                                 "0",
@@ -14074,7 +14074,7 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 0,
-                            "label": "0x80",
+                            "label": "0x80 0 = Not Active, 1 = Awake, 2 = Using CC/CB",
                             "pointerOffsets": [
                                 "0",
                                 "0",
@@ -14110,6 +14110,18 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 0,
+                            "label": "0x8C",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "8C"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
                             "label": "0x90 disableMovement",
                             "pointerOffsets": [
                                 "0",
@@ -14134,13 +14146,13 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 0,
-                            "label": "0x98",
+                            "label": "0x98 WeaponDrop&Pickup Timer",
                             "pointerOffsets": [
                                 "0",
                                 "0",
                                 "98"
                             ],
-                            "typeIndex": 2,
+                            "typeIndex": 3,
                             "unsigned": false
                         },
                         {
@@ -14206,7 +14218,7 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 3,
-                            "label": "0xAC Status 3 - HasWeapon, CollisionMask",
+                            "label": "0xAC Status 3 - HasWeapon, CollisionMask, Can ChaosBlast",
                             "pointerOffsets": [
                                 "0",
                                 "0",
@@ -14549,7 +14561,7 @@
                                 },
                                 {
                                     "address": "80575FA8",
-                                    "baseIndex": 0,
+                                    "baseIndex": 1,
                                     "label": "0x28 -> 0x23C Dark/Hero Effect -> 0x28 -> 18",
                                     "pointerOffsets": [
                                         "0",
@@ -14565,7 +14577,7 @@
                                 },
                                 {
                                     "address": "80575FA8",
-                                    "baseIndex": 0,
+                                    "baseIndex": 1,
                                     "label": "0x28 -> 0x23C Dark/Hero Effect -> 0x28 -> 18 -> 0x34 (Table?)",
                                     "pointerOffsets": [
                                         "0",
@@ -14631,6 +14643,40 @@
                                         "23C",
                                         "0",
                                         "0"
+                                    ],
+                                    "typeIndex": 5,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80575FA8",
+                                    "baseIndex": 0,
+                                    "label": "0x230 -> pShadowExecuter -> Motion",
+                                    "length": 6,
+                                    "pointerOffsets": [
+                                        "0",
+                                        "0",
+                                        "22C",
+                                        "B8",
+                                        "230",
+                                        "0",
+                                        "0"
+                                    ],
+                                    "typeIndex": 5,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80575FA8",
+                                    "baseIndex": 0,
+                                    "label": "0x230 -> pShadowExecuter -> Motion -> 0x3E8 Task (Used by ToSuper and Awake)",
+                                    "length": 6,
+                                    "pointerOffsets": [
+                                        "0",
+                                        "0",
+                                        "22C",
+                                        "B8",
+                                        "230",
+                                        "0",
+                                        "3E8"
                                     ],
                                     "typeIndex": 5,
                                     "unsigned": false
@@ -15928,7 +15974,7 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 1,
-                            "label": "0x23C pEffect?",
+                            "label": "0x23C pEffect",
                             "pointerOffsets": [
                                 "0",
                                 "0",
