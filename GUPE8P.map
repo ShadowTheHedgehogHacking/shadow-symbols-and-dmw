@@ -601,10 +601,10 @@
 80016838 000064 80016838 0 boost::bad_weak_ptr
 8001689c 00005c 8001689c 0 FormationOffensive::__dt(void)_3
 800168f8 00001c 800168f8 0 FEResourceManager::__ct(void)_2
-80016914 00005c 80016914 0 zz_80016914_
+80016914 00005c 80016914 0 WriteCameraBossFlagSubStruct
 80016970 000010 80016970 0 nlListContainer<P8SaveData>::__ct(void)_3
 80016980 00002c 80016980 0 zz_80016980_
-800169ac 00001c 800169ac 0 Crash_TheARK_TextureOverflow?OrFlyableIssue?__cPlayer::GetGlobalPad(void)
+800169ac 00001c 800169ac 0 Get(0x0->0x4)
 800169c8 000028 800169c8 0 back__Q27JGadget37TLinkList<Q37JStudio3stb7TObject,-12>Fv _JStudio.a stb.o
 800169f0 000008 800169f0 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_15
 800169f8 00003c 800169f8 0 zz_800169f8_
@@ -3626,7 +3626,7 @@
 800749bc 000040 800749bc 0 zz_800749bc_
 800749fc 0000f0 800749fc 0 DPADCommand_HAS_Player::Npc::ShowCommand@80074a78_AND_Player::Npc::HideCommand@80074aa8_calltoDeeperState_800749fc_
 80074aec 00006c 80074aec 0 zz_80074aec_
-80074b58 0000b8 80074b58 0 zz_80074b58_
+80074b58 0000b8 80074b58 0 InvokePartnerReset_OnContinueAction
 80074c10 000064 80074c10 0 PartnerLoadState_HasBeenActivated
 80074c74 000034 80074c74 0 zz_80074c74_
 80074ca8 000020 80074ca8 0 cPlayer::PostPhysicsUpdate(void)_145
@@ -7525,7 +7525,7 @@
 800e9398 000078 800e9398 0 ExternalCam_SetStart_AndUpdate10
 800e9410 000004 800e9410 0 nullsub_392
 800e9414 000008 800e9414 0 OSGetStackPointer _os.a OSContext.o_52
-800e941c 000174 800e941c 0 OnMountGUNTypeTurret_800e941c_
+800e941c 000174 800e941c 0 OnMountGUNTypeTurret
 800e9590 000040 800e9590 0 zz_800e9590_
 800e95d0 000074 800e95d0 0 zz_800e95d0_
 800e9644 00005c 800e9644 0 ExternalCam_SetStart_AndUpdate11
@@ -8770,7 +8770,7 @@
 8010c04c 000068 8010c04c 0 zz_8010c04c_
 8010c0b4 00005c 8010c0b4 0 zz_8010c0b4_
 8010c110 000100 8010c110 0 zz_8010c110_
-8010c210 000108 8010c210 0 zz_8010c210_
+8010c210 000108 8010c210 0 ItemCapsule::Render
 8010c318 00007c 8010c318 0 zz_8010c318_
 8010c394 000168 8010c394 0 zz_8010c394_
 8010c4fc 000098 8010c4fc 0 zz_8010c4fc_
@@ -9226,7 +9226,7 @@
 80118e08 000074 80118e08 0 zz_80118e08_
 80118e7c 00005c 80118e7c 0 zz_80118e7c_
 80118ed8 000090 80118ed8 0 zz_80118ed8_
-80118f68 000210 80118f68 0 zz_80118f68_
+80118f68 000210 80118f68 0 CheckpointBonus
 80119178 00006c 80119178 0 somethingRegisteringGlobalObject_80119178_
 801191e4 00005c 801191e4 0 zz_801191e4_
 80119240 00004c 80119240 0 zz_80119240_
@@ -11538,7 +11538,7 @@
 8015f9d8 000070 8015f9d8 0 zz_8015f9d8_
 8015fa48 000030 8015fa48 0 zz_8015fa48_
 8015fa78 000098 8015fa78 0 zz_8015fa78_
-8015fb10 000034 8015fb10 0 Airbug_InfLoop
+8015fb10 000034 8015fb10 0 Airbug_InfLoop | GadgetModelInfo::operator=
 8015fb44 000008 8015fb44 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_89
 8015fb4c 000038 8015fb4c 0 zz_8015fb4c_
 8015fb84 000034 8015fb84 0 Airbug_InfLoop_fun
@@ -11632,7 +11632,7 @@
 80162944 000094 80162944 0 zz_80162944_
 801629d8 000090 801629d8 0 zz_801629d8_
 80162a68 000068 80162a68 0 zz_80162a68_
-80162ad0 00031c 80162ad0 0 TextureCRASH__ControlsNONAIModelDrawing__RelatedFunction1_80162ad0_
+80162ad0 00031c 80162ad0 0 GadgetModelInfo::CreateModelSub
 80162dec 00004c 80162dec 0 zz_80162dec_
 80162e38 00003c 80162e38 0 AIPlay::__dt(void)_22
 80162e74 000034 80162e74 0 zz_80162e74_
@@ -12226,7 +12226,7 @@
 8016ee98 000014 8016ee98 0 idazz_sub_8016EE98
 8016eeac 000014 8016eeac 0 idazz_sub_8016EEAC
 8016eec0 000008 8016eec0 0 GetChaosPowerState
-8016eec8 000008 8016eec8 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_125
+8016eec8 000008 8016eec8 0 0x8(r3)
 8016eed0 000008 8016eed0 0 get0x0(r3)_62
 8016eed8 000008 8016eed8 0 GXInitTexObjUserData _gx.a GXTexture.o_39
 8016eee0 000008 8016eee0 0 GXInitTexObjUserData _gx.a GXTexture.o_40
@@ -12566,7 +12566,7 @@
 80178aac 000028 80178aac 0 SidelineExplodable::Allocate(void)_91
 80178ad4 00004c 80178ad4 0 zz_80178ad4_
 80178b20 00003c 80178b20 0 ReduceRingsOrAddRings_By_Collision
-80178b5c 000024 80178b5c 0 GetStructThatHasNumOfLives_0x20_80178b5c_
+80178b5c 000024 80178b5c 0 GetStructThatHasNumOfLives_0x20
 80178b80 0000d4 80178b80 0 ContinueAction_HAS_SetAmmo_to_0
 80178c54 00010c 80178c54 0 ResetPlayerRingsOnRestart
 80178d60 00003c 80178d60 0 zz_80178d60_
@@ -13681,7 +13681,7 @@
 80192b68 000044 80192b68 0 zz_80192b68_
 80192bac 00020c 80192bac 0 zz_80192bac_
 80192db8 0000a4 80192db8 0 zz_80192db8_
-80192e5c 0000b8 80192e5c 0 zz_80192e5c_
+80192e5c 0000b8 80192e5c 0 BkWorm
 80192f14 0000b4 80192f14 0 zz_80192f14_
 80192fc8 000068 80192fc8 0 zz_80192fc8_
 80193030 000008 80193030 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_152
@@ -15832,13 +15832,13 @@
 801ce9d4 000020 801ce9d4 0 cPlayer::PostPhysicsUpdate(void)_319
 801ce9f4 000060 801ce9f4 0 RESEARCHME__PossibleRegularWorkingExternalCams?_OnGetOffCoaster
 801cea54 000080 801cea54 0 Coaster_AddExternalCamToList
-801cead4 0000c8 801cead4 0 DetachFromExternalCamSHARED__TheArkCRASH2_FreeCamV1
-801ceb9c 000048 801ceb9c 0 zz_801ceb9c_
-801cebe4 000024 801cebe4 0 zz_801cebe4_
+801cead4 0000c8 801cead4 0 DetachFromExternalCam
+801ceb9c 000048 801ceb9c 0 CallToDetachCam+4
+801cebe4 000024 801cebe4 0 DetachBossCam+4
 801cec08 00009c 801cec08 0 CameraCrashNotInQueue
 801ceca4 000044 801ceca4 0 zz_801ceca4_
 801cece8 000010 801cece8 0 nlListContainer<P8SaveData>::__ct(void)_100
-801cecf8 00002c 801cecf8 0 zz_801cecf8_
+801cecf8 00002c 801cecf8 0 CheckHolder_0x4_IsNull
 801ced24 000128 801ced24 0 createExternalCameraSpecialP1Only
 801cee4c 000048 801cee4c 0 zz_801cee4c_
 801cee94 000024 801cee94 0 zz_801cee94_
@@ -15857,7 +15857,7 @@
 801cf1d8 000030 801cf1d8 0 TRK_memset_234
 801cf208 000030 801cf208 0 TRK_memset_235
 801cf238 00005c 801cf238 0 FormationOffensive::__dt(void)_192
-801cf294 000028 801cf294 0 SidelineExplodable::Allocate(void)_100
+801cf294 000028 801cf294 0 boost::detail::sp_counted_base_impl<PJSCamera::ExternalCameraRequest *, boost::checked_deleter<PJSCamera::ExternalCameraRequest>>
 801cf2bc 00004c 801cf2bc 0 zz_801cf2bc_
 801cf308 000064 801cf308 0 RetrieveStageCameraManagerToR3
 801cf36c 000054 801cf36c 0 zz_801cf36c_
@@ -21187,7 +21187,7 @@
 8026b5c8 000074 8026b5c8 0 zz_8026b5c8_
 8026b63c 0000c8 8026b63c 0 zz_8026b63c_
 8026b704 000014 8026b704 0 zz_8026b704_
-8026b718 000024 8026b718 0 HeavyDog0510CtrlUnit_FixLookCharCamera__CommonDesireData::CalcBoolChance(float)
+8026b718 000024 8026b718 0 HeavyDog0510CtrlUnit_FixLookCharCamera
 8026b73c 0000a8 8026b73c 0 zz_8026b73c_
 8026b7e4 0001e8 8026b7e4 0 zz_8026b7e4_
 8026b9cc 0000b4 8026b9cc 0 zz_8026b9cc_
@@ -22093,9 +22093,10 @@
 80286e80 000008 80286e80 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_258
 80286e88 000008 80286e88 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_259
 80286e90 000044 80286e90 0 zz_80286e90_
-80286ed4 000048 80286ed4 0 cHeadTrack::__dt(void)_25
+80286ed4 000048 80286ed4 0 __dt__Q412SonicteamUSA6System6Camera16CameraTargetInfoFv
 80286ef0 00002c 80286ef0 0 zz_80286ef0_
-80286f1c 000010 80286f1c 0 BIRDOSoundPropAccessor::ResetSoundPropTable(void)_2_fun
+80286f1c 000010 80286f1c 0 __ct__Q412SonicteamUSA6System6Camera16CameraTargetInfoFv
+
 80286f2c 000008 80286f2c 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_260
 80286f34 000058 80286f34 0 zz_80286f34_
 80286f38 000054 80286f38 0 zz_80286f38_
@@ -22572,7 +22573,7 @@
 802921f4 00005c 802921f4 0 zz_802921f4_
 80292250 000090 80292250 0 zz_80292250_
 802922e0 0000e4 802922e0 0 zz_802922e0_
-802923c4 000100 802923c4 0 zz_802923c4_
+802923c4 000100 802923c4 0 CameraIntro
 802924c4 000008 802924c4 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_275
 802924cc 00005c 802924cc 0 FormationOffensive::__dt(void)_248
 80292528 000078 80292528 0 zz_80292528_
@@ -31420,7 +31421,7 @@
 803c45a0 00006c 803c45a0 0 _adxm_unlock
 803c460c 0000b4 803c460c 0 _adxm_lock
 803c46c0 000020 803c46c0 0 cPlayer::PostPhysicsUpdate(void)_623
-803c46e0 000020 803c46e0 0 SFD_Frame_Advance
+803c46e0 000020 803c46e0 0 _ADXM_WaitVsync
 803c4700 0000c0 803c4700 0 _ADXGC_SetupDvdFs
 803c47c0 000024 803c47c0 0 adxgc_err_dvd
 803c47e4 000024 803c47e4 0 cFielder::UpdatePlay(float)_230
@@ -31690,7 +31691,7 @@
 803d332c 000028 803d332c 0 BasicSlotPoolHigh<33ListEntry<20AnimAudioEventLookup>>::allocFN(unsigned long)_14
 803d3354 000104 803d3354 0 zz_803d3354_
 803d3458 00017c 803d3458 0 zz_803d3458_
-803d35d4 000020 803d35d4 0 SFD_Related
+803d35d4 000020 803d35d4 0 _MEM_Copy@12
 803d35f4 0007ec 803d35f4 0 zz_803d35f4_
 803d3de0 0004f4 803d3de0 0 zz_803d3de0_
 803d42d4 00026c 803d42d4 0 zz_803d42d4_
@@ -31927,8 +31928,8 @@
 803f12d0 00001c 803f12d0 0 zz_803f12d0_
 803f12ec 000020 803f12ec 0 cPlayer::PostPhysicsUpdate(void)_652
 803f130c 00002c 803f130c 0 InstallCallStackDumper(void)
-803f1338 000020 803f1338 0 cPlayer::PostPhysicsUpdate(void)_653
-803f1358 000020 803f1358 0 cPlayer::PostPhysicsUpdate(void)_654
+803f1338 000020 803f1338 0 _SFLIB_UnlockCs
+803f1358 000020 803f1358 0 _SFLIB_LockCs
 803f1378 000034 803f1378 0 zz_803f1378_
 803f13ac 0000cc 803f13ac 0 zz_803f13ac_
 803f1478 0000dc 803f1478 0 zz_803f1478_
@@ -32296,11 +32297,11 @@
 80406894 0001e4 80406894 0 zz_80406894_
 80406a78 000020 80406a78 0 zz_80406a78_
 80406a98 0000d8 80406a98 0 zz_80406a98_
-80406b70 000010 80406b70 0 THPSimpleGetCurrentFrame_11
+80406b70 000010 80406b70 0 _MWSFD_GetPauseBdr
 80406b80 000010 80406b80 0 THPSimpleGetCurrentFrame_12
 80406b90 0002f8 80406b90 0 _mwPlyInitSfdFx
 80406e88 000028 80406e88 0 zz_80406e88_
-80406eb0 00000c 80406eb0 0 GetOneTimerLeadGroundContactAnims(void)_58
+80406eb0 00000c 80406eb0 0 _MWSFLIB_GetLibWorkPtr
 80406ebc 00004c 80406ebc 0 zz_80406ebc_
 80406f08 00005c 80406f08 0 zz_80406f08_
 80406f64 000118 80406f64 0 zz_80406f64_
@@ -32313,7 +32314,7 @@
 80407568 0000a4 80407568 0 zz_80407568_
 8040760c 00007c 8040760c 0 zz_8040760c_
 80407688 00009c 80407688 0 zz_80407688_
-80407724 000018 80407724 0 nlDLRingGetStart<11cBaseCamera>(cBaseCamera *)_3
+80407724 000018 80407724 0 _MWSFD_IsEnableHndl
 8040773c 000048 8040773c 0 zz_8040773c_
 80407784 000034 80407784 0 zz_80407784_
 804077b8 000054 804077b8 0 zz_804077b8_
@@ -34225,7 +34226,7 @@
 804978c0 000044 804978c0 0 SharedFunc_PreGlare_PostGlare_GlareEff
 80497904 000620 80497904 0 UnderRenderFunc_calledByBctrl_WhiteScreenIfBLR
 80497f08 000620 80497f08 0 def_8049793C
-80497f24 000090 80497f24 0 zz_80497f24_
+80497f24 000090 80497f24 0 _RwGameCubeSetAlphaCompare
 80497fb4 000390 80497fb4 0 __rwDlRasterRenderQuadInit
 80498344 000590 80498344 0 zz_80498344_
 804988d4 000178 804988d4 0 _rwDlRasterRenderGeneric
@@ -34406,11 +34407,11 @@
 804a8e90 00006c 804a8e90 0 __rpMultiTexturePluginAttach
 804a8efc 0000d0 804a8efc 0 __rpMaterialRegisterMultiTexturePlugin
 804a8fcc 00005c 804a8fcc 0 RpMultiTextureSetEffect
-804a9028 000008 804a9028 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_316
+804a9028 000008 804a9028 0 _RpMultiTextureGetEffect
 804a9030 000070 804a9030 0 RpMultiTextureSetTexture
 804a90a0 000010 804a90a0 0 cTeam::GetPlayer(int)_4
 804a90b0 00000c 804a90b0 0 zz_804a90b0_
-804a90bc 00000c 804a90bc 0 J3DTevBlockPatched::getTevKColorSel(unsigned long) _J3DGraphBase.a J3DMatBlock.o
+804a90bc 00000c 804a90bc 0 _RpMultiTextureGetCoords
 804a90c8 000030 804a90c8 0 RpMaterialGetMultiTexture
 804a90f8 000034 804a90f8 0 zz_804a90f8_
 804a912c 00002c 804a912c 0 _rpMTEffectRegisterPlatform
@@ -34425,4 +34426,6 @@
 804a9674 0002a0 804a9674 0 _RpMTEffectDestroy
 804a9914 000290 804a9914 0 zz_804a9914_
 804a9ba4 000044 804a9ba4 0 _RpMTEffectSetName
-804a9be8 000010 804a9be8 0 Increment<Q29CrowdMood10CROWD_MOOD>(CrowdMood::CROWD_MOOD &)_3
+804a9be8 000010 804a9be8 0 _RpMTEffectAddRef
+
+.data section layout

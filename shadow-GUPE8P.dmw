@@ -481,7 +481,7 @@
                         },
                         {
                             "address": "8057D728",
-                            "baseIndex": 0,
+                            "baseIndex": 1,
                             "label": "Global Frame Counter",
                             "typeIndex": 2,
                             "unsigned": true
@@ -13690,6 +13690,13 @@
                     "unsigned": true
                 },
                 {
+                    "address": "80513CB8",
+                    "baseIndex": 0,
+                    "label": "Junk MEM Space Gadget P2 SwitcherLastFrameExternalControl",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
                     "address": "807D783A",
                     "baseIndex": 0,
                     "label": "P1 Status Byte 0 = normal, 2 = spindash, 8 = zipline, 64 = wallcling, 128 = in air",
@@ -14423,7 +14430,7 @@
                             "address": "80575FA8",
                             "baseIndex": 0,
                             "label": "0x21C CharCommandUnit** ?",
-                            "length": 55,
+                            "length": 24,
                             "pointerOffsets": [
                                 "0",
                                 "0",
@@ -14442,7 +14449,7 @@
                                     "address": "80575FA8",
                                     "baseIndex": 0,
                                     "label": "0x21C CharCommandUnit** ?",
-                                    "length": 1505,
+                                    "length": 107,
                                     "pointerOffsets": [
                                         "0",
                                         "0",
@@ -14473,7 +14480,7 @@
                                     "address": "80575FA8",
                                     "baseIndex": 0,
                                     "label": "0x21C CharCommandUnit** ?",
-                                    "length": 1505,
+                                    "length": 107,
                                     "pointerOffsets": [
                                         "0",
                                         "0",
@@ -14547,7 +14554,7 @@
                                 },
                                 {
                                     "address": "80575FA8",
-                                    "baseIndex": 0,
+                                    "baseIndex": 1,
                                     "label": "0x30 -> 0x10 Behavior ID",
                                     "pointerOffsets": [
                                         "0",
@@ -19171,9 +19178,49 @@
         {
             "groupEntries": [
                 {
+                    "groupEntries": [
+                        {
+                            "address": "80575D34",
+                            "baseIndex": 0,
+                            "label": "P1 Controller RouteMenu read Base Address",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575E50",
+                            "baseIndex": 0,
+                            "label": "PauseInputSystem? -> 0x11C",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "InputSystem"
+                },
+                {
                     "address": "8056ED4C",
-                    "baseIndex": 0,
+                    "baseIndex": 1,
                     "label": "P1 ButtonInputs",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80575D5C",
+                    "baseIndex": 0,
+                    "label": "P1 ControllerPeripheralAssignmentBytes",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80575D64",
+                    "baseIndex": 0,
+                    "label": "P1 Controller RouteMenu 0x30",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80575D68",
+                    "baseIndex": 0,
+                    "label": "? Base",
                     "typeIndex": 2,
                     "unsigned": false
                 },
@@ -25869,6 +25916,61 @@
             "label": "No label",
             "typeIndex": 2,
             "unsigned": true
+        },
+        {
+            "address": "812CA42C",
+            "baseIndex": 1,
+            "label": "Stored Camera BOSS BASE",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "812CA430",
+            "baseIndex": 1,
+            "label": "Stored Camera BOSS BASE+4",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "812CA430",
+            "baseIndex": 1,
+            "label": "Stored Camera BOSS BASE+4 DEREF",
+            "pointerOffsets": [
+                "4"
+            ],
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "812CA42C",
+            "baseIndex": 1,
+            "label": "Stored Camera BOSS CAMERA",
+            "pointerOffsets": [
+                "0"
+            ],
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "80515458",
+            "baseIndex": 0,
+            "label": "Camera Target JUNKMEM",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "8051545C",
+            "baseIndex": 1,
+            "label": "Camera Target JUNKMEM2",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "80515460",
+            "baseIndex": 1,
+            "label": "Camera Target JUNKMEM 3",
+            "typeIndex": 2,
+            "unsigned": false
         }
     ]
 }
