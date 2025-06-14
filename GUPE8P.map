@@ -5323,7 +5323,7 @@
 800a83d0 000080 800a83d0 0 zz_800a83d0_
 800a8450 00004c 800a8450 0 zz_800a8450_
 800a849c 000114 800a849c 0 Graphics Ops Lots Of Vector3 Copies
-800a85b0 00016c 800a85b0 0 ingameInputChecking_800a85b0_
+800a85b0 00016c 800a85b0 0 ingameInputChecking
 800a871c 000068 800a871c 0 zz_800a871c_
 800a8784 00003c 800a8784 0 AIPlay::__dt(void)_17
 800a87c0 000050 800a87c0 0 PlayerSpawnExclusiveUnknown
@@ -22096,7 +22096,6 @@
 80286ed4 000048 80286ed4 0 __dt__Q412SonicteamUSA6System6Camera16CameraTargetInfoFv
 80286ef0 00002c 80286ef0 0 zz_80286ef0_
 80286f1c 000010 80286f1c 0 __ct__Q412SonicteamUSA6System6Camera16CameraTargetInfoFv
-
 80286f2c 000008 80286f2c 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_260
 80286f34 000058 80286f34 0 zz_80286f34_
 80286f38 000054 80286f38 0 zz_80286f38_
@@ -27026,7 +27025,7 @@
 8031b1c4 000078 8031b1c4 0 zz_8031b1c4_
 8031b23c 000004 8031b23c 0 nullsub_1010
 8031b240 000008 8031b240 0 OSGetStackPointer _os.a OSContext.o_311
-8031b248 0002f4 8031b248 0 EggDealer_SetCameraPlayerTarget
+8031b248 0002f4 8031b248 0 EggDealerAndDiablon_SetCameraPlayerTarget
 8031b53c 000074 8031b53c 0 zz_8031b53c_
 8031b5b0 00005c 8031b5b0 0 zz_8031b5b0_
 8031b60c 000090 8031b60c 0 zz_8031b60c_
