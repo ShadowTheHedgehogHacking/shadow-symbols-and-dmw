@@ -18622,7 +18622,7 @@
                         {
                             "address": "805F2BF8",
                             "baseIndex": 0,
-                            "label": "value to set ai timer to on 2p input",
+                            "label": "Used for all Input not just Partner; value to set ai timer to on 2p input",
                             "typeIndex": 3,
                             "unsigned": false
                         },

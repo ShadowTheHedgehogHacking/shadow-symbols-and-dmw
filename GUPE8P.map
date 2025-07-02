@@ -3354,21 +3354,21 @@
 8006e61c 000038 8006e61c 0 zz_8006e61c_
 8006e654 00005c 8006e654 0 zz_8006e654_
 8006e6b0 0000c4 8006e6b0 0 zz_8006e6b0_
-8006e774 000210 8006e774 0 zz_8006e774_
+8006e774 000210 8006e774 0 AI_Dist_Calc_Related
 8006e984 0003fc 8006e984 0 zz_8006e984_
 8006ed80 000010 8006ed80 0 nlListContainer<P8SaveData>::__ct(void)_28
 8006ed90 000044 8006ed90 0 Player::StartAttackCommand::StartAttackCommand
 8006edd4 00005c 8006edd4 0 __dt__13PlayerCommandFv
 8006ee30 000040 8006ee30 0 Player::PlayerCommand::PlayerCommand
-8006ee70 000080 8006ee70 0 zz_8006ee70_
-8006eef0 000348 8006eef0 0 zz_8006eef0_
+8006ee70 000080 8006ee70 0 AI_Exclusive
+8006eef0 000348 8006eef0 0 Partner_AI_Timer_State_SUB
 8006f238 0001a4 8006f238 0 zz_8006f238_
 8006f3dc 000040 8006f3dc 0 zz_8006f3dc_
 8006f41c 000078 8006f41c 0 zz_8006f41c_
 8006f494 000280 8006f494 0 zz_8006f494_
 8006f714 000040 8006f714 0 zz_8006f714_
 8006f754 00006c 8006f754 0 zz_8006f754_
-8006f7c0 000110 8006f7c0 0 zz_8006f7c0_
+8006f7c0 000110 8006f7c0 0 Partner_Update_Movement_ETC
 8006f8d0 000008 8006f8d0 0 CBGetBytesAvailableForRead _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle_49
 8006f8d8 000004 8006f8d8 0 nullsub_1161
 8006f8dc 000050 8006f8dc 0 zz_8006f8dc_
@@ -17397,7 +17397,7 @@
 801f41f4 000044 801f41f4 0 zz_801f41f4_
 801f4238 000068 801f4238 0 zz_801f4238_
 801f42a0 000028 801f42a0 0 zz_801f42a0_
-801f42c8 0001d0 801f42c8 0 ifPartnerTooFarFromCam0_Hide()
+801f42c8 0001d0 801f42c8 0 Partner::ControlLoopExec__Player::Control::UserInput
 801f4498 000054 801f4498 0 zz_801f4498_
 801f44ec 000004 801f44ec 0 nullsub_1526
 801f44f0 00002c 801f44f0 0 MoviePlayerScene::PlayScreenBackSFX(void)_44
@@ -34364,3 +34364,6 @@
 .data section layout
 
 .note section layout
+8003a908 000018 8003a908 0 Check If TBlock Object Forcing State
+8003a920 000014 8003a920 0 TBlock ON (Forced)
+8003a934 000014 8003a934 0 TBlock OFF (Forced)
