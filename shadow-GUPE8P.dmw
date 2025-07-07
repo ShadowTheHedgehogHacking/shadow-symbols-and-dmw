@@ -14062,7 +14062,7 @@
                         {
                             "address": "80575FA8",
                             "baseIndex": 3,
-                            "label": "0xA0 Status",
+                            "label": "0xA0 Status (Jump State)",
                             "pointerOffsets": [
                                 "0",
                                 "0",
@@ -14073,8 +14073,20 @@
                         },
                         {
                             "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0xA4 Status PlayerExecutor (8 = Death)",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "A4"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
                             "baseIndex": 3,
-                            "label": "0xA8 Status 2",
+                            "label": "0xA8 Status 2 (Gravity, Friction Related)",
                             "pointerOffsets": [
                                 "0",
                                 "0",
@@ -14105,6 +14117,18 @@
                                 "AC"
                             ],
                             "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0xAF Can use ChaosPowers 8 = Blast, 4 = CC",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "AF"
+                            ],
+                            "typeIndex": 0,
                             "unsigned": false
                         },
                         {
@@ -25659,6 +25683,34 @@
                 }
             ],
             "groupName": "Weapon"
+        },
+        {
+            "address": "8057697C",
+            "baseIndex": 0,
+            "label": "Vibration Enabled Option Setting",
+            "typeIndex": 0,
+            "unsigned": true
+        },
+        {
+            "address": "8057D71C",
+            "baseIndex": 0,
+            "label": "Vibration Enabled Global State",
+            "typeIndex": 0,
+            "unsigned": true
+        },
+        {
+            "address": "80580278",
+            "baseIndex": 0,
+            "label": "2P Vibration Related State",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "8058027C",
+            "baseIndex": 0,
+            "label": "2P Vibration Mode (1 = SinglePlayer, 2 = Multi)",
+            "typeIndex": 2,
+            "unsigned": false
         }
     ]
 }

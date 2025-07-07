@@ -3729,8 +3729,8 @@
 80076c3c 000058 80076c3c 0 Player::Behavior::Behavior::Behavior
 80076c94 000010 80076c94 0 SetTarget?
 80076ca4 000004 80076ca4 0 nullsub_1168
-80076ca8 000020 80076ca8 0 zz_80076ca8_
-80076cc8 000020 80076cc8 0 zz_80076cc8_
+80076ca8 000020 80076ca8 0 Write_StatusBits
+80076cc8 000020 80076cc8 0 Write_StatusBits_OTHER
 80076ce8 000014 80076ce8 0 zz_80076ce8_
 80076cfc 000008 80076cfc 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_33
 80076d04 000008 80076d04 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_34
@@ -3856,7 +3856,7 @@
 8007922c 000058 8007922c 0 zz_8007922c_
 80079284 000050 80079284 0 zz_80079284_
 800792d4 000060 800792d4 0 zz_800792d4_
-80079334 000068 80079334 0 zz_80079334_
+80079334 000068 80079334 0 call to setBit @ 80079378
 8007939c 000068 8007939c 0 zz_8007939c_
 80079404 000080 80079404 0 zz_80079404_
 80079484 000044 80079484 0 Player::StartActionCommand::StartActionCommand
@@ -4873,7 +4873,7 @@
 80099954 00006c 80099954 0 SpecialCamsregisterGlobalObjectCall
 800999c0 000040 800999c0 0 zz_800999c0_
 80099a00 000050 80099a00 0 zz_80099a00_
-80099a50 000084 80099a50 0 zz_80099a50_
+80099a50 000084 80099a50 0 Player::CancelActingCommand
 80099ad4 000044 80099ad4 0 Player::CancelActingCommand::CancelActingCommand
 80099b18 0000a4 80099b18 0 Player::ActingAccelerateCommand
 80099bbc 000040 80099bbc 0 zz_80099bbc_
@@ -4894,7 +4894,7 @@
 8009a298 000074 8009a298 0 SetGravityCommand::Exec()_Maybe
 8009a30c 00005c 8009a30c 0 zz_8009a30c_
 8009a368 0000ac 8009a368 0 SetGravityCommand::SetGravityCommand()
-8009a414 0000f4 8009a414 0 zz_8009a414_
+8009a414 0000f4 8009a414 0 Player::StartExternalControlCommand
 8009a508 000070 8009a508 0 zz_8009a508_
 8009a578 00006c 8009a578 0 zz_8009a578_
 8009a5e4 000078 8009a5e4 0 zz_8009a5e4_
@@ -4902,8 +4902,8 @@
 8009a6ec 000090 8009a6ec 0 zz_8009a6ec_
 8009a77c 00017c 8009a77c 0 Player::IgnoreInputCommand
 8009a8f8 00007c 8009a8f8 0 zz_8009a8f8_
-8009a974 000080 8009a974 0 zz_8009a974_
-8009a9f4 000080 8009a9f4 0 zz_8009a9f4_
+8009a974 000080 8009a974 0 Player::EndParallelMoveCommand
+8009a9f4 000080 8009a9f4 0 Player::StartParallelMoveCommand
 8009aa74 00009c 8009aa74 0 startVehicleMount
 8009ab10 000070 8009ab10 0 zz_8009ab10_
 8009ab80 000054 8009ab80 0 zz_8009ab80_
@@ -4938,8 +4938,8 @@
 8009b9cc 0001b4 8009b9cc 0 zz_8009b9cc_
 8009bb80 00005c 8009bb80 0 zz_8009bb80_
 8009bbdc 000054 8009bbdc 0 zz_8009bbdc_
-8009bc30 0000a8 8009bc30 0 r3=Player::ChaosControlCommand
-8009bcd8 0000a8 8009bcd8 0 ChaosBlast_StartAction?
+8009bc30 0000a8 8009bc30 0 Player::ChaosControlCommand
+8009bcd8 0000a8 8009bcd8 0 Player::ChaosBlastCommand
 8009bd80 0000a8 8009bd80 0 TouchHangCommand::Something()
 8009be28 000070 8009be28 0 zz_8009be28_
 8009be98 00006c 8009be98 0 zz_8009be98_
@@ -4948,7 +4948,7 @@
 8009c038 000064 8009c038 0 zz_8009c038_
 8009c09c 000040 8009c09c 0 zz_8009c09c_
 8009c0dc 0000a8 8009c0dc 0 Player::LightDashCommand
-8009c184 00009c 8009c184 0 zz_8009c184_
+8009c184 00009c 8009c184 0 Player::DarkSpinCommand
 8009c220 000070 8009c220 0 zz_8009c220_
 8009c290 000054 8009c290 0 zz_8009c290_
 8009c2e4 0000a8 8009c2e4 0 SpinDashCommand::SpinDashCommand()
@@ -4961,13 +4961,13 @@
 8009c650 000070 8009c650 0 zz_8009c650_
 8009c6c0 000054 8009c6c0 0 zz_8009c6c0_
 8009c714 0000a8 8009c714 0 Slide_MASTERFUNCTION
-8009c7bc 000010 8009c7bc 0 StoreExecution_ForSlide?
+8009c7bc 000010 8009c7bc 0 Player::EndActionCommand
 8009c7cc 000010 8009c7cc 0 Player::StartActionCommand
 8009c7dc 000074 8009c7dc 0 zz_8009c7dc_
 8009c850 0000b0 8009c850 0 StartJumpCommand::StartJumpCommand()
 8009c900 000094 8009c900 0 Player::StartJumpCommand::StartJumpCommand
 8009c994 00004c 8009c994 0 Create(CharCommand::JumpCommand)
-8009c9e0 000010 8009c9e0 0 zz_8009c9e0_
+8009c9e0 000010 8009c9e0 0 Player::EndAttackCommand
 8009c9f0 0001a0 8009c9f0 0 Player::StartAttackCommand::Exec()
 8009cb90 0000a0 8009cb90 0 StartBehaviorIdleOnHitDashRamp
 8009cc30 0000b4 8009cc30 0 zz_8009cc30_
@@ -16249,7 +16249,7 @@
 801d9c84 000024 801d9c84 0 __nw__11CharCommandFUl
 801d9ca8 000008 801d9ca8 0 CharCommand::GetCommandName
 801d9cb0 00004c 801d9cb0 0 zz_801d9cb0_
-801d9cfc 000004 801d9cfc 0 nullsub_1510
+801d9cfc 000004 801d9cfc 0 SetTransparentCommand
 801d9d00 000034 801d9d00 0 Exec__22CharCommandManagerTaskFv
 801d9d34 00006c 801d9d34 0 __dt__22CharCommandManagerTaskFv
 801d9da0 000060 801d9da0 0 __ct__22CharCommandManagerTaskFP4Task
@@ -16357,7 +16357,7 @@
 801db9dc 000074 801db9dc 0 zz_801db9dc_
 801dba50 000088 801dba50 0 zz_801dba50_
 801dbad8 00000c 801dbad8 0 GetOneTimerLeadGroundContactAnims(void)_37
-801dbae4 000080 801dbae4 0 AIRBUG_DISTANCE_CHECK__HEIGHT_LOCK(r27=Player::StreamCommand, r28/r30=ShadowExecuter, r3/r6/r26/r31=ClrVelocityCommand, r5=boost::detail::sp_counted_base_impl<Player::PlayerShadow *, boost::checked_deleter<Player::PlayerShadow>>)
+801dbae4 000080 801dbae4 0 ClrVelocityCommand__AIRBUG_DISTANCE_CHECK__HEIGHT_LOCK
 801dbb64 00000c 801dbb64 0 GetOneTimerLeadGroundContactAnims(void)_38
 801dbb70 00008c 801dbb70 0 zz_801dbb70_
 801dbbfc 000104 801dbbfc 0 zz_801dbbfc_
@@ -18055,7 +18055,7 @@
 80209ae8 00003c 80209ae8 0 zz_80209ae8_
 80209b24 000034 80209b24 0 zz_80209b24_
 80209b58 0000ac 80209b58 0 zz_80209b58_
-80209c04 000024 80209c04 0 cFielder::UpdatePlay(float)_112
+80209c04 000024 80209c04 0 ThrowBomb
 80209c28 000078 80209c28 0 zz_80209c28_
 80209ca0 000008 80209ca0 0 get0x0(r3)_83
 80209ca8 000064 80209ca8 0 zz_80209ca8_
@@ -23862,13 +23862,13 @@
 802b7d00 00005c 802b7d00 0 zz_802b7d00_
 802b7d5c 00005c 802b7d5c 0 CheckMenuPosition
 802b7db8 000024 802b7db8 0 cFielder::UpdatePlay(float)_127
-802b7ddc 000024 802b7ddc 0 cFielder::UpdatePlay(float)_128
+802b7ddc 000024 802b7ddc 0 AdvReal::Option::Phase
 802b7e00 000068 802b7e00 0 __dt__Q37AdvReal6Option5PhaseFv
 802b7e68 00004c 802b7e68 0 zz_802b7e68_
 802b7eb4 000024 802b7eb4 0 cFielder::EndAction(void)_86
 802b7ed8 000058 802b7ed8 0 __ct__Q37AdvReal6Option5PhaseFv
 802b7f30 00029c 802b7f30 0 zz_802b7f30_
-802b81cc 000240 802b81cc 0 zz_802b81cc_
+802b81cc 000240 802b81cc 0 WriteVibration_Option@802b8394
 802b840c 00006c 802b840c 0 zz_802b840c_
 802b8478 00014c 802b8478 0 zz_802b8478_
 802b85c4 000040 802b85c4 0 zz_802b85c4_
@@ -26339,7 +26339,7 @@
 80305a60 00002c 80305a60 0 zz_80305a60_
 80305a8c 00004c 80305a8c 0 zz_80305a8c_
 80305ad8 000018 80305ad8 0 zz_80305ad8_
-80305af0 000044 80305af0 0 zz_80305af0_
+80305af0 000044 80305af0 0 GetVibrationState@80305b00
 80305b34 000054 80305b34 0 zz_80305b34_
 80305b88 000060 80305b88 0 zz_80305b88_
 80305be8 000008 80305be8 0 GetPALMode__
@@ -28473,8 +28473,8 @@
 8034aee0 000034 8034aee0 0 zz_8034aee0_
 8034af14 000010 8034af14 0 nlListContainer<P8SaveData>::__ct(void)_140
 8034af24 000184 8034af24 0 zz_8034af24_
-8034b0a8 00016c 8034b0a8 0 zz_8034b0a8_
-8034b214 000048 8034b214 0 zz_8034b214_
+8034b0a8 00016c 8034b0a8 0 OnAttackCollide_VibrationCheck
+8034b214 000048 8034b214 0 ShouldVibrate::Boolean
 8034b25c 000024 8034b25c 0 CommonDesireData::CalcBoolChance(float)_71
 8034b280 00004c 8034b280 0 zz_8034b280_
 8034b2cc 000068 8034b2cc 0 zz_8034b2cc_
@@ -28635,7 +28635,7 @@
 8034de08 00006c 8034de08 0 zz_8034de08_
 8034de74 000070 8034de74 0 zz_8034de74_
 8034dee4 000064 8034dee4 0 zz_8034dee4_
-8034df48 000064 8034df48 0 zz_8034df48_
+8034df48 000064 8034df48 0 OnPlayerCollide_VibrationCheck
 8034dfac 000058 8034dfac 0 __dt__Q29Vibration14RequestWithPosFv
 8034e004 0000a4 8034e004 0 Vibration::RequestWithPos::RequestWithPos
 8034e0a8 000144 8034e0a8 0 zz_8034e0a8_
