@@ -534,39 +534,6 @@
                             ],
                             "typeIndex": 2,
                             "unsigned": false
-                        },
-                        {
-                            "groupEntries": [
-                                {
-                                    "address": "8057697C",
-                                    "baseIndex": 0,
-                                    "label": "Vibration Enabled Option Setting",
-                                    "typeIndex": 0,
-                                    "unsigned": true
-                                },
-                                {
-                                    "address": "8057D71C",
-                                    "baseIndex": 0,
-                                    "label": "Vibration Enabled Global State",
-                                    "typeIndex": 0,
-                                    "unsigned": true
-                                },
-                                {
-                                    "address": "80580278",
-                                    "baseIndex": 0,
-                                    "label": "2P Vibration Related State",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "8058027C",
-                                    "baseIndex": 0,
-                                    "label": "2P Vibration Mode (1 = SinglePlayer, 2 = Multi)",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                }
-                            ],
-                            "groupName": "Vibration System"
                         }
                     ],
                     "groupName": "Core Globals"
@@ -610,6 +577,39 @@
                         }
                     ],
                     "groupName": "Fade Screen System"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8057697C",
+                            "baseIndex": 0,
+                            "label": "Vibration Enabled Option Setting",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8057D71C",
+                            "baseIndex": 0,
+                            "label": "Vibration Enabled Global State",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80580278",
+                            "baseIndex": 0,
+                            "label": "2P Vibration Related State",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8058027C",
+                            "baseIndex": 0,
+                            "label": "2P Vibration Mode (1 = SinglePlayer, 2 = Multi)",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Vibration System"
                 },
                 {
                     "address": "807D95ED",
@@ -17886,6 +17886,21 @@
                         },
                         {
                             "address": "80575F54",
+                            "baseIndex": 0,
+                            "label": "0x0 Core_MovementMotion",
+                            "length": 6,
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "230",
+                                "0",
+                                "0"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575F54",
                             "baseIndex": 1,
                             "label": "0x8 pShadowExecutor",
                             "pointerOffsets": [
@@ -22862,7 +22877,7 @@
                         {
                             "address": "805F58D8",
                             "baseIndex": 0,
-                            "label": "HoverUpwardForce",
+                            "label": "Upward Force Weight Related Hover and Jump",
                             "typeIndex": 3,
                             "unsigned": false
                         },
@@ -22902,23 +22917,30 @@
                             "unsigned": false
                         },
                         {
+                            "address": "805F4A04",
+                            "baseIndex": 0,
+                            "label": "Donor Hover Value (Not In Struct)",
+                            "typeIndex": 3,
+                            "unsigned": true
+                        },
+                        {
                             "address": "805F58F0",
                             "baseIndex": 0,
-                            "label": "Jump Height",
+                            "label": "Jump Height Base",
                             "typeIndex": 3,
                             "unsigned": false
                         },
                         {
                             "address": "805F58F4",
                             "baseIndex": 0,
-                            "label": "Unknown",
+                            "label": "Jump Height JumpWalker Additional",
                             "typeIndex": 3,
                             "unsigned": false
                         },
                         {
                             "address": "805F58F8",
                             "baseIndex": 0,
-                            "label": "Unknown",
+                            "label": "Jump Height ArmedWalker Additional",
                             "typeIndex": 3,
                             "unsigned": false
                         },
@@ -25552,6 +25574,144 @@
         },
         {
             "groupEntries": [
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805EE254",
+                            "baseIndex": 0,
+                            "label": "Shared_Bullet_Speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F1DE8",
+                            "baseIndex": 0,
+                            "label": "BulletHoming_MaxDistance (If not Locked-On)",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F1DC4",
+                            "baseIndex": 0,
+                            "label": "BkBullet_Damage",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8051DBBC",
+                            "baseIndex": 0,
+                            "label": "BkBullet_MaxDistance",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8051DBD0",
+                            "baseIndex": 0,
+                            "label": "BkBullet_ENEMY_MaxDistance",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8051DB44",
+                            "baseIndex": 0,
+                            "label": "PistolBullet_MaxDistance",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8051DB58",
+                            "baseIndex": 0,
+                            "label": "SMGBullet_MaxDistance",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805EE220",
+                            "baseIndex": 0,
+                            "label": "GUNBazookaAndHealCannonLV2Bullet_MaxDistance",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805EE224",
+                            "baseIndex": 0,
+                            "label": "GUNGrenadeLauncherBullet_MaxDistance",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F1DB8",
+                            "baseIndex": 0,
+                            "label": "AutoRifleBullet_Damage",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8051DB6C",
+                            "baseIndex": 0,
+                            "label": "AutoRifleBullet_MaxDistance",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F1DBC",
+                            "baseIndex": 0,
+                            "label": "VulcanBullet_Damage",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8051DB80",
+                            "baseIndex": 0,
+                            "label": "VulcanBullet_MaxDistance",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8051DD60",
+                            "baseIndex": 0,
+                            "label": "WormShooter_MaxDistance",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F1DB0",
+                            "baseIndex": 0,
+                            "label": "ShadowRifleBullet_Damage",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8051DC48",
+                            "baseIndex": 0,
+                            "label": "ShadowRifleBullet_MaxDistance",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805F1DB4",
+                            "baseIndex": 0,
+                            "label": "KatanaLV2Bullet_Damage",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8051DC34",
+                            "baseIndex": 0,
+                            "label": "KatanaLV2Bullet_MaxDistance",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8051DDC4",
+                            "baseIndex": 0,
+                            "label": "GUNBigfootTypeB_Rocket_MaxDistance_SPECIAL_ENEMY",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Bullet System"
+                },
                 {
                     "groupEntries": [
                         {
