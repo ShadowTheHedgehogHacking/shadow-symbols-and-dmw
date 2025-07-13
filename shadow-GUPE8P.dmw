@@ -18840,6 +18840,31 @@
                         {
                             "address": "80575F54",
                             "baseIndex": 1,
+                            "label": "0x268 Npc::Watch",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "268"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575F54",
+                            "baseIndex": 0,
+                            "label": "0x268 Npc::Watch -> 0x1C",
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "268",
+                                "1C"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80575F54",
+                            "baseIndex": 1,
                             "label": "0x290 PlayerExecutorTarget?",
                             "pointerOffsets": [
                                 "0",
