@@ -4042,7 +4042,7 @@
 8007e51c 000070 8007e51c 0 MapPlayerModel_and_UpdatePosition_To_VehicleorTurret
 8007e58c 0001e8 8007e58c 0 MountTurretORVehicleParentFromGeneralExec
 8007e774 000164 8007e774 0 MountSHARED_Controls
-8007e8d8 0000f0 8007e8d8 0 zz_8007e8d8_
+8007e8d8 0000f0 8007e8d8 0 JumpOffSaucer
 8007e9c8 0003a4 8007e9c8 0 startVehicleCheckWeaponDropIfMelee
 8007ed6c 000040 8007ed6c 0 zz_8007ed6c_
 8007edac 000080 8007edac 0 zz_8007edac_
@@ -5347,7 +5347,7 @@
 800a8ef0 000018 800a8ef0 0 JGadget::operator==(JGadget::TNodeLinkList::iterator, JGadget::TNodeLinkList::iterator) _JAudio2.a JASTrack.o_9
 800a8f08 0000ec 800a8f08 0 zz_800a8f08_
 800a8ff4 000020 800a8ff4 0 cPlayer::PostPhysicsUpdate(void)_163
-800a9014 000044 800a9014 0 zz_800a9014_
+800a9014 000044 800a9014 0 MarkPlayerAllocated
 800a9058 00005c 800a9058 0 zz_800a9058_
 800a90b4 00009c 800a90b4 0 zz_800a90b4_
 800a9150 000024 800a9150 0 ListContainerBase<P6cSAnim,33NewAdapter<19ListEntry<P6cSAnim>>>::DeleteEntry(ListEntry<P6cSAnim> *)_14
@@ -5366,13 +5366,13 @@
 800a9404 00005c 800a9404 0 FormationOffensive::__dt(void)_21
 800a9460 000028 800a9460 0 SidelineExplodable::Allocate(void)_12
 800a9488 00004c 800a9488 0 zz_800a9488_
-800a94d4 00007c 800a94d4 0 zz_800a94d4_
+800a94d4 00007c 800a94d4 0 MarkPlayerFreed
 800a9550 000028 800a9550 0 zz_800a9550_
 800a9578 000004 800a9578 0 nullsub_46
 800a957c 000020 800a957c 0 cPlayer::PostPhysicsUpdate(void)_164
 800a959c 000054 800a959c 0 zz_800a959c_
 800a95f0 000040 800a95f0 0 zz_800a95f0_
-800a9630 000310 800a9630 0 zz_800a9630_
+800a9630 000310 800a9630 0 WritePlayerStructAllocations
 800a9940 000020 800a9940 0 cPlayer::PostPhysicsUpdate(void)_165
 800a9960 000058 800a9960 0 zz_800a9960_
 800a99b8 000020 800a99b8 0 cPlayer::PostPhysicsUpdate(void)_166
@@ -15974,7 +15974,7 @@
 801d23e8 000074 801d23e8 0 __dt__Q36Effect3PJS18EffectDrawBlurTaskFv
 801d245c 000024 801d245c 0 MainFunc34(r3/r31=DrawBlur, r29=RenderLevel_GlareWorld)_homebutton::MotorCallback(OSAlarm *, OSContext *) _homebuttonLib.a HBMBase.o
 801d2480 000058 801d2480 0 __dt__Q36Effect3PJS25EffectDrawScreenColorTaskFv
-801d24d8 000024 801d24d8 0 MainFunc35(r3/r31=DrawScreenColor, r29=RenderLevel_PostEffect)_homebutton::MotorCallback(OSAlarm *, OSContext *) _homebuttonLib.a HBMBase.o
+801d24d8 000024 801d24d8 0 MainFunc35(r3/r31=DrawScreenColor, r29=RenderLevel_PostEffect)
 801d24fc 00008c 801d24fc 0 __dt__Q36Effect3PJS29EffectDrawGlobalLensFlareTaskFv
 801d2588 0000b0 801d2588 0 MainFunc31(r3/r31=DrawGlobalLensFlare, r29=RenderLevel_GlareWorld)
 801d2638 000064 801d2638 0 __ct__Q36Effect3PJS36EffectDrawGlobalLensFlareAnotherTaskFv
