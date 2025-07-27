@@ -40,8 +40,6 @@
 800043cc 000034 800043cc 0 idazz_sub_800043CC
 80004400 000034 80004400 0 idazz_sub_80004400
 800044ac 000070 800044ac 0 idazz_sub_800044AC
-800045ac 000070 800045ac 0 idazz_sub_800045AC
-800046ac 000070 800046ac 0 idazz_sub_800046AC
 800047ac 000034 800047ac 0 idazz_sub_800047AC
 800048ac 000034 800048ac 0 idazz_sub_800048AC
 80004aac 000034 80004aac 0 idazz_sub_80004AAC
@@ -3430,7 +3428,7 @@
 80070c40 000024 80070c40 0 cFielder::UpdatePlay(float)_26
 80070c64 000024 80070c64 0 cFielder::UpdatePlay(float)_27
 80070c88 000024 80070c88 0 cFielder::UpdatePlay(float)_28
-80070cac 000024 80070cac 0 cFielder::UpdatePlay(float)_29
+80070cac 000024 80070cac 0 startClumpRelated
 80070cd0 000024 80070cd0 0 cFielder::UpdatePlay(float)_30
 80070cf4 000024 80070cf4 0 NpcHand
 80070d18 000068 80070d18 0 __dt__Q36Player3Npc7NpcHandFv
@@ -3683,7 +3681,7 @@
 80075ba8 00000c 80075ba8 0 GetOneTimerLeadGroundContactAnims(void)_16
 80075bb4 000004 80075bb4 0 nullsub_45
 80075bb8 00010c 80075bb8 0 zz_80075bb8_
-80075cc4 000060 80075cc4 0 zz_80075cc4_
+80075cc4 000060 80075cc4 0 MarkPartners_FREED
 80075d24 000078 80075d24 0 zz_80075d24_
 80075d9c 000008 80075d9c 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_56
 80075da4 00008c 80075da4 0 zz_80075da4_
@@ -15682,7 +15680,7 @@
 801cbd7c 000024 801cbd7c 0 zz_801cbd7c_
 801cbda0 000038 801cbda0 0 zz_801cbda0_
 801cbdd8 000018 801cbdd8 0 JGadget::operator==(JGadget::TNodeLinkList::iterator, JGadget::TNodeLinkList::iterator) _JAudio2.a JASTrack.o_16
-801cbdf0 0000c4 801cbdf0 0 zz_801cbdf0_
+801cbdf0 0000c4 801cbdf0 0 CameraFree
 801cbeb4 000004 801cbeb4 0 nullsub_250
 801cbeb8 000008 801cbeb8 0 J3DTexGenBlock4::getNBTScale(void) _J3DGraphBase.a J3DMatBlock.o_132
 801cbec0 000028 801cbec0 0 zz_801cbec0_
@@ -21939,7 +21937,7 @@
 80280c18 00044c 80280c18 0 zz_80280c18_
 80281064 000140 80281064 0 zz_80281064_
 802811a4 00024c 802811a4 0 zz_802811a4_
-802813f0 000098 802813f0 0 zz_802813f0_
+802813f0 000098 802813f0 0 BlackDoom_ExternCameraWithDistanceCheck
 80281488 0000ac 80281488 0 BlackDoomCtrlUnit_FixLookCharCamera::BlackDoomCtrlUnit_FixLookCharCamera
 80281534 000928 80281534 0 BlackDoomCtrlUnit_Move
 80281e5c 000090 80281e5c 0 zz_80281e5c_
@@ -21967,7 +21965,7 @@
 80282c2c 000014 80282c2c 0 idazz_sub_80282C2C
 80282c40 000014 80282c40 0 idazz_sub_80282C40
 80282c54 000014 80282c54 0 idazz_sub_80282C54
-80282c68 000008 80282c68 0 idazz_sub_80282C68
+80282c68 000008 80282c68 0 BossJump_BlackDoomCtrlUnit_FixLookCharCamera_ExternCameraWithDistanceCheck
 80282c70 000008 80282c70 0 idazz_sub_80282C70
 80282c78 000008 80282c78 0 idazz_sub_80282C78
 80282c80 000014 80282c80 0 idazz_sub_80282C80
@@ -23154,7 +23152,7 @@
 802a5828 0000c8 802a5828 0 zz_802a5828_
 802a58f0 000130 802a58f0 0 zz_802a58f0_
 802a5a20 0000a0 802a5a20 0 zz_802a5a20_
-802a5ac0 000448 802a5ac0 0 UnknownExternCameraWithDistanceCheck
+802a5ac0 000448 802a5ac0 0 EggMecha_ExternCameraWithDistanceCheck
 802a5f08 000040 802a5f08 0 zz_802a5f08_
 802a5f48 000024 802a5f48 0 zz_802a5f48_
 802a5f6c 0000dc 802a5f6c 0 zz_802a5f6c_
@@ -23186,7 +23184,7 @@
 802a7134 00005c 802a7134 0 FormationOffensive::__dt(void)_261
 802a7190 000024 802a7190 0 CommonDesireData::CalcBoolChance(float)_63
 802a71b4 0000a8 802a71b4 0 zz_802a71b4_
-802a725c 000024 802a725c 0 EggMecaCtrlUnit_FixLookCharCamera__CommonDesireData::CalcBoolChance(float)
+802a725c 000024 802a725c 0 EggMecaCtrlUnit_FixLookCharCamera
 802a7280 0000a8 802a7280 0 zz_802a7280_
 802a7328 000028 802a7328 0 SidelineExplodable::Allocate(void)_138
 802a7350 00004c 802a7350 0 zz_802a7350_
@@ -23224,9 +23222,9 @@
 802a7a14 000014 802a7a14 0 idazz_sub_802A7A14
 802a7a28 000014 802a7a28 0 idazz_sub_802A7A28
 802a7a3c 000014 802a7a3c 0 idazz_sub_802A7A3C
-802a7a50 000014 802a7a50 0 idazz_sub_802A7A50
+802a7a50 000014 802a7a50 0 BossJump_EggMecaCtrlUnit_FixLookCharCamera
 802a7a64 000014 802a7a64 0 idazz_sub_802A7A64
-802a7a78 000008 802a7a78 0 idazz_sub_802A7A78
+802a7a78 000008 802a7a78 0 BossJump_EggMecaCtrlUnit_FixLookCharCamera_CheckExternCameraWithDistanceCheck
 802a7a80 000008 802a7a80 0 idazz_sub_802A7A80
 802a7a88 000008 802a7a88 0 idazz_sub_802A7A88
 802a7a90 000014 802a7a90 0 idazz_sub_802A7A90
@@ -48593,3 +48591,5 @@
 8003a908 000018 8003a908 0 Check If TBlock Object Forcing State
 8003a920 000014 8003a920 0 TBlock ON (Forced)
 8003a934 000014 8003a934 0 TBlock OFF (Forced)
+80291264 000018 80291264 0 JumpToBossSpecificDistanceCheck_ThenCheck
+802912a0 00000c 802912a0 0 Checking if PlayerAction inTurret

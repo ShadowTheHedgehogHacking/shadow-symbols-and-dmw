@@ -13608,62 +13608,6 @@
         {
             "groupEntries": [
                 {
-                    "address": "8057670C",
-                    "baseIndex": 0,
-                    "label": "P1 Ring Count",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "80576758",
-                    "baseIndex": 0,
-                    "label": "P2 Ring Count",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "80576700",
-                    "baseIndex": 0,
-                    "label": "P1 Ammo",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "8057674C",
-                    "baseIndex": 0,
-                    "label": "P2 Ammo",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "8057D7DC",
-                    "baseIndex": 0,
-                    "label": "P1 Selected Character",
-                    "typeIndex": 2,
-                    "unsigned": true
-                },
-                {
-                    "address": "8057D7E0",
-                    "baseIndex": 0,
-                    "label": "P2 Selected Character",
-                    "typeIndex": 2,
-                    "unsigned": true
-                },
-                {
-                    "address": "807D783A",
-                    "baseIndex": 0,
-                    "label": "P1 Status Byte 0 = normal, 2 = spindash, 8 = zipline, 64 = wallcling, 128 = in air",
-                    "typeIndex": 0,
-                    "unsigned": true
-                },
-                {
-                    "address": "807D79EA",
-                    "baseIndex": 0,
-                    "label": "P2 Status Byte",
-                    "typeIndex": 0,
-                    "unsigned": true
-                },
-                {
                     "groupEntries": [
                         {
                             "address": "80575FA8",
@@ -22002,6 +21946,83 @@
                     "unsigned": false
                 },
                 {
+                    "address": "805766E4",
+                    "baseIndex": 0,
+                    "label": "Base Struct With NumLives",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805766EC",
+                    "baseIndex": 0,
+                    "label": "P1 Action State (12 = Turret)",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80576738",
+                    "baseIndex": 0,
+                    "label": "P2 Action State (12 = Turret)",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057670C",
+                    "baseIndex": 0,
+                    "label": "P1 Ring Count",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80576758",
+                    "baseIndex": 0,
+                    "label": "P2 Ring Count",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80576700",
+                    "baseIndex": 0,
+                    "label": "P1 Ammo",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057674C",
+                    "baseIndex": 0,
+                    "label": "P2 Ammo",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057D7DC",
+                    "baseIndex": 0,
+                    "label": "P1 Selected Character",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "8057D7E0",
+                    "baseIndex": 0,
+                    "label": "P2 Selected Character",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "807D783A",
+                    "baseIndex": 0,
+                    "label": "P1 Status Byte 0 = normal, 2 = spindash, 8 = zipline, 64 = wallcling, 128 = in air",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "807D79EA",
+                    "baseIndex": 0,
+                    "label": "P2 Status Byte",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
                     "groupEntries": [
                         {
                             "address": "804BC388",
@@ -27061,6 +27082,66 @@
                 }
             ],
             "groupName": "Weapon"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "812CA42C",
+                    "baseIndex": 1,
+                    "label": "Stored Camera BOSS BASE",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "812CA430",
+                    "baseIndex": 1,
+                    "label": "Stored Camera BOSS BASE+4",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "812CA430",
+                    "baseIndex": 1,
+                    "label": "Stored Camera BOSS BASE+4 DEREF",
+                    "pointerOffsets": [
+                        "4"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "812CA42C",
+                    "baseIndex": 1,
+                    "label": "Stored Camera BOSS CAMERA",
+                    "pointerOffsets": [
+                        "0"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80515458",
+                    "baseIndex": 0,
+                    "label": "Camera Target JUNKMEM",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8051545C",
+                    "baseIndex": 1,
+                    "label": "Camera Target JUNKMEM2",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80515460",
+                    "baseIndex": 1,
+                    "label": "Camera Target JUNKMEM 3",
+                    "typeIndex": 2,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "BosscamsResearch"
         }
     ]
 }
