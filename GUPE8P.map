@@ -12326,7 +12326,7 @@
 80171ddc 000010 80171ddc 0 cFielder::IsStriker( (void))_11
 80171dec 000088 80171dec 0 zz_80171dec_
 80171e74 000058 80171e74 0 zz_80171e74_
-80171ecc 000054 80171ecc 0 zz_80171ecc_
+80171ecc 000054 80171ecc 0 DeleteEventCamera
 80171f20 000060 80171f20 0 zz_80171f20_
 80171f80 000060 80171f80 0 zz_80171f80_
 80171fe0 000084 80171fe0 0 zz_80171fe0_
@@ -19327,8 +19327,8 @@
 80231930 000074 80231930 0 zz_80231930_
 802319a4 0000f8 802319a4 0 zz_802319a4_
 80231a9c 00006c 80231a9c 0 zz_80231a9c_
-80231b08 000024 80231b08 0 CommonDesireData::CalcBoolChance(float)_49
-80231b2c 0000a8 80231b2c 0 BlackBull0210CtrlUnit_FixLookCharCamera
+80231b08 000024 80231b08 0 BlackBull0210CtrlUnit_FixLookCharCamera_PRIMARY
+80231b2c 0000a8 80231b2c 0 BlackBull0210CtrlUnit_FixLookCharCamera_SECONDARY
 80231bd4 000090 80231bd4 0 zz_80231bd4_
 80231c64 000084 80231c64 0 zz_80231c64_
 80231ce8 00004c 80231ce8 0 zz_80231ce8_
@@ -21233,8 +21233,8 @@
 8026d50c 000008 8026d50c 0 idazz_sub_8026D50C
 8026d514 000014 8026d514 0 idazz_sub_8026D514
 8026d528 000014 8026d528 0 idazz_sub_8026D528
-8026d53c 000024 8026d53c 0 idazz_sub_8026D53C
-8026d560 0000a8 8026d560 0 zz_8026d560_
+8026d53c 000024 8026d53c 0 BlackBull0412CtrlUnit_FixLookCharCamera_exec
+8026d560 0000a8 8026d560 0 __dt_BlackBull0412CtrlUnit_FixLookCharCamera
 8026d608 00013c 8026d608 0 zz_8026d608_
 8026d744 0000b4 8026d744 0 zz_8026d744_
 8026d7f8 000230 8026d7f8 0 zz_8026d7f8_
@@ -22522,12 +22522,12 @@
 80291120 000060 80291120 0 BossCtrlUnit_CheckFirstDamage
 80291180 00005c 80291180 0 __dt__29BossCtrlUnit_CheckFirstDamageFv
 802911dc 000030 802911dc 0 BossCtrlUnit_CheckFirstDamage::BossCtrlUnit_CheckFirstDamage
-8029120c 000280 8029120c 0 createSubbossAndBlackDoomAndDevilDoomTrackerSpecialCameraEvent__rect
+8029120c 000280 8029120c 0 BossCam::Exec_SubBosses_BlackDoom_DevilDoom
 8029148c 000024 8029148c 0 CommonDesireData::CalcBoolChance(float)_60
 802914b0 000024 802914b0 0 CommonDesireData::CalcBoolChance(float)_61
 802914d4 000040 802914d4 0 zz_802914d4_
 80291514 000008 80291514 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_274
-8029151c 0000ac 8029151c 0 zz_8029151c_
+8029151c 0000ac 8029151c 0 SubbossShared_SpecialDetach
 802915c8 0000c4 802915c8 0 zz_802915c8_
 8029168c 000020 8029168c 0 cPlayer::PostPhysicsUpdate(void)_451
 802916ac 000020 802916ac 0 cPlayer::PostPhysicsUpdate(void)_452
@@ -23155,7 +23155,7 @@
 802a5ac0 000448 802a5ac0 0 EggMecha_ExternCameraWithDistanceCheck
 802a5f08 000040 802a5f08 0 zz_802a5f08_
 802a5f48 000024 802a5f48 0 zz_802a5f48_
-802a5f6c 0000dc 802a5f6c 0 zz_802a5f6c_
+802a5f6c 0000dc 802a5f6c 0 InitCreateBossCam_Struct
 802a6048 0001e0 802a6048 0 EggMecaCtrlUnit_Move
 802a6228 000090 802a6228 0 zz_802a6228_
 802a62b8 000094 802a62b8 0 zz_802a62b8_
@@ -23185,7 +23185,7 @@
 802a7190 000024 802a7190 0 CommonDesireData::CalcBoolChance(float)_63
 802a71b4 0000a8 802a71b4 0 zz_802a71b4_
 802a725c 000024 802a725c 0 EggMecaCtrlUnit_FixLookCharCamera
-802a7280 0000a8 802a7280 0 zz_802a7280_
+802a7280 0000a8 802a7280 0 __dt__EggMecaCtrlUnit_FixLookCharCameraFv
 802a7328 000028 802a7328 0 SidelineExplodable::Allocate(void)_138
 802a7350 00004c 802a7350 0 zz_802a7350_
 802a739c 000004 802a739c 0 nullsub_905
@@ -26431,8 +26431,8 @@
 8030b44c 000098 8030b44c 0 zz_8030b44c_
 8030b4e4 000024 8030b4e4 0 CommonDesireData::CalcBoolChance(float)_67
 8030b508 0000a8 8030b508 0 zz_8030b508_
-8030b5b0 000024 8030b5b0 0 CommonDesireData::CalcBoolChance(float)_68
-8030b5d4 0000a8 8030b5d4 0 zz_8030b5d4_
+8030b5b0 000024 8030b5b0 0 DevilDoomCtrlUnit_FixLookCharCamera
+8030b5d4 0000a8 8030b5d4 0 __dt_DevilDoomCtrlUnit_FixLookCharCamera
 8030b67c 000098 8030b67c 0 zz_8030b67c_
 8030b714 000098 8030b714 0 zz_8030b714_
 8030b7ac 000098 8030b7ac 0 zz_8030b7ac_
@@ -48588,8 +48588,3 @@
 805fb454 000004 805fb454 0 opaqueBlack$273
 
 .note section layout
-8003a908 000018 8003a908 0 Check If TBlock Object Forcing State
-8003a920 000014 8003a920 0 TBlock ON (Forced)
-8003a934 000014 8003a934 0 TBlock OFF (Forced)
-80291264 000018 80291264 0 JumpToBossSpecificDistanceCheck_ThenCheck
-802912a0 00000c 802912a0 0 Checking if PlayerAction inTurret

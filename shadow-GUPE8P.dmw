@@ -1,4 +1,8 @@
 {
+    "structDefs": {
+        "rootNode": [
+        ]
+    },
     "watchList": [
         {
             "groupEntries": [
@@ -27142,6 +27146,251 @@
                 }
             ],
             "groupName": "BosscamsResearch"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "811AB558",
+                    "baseIndex": 1,
+                    "label": "FixLookCharCamera_CallerToExec",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "811AB564",
+                    "baseIndex": 1,
+                    "label": "r3 BossCamsPassed Arg (+12)",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "811AB564",
+                    "baseIndex": 0,
+                    "label": "r3 -> 0x0",
+                    "length": 551,
+                    "pointerOffsets": [
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "typeIndex": 5,
+                    "unsigned": false
+                },
+                {
+                    "address": "811AB564",
+                    "baseIndex": 1,
+                    "label": "r3 -> 0x0 -> 0x8",
+                    "pointerOffsets": [
+                        "8"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "811AB564",
+                    "baseIndex": 0,
+                    "label": "r3 -> 0x0 -> 0x8 -> 0x1A | Should Execute",
+                    "pointerOffsets": [
+                        "8",
+                        "1A"
+                    ],
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "811AB58C",
+                    "baseIndex": 1,
+                    "label": "BossCamHolder (arg + 0x28 aka 40) -> (+3) -> 0x0 -> 0x4 or null",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "811AB590",
+                    "baseIndex": 1,
+                    "label": "BossCamHolder (arg + 0x28 aka 40) -> (+3) -> 0x0",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "811AB590",
+                    "baseIndex": 0,
+                    "label": "BossCamHolder (arg + 0x28 aka 40) -> (+3) -> 0x0 -> 0x4",
+                    "pointerOffsets": [
+                        "4"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "811AB58C",
+                    "baseIndex": 0,
+                    "label": "arg + 0x28 (r3, r30, 40)",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "811AB588",
+                    "baseIndex": 0,
+                    "label": "arg -> 0x24 (stored) (0x24 stb)",
+                    "typeIndex": 0,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "EggBreakerBossCamFirstBoot"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "811AB558",
+                    "baseIndex": 1,
+                    "label": "FixLookCharCamera_CallerToExec",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8127BC84",
+                    "baseIndex": 0,
+                    "label": "r3 BossCamsPassed Arg (+12)",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8127BC84",
+                    "baseIndex": 0,
+                    "label": "r3 -> 0x0",
+                    "length": 551,
+                    "pointerOffsets": [
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "typeIndex": 5,
+                    "unsigned": false
+                },
+                {
+                    "address": "8127BC84",
+                    "baseIndex": 1,
+                    "label": "r3 -> 0x0 -> 0x8",
+                    "pointerOffsets": [
+                        "8"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8127BC84",
+                    "baseIndex": 0,
+                    "label": "r3 -> 0x0 -> 0x8 -> 0x1A | Should Execute",
+                    "pointerOffsets": [
+                        "8",
+                        "1A"
+                    ],
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "8127BCAC",
+                    "baseIndex": 1,
+                    "label": "BossCamHolder (arg + 0x28 aka 40) -> (+3) -> 0x0 -> 0x4 or null",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8127BCB0",
+                    "baseIndex": 1,
+                    "label": "BossCamHolder (arg + 0x28 aka 40) [VAL]",
+                    "pointerOffsets": [
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8127BCB0",
+                    "baseIndex": 1,
+                    "label": "BossCamHolder (arg + 0x28 aka 40) -> (+3) -> 0x0",
+                    "pointerOffsets": [
+                        "0"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8127BCB0",
+                    "baseIndex": 0,
+                    "label": "BossCamHolder (arg + 0x28 aka 40) -> (+3) -> 0x0 -> 0x4",
+                    "pointerOffsets": [
+                        "4"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "811AB58C",
+                    "baseIndex": 0,
+                    "label": "arg + 0x28 (r3, r30, 40)",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "811AB588",
+                    "baseIndex": 0,
+                    "label": "arg -> 0x24 (stored) (0x24 stb)",
+                    "typeIndex": 0,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "BlackDoomGUNFortBossCamFirstBoot"
+        },
+        {
+            "address": "80515458",
+            "baseIndex": 0,
+            "label": "Player Cycle",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "address": "80515459",
+            "baseIndex": 0,
+            "label": "P1 0x1A",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "address": "8051545A",
+            "baseIndex": 0,
+            "label": "P2  0x1A",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "address": "8051545C",
+            "baseIndex": 1,
+            "label": "P1 Holder",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "80515460",
+            "baseIndex": 1,
+            "label": "P2 Holder",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "80515464",
+            "baseIndex": 1,
+            "label": "P1 HolderRoot",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "80515468",
+            "baseIndex": 1,
+            "label": "P2 HolderRoot",
+            "typeIndex": 2,
+            "unsigned": false
         }
     ]
 }
