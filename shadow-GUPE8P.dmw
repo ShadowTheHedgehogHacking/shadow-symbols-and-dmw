@@ -19960,6 +19960,13 @@
                     "unsigned": false
                 },
                 {
+                    "address": "8056EE7C",
+                    "baseIndex": 0,
+                    "label": "Unknown_Stored_From_Splitscreen",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
                     "groupEntries": [
                         {
                             "groupEntries": [
