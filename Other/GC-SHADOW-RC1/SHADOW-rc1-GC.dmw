@@ -1,0 +1,22 @@
+{
+    "watchList": [
+        {
+            "address": "804C1760",
+            "baseIndex": 0,
+            "label": "Stage Table Westopolis Name",
+            "length": 1454,
+            "pointerOffsets": [
+                "0"
+            ],
+            "typeIndex": 5,
+            "unsigned": false
+        },
+        {
+            "address": "804C1764",
+            "baseIndex": 0,
+            "label": "Stage Table Westopolis Name",
+            "typeIndex": 2,
+            "unsigned": false
+        }
+    ]
+}
