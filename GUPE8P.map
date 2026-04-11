@@ -287,7 +287,7 @@
 8000d0b4 000014 8000d0b4 0 nw4hbm::lyt::Material::GetTexSRTAry(void) _homebuttonLib.a lyt_material.o
 8000d0c8 000020 8000d0c8 0 cPlayer::PostPhysicsUpdate(void)_5
 8000d0e8 000008 8000d0e8 0 get0x8(r3)
-8000d0f0 000040 8000d0f0 0 zz_8000d0f0_
+8000d0f0 000040 8000d0f0 0 vector_Read_Generic_8000d0f0
 8000d130 000040 8000d130 0 zz_8000d130_
 8000d170 000070 8000d170 0 CameraUpdatePositionSub2
 8000d1e0 000090 8000d1e0 0 zz_8000d1e0_
@@ -340,7 +340,7 @@
 8000df10 00004c 8000df10 0 zz_8000df10_
 8000df5c 000028 8000df5c 0 SidelineExplodable::Allocate(void)_2
 8000df84 00004c 8000df84 0 zz_8000df84_
-8000dfd0 000064 8000dfd0 0 zz_8000dfd0_
+8000dfd0 000064 8000dfd0 0 vector_Read_PAD_maybe_zz_8000dfd0_
 8000e034 000310 8000e034 0 zz_8000e034_
 8000e344 000020 8000e344 0 cPlayer::PostPhysicsUpdate(void)_10
 8000e364 000058 8000e364 0 zz_8000e364_
@@ -5040,7 +5040,7 @@
 8009eb50 000028 8009eb50 0 Sub Get Player::Controller::UserInput
 8009eb78 000008 8009eb78 0 Get Player::Controller::UserInput Deref
 8009eb80 000024 8009eb80 0 cFielder::UpdatePlay(float)_47
-8009eba4 000024 8009eba4 0 cFielder::UpdatePlay(float)_48
+8009eba4 000024 8009eba4 0 Player_Adapter_parent
 8009ebc8 000024 8009ebc8 0 cFielder::UpdatePlay(float)_49
 8009ebec 000040 8009ebec 0 KillChild__Q231@unnamed@PlayerActingInput_cpp@15AccelerateInputFv
 8009ec2c 000024 8009ec2c 0 MainFunc45(r3/r31=Controller, r29=Player::Watch)
@@ -5055,7 +5055,7 @@
 8009f234 000068 8009f234 0 ShadowWeapon_UnknownBCTRL
 8009f29c 0000bc 8009f29c 0 zz_8009f29c_
 8009f358 000040 8009f358 0 zz_8009f358_
-8009f398 0000d0 8009f398 0 zz_8009f398_
+8009f398 0000d0 8009f398 0 Player_Adapter_bctrl
 8009f468 000040 8009f468 0 zz_8009f468_
 8009f4a8 000048 8009f4a8 0 zz_8009f4a8_
 8009f4f0 000024 8009f4f0 0 zz_8009f4f0_
@@ -5585,7 +5585,7 @@
 800aebbc 00009c 800aebbc 0 zz_800aebbc_
 800aec58 00003c 800aec58 0 zz_800aec58_
 800aec94 000034 800aec94 0 zz_800aec94_
-800aecc8 000100 800aecc8 0 zz_800aecc8_
+800aecc8 000100 800aecc8 0 Create_ExecutorType_For_Player
 800aedc8 00005c 800aedc8 0 zz_800aedc8_
 800aee24 00009c 800aee24 0 zz_800aee24_
 800aeec0 00003c 800aeec0 0 zz_800aeec0_
@@ -15090,7 +15090,7 @@
 801b6470 000048 801b6470 0 zz_801b6470_
 801b64b8 000030 801b64b8 0 PrepareToResetVehicleCollisionType
 801b64e8 000010 801b64e8 0 zz_801b64e8_
-801b64f8 00000c 801b64f8 0 DestroyVehicleIfBLR__cGame::GetGameTime(void)
+801b64f8 00000c 801b64f8 0 Vehicle::GetHealth
 801b6504 00000c 801b6504 0 DrawableTmModel::SetAnimationSpeed(float)_2_fun
 801b6510 000054 801b6510 0 zz_801b6510_
 801b6564 00000c 801b6564 0 cGame::GetGameTime(void)_4
@@ -15266,7 +15266,7 @@
 801baed4 000070 801baed4 0 SomethingFloatsOperation
 801baf44 000074 801baf44 0 zz_801baf44_
 801bafb8 000064 801bafb8 0 AirFrictionOpenCarMaybeHere
-801bb01c 00038c 801bb01c 0 zz_801bb01c_
+801bb01c 00038c 801bb01c 0 CarModelUpdateFunction?
 801bb3a8 000048 801bb3a8 0 OpenCar_MasterPositionUpdater?
 801bb3f0 0000c8 801bb3f0 0 zz_801bb3f0_
 801bb4b8 00009c 801bb4b8 0 zz_801bb4b8_
@@ -16245,7 +16245,7 @@
 801d9c64 000020 801d9c64 0 __dl__11CharCommandFPv
 801d9c84 000024 801d9c84 0 __nw__11CharCommandFUl
 801d9ca8 000008 801d9ca8 0 CharCommand::GetCommandName
-801d9cb0 00004c 801d9cb0 0 zz_801d9cb0_
+801d9cb0 00004c 801d9cb0 0 CommandRelated
 801d9cfc 000004 801d9cfc 0 SetTransparentCommand
 801d9d00 000034 801d9d00 0 Exec__22CharCommandManagerTaskFv
 801d9d34 00006c 801d9d34 0 __dt__22CharCommandManagerTaskFv
@@ -16303,7 +16303,7 @@
 801dac78 00006c 801dac78 0 __dt__21AnnounceAttackCommandFv
 801dace4 00005c 801dace4 0 zz_801dace4_
 801dad40 00000c 801dad40 0 ControlVehicleCommand::GetCommandName
-801dad4c 000068 801dad4c 0 zz_801dad4c_
+801dad4c 000068 801dad4c 0 ControlVehicleCommand
 801dadb4 000048 801dadb4 0 ControlVehicleCommand::ControlVehicleCommand
 801dadfc 0000a4 801dadfc 0 zz_801dadfc_
 801daea0 000040 801daea0 0 zz_801daea0_
@@ -22655,7 +22655,7 @@
 80294914 000028 80294914 0 SidelineExplodable::Allocate(void)_132
 8029493c 00004c 8029493c 0 zz_8029493c_
 80294988 000014 80294988 0 zz_80294988_
-8029499c 000050 8029499c 0 zz_8029499c_
+8029499c 000050 8029499c 0 BOSS_SONIC::CONTROLLER
 802949ec 0000e4 802949ec 0 zz_802949ec_
 80294ad0 000008 80294ad0 0 get0x0(r3)_102
 80294ad8 000118 80294ad8 0 zz_80294ad8_
@@ -22676,7 +22676,7 @@
 802952a0 00009c 802952a0 0 zz_802952a0_
 8029533c 00003c 8029533c 0 zz_8029533c_
 80295378 000034 80295378 0 zz_80295378_
-802953ac 0001a8 802953ac 0 zz_802953ac_
+802953ac 0001a8 802953ac 0 BossSonic_SetControllerAdapter_Type
 80295554 000040 80295554 0 zz_80295554_
 80295594 00005c 80295594 0 zz_80295594_
 802955f0 00009c 802955f0 0 zz_802955f0_
@@ -22719,7 +22719,7 @@
 802964d8 00009c 802964d8 0 zz_802964d8_
 80296574 00003c 80296574 0 zz_80296574_
 802965b0 000034 802965b0 0 zz_802965b0_
-802965e4 0001e8 802965e4 0 zz_802965e4_
+802965e4 0001e8 802965e4 0 FlyingNpc_SetAdapterControllerType
 802967cc 00005c 802967cc 0 zz_802967cc_
 80296828 00009c 80296828 0 zz_80296828_
 802968c4 000040 802968c4 0 zz_802968c4_
