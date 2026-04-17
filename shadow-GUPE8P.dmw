@@ -523,7 +523,15 @@
                             "absoluteBranch": false,
                             "address": "805EE588",
                             "baseIndex": 0,
-                            "label": "mainPlayerID",
+                            "label": "mainPlayerID (P1)",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "absoluteBranch": false,
+                            "address": "805E4968",
+                            "baseIndex": 0,
+                            "label": "subPlayerID (P2)",
                             "typeIndex": 2,
                             "unsigned": false
                         },
@@ -1286,6 +1294,14 @@
                                         "0"
                                     ],
                                     "typeIndex": 5,
+                                    "unsigned": false
+                                },
+                                {
+                                    "absoluteBranch": false,
+                                    "address": "804C4C50",
+                                    "baseIndex": 0,
+                                    "label": "Game Mode",
+                                    "typeIndex": 2,
                                     "unsigned": false
                                 },
                                 {
@@ -15171,6 +15187,75 @@
         {
             "groupEntries": [
                 {
+                    "absoluteBranch": false,
+                    "address": "80575FA0",
+                    "baseIndex": 0,
+                    "label": "Player Struct Vector Size",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "8056EE18",
+                    "baseIndex": 0,
+                    "label": "Camera Struct Allocation CountRelated",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "8056EE1C",
+                    "baseIndex": 0,
+                    "label": "Camera Struct Allocation CountRelated (0x4)",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "805767E4",
+                    "baseIndex": 0,
+                    "label": "ItemIconManager Object",
+                    "length": 55,
+                    "pointerOffsets": [
+                        "0",
+                        "0"
+                    ],
+                    "typeIndex": 5,
+                    "unsigned": false
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "805767E8",
+                    "baseIndex": 0,
+                    "label": "ItemIconManager Vector Count",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "8056EE14",
+                    "baseIndex": 1,
+                    "label": "Camera Struct Related",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "8056EE14",
+                    "baseIndex": 1,
+                    "label": "Camera Struct Related",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "80575FA4",
+                    "baseIndex": 0,
+                    "label": "Player Structs Created",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
                     "groupEntries": [
                         {
                             "absoluteBranch": false,
@@ -15428,7 +15513,7 @@
                             "absoluteBranch": false,
                             "address": "80575FA8",
                             "baseIndex": 0,
-                            "label": "0x54 playerID?",
+                            "label": "0x54 playerID",
                             "pointerOffsets": [
                                 "0",
                                 "0",
@@ -15610,7 +15695,7 @@
                         {
                             "absoluteBranch": false,
                             "address": "80575FA8",
-                            "baseIndex": 0,
+                            "baseIndex": 1,
                             "label": "0x8C",
                             "pointerOffsets": [
                                 "0",
@@ -15623,7 +15708,7 @@
                         {
                             "absoluteBranch": false,
                             "address": "80575FA8",
-                            "baseIndex": 0,
+                            "baseIndex": 1,
                             "label": "0x90 disableMovement",
                             "pointerOffsets": [
                                 "0",
@@ -15636,7 +15721,7 @@
                         {
                             "absoluteBranch": false,
                             "address": "80575FA8",
-                            "baseIndex": 0,
+                            "baseIndex": 1,
                             "label": "0x94",
                             "pointerOffsets": [
                                 "0",
@@ -16069,6 +16154,25 @@
                                 "224"
                             ],
                             "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "absoluteBranch": false,
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0x224 pController",
+                            "length": 55,
+                            "pointerOffsets": [
+                                "0",
+                                "0",
+                                "224",
+                                "8",
+                                "18",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "typeIndex": 5,
                             "unsigned": false
                         },
                         {
@@ -19297,6 +19401,19 @@
                             ],
                             "typeIndex": 5,
                             "unsigned": false
+                        },
+                        {
+                            "absoluteBranch": false,
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0x54 PlayerID",
+                            "pointerOffsets": [
+                                "10",
+                                "0",
+                                "54"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
                         }
                     ],
                     "groupName": "P3 Struct"
@@ -19383,6 +19500,19 @@
                             "unsigned": false
                         },
                         {
+                            "absoluteBranch": false,
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0x54 PlayerID",
+                            "pointerOffsets": [
+                                "18",
+                                "0",
+                                "54"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
                             "groupEntries": [
                                 {
                                     "absoluteBranch": false,
@@ -19457,12 +19587,190 @@
                         }
                     ],
                     "groupName": "P4 Struct"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "absoluteBranch": false,
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "x",
+                            "pointerOffsets": [
+                                "20",
+                                "0",
+                                "0"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "absoluteBranch": false,
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "y",
+                            "pointerOffsets": [
+                                "20",
+                                "0",
+                                "4"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "absoluteBranch": false,
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "z",
+                            "pointerOffsets": [
+                                "20",
+                                "0",
+                                "C"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "absoluteBranch": false,
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "statusbit",
+                            "pointerOffsets": [
+                                "20",
+                                "0",
+                                "A2"
+                            ],
+                            "typeIndex": 1,
+                            "unsigned": false
+                        },
+                        {
+                            "absoluteBranch": false,
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "statusbit",
+                            "pointerOffsets": [
+                                "20",
+                                "0",
+                                "AC"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "absoluteBranch": false,
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0x3c name",
+                            "length": 15,
+                            "pointerOffsets": [
+                                "20",
+                                "0",
+                                "3C"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        },
+                        {
+                            "absoluteBranch": false,
+                            "address": "80575FA8",
+                            "baseIndex": 0,
+                            "label": "0x54 PlayerID",
+                            "pointerOffsets": [
+                                "20",
+                                "0",
+                                "54"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "absoluteBranch": false,
+                                    "address": "80575FA8",
+                                    "baseIndex": 0,
+                                    "label": "0x30 pBehavior",
+                                    "length": 155,
+                                    "pointerOffsets": [
+                                        "18",
+                                        "0",
+                                        "22C",
+                                        "30",
+                                        "0",
+                                        "0",
+                                        "0",
+                                        "0"
+                                    ],
+                                    "typeIndex": 5,
+                                    "unsigned": false
+                                },
+                                {
+                                    "absoluteBranch": false,
+                                    "address": "80575FA8",
+                                    "baseIndex": 0,
+                                    "label": "0x30 -> 0x10 Behavior ID",
+                                    "pointerOffsets": [
+                                        "18",
+                                        "0",
+                                        "22C",
+                                        "30",
+                                        "10"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "absoluteBranch": false,
+                                    "address": "80575FA8",
+                                    "baseIndex": 0,
+                                    "label": "0x30 pBehavior P5",
+                                    "length": 155,
+                                    "pointerOffsets": [
+                                        "20",
+                                        "0",
+                                        "22C",
+                                        "30",
+                                        "0",
+                                        "0",
+                                        "0",
+                                        "0"
+                                    ],
+                                    "typeIndex": 5,
+                                    "unsigned": false
+                                },
+                                {
+                                    "absoluteBranch": false,
+                                    "address": "80575FA8",
+                                    "baseIndex": 0,
+                                    "label": "0x30 -> 0x10 Behavior ID P5",
+                                    "pointerOffsets": [
+                                        "20",
+                                        "0",
+                                        "22C",
+                                        "30",
+                                        "10"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "0x22C pShadowExecutor Group"
+                        }
+                    ],
+                    "groupName": "P5 Struct"
                 }
             ],
             "groupName": "PlayerStruct"
         },
         {
             "groupEntries": [
+                {
+                    "absoluteBranch": false,
+                    "address": "80575F50",
+                    "baseIndex": 0,
+                    "label": "Partner Structs Created",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
                 {
                     "groupEntries": [
                         {
@@ -21960,6 +22268,22 @@
                                     "label": "2P V SplitScreen Screen 2 V-Aspect",
                                     "typeIndex": 3,
                                     "unsigned": false
+                                },
+                                {
+                                    "absoluteBranch": false,
+                                    "address": "805841BC",
+                                    "baseIndex": 0,
+                                    "label": "Camera 3 Aspect",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "absoluteBranch": false,
+                                    "address": "805841C0",
+                                    "baseIndex": 0,
+                                    "label": "Camera 3 Aspect",
+                                    "typeIndex": 3,
+                                    "unsigned": false
                                 }
                             ],
                             "groupName": "Vertical"
@@ -22019,7 +22343,7 @@
                     "absoluteBranch": false,
                     "address": "8057D704",
                     "baseIndex": 0,
-                    "label": "Splitscreen split 1",
+                    "label": "Splitscreen Split0 Camera Target",
                     "typeIndex": 2,
                     "unsigned": false
                 },
@@ -22027,7 +22351,15 @@
                     "absoluteBranch": false,
                     "address": "8057D708",
                     "baseIndex": 0,
-                    "label": "Splitscreen split 2",
+                    "label": "Splitscreen Split1 Camera Target",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "805768AC",
+                    "baseIndex": 0,
+                    "label": "CameraManagersAllocated",
                     "typeIndex": 2,
                     "unsigned": false
                 },
@@ -22278,11 +22610,11 @@
                     "groupEntries": [
                         {
                             "absoluteBranch": false,
-                            "address": "807C6A3C",
+                            "address": "807C6A2C",
                             "baseIndex": 1,
-                            "label": "P1 Xpos",
-                            "typeIndex": 1,
-                            "unsigned": false
+                            "label": "P1 Width",
+                            "typeIndex": 2,
+                            "unsigned": true
                         },
                         {
                             "absoluteBranch": false,
@@ -22291,6 +22623,14 @@
                             "label": "P1 Width",
                             "typeIndex": 2,
                             "unsigned": true
+                        },
+                        {
+                            "absoluteBranch": false,
+                            "address": "807C6A3C",
+                            "baseIndex": 1,
+                            "label": "P1 Xpos",
+                            "typeIndex": 1,
+                            "unsigned": false
                         }
                     ],
                     "groupName": "Split 1"
@@ -22312,6 +22652,30 @@
                             "label": "P2 Width",
                             "typeIndex": 2,
                             "unsigned": true
+                        },
+                        {
+                            "absoluteBranch": false,
+                            "address": "807C6CAC",
+                            "baseIndex": 0,
+                            "label": "P3 Horizontal Width",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "absoluteBranch": false,
+                            "address": "807C6CB0",
+                            "baseIndex": 0,
+                            "label": "P3 Horizontal Height",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "absoluteBranch": false,
+                            "address": "807C6CBC",
+                            "baseIndex": 0,
+                            "label": "P3 Xpos",
+                            "typeIndex": 1,
+                            "unsigned": false
                         }
                     ],
                     "groupName": "Split 2"
@@ -22339,6 +22703,35 @@
                     "label": "Camera reset height",
                     "typeIndex": 3,
                     "unsigned": true
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "absoluteBranch": false,
+                            "address": "809DF7F8",
+                            "baseIndex": 0,
+                            "label": "P1",
+                            "length": 155,
+                            "pointerOffsets": [
+                                "0"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        },
+                        {
+                            "absoluteBranch": false,
+                            "address": "809DF830",
+                            "baseIndex": 0,
+                            "label": "P2",
+                            "length": 155,
+                            "pointerOffsets": [
+                                "0"
+                            ],
+                            "typeIndex": 5,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "StageCameraManager"
                 }
             ],
             "groupName": "Camera and Split Properties"
@@ -22461,6 +22854,14 @@
                 },
                 {
                     "groupEntries": [
+                        {
+                            "absoluteBranch": false,
+                            "address": "81309578",
+                            "baseIndex": 1,
+                            "label": "DYNAMIC_TEST",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
                         {
                             "absoluteBranch": false,
                             "address": "8056EDA4",
