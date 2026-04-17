@@ -290,8 +290,8 @@
 8000d0f0 000040 8000d0f0 0 vector_Read_Generic_8000d0f0
 8000d130 000040 8000d130 0 zz_8000d130_
 8000d170 000070 8000d170 0 CameraUpdatePositionSub2
-8000d1e0 000090 8000d1e0 0 zz_8000d1e0_
-8000d270 000044 8000d270 0 zz_8000d270_
+8000d1e0 000090 8000d1e0 0 Camera_Assign_P1_Attach
+8000d270 000044 8000d270 0 attachCameraToPlayer_FOR_REAL
 8000d2b4 000020 8000d2b4 0 cPlayer::PostPhysicsUpdate(void)_6
 8000d2d4 000044 8000d2d4 0 zz_8000d2d4_
 8000d318 00005c 8000d318 0 zz_8000d318_
@@ -325,7 +325,7 @@
 8000db78 000024 8000db78 0 ExternalCamRelated?_StoreForMovingExternalCam
 8000db9c 00007c 8000db9c 0 zz_8000db9c_
 8000dc18 000050 8000dc18 0 zz_8000dc18_
-8000dc68 000058 8000dc68 0 zz_8000dc68_
+8000dc68 000058 8000dc68 0 AllocateCameraVectorSize
 8000dcc0 00006c 8000dcc0 0 SonicteamUSA::System::Camera::GetInstance
 8000dd2c 000020 8000dd2c 0 cPlayer::PostPhysicsUpdate(void)_9
 8000dd4c 000030 8000dd4c 0 TRK_memset_9
@@ -3597,7 +3597,7 @@
 800740e4 000030 800740e4 0 r3=TGiPause, r4=MissionManagerTask
 80074114 000040 80074114 0 zz_80074114_
 80074154 000040 80074154 0 zz_80074154_
-80074194 00006c 80074194 0 calledbyPlayerSpawnWarpAndResetExclusiveSuperForm
+80074194 00006c 80074194 0 Anything::GetInstance
 80074200 000024 80074200 0 zz_80074200_
 80074224 000068 80074224 0 __dt__Q36Player3Npc3NpcFv
 8007428c 00004c 8007428c 0 zz_8007428c_
@@ -4927,7 +4927,7 @@
 8009b470 00005c 8009b470 0 zz_8009b470_
 8009b4cc 0001d4 8009b4cc 0 Player::GetItemCommand
 8009b620 0001d4 8009b620 0 def_8009B568
-8009b6a0 00006c 8009b6a0 0 zz_8009b6a0_
+8009b6a0 00006c 8009b6a0 0 ItemIconManager::ctor
 8009b70c 000104 8009b70c 0 Player::AddWeaponCommand Exec
 8009b810 0000f8 8009b810 0 zz_8009b810_
 8009b908 000070 8009b908 0 zz_8009b908_
@@ -5321,7 +5321,7 @@
 800a8450 00004c 800a8450 0 zz_800a8450_
 800a849c 000114 800a849c 0 Graphics Ops Lots Of Vector3 Copies
 800a85b0 00016c 800a85b0 0 ingameInputChecking
-800a871c 000068 800a871c 0 zz_800a871c_
+800a871c 000068 800a871c 0 Assign_PAD_To_Struct
 800a8784 00003c 800a8784 0 AIPlay::__dt(void)_17
 800a87c0 000050 800a87c0 0 PlayerSpawnExclusiveUnknown
 800a8810 000100 800a8810 0 zz_800a8810_
@@ -5387,8 +5387,8 @@
 800a9ba4 000030 800a9ba4 0 zz_800a9ba4_
 800a9bd4 000024 800a9bd4 0 zz_800a9bd4_
 800a9bf8 000004 800a9bf8 0 nullsub_48
-800a9bfc 000024 800a9bfc 0 homebutton::MotorCallback(OSAlarm *, OSContext *) _homebuttonLib.a HBMBase.o_12
-800a9c20 00000c 800a9c20 0 GetOneTimerLeadGroundContactAnims(void)_17
+800a9bfc 000024 800a9bfc 0 std::vector<TYPE>::checksize
+800a9c20 00000c 800a9c20 0 get_0x1FFFFFFF
 800a9c2c 000004 800a9c2c 0 nullsub_49
 800a9c30 00010c 800a9c30 0 zz_800a9c30_
 800a9d3c 000078 800a9d3c 0 zz_800a9d3c_
@@ -15917,7 +15917,7 @@
 801d0940 0000b8 801d0940 0 zz_801d0940_
 801d09f8 000080 801d09f8 0 zz_801d09f8_
 801d0a78 000060 801d0a78 0 zz_801d0a78_
-801d0ad8 000024 801d0ad8 0 homebutton::MotorCallback(OSAlarm *, OSContext *) _homebuttonLib.a HBMBase.o_25
+801d0ad8 000024 801d0ad8 0 ctor(camera)
 801d0afc 0002d0 801d0afc 0 VirtualVirtualFunctionRenderColorBallRelated_ProbablyRender_SonicteamUSA::System::Effect::EffectLaunchInfoUSA
 801d0da8 0002d0 801d0da8 0 def_801D0B58
 801d0dcc 000050 801d0dcc 0 Effect::PJS::EffectShimmerPJS::EffectShimmerPJS
@@ -22623,7 +22623,7 @@
 80293c80 000008 80293c80 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_276
 80293c88 000008 80293c88 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_277
 80293c90 000008 80293c90 0 gdev_cc_shutdown _TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai_278
-80293c98 0000c0 80293c98 0 zz_80293c98_
+80293c98 0000c0 80293c98 0 BossSonic::Init
 80293d58 000040 80293d58 0 zz_80293d58_
 80293d98 0002e4 80293d98 0 BossSonic::Allocate
 8029407c 000040 8029407c 0 zz_8029407c_
