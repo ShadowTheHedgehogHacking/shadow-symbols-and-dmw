@@ -290,7 +290,7 @@
 8000d0f0 000040 8000d0f0 0 vector_Read_Generic_8000d0f0
 8000d130 000040 8000d130 0 zz_8000d130_
 8000d170 000070 8000d170 0 CameraUpdatePositionSub2
-8000d1e0 000090 8000d1e0 0 Camera_Assign_P1_Attach
+8000d1e0 000090 8000d1e0 0 Camera_CreateInstances
 8000d270 000044 8000d270 0 attachCameraToPlayer_FOR_REAL
 8000d2b4 000020 8000d2b4 0 cPlayer::PostPhysicsUpdate(void)_6
 8000d2d4 000044 8000d2d4 0 zz_8000d2d4_
@@ -460,7 +460,7 @@
 8001258c 00007c 8001258c 0 zz_8001258c_
 80012608 00007c 80012608 0 Determine_Index_Of_MOTIONS_LIST
 80012684 00007c 80012684 0 bctrl_GENERIC_Assign_BON_And_MTP.BON
-80012700 00007c 80012700 0 zz_80012700_
+80012700 00007c 80012700 0 Destructable1_ARTGADGET_Init
 8001277c 00007c 8001277c 0 OneParser?(r3=??, r4 = DataType? (DFF, UVA etc), r5=ItemIndex?)
 800127f8 000098 800127f8 0 zz_800127f8_
 80012890 000048 80012890 0 __dt__8ResourceFv
@@ -7358,7 +7358,7 @@
 800e3ee8 000060 800e3ee8 0 zz_800e3ee8_
 800e3f48 000004 800e3f48 0 nullsub_1263
 800e3f4c 00002c 800e3f4c 0 MoviePlayerScene::PlayScreenBackSFX(void)_10
-800e3f78 000060 800e3f78 0 zz_800e3f78_
+800e3f78 000060 800e3f78 0 Destructible1_ARTGADGET_Exec2
 800e3fd8 000004 800e3fd8 0 nullsub_1264
 800e3fdc 00002c 800e3fdc 0 initObjART GADGET__Fv
 800e4008 0000c0 800e4008 0 tire::Exec() and sign::Exec() and scaffold::Exec() and concpillarlg::Exec() and concwalllg::Exec()
@@ -7392,7 +7392,7 @@
 800e54c8 000078 800e54c8 0 zz_800e54c8_
 800e5540 000004 800e5540 0 nullsub_384
 800e5544 000008 800e5544 0 OSGetStackPointer _os.a OSContext.o_48
-800e554c 0003c0 800e554c 0 zz_800e554c_
+800e554c 0003c0 800e554c 0 GadgetInit_Root
 800e590c 000008 800e590c 0 get0x0(r3)_44
 800e5914 000004 800e5914 0 nullsub_383
 800e5918 00007c 800e5918 0 zz_800e5918_
@@ -8316,7 +8316,7 @@
 800ff660 000054 800ff660 0 zz_800ff660_
 800ff6b4 000014 800ff6b4 0 zz_800ff6b4_
 800ff6c8 000058 800ff6c8 0 zz_800ff6c8_
-800ff720 000034 800ff720 0 zz_800ff720_
+800ff720 000034 800ff720 0 DashPanel_Pad
 800ff754 000040 800ff754 0 zz_800ff754_
 800ff794 000078 800ff794 0 zz_800ff794_
 800ff80c 000004 800ff80c 0 nullsub_447
@@ -8326,7 +8326,7 @@
 800ffa44 00005c 800ffa44 0 zz_800ffa44_
 800ffaa0 000090 800ffaa0 0 zz_800ffaa0_
 800ffb30 000040 800ffb30 0 zz_800ffb30_
-800ffb70 0004c0 800ffb70 0 HAS_Player::CancelBehaviorCommand_AND_ClrVelocityCommand_AND_SetPositionCommand_AND_SetAngleCommand_AND_SetVelocityCommand_AND_Player::ActingAccelerateCommand_AND_Player::PressGroundCommand
+800ffb70 0004c0 800ffb70 0 DashPanel_Ground__HAS_Player::CancelBehaviorCommand_AND_ClrVelocityCommand_AND_SetPositionCommand_AND_SetAngleCommand_AND_SetVelocityCommand_AND_Player::ActingAccelerateCommand_AND_Player::PressGroundCommand
 80100030 000044 80100030 0 zz_80100030_
 80100074 000040 80100074 0 zz_80100074_
 801000b4 000004 801000b4 0 nullsub_446
@@ -8863,7 +8863,7 @@
 8010e6ec 00008c 8010e6ec 0 zz_8010e6ec_
 8010e778 000058 8010e778 0 zz_8010e778_
 8010e7d0 000128 8010e7d0 0 zz_8010e7d0_
-8010e8f8 000058 8010e8f8 0 JumpBoard::Exec()_Maybe
+8010e8f8 000058 8010e8f8 0 JumpBoard::Exec
 8010e950 000088 8010e950 0 JumpBoard::JumpBoard()_8010e950_
 8010e9d8 000088 8010e9d8 0 zz_8010e9d8_
 8010ea60 000074 8010ea60 0 zz_8010ea60_
@@ -11546,7 +11546,7 @@
 8015fc94 00007c 8015fc94 0 zz_8015fc94_
 8015fd10 0000bc 8015fd10 0 zz_8015fd10_
 8015fdcc 00000c 8015fdcc 0 AnimatedModelExplodable::GetWorldMatrix( (void))_10
-8015fdd8 00016c 8015fdd8 0 zz_8015fdd8_
+8015fdd8 00016c 8015fdd8 0 ObjFadeInFadeOut?
 8015ff44 00001c 8015ff44 0 cPlayer::GetGlobalPad(void)_2
 8015ff60 00006c 8015ff60 0 zz_8015ff60_
 8015ffcc 000034 8015ffcc 0 zz_8015ffcc_
@@ -11959,7 +11959,7 @@
 80169860 00004c 80169860 0 zz_80169860_
 801698ac 000028 801698ac 0 zz_801698ac_
 801698d4 000048 801698d4 0 zz_801698d4_
-8016991c 0000f8 8016991c 0 zz_8016991c_
+8016991c 0000f8 8016991c 0 Read_PlayerID_ForCollision_Apply
 80169a14 000050 80169a14 0 r31=DashRing
 80169a64 000074 80169a64 0 zz_80169a64_
 80169ad8 000014 80169ad8 0 zz_80169ad8_
@@ -12254,7 +12254,7 @@
 8016f2dc 000068 8016f2dc 0 PlayerRingReset_Store
 8016f344 00001c 8016f344 0 zz_8016f344_
 8016f360 000020 8016f360 0 zz_8016f360_
-8016f380 000020 8016f380 0 WarpRelatedOnDeathOrInit
+8016f380 000020 8016f380 0 GetPlayerBehaviorExecutor
 8016f3a0 000034 8016f3a0 0 zz_8016f3a0_
 8016f3d4 000114 8016f3d4 0 updateCheckPointSomething(int* highestCheckPoint, float* checkpointPosition[3], ?, int touchedCheckPointID)
 8016f4e8 0000d0 8016f4e8 0 zz_8016f4e8_
@@ -21409,7 +21409,7 @@
 80271d28 00005c 80271d28 0 IMPORTANT_SPLIT
 80271d84 000008 80271d84 0 GXInitTexObjUserData _gx.a GXTexture.o_61
 80271d8c 000024 80271d8c 0 cPlayer::IsCaptain( (void))_4
-80271db0 00007c 80271db0 0 zz_80271db0_
+80271db0 00007c 80271db0 0 CreateRastersForCameras
 80271e2c 000020 80271e2c 0 cPlayer::PostPhysicsUpdate(void)_441
 80271e4c 000044 80271e4c 0 zz_80271e4c_
 80271e90 000014 80271e90 0 nw4hbm::lyt::Material::GetTexSRTAry(void) _homebuttonLib.a lyt_material.o_15
@@ -21462,7 +21462,7 @@
 80272bb4 000048 80272bb4 0 zz_80272bb4_
 80272bfc 000044 80272bfc 0 P2_SplitDisabled_Subtitles_on_Split0
 80272c40 000074 80272c40 0 zz_80272c40_
-80272cb4 0000fc 80272cb4 0 zz_80272cb4_
+80272cb4 0000fc 80272cb4 0 Camera_CallRasterCreations
 80272db0 0000c0 80272db0 0 r3=CameraRender
 80272e70 00000c 80272e70 0 WorldDarkening::Fade(float, float)_2
 80272e7c 000018 80272e7c 0 zz_80272e7c_
@@ -28236,7 +28236,7 @@
 80344fdc 000074 80344fdc 0 zz_80344fdc_
 80345050 000050 80345050 0 zz_80345050_
 803450a0 000020 803450a0 0 cPlayer::PostPhysicsUpdate(void)_540
-803450c0 00010c 803450c0 0 zz_803450c0_
+803450c0 00010c 803450c0 0 ItemIconManagerLoopCreation
 803451cc 000020 803451cc 0 cPlayer::PostPhysicsUpdate(void)_541
 803451ec 000044 803451ec 0 zz_803451ec_
 80345230 000050 80345230 0 zz_80345230_
